@@ -252,7 +252,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 418px) {
   .nav--text,
   .nav--para {
     padding: 20px;
