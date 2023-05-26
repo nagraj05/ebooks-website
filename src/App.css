@@ -315,3 +315,29 @@ button:hover {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 430px){
+  .card{
+    margin: 20px;
+    /* background-color: red; */
+  }
+  .card--title{
+    font-size: 10px;
+    /* word-spacing: 1px; */
+    letter-spacing: 1px;
+    /* background-color: #091E3C; */
+  }
+  .card--author{
+    /* background-color: #ea1538; */
+    max-width: 100px;
+    margin-left:  32px;
+    margin-top: 15px;
+    /* background-color: #ea1538; */
+  }
+  .card--genre{
+    margin-top: 18px;
+  }
+  .card--btn{
+    font-size: 10px;
+    margin-top: 2px;
+  }
+}
