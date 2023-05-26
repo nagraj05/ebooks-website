@@ -315,11 +315,11 @@ button:hover {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 430px){
+@media screen and (max-width: 406px){
   .card{
     margin: 8px;
     height: 300px;
-    width: 180px;
+    width: 170px;
     /* background-color: red; */
   }
   .card--title{
@@ -335,17 +335,17 @@ button:hover {
     /* background-color: #ea1538; */
     max-width: 100%;
     margin-left:  2px;
-    margin-top: 15px;
+    margin-top: 8px;
     /* background-color: #ea1538; */
   }
   .card--genre{
     /* background-color: #ea1538; */
     max-width: 100%;
     margin-left: 2px;
-    margin-top: 10px;
+    margin-top: 14px;
   }
   .card--btn{
     font-size: 10px;
-    margin-top: 6px;
+    margin-top: 7px;
   }
 }
