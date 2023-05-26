@@ -4,6 +4,8 @@ import childrenofdune from "../images/d3.jpg";
 import godemperorofdune from "../images/d4.jpg";
 import herecticsofdune from "../images/d5.jpg";
 import chapterhousedune from "../images/d6.jpg";
+import sapiens from '../images/sapiens.jpg';
+import deus from "../images/deus.jpg";
 
 export default [
   {
@@ -68,22 +70,22 @@ export default [
   },
   {
     id: 7,
-    img: "",
-    title: "Sapiens: A Brief History of Humankind",
+    img: sapiens,
+    title: "Sapiens",
     value: "Sapiens A Brief History of Humankind",
     author: "Yuval Noah Harari",
     genre: "History",
-    pages: 599,
+    pages: 331,
     year: "",
   },
   {
     id: 8,
-    img: "",
-    title: "Homo Deus: A Brief History of Tomorrow",
+    img: deus,
+    title: "Homo Deus",
     value: "Homo Deus A brief History of Tomorrow",   
     author: "Yuval Noah Harari",
     genre: "History",
-    pages: 464,
+    pages: 333,
     year: "",
   },
 ];
