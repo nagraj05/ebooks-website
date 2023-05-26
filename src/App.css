@@ -317,8 +317,9 @@ button:hover {
 }
 @media screen and (max-width: 430px){
   .card{
-    margin: 20px;
+    margin: 8px;
     height: 300px;
+    width: 180px;
     /* background-color: red; */
   }
   .card--title{
