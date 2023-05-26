@@ -1,7 +1,5 @@
 import Navigation from './Navigation'
 
-import animation from '../assets/books.json'
-
 
 export default function Navbar() {
   return (
