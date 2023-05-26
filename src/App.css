@@ -252,7 +252,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 418px) {
+@media screen and (max-width: 480px) {
   .nav--text,
   .nav--para {
     padding: 20px;
@@ -313,5 +313,45 @@ button:hover {
   }
   .nav--para{
     font-size: 20px;
+  }
+}
+@media  screen and (max-width: 320px){
+  .nav--text{
+    font-size: 20px;
+  }
+  .nav--para{
+    font-size: 15px;
+    margin-top: -35px;
+  }
+  .card{
+    margin-left: 10px;
+    width: 120px;
+    padding: 2px;
+  }
+  .card--image{
+    width: 80px;
+  }
+  .card--title{
+    font-size: 12px;
+    /* background-color: #ea1538; */
+    width: 100%;
+    margin: 0px 4px;
+  }
+  .card--genre{
+    font-size: 10px;
+    /* background-color: #ea1538; */
+  
+    margin: 0px 25px;
+  }
+  .card--btn{
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .pages--count{
+    font-size: 10px;
+    width: 100%;
+    /* background-color: #ea1538; */
+    margin-top: 5px;
+    margin-left: 34px;
   }
 }
