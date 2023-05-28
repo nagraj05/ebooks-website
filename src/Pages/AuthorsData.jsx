@@ -25,15 +25,91 @@ import kiyo from '../../public/authorimages/kiyo.jpg'
 import bronte from '../../public/authorimages/emily.jpg'
 import kafka from '../../public/authorimages/franz.jpg'
 import shakespeare from '../../public/authorimages/Shakespeare.jpg'
-
+import none from '../images/none.jpg'
+import murder from '../../src/images/orient.jpg'
+import myst from '../../src/images/mysterious.jpg'
 
 const authorsData = [
     { 
         id: 1, 
         img:a,
-        name: 'Agatha Christie', 
-        books: ['Book 1', 'Book 2', 'Book 3'], 
+        name: 'Agatha Christie',
+        books: [
+            {
+                id:1,
+                img:none,
+                title:"And Then There Were None",
+                value:"And then there were none",
+                pages:204,
+                year:"",
+            },
+            {
+                id:2,
+                img:murder,
+                title:"	Murder on the Orient Express",
+                value:	"Murder on the Orient Express",
+                pages:211,
+                year:"",
+            },
+            {
+                id:3,
+                img:myst,
+                title:"The Mysterious Affair at Styles",
+                value:"The Mysterious Affair at Styles",
+                pages:178,
+                year:"",
+            },
+    ], 
         description:"Master of mystery, weaving intricate puzzles with timeless allure."
+    },
+    { 
+        id: 26, 
+        img:kafka,
+        name: 'Franz Kafka', 
+        books: [''],
+        description:"Surreal literary genius, exploring the complexities of human existence."  
+    },
+    { 
+        id: 27, 
+        img:shakespeare,
+        name: 'William Shakespeare',  
+        books: [''],
+        description:"Timeless playwright, crafting poetic masterpieces that transcend generations and cultures."  
+    },
+    { 
+        id: 25, 
+        img:bronte,
+        name: 'Emily Bronte', 
+        books: [''],
+        description:"Passionate novelist, weaving dark and haunting tales of love."  
+    },
+    { 
+        id: 4, 
+        img:ernest,
+        name: 'Ernest Hemingway', 
+        books: [''],
+        description:"Bold prose, capturing the essence of life with profound simplicity."  
+    },
+    { 
+        id: 7, 
+        img:wilde,
+        name: 'Oscar Wilde', 
+        books: [''],
+        description:"Witty wordsmith, defying conventions with his sparkling literary brilliance."  
+    },
+    { 
+        id: 11, 
+        img:salinger,
+        name: 'J.D. Salinger', 
+        books: [''],
+        description:"Reclusive wordsmith, delving into the anguish of adolescent isolation."  
+    },
+    { 
+        id: 8, 
+        img:orwell,
+        name: 'George Orwell', 
+        books: [''],
+        description:"Provocative visionary, exposing the perils of totalitarianism with foresight."  
     },
     { 
         id: 2,
@@ -57,33 +133,13 @@ const authorsData = [
         description:"Imaginative wizardess crafting enchanting tales of magic and friendship."  
     },
     { 
-        id: 4, 
-        img:ernest,
-        name: 'Ernest Hemingway', 
-        books: [''],
-        description:"Bold prose, capturing the essence of life with profound simplicity."  
-    },
-    { 
         id: 6, 
         img:golding,
         name: 'William Golding', 
         books: [''],
         description:"Insightful observer, unveiling the darkness within human nature's depths."  
     },
-    { 
-        id: 7, 
-        img:wilde,
-        name: 'Oscar Wilde', 
-        books: [''],
-        description:"Witty wordsmith, defying conventions with his sparkling literary brilliance."  
-    },
-    { 
-        id: 8, 
-        img:orwell,
-        name: 'George Orwell', 
-        books: [''],
-        description:"Provocative visionary, exposing the perils of totalitarianism with foresight."  
-    },
+
     { 
         id: 9, 
         img:doyle,
@@ -98,13 +154,7 @@ const authorsData = [
         books: [''],
         description:"Regency wordsmith, crafting timeless tales of love and social satire."  
     },
-    { 
-        id: 11, 
-        img:salinger,
-        name: 'J.D. Salinger', 
-        books: [''],
-        description:"Reclusive wordsmith, delving into the anguish of adolescent isolation."  
-    },
+
     { 
         id: 12, 
         img:green,
@@ -196,37 +246,11 @@ const authorsData = [
         books: [''],
         description:"Financial mentor, empowering individuals to achieve wealth and prosperity."  
     },
-    { 
-        id: 25, 
-        img:bronte,
-        name: 'Emily Bronte', 
-        books: [''],
-        description:"Passionate novelist, weaving dark and haunting tales of love."  
-    },
-    { 
-        id: 26, 
-        img:kafka,
-        name: 'Franz Kafka', 
-        books: [''],
-        description:"Surreal literary genius, exploring the complexities of human existence."  
-    },
-    { 
-        id: 27, 
-        img:shakespeare,
-        name: 'William Shakespeare',  
-        books: [''],
-        description:"Timeless playwright, crafting poetic masterpieces that transcend generations and cultures."  
-    },
+
+
 
 ]
 
 export default authorsData;
 
 
-// { 
-//     id: "", 
-//     img:a,
-//     name: '', 
-//     books: [''],
-//     description:""  
-// },

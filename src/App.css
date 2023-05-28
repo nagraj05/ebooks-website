@@ -182,11 +182,11 @@ nav ul li a:hover {
 .footer {
   text-align: center;
   border-top: 1px solid #ccc;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   /* background-color: #7bcdba; */
   /* background-color: black; */
-  margin-top: 20px;
-  padding-top: 20px;
+  margin-top: 70px;
+  padding-top: 40px;
   padding-bottom: 20px;
 }
 .social--icons {
@@ -200,7 +200,7 @@ nav ul li a:hover {
   height: 44px;
   align-items: center;
   background-color: transparent;
-  margin: 40px 20px;
+  margin: 10px 20px;
 }
 .instagram-link:hover {
   border-radius: 6px;
@@ -243,7 +243,9 @@ nav ul li a:hover {
   top:-10px;
 }
 .footer-para{
-  margin-top: -30px;
+  /* background-color: #ea1538; */
+  margin-top: -10px;
+  margin-bottom: -50px;
   
 }
 .footer-para p{
@@ -434,7 +436,7 @@ nav ul li a:hover {
   
   
 }
-.card1{
+.authors--card{
   height: 250px;
   margin: 40px;
   box-shadow: 5px 5px 20px black ;
@@ -457,13 +459,13 @@ nav ul li a:hover {
   color: white;
   transition: .5s;
 }
-.authorname{
+.author--name{
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
   margin: 20px;
   font-size: 20px;
 }
-.authordescription{
+.author--description{
   font-size: 11px;
   margin:   -22px 20px;
   
@@ -471,15 +473,15 @@ nav ul li a:hover {
   visibility: hidden;
   opacity: 0;
 }
-.card1:hover{
+.authors--card:hover{
   cursor: pointer;
 }
-.card1:hover .intro{
+.authors--card:hover .intro{
   height: 110px;
   bottom: 110px;
   background: black;
 }
-.card1:hover .authordescription{
+.authors--card:hover .author--description{
   opacity: 1;
   visibility: visible;
 }

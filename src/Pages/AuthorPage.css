@@ -1,0 +1,118 @@
+/* Styles for the rectangular card layout */
+.author--intro--card--container{
+    /* background-color: red; */
+    margin-top: -30px;
+}
+.author--intro--card {
+    
+    width: 800px; /* Adjust the width as needed */
+    margin: 50px 280px; /* Centers the card horizontally */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+  }
+  
+  /* Styles for the author image */
+  .author-image {
+    float: left;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Styles for the author information */
+  .author-info {
+    max-width: 600px;
+    overflow: hidden; /* Ensures the container expands to fit the content */
+  }
+  
+  .author-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .author-info p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .author-info span {
+    font-weight: bold;
+  }
+  
+  .author-info .label {
+    display: inline-block;
+    width: 80px;
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  
+
+
+
+
+
+
+.author--book--title{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 35px;
+}
+.author--book--container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.author--book--card{
+    margin-left: 60px;
+    width: 250px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 420px;
+    box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+}
+.book-img{
+    width: 80%;
+    height: 245px;
+    margin: 10px 25px;
+    object-fit: fill;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+}
+
+.book--title{
+    font-size: 14px;
+    max-width: 250px;
+    margin-top: 2px;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+}
+.book--pages{
+    font-size: 0.85rem;
+    color: gray;
+    font-weight: bold;
+    max-width: 100%;
+    text-align: left;
+    margin-left: 33px;
+}
+.download--button{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 33px;
+    margin-top: 20px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0px;
+}
+.download--button:hover{
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+}
