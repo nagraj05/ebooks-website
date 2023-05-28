@@ -7,7 +7,7 @@ export default function Main(props) {
     window.open(ebookPath, "_blank");
   }
   return (
-    <div className="card" id="books">
+    <div className="card" >
       <img src={props.data.img} alt="" className="card--image" />
       <div>
         <p className="card--title">{props.data.title}</p>
