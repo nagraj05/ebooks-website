@@ -3,12 +3,16 @@ import authorsData from './AuthorsData';
 import Navigation from '../Components/Navigation'
 import Footer from '../Components/Footer' 
 import '../Pages/AuthorPage.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import authorsInfo from '../Pages/AuthorsInfo'
 
 export default function AuthorPage() {
 
   const [selectedBook, setSelectedBook] = useState(null);
+
+  useEffect(()=> {
+    window.scrollTo(0, 0);
+  }, [])
 
   function handleDownload(bookValue) {
     const ebookPath = `/books/${bookValue}.epub`;
@@ -25,21 +29,25 @@ export default function AuthorPage() {
     return <div>Author not found</div>;
   }
 
+  const filteredAuthorsInfo = authorsInfo.filter((info) => info.id === Number(id));
+
+ 
+
   return (
     <div>
         <Navigation />
         <h2 className='author--book--title'>{author.name}</h2>
         <div className='author--intro--card--container'>
         <div className="author--intro--card">
-          {authorsInfo.map((author)=>(
-            <div key={author.id}>
-            <img className="author-image" src={author.img} alt={author.name}/>
+          {filteredAuthorsInfo.map((info)=>(
+            <div key={info.id}>
+            <img className="author-image" src={info.img} alt={info.name}/>
             <div className="author-info">
-            <h2>{author.name}</h2>
-            <p><span className="label">Genre:</span>{author.genre}</p>
-            <p><span className="label">Born:</span>{author.born}</p>
-            <p><span className="label">Died:</span>{author.died}</p>
-            <p><span className="label">About:</span>{author.about}</p>
+            {/* <h2 className='info-name'>{info.name}</h2> */}
+            <p className='info-genre'><span className="label">Genre:</span>{info.genre}</p>
+            <p className='info-born'><span className="label">Born:</span>{info.born}</p>
+            {info.died && <p className='info-died'><span className="label">Died:</span>{info.died}</p>}
+            <p className='info-about'><span className="label">About:</span>{info.about}</p>
             </div>
           </div>
           ))}
@@ -47,7 +55,7 @@ export default function AuthorPage() {
         </div>
         </div>
 
-
+          <div className='top'>
         <div className='author--book--container'>
             {author.books.map((book) => (
             <div key={book.id} className='author--book--card'>
@@ -59,6 +67,7 @@ export default function AuthorPage() {
               </div>
             </div>
             ))}
+        </div>
         </div>
         <Footer />
     </div>
