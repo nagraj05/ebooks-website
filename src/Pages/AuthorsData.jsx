@@ -30,6 +30,86 @@ import murder from '../../src/images/orient.jpg'
 import myst from '../../src/images/mysterious.jpg'
 import sapiens from '../../src/images/sapiens.jpg';
 import deus from "../../src/images/deus.jpg";
+import metamorph from "../../src/images/metamorphosis.jpg"
+import trail from "../../src/images/the trail pengiun.jpg"
+import letterstohisfather from "../../src/images/letters to his father.jpg"
+import castle from "../images/the castle.jpg"
+import hamlet from "../images/hamlet.jpg"
+import wuthering from '../images/wuthering.jpg'
+import thesun from "../images/the sun also rises.jpg"
+import farewell from "../images/farewell to arms.jpg"
+import belltoll from '../images/for whom the bell tolls.jpg'
+import tohave from "../images/to have and have not.jpg"
+import oldman from "../images/the old man and the sea.jpg"
+import feast from "../images/a move.jpg"
+import dorian from "../images/dorian.jpg"
+import canterville from "../images/canterville.jpg"
+import itstarts from "../images/It starts with us.jpg"
+import itends from "../images/it ends with us.jpg"
+import ugly from "../images/ugly.jpg"
+import reminder from "../images/reminders of him.jpg"
+import fiftyshades from "../images/fifty shades of grey.jpg"
+import darker from "../images/Darker.jpg"
+import freed from "../images/freed.jpg"
+import macbeth from "../images/macbeth.jpg"
+import romeo from "../images/romeo.jpg"
+import midsummer from "../images/midsummer.jpg"
+import muchado from "../images/much ado.jpg"
+import othello from "../images/othello.jpg"
+import kinglear from "../images/king lear.jpg"
+import tempest from "../images/tempest.jpg"
+import julius from "../images/julius.jpg"
+import happyprince from "../images/happy prince.jpg"
+import catcher from "../images/catcher.jpg"
+import franny from "../images/franny.jpg"
+import orwell1984 from "../images/1984orwell.jpg"
+import animal from "../images/animal farm.jpg"
+import pride from '../images/pride.jpg'
+import emma from "../images/emma.jpg"
+import sense from "../images/sense.jpg"
+import per from "../images/persuasion.jpg"
+import lessons from "../images/21lessons.jpg"
+import alaska from "../images/looking for alaska.jpg"
+import turtles from "../images/turtles.jpg"
+import paper from "../images/paper.jpg"
+import rich from "../images/rich.jpeg"
+import jonathan from "../images/jonathan.jpg"
+import fault from "../images/fault.jpg"
+import reasons from "../images/13reasons.jpg"
+import piper from "../images/piper.jpg"
+import kafkaontheshore from "../images/kafkaontheshore.jpg"
+import norweigan from "../images/norweigan.jpg"
+import windup from "../images/wind up.jpg"
+import sputnik from "../images/sputnik.jpg"
+import stone from "../images/philosopher stone.jpg"
+import  chamber from "../images/chamber.jpg"
+import  phoenix from "../images/order of the phoneix.jpg"
+import  deathly from "../images/deathly hallows.jpg"
+import azkaban from "../images/prisoner of azakban.jpg"
+import cursed from "../images/cursed child.jpg"
+import  goblet from "../images/goblet of fire.jpg"
+import halfblood from "../images/half blood.jpg"
+import kite from "../images/kite.jpg"
+import splendid from "../images/splendid.jpg"
+import echoed from "../images/echoed.jpg"
+import sea from "../images/seaprayer.jpg"
+import mocking from "../images/killamockingbird.jpg"
+import watchman from "../images/watchman.jpg"
+import brief from "../../src/images/brief.jpg"
+import briefer from "../images/briefer.jpg"
+import theory from "../images/theory.jpg"
+import whatif from "../images/whatif.jpg"
+import monk from "../images/monk.jpg"
+import flies from "../images/flies.jpg"
+import hound from "../images/hound.jpg"
+import shining from "../images/shining.jpg"
+import it from "../images/it.jpg"
+import stand from "../images/stand.jpg"
+import misery from "../images/misery.jpg"
+import brida from "../images/brida.jpg"
+import alchemist from "../images/alchemist.jpg"
+import eleven from "../images/eleven.jpg"
+import veronika from "../images/vero.jpg"
 
 const authorsData = [
     { 
@@ -48,8 +128,8 @@ const authorsData = [
             {
                 id:2,
                 img:murder,
-                title:"	Murder on the Orient Express",
-                value:	"Murder on the Orient Express",
+                title:"Murder on the Orient Express",
+                value:"Murder on the Orient Express",
                 pages:211,
                 year:"",
             },
@@ -71,7 +151,7 @@ const authorsData = [
         books: [
             {
                 id:1,
-                img:none,
+                img:metamorph,
                 title:"The Metamorphosis",
                 value:"The Metamorphosis",
                 pages:204,
@@ -79,7 +159,7 @@ const authorsData = [
             },
             {
                 id:2,
-                img:murder,
+                img:trail,
                 title:"The Trail",
                 value:	"The Trail",
                 pages:211,
@@ -87,7 +167,7 @@ const authorsData = [
             },
             {
                 id:3,
-                img:myst,
+                img:letterstohisfather,
                 title:"Letter to His Father",
                 value:"Letter to His Father",
                 pages:178,
@@ -95,7 +175,7 @@ const authorsData = [
             },
             {
                 id:4,
-                img: "",
+                img: castle,
                 title:"The Castle",
                 value:"The Castle",
                 pages:"",
@@ -111,7 +191,7 @@ const authorsData = [
         books: [
             {
                 id:1,
-                img:none,
+                img:hamlet,
                 title:"Hamlet",
                 value:"Hamlet",
                 pages:"",
@@ -119,7 +199,7 @@ const authorsData = [
             },
             {
                 id:2,
-                img:none,
+                img:macbeth,
                 title:"Macbeth",
                 value:"Macbeth",
                 pages:"",
@@ -127,7 +207,7 @@ const authorsData = [
             },
             {
                 id:3,
-                img:none,
+                img:romeo,
                 title:"Romeo & Juliet",
                 value:"Romeo & Juliet",
                 pages:"",
@@ -135,7 +215,7 @@ const authorsData = [
             },
             {
                 id:4,
-                img:none,
+                img:midsummer,
                 title:"A Midsummer Night's Dream",
                 value:"A Midsummer Night's Dream",
                 pages:"",
@@ -143,7 +223,7 @@ const authorsData = [
             },
             {
                 id:5,
-                img:none,
+                img:othello,
                 title:"Othello",
                 value:"Othello",
                 pages:"",
@@ -151,7 +231,7 @@ const authorsData = [
             },
             {
                 id:6,
-                img:none,
+                img:muchado,
                 title:"Much Ado About Nothing",
                 value:"Much Ado About Nothing",
                 pages:"",
@@ -159,7 +239,7 @@ const authorsData = [
             },
             {
                 id:7,
-                img:none,
+                img:kinglear,
                 title:"King Lear",
                 value:"King Lear",
                 pages:"",
@@ -167,7 +247,7 @@ const authorsData = [
             },
             {
                 id:8,
-                img:none,
+                img:tempest,
                 title:"The Tempest",
                 value:"The Tempest",
                 pages:"",
@@ -175,7 +255,7 @@ const authorsData = [
             },
             {
                 id:9,
-                img:none,
+                img:julius,
                 title:"Julius Caesar",
                 value:"Julius Caesar",
                 pages:"",
@@ -191,37 +271,13 @@ const authorsData = [
         name: 'Emily Bronte', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:wuthering,
+                title:"Wuthering Heights",
+                value:"Wuthering Heights",
                 pages:"",
                 year:"",
             },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            }
         ],
         description:"Passionate novelist, weaving dark and haunting tales of love."  
     },
@@ -232,36 +288,52 @@ const authorsData = [
         books: [
             {
                 id:1,
-                img:none,
-                title:"And Then There Were None",
-                value:"And then there were none",
-                pages:204,
-                year:"",
+                img:thesun,
+                title:"The Sun Also Rises",
+                value:"The Sun Also Rises",
+                pages:"",
+                year:1926,
             },
             {
                 id:2,
-                img:murder,
-                title:"	Murder on the Orient Express",
-                value:	"Murder on the Orient Express",
-                pages:211,
-                year:"",
+                img:farewell,
+                title:"A Farewell to Arms",
+                value:	"A Farewell to Arms",
+                pages:"",
+                year:1929,
             },
             {
                 id:3,
-                img:myst,
-                title:"The Mysterious Affair at Styles",
-                value:"The Mysterious Affair at Styles",
-                pages:178,
-                year:"",
+                img:belltoll,
+                title:"For Whom the Bell Tolls",
+                value:"For Whom the Bell Tolls",
+                pages:"",
+                year:1940,
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:4,
+                img:tohave,
+                title:"To Have and Have Not",
+                value:"To Have and Have Not",
                 pages:"",
-                year:"",
-            }
+                year:1937,
+            },
+            {
+                id:5,
+                img:oldman,
+                title:"The Old Man and the Sea",
+                value:"The Old Man and the Sea",
+                pages:"",
+                year:1952,
+            },
+            {
+                id:6,
+                img:feast,
+                title:"A Moveable Feast",
+                value:"A Moveable Feast",
+                pages:"",
+                year:1964,
+            },
         ],
         description:"Bold prose, capturing the essence of life with profound simplicity."  
     },
@@ -271,37 +343,29 @@ const authorsData = [
         name: 'Oscar Wilde', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:dorian,
+                title:"The Picture of Dorian Gray",
+                value:"The Picture of Dorian Gray",
                 pages:"",
-                year:"",
+                year:1890,
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:canterville,
+                title:"The Canterville Ghost",
+                value:"The Canterville Ghost",
                 pages:"",
-                year:"",
+                year:1887,
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:3,
+                img:happyprince,
+                title:"The Happy Prince and Other Tales",
+                value:"The Happy Prince and Other Tales",
                 pages:"",
-                year:"",
+                year:1888,
             },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            }
         ],
         description:"Witty wordsmith, defying conventions with his sparkling literary brilliance."  
     },
@@ -311,34 +375,18 @@ const authorsData = [
         name: 'J.D. Salinger', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:catcher,
+                title:"The Catcher in the Rye",
+                value:"The Catcher in the Rye",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:franny,
+                title:"Franny and Zooey",
+                value:"Franny and Zooey",
                 pages:"",
                 year:"",
             },
@@ -351,34 +399,18 @@ const authorsData = [
         name: 'George Orwell', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:orwell1984,
+                title:"1984",
+                value:"1984",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:animal,
+                title:"Animal Farm",
+                value:"Animal Farm",
                 pages:"",
                 year:"",
             },
@@ -391,34 +423,34 @@ const authorsData = [
         name: 'Jane Austen', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:pride,
+                title:"Pride and Prejudice",
+                value:"Pride and Prejudice",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:emma,
+                title:"Emma",
+                value:"Emma",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:3,
+                img:sense,
+                title:"Sense and Sensibility",
+                value:"Sense and Sensibility",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:4,
+                img:per,
+                title:"Persuasion",
+                value:"Persuasion",
                 pages:"",
                 year:"",
             }
@@ -431,34 +463,10 @@ const authorsData = [
         name: 'Sir Arthur Conan Doyle', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:hound,
+                title:"The Hound of the Baskervilles",
+                value:"The Hound of the Baskervilles",
                 pages:"",
                 year:"",
             },
@@ -471,34 +479,34 @@ const authorsData = [
         name: 'Haruki Murakami', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:kafkaontheshore,
+                title:"Kafka on the Shore",
+                value:"Kafka on the Shore",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:norweigan,
+                title:"Norweigan Wood",
+                value:"Norweigan Wood",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:3,
+                img:windup,
+                title:"The Wind-up Bird Chronicle",
+                value:"The Wind-up Bird Chronicle",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:4,
+                img:sputnik,
+                title:"Sputnik Sweetheart",
+                value:"Sputnik Sweetheart",
                 pages:"",
                 year:"",
             },
@@ -511,37 +519,38 @@ const authorsData = [
         name: 'Stephen King', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:shining,
+                title:"The Shining",
+                value:"The Shining",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:it,
+                title:"It",
+                value:"It",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:3,
+                img:stand,
+                title:"The Stand",
+                value:"The Stand",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:4,
+                img:misery,
+                title:"Misery",
+                value:"Misery",
                 pages:"",
                 year:"",
             },
+            
         ],
         description:"Horror maestro, conjuring nightmares with his chilling literary prowess."  
     },
@@ -551,34 +560,66 @@ const authorsData = [
         name: 'J.K. Rowling', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:stone,
+                title:"Harry Potter & the Philosopher’s Stone",
+                value:"Harry Potter & the Philosopher’s Stone",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:chamber,
+                title:"Harry Potter & the Chamber of Secrets",
+                value:"Harry Potter & the Chamber of Secrets",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:3,
+                img:azkaban,
+                title:"Harry Potter & the Prisoner of Azkaban",
+                value:"Harry Potter & the Prisoner of Azkaban",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:4,
+                img:goblet,
+                title:"Harry Potter and the Goblet of Fire",
+                value:"Harry Potter and the Goblet of Fire",
+                pages:"",
+                year:"",
+            },
+            {
+                id:5,
+                img:phoenix,
+                title:"Harry Potter & the Order of the Phoenix",
+                value:"Harry Potter & the Order of the Phoenix",
+                pages:"",
+                year:"",
+            },
+            {
+                id:6,
+                img:halfblood,
+                title:"Harry Potter & the Half-Blood Prince",
+                value:"Harry Potter & the Half-Blood Prince",
+                pages:"",
+                year:"",
+            },
+            {
+                id:7,
+                img:deathly,
+                title:"Harry Potter & the Deathly Hallows",
+                value:"Harry Potter & the Deathly Hallows",
+                pages:"",
+                year:"",
+            },
+            {
+                id:8,
+                img:cursed,
+                title:"Harry Potter & the Cursed Child",
+                value:"Harry Potter & the Cursed Child",
                 pages:"",
                 year:"",
             },
@@ -591,34 +632,10 @@ const authorsData = [
         name: 'William Golding', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:flies,
+                title:"Lord of the Flies",
+                value:"Lord of the Flies",
                 pages:"",
                 year:"",
             },
@@ -633,34 +650,34 @@ const authorsData = [
         name: 'John Green', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:fault,
+                title:"The Fault in Our Stars",
+                value:"The Fault in Our Stars",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:alaska,
+                title:"Looking For Alaska",
+                value:"Looking For Alaska",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:3,
+                img:paper,
+                title:"Paper Towns",
+                value:"Paper Towns",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:4,
+                img:turtles,
+                title:"Turtles all the way down",
+                value:"Turtles all the way down",
                 pages:"",
                 year:"",
             },
@@ -673,10 +690,10 @@ const authorsData = [
         name: 'Robin S. Sharma', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:monk,
+                title:"The Monk who sold his Ferrari",
+                value:"The Monk who sold his Ferrari",
                 pages:"",
                 year:"",
             },
@@ -689,10 +706,10 @@ const authorsData = [
         name: 'Randall Munroe', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:whatif,
+                title:"What if",
+                value:"What if",
                 pages:"",
                 year:"",
             },
@@ -706,34 +723,26 @@ const authorsData = [
         name: 'E.L. James', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:fiftyshades,
+                title:"Fifty Shades of Gray",
+                value:"Fifty Shades of Gray",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:darker,
+                title:"Fifty Shades Darker",
+                value:"Fifty Shades Darker",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:3,
+                img:freed,
+                title:"Fifty Shades Freed",
+                value:"Fifty Shades Freed",
                 pages:"",
                 year:"",
             },
@@ -746,34 +755,34 @@ const authorsData = [
         name: 'Paulo Coelho', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:alchemist,
+                title:"The Alchemist",
+                value:"The Alchemist",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:veronika,
+                title:"Veronika Decides to Die",
+                value:"Veronika Decides to Die",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:3,
+                img:eleven,
+                title:"Eleven Minutes",
+                value:"Eleven Minutes",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:4,
+                img:brida,
+                title:"Brida",
+                value:"Brida",
                 pages:"",
                 year:"",
             },
@@ -786,34 +795,18 @@ const authorsData = [
         name: 'Harper Lee', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:mocking,
+                title:"To Kill a Mockingbird",
+                value:"To Kill a Mockingbird",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:watchman,
+                title:"Go Set a Watchman",
+                value:"Go Set a Watchman",
                 pages:"",
                 year:"",
             },
@@ -826,34 +819,26 @@ const authorsData = [
         name: 'Stephen Hawking', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:brief,
+                title:"A Brief History of Time",
+                value:"A Brief History of Time",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:briefer,
+                title:"A Briefer History of Time",
+                value:"A Briefer History of Time",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:3,
+                img:theory,
+                title:"The Theory of Everything",
+                value:"The Theory of Everything",
                 pages:"",
                 year:"",
             },
@@ -866,18 +851,18 @@ const authorsData = [
         name: 'Jay Asher', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:reasons,
+                title:"13 Reasons Why",
+                value:"13 Reasons Why",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:piper,
+                title:"Piper",
+                value:"Piper",
                 pages:"",
                 year:"",
             },
@@ -890,26 +875,34 @@ const authorsData = [
         name: 'Kaled Hosseini', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:kite,
+                title:"The Kite Runner",
+                value:"The Kite Runner",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:2,
+                img:splendid,
+                title:"A Thousand Splendid Suns",
+                value:"A Thousand Splendid Suns",
                 pages:"",
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:3,
+                img:echoed,
+                title:"And the Mountains Echoed",
+                value:"And the Mountains Echoed",
+                pages:"",
+                year:"",
+            },
+            {
+                id:3,
+                img:sea,
+                title:"Sea Prayer",
+                value:"Sea Prayer",
                 pages:"",
                 year:"",
             },
@@ -922,12 +915,12 @@ const authorsData = [
         name: 'Richard Bach', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:jonathan,
+                title:"Jonathan Livingston Seagull",
+                value:"Jonathan Livingston Seagull",
                 pages:"",
-                year:"",
+                year:1970,
             },
         ],
         description:"Dreamer and philosopher, soaring through the realms of imagination and enlightenment."  
@@ -946,7 +939,7 @@ const authorsData = [
                 year:"",
             },
             {
-                id:"",
+                id:2,
                 img:deus,
                 title:"Homo Deus",
                 value:"Homo Deus A brief History of Tomorrow",
@@ -954,11 +947,11 @@ const authorsData = [
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
+                id:3,
+                img:lessons,
+                title:"21 Lessons for the 21st Century",
+                value:"21 Lessons for the 21st Century",
+                pages:269,
                 year:"",
             }
         ],
@@ -970,34 +963,10 @@ const authorsData = [
         name: 'Robert T. Kiyosaki', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
-                year:"",
-            },
-            {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
+                id:1,
+                img:rich,
+                title:"Rich Dad Poor Dad",
+                value:"Rich Dad Poor Dad",
                 pages:"",
                 year:"",
             },
@@ -1010,35 +979,35 @@ const authorsData = [
         name: 'Colleen Hoover', 
         books: [
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
+                id:1,
+                img:itends,
+                title:"It Ends with Us",
+                value:"It Ends with Us",
+                pages:283,
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
+                id:2,
+                img:itstarts,
+                title:"It Starts with Us",
+                value:"It Starts with Us",
+                pages:235,
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
+                id:3,
+                img:reminder,
+                title:"Reminders of Him",
+                value:"Reminders of him",
+                pages:274,
                 year:"",
             },
             {
-                id:"",
-                img:"",
-                title:"",
-                value:"",
-                pages:"",
+                id:4,
+                img:ugly,
+                title:"Ugly Love",
+                value:"Ugly Love",
+                pages:327,
                 year:"",
             },
         ],

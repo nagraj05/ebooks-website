@@ -56,10 +56,10 @@ export default function AuthorPage() {
         </div>
 
           <div className='top'>
-        <div className='author--book--container'>
+         <div className='author--book--container'>
             {author.books.map((book) => (
             <div key={book.id} className='author--book--card'>
-              <img src={book.img} alt={book.title} className='book-img' />
+             <img src={book.img} alt={book.title} className='book-img' />
               <div className="author--book--intro">
                 <p className='book--title'>{book.title}</p>
                 <p className='book--pages'>{book.pages} pages</p>
