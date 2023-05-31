@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import tag from '../../public/icons/tag.png';
+import tag from "../../public/icons/tag.png";
 
 export default function Main(props) {
   function handleDownload() {
@@ -7,13 +7,15 @@ export default function Main(props) {
     window.open(ebookPath, "_blank");
   }
   return (
-    <div className="card" >
+    <div className="card">
       <img src={props.data.img} alt="" className="card--image" />
       <div>
         <p className="card--title">{props.data.title}</p>
         <p className="card--author">{props.data.author}</p>
-        <p className="card--genre"><img src={tag} alt="" className="tag--icon" />{props.data.genre}</p>
-        
+        <p className="card--genre">
+          <img src={tag} alt="" className="tag--icon" />
+          {props.data.genre}
+        </p>
       </div>
       <button className="card--btn" onClick={handleDownload}>
         Download
@@ -25,7 +27,7 @@ export default function Main(props) {
 
 Main.propTypes = {
   data: PropTypes.shape({
-    id:PropTypes.number,
+    id: PropTypes.number,
     value: PropTypes.string,
     img: PropTypes.string,
     title: PropTypes.string,

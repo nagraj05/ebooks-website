@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import BookCard from "./Components/BookCard";
 import booksdata from "./Components/Booksdata";
-import Footer from './Components/Footer'
+import Footer from "./Components/Footer";
 
 function App() {
   const bookelements = booksdata.map((data) => {
@@ -12,8 +12,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="booksbox" id="books">{bookelements}</div>
-      
+      <div className="booksbox" id="books">
+        {bookelements}
+      </div>
       <Footer />
     </>
   );

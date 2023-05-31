@@ -1,147 +1,192 @@
-
-
-.author--intro--card--container{
-    margin-top: -30px;
-    
+.author--intro--card--container {
+  margin-top: -30px;
 }
 .author--intro--card {
-    
-    max-width: 100%; 
-    height: 350px;
-    margin: 50px 150px; 
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
-    background-color: #fff;
-  }
-  
- 
-  .author-image {
-    float: left;
-    width: 290px; 
-    height: 290px; 
-    border-radius: 10px;
-    margin: 20px 20px;
-    object-fit: fill;
-  }
-  
-
-  .author-info {
-    margin: 10px;
-    max-width: 600px;
-    overflow: hidden;
-    padding: 18px 40px;
-    
-  }
-  
-  .author-info p {
-    margin: 0;
-  }
-  
-  .author-info span {
-    font-weight: bold;
-  
-  }
-  
-  .author-info .label {
-    display: inline-block;
-    width: 80px;
-    margin-right: 5px;
-  }
-
-  .info-genre{
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 400;
-    font-size: 20px;
-  
-  }
-  .info-born{
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 400;
-    word-spacing: 2px;
-    font-size: 20px;
-  }
-  .info-died{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    font-weight: 400;
-  }
-  .info-about{
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 400;
-    font-size: 20px;
-    word-spacing: 2px;
-  }
-
-  
-
-
-
-
-  .top{
-    display: flex;
-    justify-content: left;
-    flex-wrap:wrap;
-    max-width: 100%;
-    gap: 2px;
-    
+  max-width: 100%;
+  height: 350px;
+  margin: 50px 150px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  background-color: #fff;
 }
 
-.author--book--title{
-    text-align: center;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 300;
-    font-size: 35px;
-}
-.author--book--container{
-    display: flex;
-    flex-wrap: wrap;
-}
-.author--book--card{
-    margin-left: 60px;
-    width: 250px;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    margin-top: 20px;
-    height: 420px;
-    box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
-}
-.book-img{
-    width: 80%;
-    height: 245px;
-    margin: 10px 25px;
-    object-fit: fill;
-    border-radius: 9px;
-    box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+.author-image {
+  float: left;
+  width: 290px;
+  height: 290px;
+  border-radius: 10px;
+  margin: 20px 20px;
+  object-fit: fill;
 }
 
-.book--title{
-    font-size: 14px;
-    max-width: 250px;
-    margin-top: 2px;
-    color: #333333;
-    text-align: center;
-    font-weight: bold;
+.author-info {
+  margin: 10px;
+  max-width: 600px;
+  overflow: hidden;
+  padding: 18px 40px;
 }
-.book--pages{
-    font-size: 0.85rem;
-    color: gray;
-    font-weight: bold;
-    max-width: 100%;
-    text-align: center;
-    /* margin-left: 33px; */
+
+.author-info p {
+  margin: 0;
 }
-.download--button{
-    font-size: 13px;
-    font-weight: bold;
-    margin-left: 33px;
-    margin-top: 20px;
-    background-color: white;
-    border: 3px solid black;
-    border-radius: 0px;
+
+.author-info span {
+  font-weight: bold;
 }
-.download--button:hover{
-    background-color: black;
-    border: 3px solid black;
-    color: white;
+
+.author-info .label {
+  display: inline-block;
+  width: 80px;
+  margin-right: 5px;
+}
+
+.info-genre {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.info-born {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  word-spacing: 2px;
+  font-size: 20px;
+}
+.info-died {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.info-about {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 20px;
+  word-spacing: 2px;
+}
+
+.top {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 2px;
+}
+
+.author--book--title {
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 35px;
+}
+.author--book--container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.author--book--card {
+  margin-left: 60px;
+  width: 250px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 420px;
+  box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+}
+.book-img {
+  width: 80%;
+  height: 245px;
+  margin: 10px 25px;
+  object-fit: fill;
+  border-radius: 9px;
+  box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+}
+
+.book--title {
+  font-size: 14px;
+  max-width: 250px;
+  margin-top: 2px;
+  color: #333333;
+  text-align: center;
+  font-weight: bold;
+}
+.book--pages {
+  font-size: 0.85rem;
+  color: gray;
+  font-weight: bold;
+  max-width: 100%;
+  text-align: center;
+  /* margin-left: 33px; */
+}
+.download--button {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 33px;
+  margin-top: 20px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 0px;
+}
+.download--button:hover {
+  background-color: black;
+  border: 3px solid black;
+  color: white;
+}
+
+.nagraj-image {
+  float: left;
+  width: 280px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 20px 20px;
+  object-fit: fill;
+}
+
+.nagraj--intro--card {
+  text-indent: 1.8em;
+  text-align: justify;
+  max-width: 100%;
+  height: 530px;
+  margin: 50px 150px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  background-color: #fff;
+}
+
+.copyright--title {
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 35px;
+}
+.copyright--card {
+  max-width: 100%;
+  height: 480px;
+  margin: 50px 150px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(223, 16, 1, 0.8);
+}
+.copyright--para {
+  font-family: "Coromorant Garamond", serif;
+  text-indent: 1.5em;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 25px;
+  padding: 10px 40px;
+}
+.mail-icon {
+  width: 50px;
+  height: 50px;
+  padding: 3px 40px;
+  /* background-image: url('/icons/close-mail.PNG');  */
+  /* background-repeat: no-repeat; */
+}
+.nagraj--links {
+  display: flex;
+  justify-content: left;
+  margin: 10px -26px;
+}
+.nagraj--social {
+  width: 33px;
+  height: 33px;
 }
