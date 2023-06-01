@@ -1,10 +1,10 @@
 import Navigation from "../Components/Navigation";
-import Footer from "../Components/Footer";
-import pic from "../../public/images/nt.png";
+import pic from "../../public/images/nt.webp";
 import close from "../../public/icons/close-mail.png";
 import instagram from "../../public/icons/thatguywithabook.png";
 import tweets from "../../public/icons/quakes.png";
 import tumblr from "../../public/icons/tumblrblog.png";
+import Footer from "../Components/Footer";
 
 export default function Aboutme() {
   function handleMail() {
@@ -41,17 +41,29 @@ export default function Aboutme() {
                 power of storytelling.
               </p>
               <div className="nagraj--links">
-                <a href="https://www.instagram.com/thatguywithabook">
+                <a
+                  href="https://www.instagram.com/thatguywithabook"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src={instagram}
                     alt="Instagram"
                     className="nagraj--social"
                   />
                 </a>
-                <a href="https://thatguywithabook.tumblr.com/">
+                <a
+                  href="https://thatguywithabook.tumblr.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={tumblr} alt="Tumblr" className="nagraj--social" />
                 </a>
-                <a href="https://twitter.com/studyingquakes">
+                <a
+                  href="https://twitter.com/studyingquakes"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={tweets} alt="Twitter" className="nagraj--social" />
                 </a>
               </div>
@@ -78,7 +90,6 @@ export default function Aboutme() {
           </a>
         </div>
       </div>
-
       <Footer />
     </div>
   );

@@ -13,7 +13,11 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="social--icons">
-        <a href="https://www.instagram.com/thatguywithabook">
+        <a
+          href="https://www.instagram.com/thatguywithabook"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src={Instagram}
             alt="Instagram"

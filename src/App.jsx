@@ -5,16 +5,28 @@ import booksdata from "./Components/Booksdata";
 import Footer from "./Components/Footer";
 
 function App() {
-  const bookelements = booksdata.map((data) => {
+  const generateRandomIndices = (length, count) => {
+    const indices = [];
+    while (indices.length < count) {
+      const randomIndex = Math.floor(Math.random() * length);
+      if (!indices.includes(randomIndex)) {
+        indices.push(randomIndex);
+      }
+    }
+    return indices;
+  };
+
+  const randomIndices = generateRandomIndices(booksdata.length, 6);
+  const featuredBooks = randomIndices.map((index) => booksdata[index]);
+
+  const bookelements = featuredBooks.map((data) => {
     return <BookCard key={data.id} data={data} />;
   });
 
   return (
     <>
       <Navbar />
-      <div className="booksbox" id="books">
-        {bookelements}
-      </div>
+      <div className="booksbox">{bookelements}</div>
       <Footer />
     </>
   );

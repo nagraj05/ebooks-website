@@ -81,9 +81,6 @@ nav ul li a:hover {
   color: #ea1538;
   transition: 0.3s;
 }
-.nav--link {
-  cursor: pointer;
-}
 .navigation {
   background: linear-gradient(90deg, #091e3c, #000000);
 }
@@ -304,4 +301,63 @@ nav ul li a:hover {
 .authors--card:hover .author--description {
   opacity: 1;
   visibility: visible;
+}
+
+.bookspage--title {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+}
+.overviewpage--title {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+}
+
+/* Section headings */
+.section-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+/* Paragraphs */
+p {
+  font-family: "Garamond", sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.overview--card {
+  max-width: 100%;
+  height: 350px;
+  margin: 50px 150px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section--icon {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  margin-right: 5px;
+  margin-left: 18px;
+}
+.section-heading a {
+  color: black;
+  text-decoration: none;
+}
+
+.section-heading a:hover {
+  text-decoration: underline;
 }

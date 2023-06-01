@@ -1,5 +1,4 @@
 import { Link as Link } from "react-router-dom";
-import { Link as LinkScroll } from "react-scroll";
 
 export default function Navigation() {
   return (
@@ -12,22 +11,13 @@ export default function Navigation() {
           <Link to="/">HOME</Link>
         </li>
         <li>
-          <LinkScroll
-            to="books"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="nav--link"
-          >
-            {" "}
-            BOOKS{" "}
-          </LinkScroll>
+          <Link to="/overview">MAP</Link>
+        </li>
+        <li>
+          <Link to="/books">BOOKS</Link>
         </li>
         <li>
           <Link to="/authors">AUTHORS</Link>
-        </li>
-        <li>
-          <Link to="">COLLECTION</Link>
         </li>
         <li>
           <Link to="/aboutme">ABOUT</Link>

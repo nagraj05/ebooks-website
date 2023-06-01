@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import tag from "../../public/icons/tag.png";
 
-export default function Main(props) {
+export default function BookCard(props) {
   function handleDownload() {
     const ebookPath = `/books/${props.data.value}.epub`;
     window.open(ebookPath, "_blank");
@@ -25,7 +25,7 @@ export default function Main(props) {
   );
 }
 
-Main.propTypes = {
+BookCard.propTypes = {
   data: PropTypes.shape({
     id: PropTypes.number,
     value: PropTypes.string,
