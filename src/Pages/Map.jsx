@@ -5,6 +5,7 @@ import bookstack from "../../public/icons/bookstack.png";
 import authoricon from "../../public/icons/group.png";
 import homeicon from "../../public/icons/house.png";
 import abouticon from "../../public/icons/man.png";
+import contact from "../../public/icons/contact.png"
 
 export default function Map() {
   return (
@@ -29,7 +30,7 @@ export default function Map() {
               <a href="/books">Books</a>
             </h2>
             <p>
-              It has all the books that are absolutely free to download. Genre &
+              Obviously, it has books. Feel free to download (No Pressure). Genre &
               Pages are mentioned.
             </p>
           </div>
@@ -38,7 +39,7 @@ export default function Map() {
             <h2 className="section-heading">
               <a href="/authors">Authors</a>
             </h2>
-            <p>Authors info and their works. All you need to do is click. </p>
+            <p>Umm... Authors info and their works i guess. Click to explore more (on the authors). </p>
           </div>
           <div className="section">
             <img src={abouticon} alt="About" className="section--icon" />
@@ -46,8 +47,16 @@ export default function Map() {
               <a href="/aboutme">About</a>
             </h2>
             <p>
-              It has info about me, a contact form and copyrights. If you have
-              any book requests, use the contact form.
+              It has info about me. Duh...
+            </p>
+          </div>
+          <div className="section">
+            <img src={contact} alt="Contact" className="section--icon" />
+            <h2 className="section-heading">
+              <a href="/contact">Contact</a>
+            </h2>
+            <p>
+              It has a contact form and copyright information. If you want any books, use contact form. Thanks!
             </p>
           </div>
         </div>

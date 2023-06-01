@@ -39,7 +39,7 @@ export default function Footer() {
       </div>
       <div className="footer-para">
         This website is completely designed by{" "}
-        <Link to="/aboutme">Nagraj Tadingi</Link>
+        <Link to="/aboutme" className="footer--name--link">Nagraj Tadingi</Link>
       </div>
     </footer>
   );

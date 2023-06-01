@@ -19,7 +19,6 @@ html,
   background: linear-gradient(90deg, #091e3c, #000000);
 }
 .nav--text {
-  /* font-family: "Libre Bodoni", serif; */
   font-family: "Cormorant Garamond", serif;
   font-weight: 700;
   word-spacing: 0.3em;
@@ -57,7 +56,6 @@ nav {
 .title {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  /* font-style: italic; */
   color: white;
   font-size: 28px;
 }
@@ -85,7 +83,7 @@ nav ul li a:hover {
   background: linear-gradient(90deg, #091e3c, #000000);
 }
 
-/* Card css */
+/* Card */
 .booksbox {
   display: flex;
   justify-content: left;
@@ -171,6 +169,10 @@ nav ul li a:hover {
 }
 
 /* Footer css */
+.footer--name--link{
+  color: #000000;
+  text-decoration: none;
+}
 .footer {
   text-align: center;
   border-top: 1px solid #ccc;
@@ -333,7 +335,7 @@ p {
 
 .overview--card {
   max-width: 100%;
-  height: 350px;
+  height: 390px;
   margin: 50px 150px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -361,3 +363,143 @@ p {
 .section-heading a:hover {
   text-decoration: underline;
 }
+
+
+.contact--home{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 60px;
+}
+.contact--container{
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 100%;
+  width: 480px;
+  height: 400px;
+  /* margin: 50px 420px; */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.contact--title{
+  font-family: "Garamond", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: -20px;
+}
+input{
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+}
+input:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+textarea{
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+}
+textarea:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+.contact--button {
+  font-family: inherit;
+  font-size: 20px;
+  background: royalblue ;
+  color: white ;
+  padding: 0.5em 1em;
+  padding-left: 0.6em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(5em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+.send--text{
+  color: white;
+}
+
+
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+
