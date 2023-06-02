@@ -50,7 +50,7 @@ export default function Contact() {
       );
   };
   function handleMail() {
-    window.location.href = `mailto:${"ntadingi5@gmail.com"}`;
+    window.location.href = `mailto:${"nagrajtadingi@gmail.com"}`;
   }
   return (
     <div>
