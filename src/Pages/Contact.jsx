@@ -2,19 +2,26 @@ import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
 import close from "../../public/icons/close-mail.png";
 import { useState } from "react";
+import emailjs from '@emailjs/browser'
+import {useRef} from 'react'
+
 
 export default function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
+    const form = useRef();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can implement the logic to submit the form data
-    // For this example, let's just log the form values
-    console.log('Name:', name);
-    console.log('Email:', email);
-    console.log('Message:', message);
+
+    emailjs.sendForm('service_99th9h6', 'template_winbn66', form.current, 'sGiiFdeWzgfXWOkB0')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
   function handleMail() {
     window.location.href = `mailto:${"ntadingi5@gmail.com"}`;
@@ -25,11 +32,12 @@ export default function Contact() {
       <div className="contact--home">
       <div className="contact--container">
         <h3 className="contact--title">Contact</h3>
-      <form onSubmit={handleSubmit} className="contact-form" autoComplete="off">
+      <form onSubmit={handleSubmit} ref={form} className="contact-form" autoComplete="off">
       <div className="form-group">
         {/* <label htmlFor="name">Name:</label> */}
         <input
           type="text"
+          name="user_name"
           id="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -42,6 +50,7 @@ export default function Contact() {
         {/* <label htmlFor="email">Email:</label> */}
         <input
           type="email"
+          name="user_email"
           id="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -54,6 +63,7 @@ export default function Contact() {
         {/* <label htmlFor="message">Message:</label> */}
         <textarea
           id="message"
+          name="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           required
@@ -62,7 +72,7 @@ export default function Contact() {
       </div>
       
 
-      <button type="submit" className="contact--button">
+      <button type="submit" className="contact--button" value="Send">
       <div className="svg-wrapper-1">
     <div className="svg-wrapper">
       <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
