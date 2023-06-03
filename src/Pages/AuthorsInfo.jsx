@@ -25,6 +25,7 @@ import yuval from "../../public/authorimages/yuval.jpg";
 import kiyo from "../../public/authorimages/kiyo.jpg";
 import bronte from "../../public/authorimages/emily.jpg";
 import shakespeare from "../../public/authorimages/Shakespeare.jpg";
+import brandon from "../../public/authorimages/brndon.jpg"
 
 const AuthorInfo = [
   {
@@ -336,6 +337,17 @@ const AuthorInfo = [
     genre: "Business & Investing",
     influences: "",
     about: `A prominent author and entrepreneur, is best known for his groundbreaking book "Rich Dad Poor Dad," which challenges conventional wisdom about wealth and financial independence. With his unique perspective on money, investing, and entrepreneurship, Kiyosaki has inspired millions to adopt a mindset of financial education and wealth creation. Through his work, he empowers individuals to take control of their financial destinies and build a prosperous future.`,
+  },
+  {
+    id:28,
+    img:brandon,
+    name:"Brandon Sanderson",
+    born:"in Lincoln, Nebraska, The United States ",
+    died:"",
+    website:"http://brandonsanderson.com",
+    genre:"Science Fiction & Fantasy, Young Adult",
+    influences:"",
+    about:`A prolific American author, has established himself as a master of epic fantasy and world-building. Known for his intricate magic systems and intricate plot twists, his works, such as the "Mistborn" trilogy and "The Stormlight Archive," have garnered a dedicated following. Sanderson's boundless imagination and meticulous attention to detail make his novels an immersive journey into richly crafted realms.`,
   },
 ];
 export default AuthorInfo;

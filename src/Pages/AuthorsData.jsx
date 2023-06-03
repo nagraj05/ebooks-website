@@ -25,91 +25,99 @@ import kiyo from "../../public/authorimages/kiyo.jpg";
 import bronte from "../../public/authorimages/emily.jpg";
 import kafka from "../../public/authorimages/franz.jpg";
 import shakespeare from "../../public/authorimages/Shakespeare.jpg";
-import none from "../images/none.jpg";
-import murder from "../../src/images/orient.jpg";
-import myst from "../../src/images/mysterious.jpg";
-import sapiens from "../../src/images/sapiens.jpg";
-import deus from "../../src/images/deus.jpg";
-import metamorph from "../../src/images/metamorphosis.jpg";
-import trail from "../../src/images/the trail pengiun.jpg";
-import letterstohisfather from "../../src/images/letters to his father.jpg";
-import castle from "../images/the castle.jpg";
-import hamlet from "../images/hamlet.jpg";
-import wuthering from "../images/wuthering.jpg";
-import thesun from "../images/the sun also rises.jpg";
-import farewell from "../images/farewell to arms.jpg";
-import belltoll from "../images/for whom the bell tolls.jpg";
-import tohave from "../images/to have and have not.jpg";
-import oldman from "../images/the old man and the sea.jpg";
-import feast from "../images/a move.jpg";
-import dorian from "../images/dorian.jpg";
-import canterville from "../images/canterville.jpg";
-import itstarts from "../images/It starts with us.jpg";
-import itends from "../images/it ends with us.jpg";
-import ugly from "../images/ugly.jpg";
-import reminder from "../images/reminders of him.jpg";
-import fiftyshades from "../images/fifty shades of grey.jpg";
-import darker from "../images/Darker.jpg";
-import freed from "../images/freed.jpg";
-import macbeth from "../images/macbeth.jpg";
-import romeo from "../images/romeo.jpg";
-import midsummer from "../images/midsummer.jpg";
-import muchado from "../images/much ado.jpg";
-import othello from "../images/othello.jpg";
-import kinglear from "../images/king lear.jpg";
-import tempest from "../images/tempest.jpg";
-import julius from "../images/julius.jpg";
-import happyprince from "../images/happy prince.jpg";
-import catcher from "../images/catcher.jpg";
-import franny from "../images/franny.jpg";
-import orwell1984 from "../images/1984orwell.jpg";
-import animal from "../images/animal farm.jpg";
-import pride from "../images/pride.jpg";
-import emma from "../images/emma.jpg";
-import sense from "../images/sense.jpg";
-import per from "../images/persuasion.jpg";
-import lessons from "../images/21lessons.jpg";
-import alaska from "../images/looking for alaska.jpg";
-import turtles from "../images/turtles.jpg";
-import paper from "../images/paper.jpg";
-import rich from "../images/rich.jpeg";
-import jonathan from "../images/jonathan.jpg";
-import fault from "../images/fault.jpg";
-import reasons from "../images/13reasons.jpg";
-import piper from "../images/piper.jpg";
-import kafkaontheshore from "../images/kafkaontheshore.jpg";
-import norweigan from "../images/norweigan.jpg";
-import windup from "../images/wind up.jpg";
-import sputnik from "../images/sputnik.jpg";
-import stone from "../images/philosopher stone.jpg";
-import chamber from "../images/chamber.jpg";
-import phoenix from "../images/order of the phoneix.jpg";
-import deathly from "../images/deathly hallows.jpg";
-import azkaban from "../images/prisoner of azakban.jpg";
-import cursed from "../images/cursed child.jpg";
-import goblet from "../images/goblet of fire.jpg";
-import halfblood from "../images/half blood.jpg";
-import kite from "../images/kite.jpg";
-import splendid from "../images/splendid.jpg";
-import echoed from "../images/echoed.jpg";
-import sea from "../images/seaprayer.jpg";
-import mocking from "../images/killamockingbird.jpg";
-import watchman from "../images/watchman.jpg";
-import brief from "../../src/images/brief.jpg";
-import briefer from "../images/briefer.jpg";
-import theory from "../images/theory.jpg";
-import whatif from "../images/whatif.jpg";
-import monk from "../images/monk.jpg";
-import flies from "../images/flies.jpg";
-import hound from "../images/hound.jpg";
-import shining from "../images/shining.jpg";
-import it from "../images/it.jpg";
-import stand from "../images/stand.jpg";
-import misery from "../images/misery.jpg";
-import brida from "../images/brida.jpg";
-import alchemist from "../images/alchemist.jpg";
-import eleven from "../images/eleven.jpg";
-import veronika from "../images/vero.jpg";
+import none from "../../public/bookcovers/none.jpg"
+import murder from "../../public/bookcovers/orient.jpg";
+import myst from "../../public/bookcovers/mysterious.jpg";
+import sapiens from "../../public/bookcovers/sapiens.jpg";
+import deus from "../../public/bookcovers/deus.jpg";
+import metamorph from "../../public/bookcovers/metamorphosis.jpg";
+import trail from "../../public/bookcovers/the trail pengiun.jpg";
+import letterstohisfather from "../../public/bookcovers/letters to his father.jpg";
+import castle from "../../public/bookcovers/the castle.jpg";
+import hamlet from "../../public/bookcovers/hamlet.jpg";
+import wuthering from "../../public/bookcovers/wuthering.jpg";
+import thesun from "../../public/bookcovers/the sun also rises.jpg";
+import farewell from "../../public/bookcovers/farewell to arms.jpg";
+import belltoll from "../../public/bookcovers/for whom the bell tolls.jpg";
+import tohave from "../../public/bookcovers/to have and have not.jpg";
+import oldman from "../../public/bookcovers/the old man and the sea.jpg";
+import feast from "../../public/bookcovers/a move.jpg";
+import dorian from "../../public/bookcovers/dorian.jpg";
+import canterville from "../../public/bookcovers/canterville.jpg";
+import itstarts from "../../public/bookcovers/It starts with us.jpg";
+import itends from "../../public/bookcovers/it ends with us.jpg";
+import ugly from "../../public/bookcovers/ugly.jpg";
+import reminder from "../../public/bookcovers/reminders of him.jpg";
+import fiftyshades from "../../public/bookcovers/fifty shades of grey.jpg";
+import darker from "../../public/bookcovers/Darker.jpg";
+import freed from "../../public/bookcovers/freed.jpg";
+import macbeth from "../../public/bookcovers/macbeth.jpg";
+import romeo from "../../public/bookcovers/romeo.jpg";
+import midsummer from "../../public/bookcovers/midsummer.jpg";
+import muchado from "../../public/bookcovers/much ado.jpg";
+import othello from "../../public/bookcovers/othello.jpg";
+import kinglear from "../../public/bookcovers/king lear.jpg";
+import tempest from "../../public/bookcovers/tempest.jpg";
+import julius from "../../public/bookcovers/julius.jpg";
+import happyprince from "../../public/bookcovers/happy prince.jpg";
+import catcher from "../../public/bookcovers/catcher.jpg";
+import franny from "../../public/bookcovers/franny.jpg";
+import orwell1984 from "../../public/bookcovers/1984orwell.jpg";
+import animal from "../../public/bookcovers/animal farm.jpg";
+import pride from "../../public/bookcovers/pride.jpg";
+import emma from "../../public/bookcovers/emma.jpg";
+import sense from "../../public/bookcovers/sense.jpg";
+import per from "../../public/bookcovers/persuasion.jpg";
+import lessons from "../../public/bookcovers/21lessons.jpg";
+import alaska from "../../public/bookcovers/looking for alaska.jpg";
+import turtles from "../../public/bookcovers/turtles.jpg";
+import paper from "../../public/bookcovers/paper.jpg";
+import rich from "../../public/bookcovers/rich.jpeg";
+import jonathan from "../../public/bookcovers/jonathan.jpg";
+import fault from "../../public/bookcovers/fault.jpg";
+import reasons from "../../public/bookcovers/13reasons.jpg";
+// import piper from "../../public/bookcovers/piper.jpg";
+import kafkaontheshore from "../../public/bookcovers/kafkaontheshore.jpg";
+import norweigan from "../../public/bookcovers/norweigan.jpg";
+import windup from "../../public/bookcovers/wind up.jpg";
+import sputnik from "../../public/bookcovers/sputnik.jpg";
+import stone from "../../public/bookcovers/philosopher stone.jpg";
+import chamber from "../../public/bookcovers/chamber.jpg";
+import phoenix from "../../public/bookcovers/order of the phoneix.jpg";
+import deathly from "../../public/bookcovers/deathly hallows.jpg";
+import azkaban from "../../public/bookcovers/prisoner of azakban.jpg";
+import cursed from "../../public/bookcovers/cursed child.jpg";
+import goblet from "../../public/bookcovers/goblet of fire.jpg";
+import halfblood from "../../public/bookcovers/half blood.jpg";
+import kite from "../../public/bookcovers/kite.jpg";
+import splendid from "../../public/bookcovers/splendid.jpg";
+import echoed from "../../public/bookcovers/echoed.jpg";
+import sea from "../../public/bookcovers/seaprayer.jpg";
+import mocking from "../../public/bookcovers/killamockingbird.jpg";
+import watchman from "../../public/bookcovers/watchman.jpg";
+import brief from "../../public/bookcovers/brief.jpg";
+import briefer from "../../public/bookcovers/briefer.jpg";
+import theory from "../../public/bookcovers/theory.jpg";
+import whatif from "../../public/bookcovers/whatif.jpg";
+import monk from "../../public/bookcovers/monk.jpg";
+import flies from "../../public/bookcovers/flies.jpg";
+import hound from "../../public/bookcovers/hound.jpg";
+import shining from "../../public/bookcovers/shining.jpg";
+import it from "../../public/bookcovers/it.jpg";
+import stand from "../../public/bookcovers/stand.jpg";
+import misery from "../../public/bookcovers/misery.jpg";
+import brida from "../../public/bookcovers/brida.jpg";
+import alchemist from "../../public/bookcovers/alchemist.jpg";
+import eleven from "../../public/bookcovers/eleven.jpg";
+import veronika from "../../public/bookcovers/vero.jpg";
+import thefinal from "../../public/bookcovers/thefinalempire.jpg"
+import wellofascension from "../../public/bookcovers/wellofascension.jpg"
+import heroofages from "../../public/bookcovers/heroofages.jpg"
+import secrethistorymist from "../../public/bookcovers/secrethistorymistbirn.jpg"
+import alloylaw from "../../public/bookcovers/alloy of law.jpg"
+import shadowsself from "../../public/bookcovers/shadowsofself.jpg"
+import bandsmourning from "../../public/bookcovers/thebandsofmourning.jpg"
+import brandon from "../../public/authorimages/brndon.jpg"
 
 const authorsData = [
   {
@@ -122,6 +130,8 @@ const authorsData = [
         img: none,
         title: "And Then There Were None",
         value: "And then there were none",
+        author:"Agatha Christie",
+        genre:"Crime Thriller",
         pages: 204,
         year: "",
       },
@@ -130,6 +140,8 @@ const authorsData = [
         img: murder,
         title: "Murder on the Orient Express",
         value: "Murder on the Orient Express",
+        author:"Agatha Christie",
+        genre:"Crime Thriller",
         pages: 211,
         year: "",
       },
@@ -138,6 +150,8 @@ const authorsData = [
         img: myst,
         title: "The Mysterious Affair at Styles",
         value: "The Mysterious Affair at Styles",
+        author:"Agatha Christie",
+        genre:"Crime Thriller",
         pages: 178,
         year: "",
       },
@@ -155,6 +169,8 @@ const authorsData = [
         img: metamorph,
         title: "The Metamorphosis",
         value: "The Metamorphosis",
+        author:"Franz Kafka",
+        genre:"Classics",
         pages: 34,
         year: 1915,
       },
@@ -163,7 +179,9 @@ const authorsData = [
         img: trail,
         title: "The Trail",
         value: "The Trail",
-        pages: 211,
+        author:"Franz Kafka",
+        genre:"Classics",
+        pages: 143,
         year: "",
       },
       {
@@ -171,7 +189,9 @@ const authorsData = [
         img: letterstohisfather,
         title: "Letter to His Father",
         value: "Letter to His Father",
-        pages: 178,
+        author:"Franz Kafka",
+        genre:"Classics",
+        pages: 63,
         year: "",
       },
       {
@@ -179,7 +199,9 @@ const authorsData = [
         img: castle,
         title: "The Castle",
         value: "The Castle",
-        pages: "",
+        author:"Franz Kafka",
+        genre:"Classics",
+        pages: 204,
         year: "",
       },
     ],
@@ -196,7 +218,9 @@ const authorsData = [
         img: hamlet,
         title: "Hamlet",
         value: "Hamlet",
-        pages: "",
+        author:"William Shakespeare",
+        genre:"Play",
+        pages: 168,
         year: "",
       },
       {
@@ -204,7 +228,9 @@ const authorsData = [
         img: macbeth,
         title: "Macbeth",
         value: "Macbeth",
-        pages: "",
+        author:"William Shakespeare",
+        genre:"Play",
+        pages: 73,
         year: "",
       },
       {
@@ -212,7 +238,9 @@ const authorsData = [
         img: romeo,
         title: "Romeo & Juliet",
         value: "Romeo & Juliet",
-        pages: "",
+        author:"William Shakespeare",
+        genre:"Play",
+        pages: 39,
         year: "",
       },
       {
@@ -220,7 +248,9 @@ const authorsData = [
         img: midsummer,
         title: "A Midsummer Night's Dream",
         value: "A Midsummer Night's Dream",
-        pages: "",
+        author:"William Shakespeare",
+        genre:"Play",
+        pages: 96,
         year: "",
       },
       {
@@ -228,7 +258,9 @@ const authorsData = [
         img: othello,
         title: "Othello",
         value: "Othello",
-        pages: "",
+        author:"William Shakespeare",
+        genre:"Play",
+        pages: 148,
         year: "",
       },
       {
@@ -236,7 +268,9 @@ const authorsData = [
         img: muchado,
         title: "Much Ado About Nothing",
         value: "Much Ado About Nothing",
-        pages: "",
+        author:"William Shakespeare",
+        genre:"Play",
+        pages: 96,
         year: "",
       },
       {
@@ -244,7 +278,9 @@ const authorsData = [
         img: kinglear,
         title: "King Lear",
         value: "King Lear",
-        pages: "",
+        author:"William Shakespeare",
+        genre:"Play",
+        pages: 146,
         year: "",
       },
       {
@@ -252,7 +288,9 @@ const authorsData = [
         img: tempest,
         title: "The Tempest",
         value: "The Tempest",
-        pages: "",
+        author:"William Shakespeare",
+        genre:"Play",
+        pages: 171,
         year: "",
       },
       {
@@ -260,7 +298,9 @@ const authorsData = [
         img: julius,
         title: "Julius Caesar",
         value: "Julius Caesar",
-        pages: "",
+        author:"William Shakespeare",
+        genre:"Play",
+        pages: 110,
         year: "",
       },
     ],
@@ -277,7 +317,9 @@ const authorsData = [
         img: wuthering,
         title: "Wuthering Heights",
         value: "Wuthering Heights",
-        pages: "",
+        author:"Emily Bronte",
+        genre:"Classics",
+        pages: 230,
         year: "",
       },
     ],
@@ -294,7 +336,9 @@ const authorsData = [
         img: thesun,
         title: "The Sun Also Rises",
         value: "The Sun Also Rises",
-        pages: "",
+        author:"Ernest Hemingway",
+        genre:"",
+        pages: 226,
         year: 1926,
       },
       {
@@ -302,7 +346,9 @@ const authorsData = [
         img: farewell,
         title: "A Farewell to Arms",
         value: "A Farewell to Arms",
-        pages: "",
+        author:"Ernest Hemingway",
+        genre:"",
+        pages: 290,
         year: 1929,
       },
       {
@@ -310,7 +356,9 @@ const authorsData = [
         img: belltoll,
         title: "For Whom the Bell Tolls",
         value: "For Whom the Bell Tolls",
-        pages: "",
+        author:"Ernest Hemingway",
+        genre:"",
+        pages: 445,
         year: 1940,
       },
       {
@@ -318,7 +366,9 @@ const authorsData = [
         img: tohave,
         title: "To Have and Have Not",
         value: "To Have and Have Not",
-        pages: "",
+        author:"Ernest Hemingway",
+        genre:"",
+        pages: 183,
         year: 1937,
       },
       {
@@ -326,7 +376,9 @@ const authorsData = [
         img: oldman,
         title: "The Old Man and the Sea",
         value: "The Old Man and the Sea",
-        pages: "",
+        author:"Ernest Hemingway",
+        genre:"",
+        pages: 60,
         year: 1952,
       },
       {
@@ -334,7 +386,9 @@ const authorsData = [
         img: feast,
         title: "A Moveable Feast",
         value: "A Moveable Feast",
-        pages: "",
+        author:"Ernest Hemingway",
+        genre:"",
+        pages: 105,
         year: 1964,
       },
     ],
@@ -351,7 +405,9 @@ const authorsData = [
         img: dorian,
         title: "The Picture of Dorian Gray",
         value: "The Picture of Dorian Gray",
-        pages: "",
+        author:"Oscar Wilde",
+        genre:"",
+        pages: 116,
         year: 1890,
       },
       {
@@ -359,7 +415,9 @@ const authorsData = [
         img: canterville,
         title: "The Canterville Ghost",
         value: "The Canterville Ghost",
-        pages: "",
+        author:"Oscar Wilde",
+        genre:"",
+        pages: 31,
         year: 1887,
       },
       {
@@ -367,7 +425,9 @@ const authorsData = [
         img: happyprince,
         title: "The Happy Prince and Other Tales",
         value: "The Happy Prince and Other Tales",
-        pages: "",
+        author:"Oscar Wilde",
+        genre:"",
+        pages: 58,
         year: 1888,
       },
     ],
@@ -384,7 +444,9 @@ const authorsData = [
         img: catcher,
         title: "The Catcher in the Rye",
         value: "The Catcher in the Rye",
-        pages: "",
+        author:"J.D. Salinger",
+        genre:"",
+        pages: 160,
         year: "",
       },
       {
@@ -392,7 +454,9 @@ const authorsData = [
         img: franny,
         title: "Franny and Zooey",
         value: "Franny and Zooey",
-        pages: "",
+        author:"J.D. Salinger",
+        genre:"",
+        pages: 104,
         year: "",
       },
     ],
@@ -409,7 +473,9 @@ const authorsData = [
         img: orwell1984,
         title: "1984",
         value: "1984",
-        pages: "",
+        author:"George Orwell",
+        genre:"",
+        pages: 184,
         year: "",
       },
       {
@@ -417,7 +483,9 @@ const authorsData = [
         img: animal,
         title: "Animal Farm",
         value: "Animal Farm",
-        pages: "",
+        author:"George Orwell",
+        genre:"",
+        pages: 62,
         year: "",
       },
     ],
@@ -434,7 +502,9 @@ const authorsData = [
         img: pride,
         title: "Pride and Prejudice",
         value: "Pride and Prejudice",
-        pages: "",
+        author:"Jane Austen",
+        genre:"",
+        pages: 256,
         year: "",
       },
       {
@@ -442,7 +512,9 @@ const authorsData = [
         img: emma,
         title: "Emma",
         value: "Emma",
-        pages: "",
+        author:"Jane Austen",
+        genre:"",
+        pages: 282,
         year: "",
       },
       {
@@ -450,7 +522,9 @@ const authorsData = [
         img: sense,
         title: "Sense and Sensibility",
         value: "Sense and Sensibility",
-        pages: "",
+        author:"Jane Austen",
+        genre:"",
+        pages: 238,
         year: "",
       },
       {
@@ -458,7 +532,9 @@ const authorsData = [
         img: per,
         title: "Persuasion",
         value: "Persuasion",
-        pages: "",
+        author:"Jane Austen",
+        genre:"",
+        pages: 228,
         year: "",
       },
     ],
@@ -475,7 +551,9 @@ const authorsData = [
         img: hound,
         title: "The Hound of the Baskervilles",
         value: "The Hound of the Baskervilles",
-        pages: "",
+        author:"Sir Arthur Conan Doyle",
+        genre:"",
+        pages: 136,
         year: "",
       },
     ],
@@ -492,7 +570,9 @@ const authorsData = [
         img: kafkaontheshore,
         title: "Kafka on the Shore",
         value: "Kafka on the Shore",
-        pages: "",
+        author:"Haruki Murakami",
+        genre:"",
+        pages: 221,
         year: "",
       },
       {
@@ -500,7 +580,9 @@ const authorsData = [
         img: norweigan,
         title: "Norweigan Wood",
         value: "Norweigan Wood",
-        pages: "",
+        author:"Haruki Murakami",
+        genre:"",
+        pages: 148,
         year: "",
       },
       {
@@ -508,7 +590,9 @@ const authorsData = [
         img: windup,
         title: "The Wind-up Bird Chronicle",
         value: "The Wind-up Bird Chronicle",
-        pages: "",
+        author:"Haruki Murakami",
+        genre:"",
+        pages: 463,
         year: "",
       },
       {
@@ -516,7 +600,9 @@ const authorsData = [
         img: sputnik,
         title: "Sputnik Sweetheart",
         value: "Sputnik Sweetheart",
-        pages: "",
+        author:"Haruki Murakami",
+        genre:"",
+        pages: 138,
         year: "",
       },
     ],
@@ -533,7 +619,9 @@ const authorsData = [
         img: shining,
         title: "The Shining",
         value: "The Shining",
-        pages: "",
+        author:"Stephen King",
+        genre:"",
+        pages: 391,
         year: "",
       },
       {
@@ -541,7 +629,9 @@ const authorsData = [
         img: it,
         title: "It",
         value: "It",
-        pages: "",
+        author:"Stephen King",
+        genre:"",
+        pages: 988,
         year: "",
       },
       {
@@ -549,7 +639,9 @@ const authorsData = [
         img: stand,
         title: "The Stand",
         value: "The Stand",
-        pages: "",
+        author:"Stephen King",
+        genre:"",
+        pages: 1121,
         year: "",
       },
       {
@@ -557,7 +649,9 @@ const authorsData = [
         img: misery,
         title: "Misery",
         value: "Misery",
-        pages: "",
+        author:"Stephen King",
+        genre:"",
+        pages: 428,
         year: "",
       },
     ],
@@ -572,57 +666,71 @@ const authorsData = [
       {
         id: 1,
         img: stone,
-        title: "Harry Potter & the Philosopher’s Stone",
+        title: "The Philosopher’s Stone",
         value: "Harry Potter & the Philosopher’s Stone",
-        pages: "",
+        author:"J.K. Rowling",
+        genre:"",
+        pages: 233,
         year: "",
       },
       {
         id: 2,
         img: chamber,
-        title: "Harry Potter & the Chamber of Secrets",
+        title: "The Chamber of Secrets",
         value: "Harry Potter & the Chamber of Secrets",
-        pages: "",
+        author:"J.K. Rowling",
+        genre:"",
+        pages: 251,
         year: "",
       },
       {
         id: 3,
         img: azkaban,
-        title: "Harry Potter & the Prisoner of Azkaban",
+        title: "The Prisoner of Azkaban",
         value: "Harry Potter & the Prisoner of Azkaban",
-        pages: "",
+        author:"J.K. Rowling",
+        genre:"",
+        pages: 315,
         year: "",
       },
       {
         id: 4,
         img: goblet,
-        title: "Harry Potter and the Goblet of Fire",
+        title: "The Goblet of Fire",
         value: "Harry Potter and the Goblet of Fire",
-        pages: "",
+        author:"J.K. Rowling",
+        genre:"",
+        pages: 507,
         year: "",
       },
       {
         id: 5,
         img: phoenix,
-        title: "Harry Potter & the Order of the Phoenix",
+        title: "The Order of the Phoenix",
         value: "Harry Potter & the Order of the Phoenix",
-        pages: "",
+        author:"J.K. Rowling",
+        genre:"",
+        pages: 699,
         year: "",
       },
       {
         id: 6,
         img: halfblood,
-        title: "Harry Potter & the Half-Blood Prince",
+        title: "The Half-Blood Prince",
         value: "Harry Potter & the Half-Blood Prince",
-        pages: "",
+        author:"J.K. Rowling",
+        genre:"",
+        pages: 456,
         year: "",
       },
       {
         id: 7,
         img: deathly,
-        title: "Harry Potter & the Deathly Hallows",
+        title: "The Deathly Hallows",
         value: "Harry Potter & the Deathly Hallows",
-        pages: "",
+        author:"J.K. Rowling",
+        genre:"",
+        pages: 545,
         year: "",
       },
       {
@@ -630,7 +738,9 @@ const authorsData = [
         img: cursed,
         title: "Harry Potter & the Cursed Child",
         value: "Harry Potter & the Cursed Child",
-        pages: "",
+        author:"J.K. Rowling",
+        genre:"",
+        pages: 294,
         year: "",
       },
     ],
@@ -647,7 +757,9 @@ const authorsData = [
         img: flies,
         title: "Lord of the Flies",
         value: "Lord of the Flies",
-        pages: "",
+        author:"William Golding",
+        genre:"",
+        pages: 211,
         year: "",
       },
     ],
@@ -665,7 +777,9 @@ const authorsData = [
         img: fault,
         title: "The Fault in Our Stars",
         value: "The Fault in Our Stars",
-        pages: "",
+        author:"John Green",
+        genre:"",
+        pages: 197,
         year: "",
       },
       {
@@ -673,7 +787,9 @@ const authorsData = [
         img: alaska,
         title: "Looking For Alaska",
         value: "Looking For Alaska",
-        pages: "",
+        author:"John Green",
+        genre:"",
+        pages: 185,
         year: "",
       },
       {
@@ -681,7 +797,9 @@ const authorsData = [
         img: paper,
         title: "Paper Towns",
         value: "Paper Towns",
-        pages: "",
+        author:"John Green",
+        genre:"",
+        pages: 252,
         year: "",
       },
       {
@@ -689,7 +807,9 @@ const authorsData = [
         img: turtles,
         title: "Turtles all the way down",
         value: "Turtles all the way down",
-        pages: "",
+        author:"John Green",
+        genre:"",
+        pages: 180,
         year: "",
       },
     ],
@@ -706,7 +826,9 @@ const authorsData = [
         img: monk,
         title: "The Monk who sold his Ferrari",
         value: "The Monk who sold his Ferrari",
-        pages: "",
+        author:"Robin S. Sharma",
+        genre:"",
+        pages: 147,
         year: "",
       },
     ],
@@ -723,7 +845,9 @@ const authorsData = [
         img: whatif,
         title: "What if",
         value: "What if",
-        pages: "",
+        author:"Randall Munroe",
+        genre:"",
+        pages: 541,
         year: "",
       },
     ],
@@ -739,9 +863,11 @@ const authorsData = [
       {
         id: 1,
         img: fiftyshades,
-        title: "Fifty Shades of Gray",
-        value: "Fifty Shades of Gray",
-        pages: "",
+        title: "Fifty Shades of Grey",
+        value: "Fifty Shades of Grey",
+        author:"E.L. James",
+        genre:"",
+        pages: 529,
         year: "",
       },
       {
@@ -749,7 +875,9 @@ const authorsData = [
         img: darker,
         title: "Fifty Shades Darker",
         value: "Fifty Shades Darker",
-        pages: "",
+        author:"E.L. James",
+        genre:"",
+        pages: 533,
         year: "",
       },
       {
@@ -757,7 +885,9 @@ const authorsData = [
         img: freed,
         title: "Fifty Shades Freed",
         value: "Fifty Shades Freed",
-        pages: "",
+        author:"E.L. James",
+        genre:"",
+        pages: 616,
         year: "",
       },
     ],
@@ -774,7 +904,9 @@ const authorsData = [
         img: alchemist,
         title: "The Alchemist",
         value: "The Alchemist",
-        pages: "",
+        author:"Paulo Coelho",
+        genre:"",
+        pages: 106,
         year: "",
       },
       {
@@ -782,7 +914,9 @@ const authorsData = [
         img: veronika,
         title: "Veronika Decides to Die",
         value: "Veronika Decides to Die",
-        pages: "",
+        author:"Paulo Coelho",
+        genre:"",
+        pages: 151,
         year: "",
       },
       {
@@ -790,7 +924,9 @@ const authorsData = [
         img: eleven,
         title: "Eleven Minutes",
         value: "Eleven Minutes",
-        pages: "",
+        author:"Paulo Coelho",
+        genre:"",
+        pages: 320,
         year: "",
       },
       {
@@ -798,7 +934,9 @@ const authorsData = [
         img: brida,
         title: "Brida",
         value: "Brida",
-        pages: "",
+        author:"Paulo Coelho",
+        genre:"",
+        pages: 149,
         year: "",
       },
     ],
@@ -815,7 +953,9 @@ const authorsData = [
         img: mocking,
         title: "To Kill a Mockingbird",
         value: "To Kill a Mockingbird",
-        pages: "",
+        author:"Harper Lee",
+        genre:"",
+        pages: 263,
         year: "",
       },
       {
@@ -823,7 +963,9 @@ const authorsData = [
         img: watchman,
         title: "Go Set a Watchman",
         value: "Go Set a Watchman",
-        pages: "",
+        author:"Harper Lee",
+        genre:"",
+        pages: 184,
         year: "",
       },
     ],
@@ -840,7 +982,9 @@ const authorsData = [
         img: brief,
         title: "A Brief History of Time",
         value: "A Brief History of Time",
-        pages: "",
+        author:"Stephen Hawking",
+        genre:"",
+        pages: 120,
         year: "",
       },
       {
@@ -848,7 +992,9 @@ const authorsData = [
         img: briefer,
         title: "A Briefer History of Time",
         value: "A Briefer History of Time",
-        pages: "",
+        author:"Stephen Hawking",
+        genre:"",
+        pages: 115,
         year: "",
       },
       {
@@ -856,7 +1002,9 @@ const authorsData = [
         img: theory,
         title: "The Theory of Everything",
         value: "The Theory of Everything",
-        pages: "",
+        author:"Stephen Hawking",
+        genre:"",
+        pages: 58,
         year: "",
       },
     ],
@@ -873,17 +1021,21 @@ const authorsData = [
         img: reasons,
         title: "13 Reasons Why",
         value: "13 Reasons Why",
-        pages: "",
+        author:"Jay Asher",
+        genre:"",
+        pages: 206,
         year: "",
       },
-      {
-        id: 2,
-        img: piper,
-        title: "Piper",
-        value: "Piper",
-        pages: "",
-        year: "",
-      },
+      // {
+      //   id: 2,
+      //   img: piper,
+      //   title: "Piper",
+      //   value: "Piper",
+      //   author:"Jay Asher",
+      //   genre:"",
+      //   pages: "",
+      //   year: "",
+      // },
     ],
     description:
       "Intriguing storyteller, delving into the complexities of human connections.",
@@ -898,7 +1050,9 @@ const authorsData = [
         img: kite,
         title: "The Kite Runner",
         value: "The Kite Runner",
-        pages: "",
+        author:"Kaled Hosseini",
+        genre:"",
+        pages: 252,
         year: "",
       },
       {
@@ -906,7 +1060,9 @@ const authorsData = [
         img: splendid,
         title: "A Thousand Splendid Suns",
         value: "A Thousand Splendid Suns",
-        pages: "",
+        author:"Kaled Hosseini",
+        genre:"",
+        pages: 302,
         year: "",
       },
       {
@@ -914,7 +1070,9 @@ const authorsData = [
         img: echoed,
         title: "And the Mountains Echoed",
         value: "And the Mountains Echoed",
-        pages: "",
+        author:"Kaled Hosseini",
+        genre:"",
+        pages: 279,
         year: "",
       },
       {
@@ -922,7 +1080,9 @@ const authorsData = [
         img: sea,
         title: "Sea Prayer",
         value: "Sea Prayer",
-        pages: "",
+        author:"Kaled Hosseini",
+        genre:"",
+        pages: 66,
         year: "",
       },
     ],
@@ -939,7 +1099,9 @@ const authorsData = [
         img: jonathan,
         title: "Jonathan Livingston Seagull",
         value: "Jonathan Livingston Seagull",
-        pages: "",
+        author:"Richard Bach",
+        genre:"",
+        pages: 29,
         year: 1970,
       },
     ],
@@ -956,6 +1118,8 @@ const authorsData = [
         img: sapiens,
         title: "Sapiens",
         value: "Sapiens A Brief History of Humankind",
+        author:"Yuval Noah Harari",
+        genre:"",
         pages: 331,
         year: "",
       },
@@ -964,6 +1128,8 @@ const authorsData = [
         img: deus,
         title: "Homo Deus",
         value: "Homo Deus A brief History of Tomorrow",
+        author:"Yuval Noah Harari",
+        genre:"",
         pages: 333,
         year: "",
       },
@@ -972,6 +1138,8 @@ const authorsData = [
         img: lessons,
         title: "21 Lessons for the 21st Century",
         value: "21 Lessons for the 21st Century",
+        author:"Yuval Noah Harari",
+        genre:"",
         pages: 269,
         year: "",
       },
@@ -989,7 +1157,9 @@ const authorsData = [
         img: rich,
         title: "Rich Dad Poor Dad",
         value: "Rich Dad Poor Dad",
-        pages: "",
+        author:"Robert T. Kiyosaki",
+        genre:"",
+        pages: 131,
         year: "",
       },
     ],
@@ -1006,6 +1176,8 @@ const authorsData = [
         img: itends,
         title: "It Ends with Us",
         value: "It Ends with Us",
+        author:"Colleen Hoover",
+        genre:"",
         pages: 283,
         year: "",
       },
@@ -1014,6 +1186,8 @@ const authorsData = [
         img: itstarts,
         title: "It Starts with Us",
         value: "It Starts with Us",
+        author:"Colleen Hoover",
+        genre:"",
         pages: 235,
         year: "",
       },
@@ -1022,6 +1196,8 @@ const authorsData = [
         img: reminder,
         title: "Reminders of Him",
         value: "Reminders of him",
+        author:"Colleen Hoover",
+        genre:"",
         pages: 274,
         year: "",
       },
@@ -1030,6 +1206,8 @@ const authorsData = [
         img: ugly,
         title: "Ugly Love",
         value: "Ugly Love",
+        author:"Colleen Hoover",
+        genre:"",
         pages: 327,
         year: "",
       },
@@ -1037,6 +1215,94 @@ const authorsData = [
     description:
       "Emotional architect, weaving poignant love stories that resonate deeply.",
   },
+   { 
+  id:28,
+  img:brandon,
+  name:"Brandon Sanderson",
+  books:[
+    {
+      id:9,
+      img: thefinal,
+      title: "The Final Empire",
+      value: "The Final Empire",
+      author: "Brandon Sanderson",
+      genre: "Fantasy Fiction",
+      pages: 601,    
+      year: "",
+    },
+  {
+      id:10,
+      img: wellofascension,
+      title: "The Well of Ascension",
+      value: "The Well of Ascension",
+      author: "Brandon Sanderson",
+      genre: "Fantasy Fiction",
+      pages: 682,
+      year: "",
+    },
+  {
+      id:11,
+      img: heroofages,
+      title: "The Hero of Ages",
+      value: "The Hero of Ages",
+      author: "Brandon Sanderson",
+      genre: "Fantasy Fiction",
+      pages: 630,
+      year: "",
+    },
+  {
+      id:12,
+      img: secrethistorymist,
+      title: "Secret History",
+      value: "Secret History",
+      author: "Brandon Sanderson",
+      genre: "Fantasy Fiction",
+      pages: 166,
+      year: "",
+    },
+  {
+      id:13,
+      img: alloylaw,
+      title: "The Alloy of Law",
+      value: "The Alloy of Law",
+      author: "Brandon Sanderson",
+      genre: "Fantasy Fiction",
+      pages: 282,
+      year: "",
+    },
+  {
+      id:14,
+      img: shadowsself,
+      title: "Shadows of Self",
+      value: "Shadows of Self",
+      author: "Brandon Sanderson",
+      genre: "Fantasy Fiction",
+      pages: 346,
+      year: "",
+    },
+  {
+      id:15,
+      img: bandsmourning,
+      title: "The Bands of Mourning",
+      value: "The Bands of Mourning",
+      author: "Brandon Sanderson",
+      genre: "Fantasy Fiction",
+      pages: 406,
+      year: "",
+    },
+  ],
+  description:"Epic fantasy architect, crafting vast worlds and intricate magic systems.",
+}
 ];
 
 export default authorsData;
+
+
+
+//  { 
+//   id:"",
+//   img:"",
+//   name:"",
+//   books:"",
+//   description:"",
+// }

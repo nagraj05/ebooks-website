@@ -1,11 +1,36 @@
-import dune from "../images/d1.jpg";
-import dunemessiah from "../images/d2.jpg";
-import childrenofdune from "../images/d3.jpg";
-import godemperorofdune from "../images/d4.jpg";
-import herecticsofdune from "../images/d5.jpg";
-import chapterhousedune from "../images/d6.jpg";
-import sapiens from "../images/sapiens.jpg";
-import deus from "../images/deus.jpg";
+import dune from "../../public/bookcovers/d1.jpg";
+import dunemessiah from "../../public/bookcovers/d2.jpg";
+import childrenofdune from "../../public/bookcovers/d3.jpg";
+import godemperorofdune from "../../public/bookcovers/d4.jpg";
+import herecticsofdune from "../../public/bookcovers/d5.jpg";
+import chapterhousedune from "../../public/bookcovers/d6.jpg";
+import sapiens from "../../public/bookcovers/sapiens.jpg";
+import deus from "../../public/bookcovers/deus.jpg";
+import thefinal from "../../public/bookcovers/thefinalempire.jpg"
+import wellofascension from "../../public/bookcovers/wellofascension.jpg"
+import heroofages from "../../public/bookcovers/heroofages.jpg"
+import secrethistorymist from "../../public/bookcovers/secrethistorymistbirn.jpg"
+import alloylaw from "../../public/bookcovers/alloy of law.jpg"
+import shadowsself from "../../public/bookcovers/shadowsofself.jpg"
+import bandsmourning from "../../public/bookcovers/thebandsofmourning.jpg"
+import none from "../../public/bookcovers/none.jpg";
+import murder from "../../s../../public/bookcovers/orient.jpg";
+import myst from "../../s../../public/bookcovers/mysterious.jpg";
+import metamorph from "../../public/bookcovers/metamorphosis.jpg";
+import trail from "../../public/bookcovers/the trail pengiun.jpg";
+import letterstohisfather from "../../public/bookcovers/letters to his father.jpg";
+import castle from "../../public/bookcovers/the castle.jpg";
+import macbeth from "../../public/bookcovers/macbeth.jpg";
+import romeo from "../../public/bookcovers/romeo.jpg";
+import midsummer from "../../public/bookcovers/midsummer.jpg";
+import muchado from "../../public/bookcovers/much ado.jpg";
+import othello from "../../public/bookcovers/othello.jpg";
+import kinglear from "../../public/bookcovers/king lear.jpg";
+import tempest from "../../public/bookcovers/tempest.jpg";
+import julius from "../../public/bookcovers/julius.jpg";
+import hamlet from "../../public/bookcovers/hamlet.jpg";
+
+
 
 export default [
   {
@@ -90,72 +115,232 @@ export default [
   },
   {
     id:9,
-    img: "",
+    img: thefinal,
     title: "The Final Empire",
     value: "The Final Empire",
     author: "Brandon Sanderson",
-    genre: "",
-    pages: "",
+    genre: "Fantasy Fiction",
+    pages: 601,    
     year: "",
   },
 {
     id:10,
-    img: "",
+    img: wellofascension,
     title: "The Well of Ascension",
     value: "The Well of Ascension",
     author: "Brandon Sanderson",
-    genre: "",
-    pages: "",
+    genre: "Fantasy Fiction",
+    pages: 682,
     year: "",
   },
 {
     id:11,
-    img: "",
+    img: heroofages,
     title: "The Hero of Ages",
     value: "The Hero of Ages",
     author: "Brandon Sanderson",
-    genre: "",
-    pages: "",
+    genre: "Fantasy Fiction",
+    pages: 630,
     year: "",
   },
 {
     id:12,
-    img: "",
+    img: secrethistorymist,
     title: "Secret History",
     value: "Secret History",
     author: "Brandon Sanderson",
-    genre: "",
-    pages: "",
+    genre: "Fantasy Fiction",
+    pages: 166,
     year: "",
   },
 {
     id:13,
-    img: "",
+    img: alloylaw,
     title: "The Alloy of Law",
     value: "The Alloy of Law",
     author: "Brandon Sanderson",
-    genre: "",
-    pages: "",
+    genre: "Fantasy Fiction",
+    pages: 282,
     year: "",
   },
 {
     id:14,
-    img: "",
+    img: shadowsself,
     title: "Shadows of Self",
     value: "Shadows of Self",
     author: "Brandon Sanderson",
-    genre: "",
-    pages: "",
+    genre: "Fantasy Fiction",
+    pages: 346,
     year: "",
   },
 {
     id:15,
-    img: "",
+    img: bandsmourning,
     title: "The Bands of Mourning",
     value: "The Bands of Mourning",
     author: "Brandon Sanderson",
-    genre: "",
-    pages: "",
+    genre: "Fantasy Fiction",
+    pages: 406,
+    year: "",
+  },
+  {
+    id: 16,
+    img: none,
+    title: "And Then There Were None",
+    value: "And then there were none",
+    author:"Agatha Christie",
+    genre:"Crime Thriller",
+    pages: 204,
+    year: "",
+  },
+  {
+    id: 17,
+    img: murder,
+    title: "Murder on the Orient Express",
+    value: "Murder on the Orient Express",
+    author:"Agatha Christie",
+    genre:"Crime Thriller",
+    pages: 211,
+    year: "",
+  },
+  {
+    id: 18,
+    img: myst,
+    title: "The Mysterious Affair at Styles",
+    value: "The Mysterious Affair at Styles",
+    author:"Agatha Christie",
+    genre:"Crime Thriller",
+    pages: 178,
+    year: "",
+  },
+  {
+    id: 19,
+    img: metamorph,
+    title: "The Metamorphosis",
+    value: "The Metamorphosis",
+    author:"Franz Kafka",
+    genre:"Classics",
+    pages: 34,
+    year: 1915,
+  },
+  {
+    id: 20,
+    img: trail,
+    title: "The Trail",
+    value: "The Trail",
+    author:"Franz Kafka",
+    genre:"Classics",
+    pages: 143,
+    year: "",
+  },
+  {
+    id: 21,
+    img: letterstohisfather,
+    title: "Letter to His Father",
+    value: "Letter to His Father",
+    author:"Franz Kafka",
+    genre:"Classics",
+    pages: 63,
+    year: "",
+  },
+  {
+    id: 22,
+    img: castle,
+    title: "The Castle",
+    value: "The Castle",
+    author:"Franz Kafka",
+    genre:"Classics",
+    pages: 204,
+    year: "",
+  },
+  {
+    id: 23,
+    img: hamlet,
+    title: "Hamlet",
+    value: "Hamlet",
+    author:"William Shakespeare",
+    genre:"Play",
+    pages: 168,
+    year: "",
+  },
+  {
+    id: 24,
+    img: macbeth,
+    title: "Macbeth",
+    value: "Macbeth",
+    author:"William Shakespeare",
+    genre:"Play",
+    pages: 73,
+    year: "",
+  },
+  {
+    id: 25,
+    img: romeo,
+    title: "Romeo & Juliet",
+    value: "Romeo & Juliet",
+    author:"William Shakespeare",
+    genre:"Play",
+    pages: 39,
+    year: "",
+  },
+  {
+    id: 26,
+    img: midsummer,
+    title: "A Midsummer Night's Dream",
+    value: "A Midsummer Night's Dream",
+    author:"William Shakespeare",
+    genre:"Play",
+    pages: 96,
+    year: "",
+  },
+  {
+    id: 27,
+    img: othello,
+    title: "Othello",
+    value: "Othello",
+    author:"William Shakespeare",
+    genre:"Play",
+    pages: 148,
+    year: "",
+  },
+  {
+    id: 28,
+    img: muchado,
+    title: "Much Ado About Nothing",
+    value: "Much Ado About Nothing",
+    author:"William Shakespeare",
+    genre:"Play",
+    pages: 96,
+    year: "",
+  },
+  {
+    id: 29,
+    img: kinglear,
+    title: "King Lear",
+    value: "King Lear",
+    author:"William Shakespeare",
+    genre:"Play",
+    pages: 146,
+    year: "",
+  },
+  {
+    id: 30,
+    img: tempest,
+    title: "The Tempest",
+    value: "The Tempest",
+    author:"William Shakespeare",
+    genre:"Play",
+    pages: 171,
+    year: "",
+  },
+  {
+    id: 31,
+    img: julius,
+    title: "Julius Caesar",
+    value: "Julius Caesar",
+    author:"William Shakespeare",
+    genre:"Play",
+    pages: 110,
     year: "",
   },
 ];

@@ -13,7 +13,7 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [openSnackbar, setOpenSnackbar] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState("");
-  const [snackbarSeverity, setSnackbarSeverity] = useState("success"); // Can be 'success', 'info', 'warning', or 'error'
+  const [snackbarSeverity, setSnackbarSeverity] = useState("success");
 
   const handleSnackbarClose = (event, reason) => {
     if (reason === "clickaway") {
@@ -57,7 +57,7 @@ export default function Contact() {
       <Navigation />
       <div className="contact--home">
         <div className="contact--container">
-          <h3 className="contact--title">Contact</h3>
+          <h3 className="contact--title">E-pegion at your service!</h3>
           <form
             onSubmit={handleSubmit}
             ref={form}

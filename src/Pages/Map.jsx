@@ -19,7 +19,7 @@ export default function Map() {
             <h2 className="section-heading">
               <a href="/">Home</a>
             </h2>
-            <p>
+            <p className="map--para">
               The books you see on home page are randomly generated. Every time
               you refresh the page, you get a random suggestion.
             </p>
@@ -29,7 +29,7 @@ export default function Map() {
             <h2 className="section-heading">
               <a href="/books">Books</a>
             </h2>
-            <p>
+            <p className="map--para">
               Obviously, it has books. Feel free to download (No Pressure). Genre &
               Pages are mentioned.
             </p>
@@ -39,14 +39,14 @@ export default function Map() {
             <h2 className="section-heading">
               <a href="/authors">Authors</a>
             </h2>
-            <p>Umm... Authors info and their works i guess. Click to explore more (on the authors). </p>
+            <p className="map--para">Umm... Authors info and their works i guess. Click to explore more (on the authors). </p>
           </div>
           <div className="section">
             <img src={abouticon} alt="About" className="section--icon" />
             <h2 className="section-heading">
               <a href="/aboutme">About</a>
             </h2>
-            <p>
+            <p className="map--para">
               It has info about me. Duh...
             </p>
           </div>
@@ -55,7 +55,7 @@ export default function Map() {
             <h2 className="section-heading">
               <a href="/contact">Contact</a>
             </h2>
-            <p>
+            <p className="map--para">
               It has a contact form and copyright information. If you want any books, use contact form. Thanks!
             </p>
           </div>
