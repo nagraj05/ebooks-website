@@ -65,7 +65,7 @@ export default function Contact() {
             autoComplete="off"
           >
             <div className="form-group">
-              {/* <label htmlFor="name">Name:</label> */}
+              <label htmlFor="name">Name:</label>
               <input
                 type="text"
                 name="user_name"
@@ -73,12 +73,12 @@ export default function Contact() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
-                placeholder="Name"
+                // placeholder="Name"
               />
             </div>
 
             <div className="form-group">
-              {/* <label htmlFor="email">Email:</label> */}
+              <label htmlFor="email">Email:</label>
               <input
                 type="email"
                 name="user_email"
@@ -86,19 +86,19 @@ export default function Contact() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                placeholder="Email"
+                // placeholder="Email"
               />
             </div>
 
             <div className="form-group">
-              {/* <label htmlFor="message">Message:</label> */}
+              <label htmlFor="message">Message:</label>
               <textarea
                 id="message"
                 name="message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
-                placeholder="Message"
+                // placeholder="Message"
               ></textarea>
             </div>
 

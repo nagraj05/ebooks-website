@@ -380,7 +380,7 @@ nav ul li a:hover {
   height: 100vh;
   max-width: 100%;
   width: 480px;
-  height: 400px;
+  height: 430px;
   /* margin: 50px 420px; */
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -395,10 +395,10 @@ nav ul li a:hover {
 input{
   border: none;
   outline: none;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 1em;
   background-color: #ccc;
-  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  /* box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3); */
   transition: 300ms ease-in-out;
 }
 input:focus {
@@ -410,10 +410,10 @@ input:focus {
 textarea{
   border: none;
   outline: none;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 1em;
   background-color: #ccc;
-  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  /* box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3); */
   transition: 300ms ease-in-out;
 }
 textarea:focus {
