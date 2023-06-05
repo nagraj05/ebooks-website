@@ -29,6 +29,8 @@ import kinglear from "../../public/bookcovers/king lear.jpg";
 import tempest from "../../public/bookcovers/tempest.jpg";
 import julius from "../../public/bookcovers/julius.jpg";
 import hamlet from "../../public/bookcovers/hamlet.jpg";
+import whatif from "../../public/bookcovers/whatif.jpg"
+import whatif2 from "../../public/bookcovers/what if 2.jpg"
 
 
 
@@ -341,6 +343,26 @@ export default [
     author:"William Shakespeare",
     genre:"Play",
     pages: 110,
+    year: "",
+  },
+  {
+    id: 32,
+    img: whatif,
+    title: "What if",
+    value: "What if",
+    author:"Randall Munroe",
+    genre:"Science Humor",
+    pages: 541,
+    year: "",
+  },
+  {
+    id: 33,
+    img: whatif2,
+    title: "What if 2",
+    value: "What if 2",
+    author:"Randall Munroe",
+    genre:"Science Humor",
+    pages: 1239,
     year: "",
   },
 ];

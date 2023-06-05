@@ -118,8 +118,23 @@ import alloylaw from "../../public/bookcovers/alloy of law.jpg"
 import shadowsself from "../../public/bookcovers/shadowsofself.jpg"
 import bandsmourning from "../../public/bookcovers/thebandsofmourning.jpg"
 import brandon from "../../public/authorimages/brndon.jpg"
+import frank from "../../public/authorimages/frank.webp"
+import dune from "../../public/bookcovers/d1.jpg";
+import dunemessiah from "../../public/bookcovers/d2.jpg";
+import childrenofdune from "../../public/bookcovers/d3.jpg";
+import godemperorofdune from "../../public/bookcovers/d4.jpg";
+import herecticsofdune from "../../public/bookcovers/d5.jpg";
+import chapterhousedune from "../../public/bookcovers/d6.jpg";
+import whatif2 from "../../public/bookcovers/what if 2.jpg"
+
+
 
 const authorsData = [
+/*-------------------------- */
+/*                           */
+/*       Agatha Christie     */
+/*                           */
+/*-------------------------- */
   {
     id: 1,
     img: a,
@@ -159,6 +174,11 @@ const authorsData = [
     description:
       "Master of mystery, weaving intricate puzzles with timeless allure.",
   },
+/*-------------------------- */
+/*                           */
+/*       Franz Kafka         */
+/*                           */
+/*-------------------------- */
   {
     id: 26,
     img: kafka,
@@ -208,6 +228,11 @@ const authorsData = [
     description:
       "Surreal literary genius, exploring the complexities of human existence.",
   },
+/*-------------------------- */
+/*                           */
+/*       Shakespeare         */
+/*                           */
+/*-------------------------- */
   {
     id: 27,
     img: shakespeare,
@@ -307,6 +332,11 @@ const authorsData = [
     description:
       "Timeless playwright, crafting poetic masterpieces that transcend generations and cultures.",
   },
+/*-------------------------- */
+/*                           */
+/*       Emily Bronte        */
+/*                           */
+/*-------------------------- */
   {
     id: 25,
     img: bronte,
@@ -326,6 +356,11 @@ const authorsData = [
     description:
       "Passionate novelist, weaving dark and haunting tales of love.",
   },
+/*-------------------------- */
+/*                           */
+/*       Hemingway           */
+/*                           */
+/*-------------------------- */
   {
     id: 4,
     img: ernest,
@@ -395,6 +430,11 @@ const authorsData = [
     description:
       "Bold prose, capturing the essence of life with profound simplicity.",
   },
+/*-------------------------- */
+/*                           */
+/*       Oscar Wilde         */
+/*                           */
+/*-------------------------- */
   {
     id: 7,
     img: wilde,
@@ -434,6 +474,11 @@ const authorsData = [
     description:
       "Witty wordsmith, defying conventions with his sparkling literary brilliance.",
   },
+/*-------------------------- */
+/*                           */
+/*       Salinger            */
+/*                           */
+/*-------------------------- */
   {
     id: 11,
     img: salinger,
@@ -463,6 +508,11 @@ const authorsData = [
     description:
       "Reclusive wordsmith, delving into the anguish of adolescent isolation.",
   },
+/*-------------------------- */
+/*                           */
+/*       Orwell              */
+/*                           */
+/*-------------------------- */
   {
     id: 8,
     img: orwell,
@@ -492,6 +542,11 @@ const authorsData = [
     description:
       "Provocative visionary, exposing the perils of totalitarianism with foresight.",
   },
+/*-------------------------- */
+/*                           */
+/*       Austen              */
+/*                           */
+/*-------------------------- */
   {
     id: 10,
     img: jane,
@@ -541,6 +596,11 @@ const authorsData = [
     description:
       "Regency wordsmith, crafting timeless tales of love and social satire.",
   },
+/*-------------------------- */
+/*                           */
+/*       Doyle               */
+/*                           */
+/*-------------------------- */
   {
     id: 9,
     img: doyle,
@@ -560,6 +620,11 @@ const authorsData = [
     description:
       "Brilliant detective creator, unraveling mysteries with unmatched literary finesse.",
   },
+/*-------------------------- */
+/*                           */
+/*       Murakami            */
+/*                           */
+/*-------------------------- */
   {
     id: 2,
     img: haruki,
@@ -609,6 +674,11 @@ const authorsData = [
     description:
       "Enigmatic storyteller capturing the surreal with poetic precision and depth.",
   },
+/*-------------------------- */
+/*                           */
+/*       King                */
+/*                           */
+/*-------------------------- */
   {
     id: 5,
     img: stephenking,
@@ -658,6 +728,11 @@ const authorsData = [
     description:
       "Horror maestro, conjuring nightmares with his chilling literary prowess.",
   },
+/*-------------------------- */
+/*                           */
+/*       Rowling             */
+/*                           */
+/*-------------------------- */
   {
     id: 3,
     img: jk,
@@ -747,6 +822,11 @@ const authorsData = [
     description:
       "Imaginative wizardess crafting enchanting tales of magic and friendship.",
   },
+/*-------------------------- */
+/*                           */
+/*       Golding             */
+/*                           */
+/*-------------------------- */
   {
     id: 6,
     img: golding,
@@ -766,7 +846,11 @@ const authorsData = [
     description:
       "Insightful observer, unveiling the darkness within human nature's depths.",
   },
-
+/*-------------------------- */
+/*                           */
+/*       Green               */
+/*                           */
+/*-------------------------- */
   {
     id: 12,
     img: green,
@@ -816,6 +900,11 @@ const authorsData = [
     description:
       "Emotional storyteller, exploring love, loss, and the human condition.",
   },
+/*-------------------------- */
+/*                           */
+/*       Robin               */
+/*                           */
+/*-------------------------- */
   {
     id: 13,
     img: robin,
@@ -835,6 +924,11 @@ const authorsData = [
     description:
       "Motivational guru, inspiring personal transformation and leadership excellence.",
   },
+/*-------------------------- */
+/*                           */
+/*       Randall             */
+/*                           */
+/*-------------------------- */
   {
     id: 14,
     img: randall,
@@ -846,15 +940,29 @@ const authorsData = [
         title: "What if",
         value: "What if",
         author:"Randall Munroe",
-        genre:"",
+        genre:"Science Humor",
         pages: 541,
+        year: "",
+      },
+      {
+        id: 2,
+        img: whatif2,
+        title: "What if 2",
+        value: "What if 2",
+        author:"Randall Munroe",
+        genre:"Science Humor",
+        pages: 1239,
         year: "",
       },
     ],
     description:
       "Curious comic artist, blending science and humor with creativity.",
   },
-
+/*-------------------------- */
+/*                           */
+/*       ELJames             */
+/*                           */
+/*-------------------------- */
   {
     id: 16,
     img: eljames,
@@ -894,6 +1002,11 @@ const authorsData = [
     description:
       "Provocative author, igniting passions with steamy tales of desire.",
   },
+/*-------------------------- */
+/*                           */
+/*       Coehlo              */
+/*                           */
+/*-------------------------- */
   {
     id: 17,
     img: paulo,
@@ -943,6 +1056,11 @@ const authorsData = [
     description:
       "Spiritual wordsmith, guiding souls on transformative journeys of self-discovery.",
   },
+/*-------------------------- */
+/*                           */
+/*       Harper lee          */
+/*                           */
+/*-------------------------- */
   {
     id: 18,
     img: harper,
@@ -972,6 +1090,11 @@ const authorsData = [
     description:
       "Compelling storyteller, confronting prejudice with compassion and enduring wisdom.",
   },
+/*-------------------------- */
+/*                           */
+/*       Hawking             */
+/*                           */
+/*-------------------------- */
   {
     id: 19,
     img: hawking,
@@ -1011,6 +1134,11 @@ const authorsData = [
     description:
       "Brilliant physicist, unraveling the mysteries of the cosmos with intellect.",
   },
+/*-------------------------- */
+/*                           */
+/*     Jay Asher             */
+/*                           */
+/*-------------------------- */
   {
     id: 20,
     img: jay,
@@ -1040,6 +1168,11 @@ const authorsData = [
     description:
       "Intriguing storyteller, delving into the complexities of human connections.",
   },
+/*-------------------------- */
+/*                           */
+/*       Hosseini            */
+/*                           */
+/*-------------------------- */
   {
     id: 21,
     img: khaled,
@@ -1089,6 +1222,11 @@ const authorsData = [
     description:
       "Emotional weaver, painting poignant tales of love, loss, and redemption.",
   },
+/*-------------------------- */
+/*                           */
+/*       Bach                */
+/*                           */
+/*-------------------------- */
   {
     id: 22,
     img: bach,
@@ -1108,6 +1246,11 @@ const authorsData = [
     description:
       "Dreamer and philosopher, soaring through the realms of imagination and enlightenment.",
   },
+/*-------------------------- */
+/*                           */
+/*     Harari                */
+/*                           */
+/*-------------------------- */
   {
     id: 23,
     img: yuval,
@@ -1147,6 +1290,11 @@ const authorsData = [
     description:
       "Visionary historian, illuminating the past and future of humankind.",
   },
+/*-------------------------- */
+/*                           */
+/*       Kiyosaki            */
+/*                           */
+/*-------------------------- */
   {
     id: 24,
     img: kiyo,
@@ -1166,6 +1314,11 @@ const authorsData = [
     description:
       "Financial mentor, empowering individuals to achieve wealth and prosperity.",
   },
+/*-------------------------- */
+/*                           */
+/*       Hoover              */
+/*                           */
+/*-------------------------- */
   {
     id: 15,
     img: hoover,
@@ -1215,6 +1368,11 @@ const authorsData = [
     description:
       "Emotional architect, weaving poignant love stories that resonate deeply.",
   },
+/*-------------------------- */
+/*                           */
+/*       Sanderson           */
+/*                           */
+/*-------------------------- */
    { 
   id:28,
   img:brandon,
@@ -1292,7 +1450,80 @@ const authorsData = [
     },
   ],
   description:"Epic fantasy architect, crafting vast worlds and intricate magic systems.",
-}
+},
+/*-------------------------- */
+/*                           */
+/*       Herbert             */
+/*                           */
+/*-------------------------- */
+ { 
+  id:29,
+  img:frank,
+  name:"Frank Herbert",
+  books:[
+    {
+      id: 1,
+      img: dune,
+      title: "Dune",
+      value: "Dune",
+      author: "Frank Herbert",
+      genre: "Sci-fi",
+      pages: 629,
+      year: 1965,
+    },
+    {
+      id: 2,
+      img: dunemessiah,
+      title: "Dune Messiah",
+      value: "Dune Messiah",
+      author: "Frank Herbert",
+      genre: "Sci-fi",
+      pages: 223,
+      year: "",
+    },
+    {
+      id: 3,
+      img: childrenofdune,
+      title: "Children of Dune",
+      value: "Children of Dune",
+      author: "Frank Herbert",
+      genre: "Sci-fi",
+      pages: "400",
+      year: "",
+    },
+    {
+      id: 4,
+      img: godemperorofdune,
+      title: "God Emperor of Dune",
+      value: "God Emperor of Dune",
+      author: "Frank Herbert",
+      genre: "Sci-fi",
+      pages: 577,
+      year: "",
+    },
+    {
+      id: 5,
+      img: herecticsofdune,
+      title: "Heretics of Dune",
+      value: "Heretics of Dune",
+      author: "Frank Herbert",
+      genre: "Sci-fi",
+      pages: 480,
+      year: "",
+    },
+    {
+      id: 6,
+      img: chapterhousedune,
+      title: "Chapterhouse Dune",
+      value: "Chapterhouse Dune",
+      author: "Frank Herbert",
+      genre: "Sci-fi",
+      pages: 574,
+      year: "",
+    },
+  ],
+  description:"Mastermind of science fiction, crafting epic and intricate sagas.",
+ },
 ];
 
 export default authorsData;
@@ -1306,3 +1537,13 @@ export default authorsData;
 //   books:"",
 //   description:"",
 // }
+
+
+
+
+
+/*-------------------------- */
+/*                           */
+/* */
+/*                           */
+/*-------------------------- */

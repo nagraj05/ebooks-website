@@ -26,8 +26,7 @@ html,
   color: white;
   align-items: center;
   padding-top: 40px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20px;
   margin: 150px 90px;
 }
 .nav--para {
@@ -39,8 +38,8 @@ html,
   color: gray;
   align-items: center;
   padding-top: 40px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20px;
+
   margin: -170px 90px;
 }
 
@@ -94,6 +93,7 @@ nav ul li a:hover {
   margin-top: 10px;
 }
 .card {
+  background-color: white;
   margin-left: 60px;
   width: 250px;
   border: 1px solid lightgray;
@@ -502,4 +502,10 @@ textarea {
   font-size: 16px;
 }
 
-
+.lottie--container{
+  width: 400px;
+  height: 100px;
+  float: right;
+  margin-right: 120px;
+  margin-top: -200px;
+}
