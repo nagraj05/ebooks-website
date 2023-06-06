@@ -26,7 +26,7 @@ html,
   color: white;
   align-items: center;
   padding-top: 40px;
-  padding-left: 20px;
+  padding-left: 46px;
   margin: 150px 90px;
 }
 .nav--para {
@@ -38,7 +38,7 @@ html,
   color: gray;
   align-items: center;
   padding-top: 40px;
-  padding-left: 20px;
+  padding-left: 46px;
 
   margin: -170px 90px;
 }
@@ -508,4 +508,82 @@ textarea {
   float: right;
   margin-right: 120px;
   margin-top: -200px;
+}
+
+
+
+
+/* Media Queries */
+@media  screen and (max-width: 320px) {
+  .title{
+    font-size: 12px;
+  }
+  nav ul li{
+    font-size: 12px;
+    padding-left: 100px;
+  }
+  .nav--text{
+    max-width: 150px;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-left: 5px;
+    margin-left: 2px;
+    margin-top: 2px;
+    /* background-color: #962fbf; */
+  } 
+  .nav--para{
+    max-width: 150px;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-left: 5px;
+    margin-left: 2px;
+    margin-top: -140px;
+    text-align: justify;
+  }
+  .lottie--container{
+    height: 100px;
+    width: 100px;
+    margin-top: 60px;
+    margin-right: 20px;
+  }
+  .booksbox{
+    gap: 15px;
+  }
+  .card{
+    height: 320px;
+    width: 140px;
+    
+    /* background-color: red; */
+    margin-left: -8px;
+  }
+  .card--image{
+    width: 100px;
+    height: 150px;
+    margin: 10px 20px;
+  }
+  .card--title{
+    font-size: 10px;
+  }
+  .card--author{
+    font-size: 0.75rem;
+  }
+  .card--genre{
+    font-size: 10px;
+  }
+  .card--btn{
+    font-size: 10px;
+    margin: 0 30px;
+  }
+  .pages--count{
+    font-size: 10px;
+    margin: 1px 43px;
+    /* margin-top: 10px; */
+  }
+  .footer{
+    font-size: 12px;
+  }
+  .social-link{
+    width: 22px;
+    height: 22px;
+  }
 }

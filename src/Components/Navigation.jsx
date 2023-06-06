@@ -4,7 +4,7 @@ export default function Navigation() {
   return (
     <nav className="navigation">
       <h2 className="title">
-        Free <span>E-Books</span>
+        BETTER <span>READS</span>
       </h2>
       <ul>
         <li>

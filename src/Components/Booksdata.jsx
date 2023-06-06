@@ -31,6 +31,16 @@ import julius from "../../public/bookcovers/julius.jpg";
 import hamlet from "../../public/bookcovers/hamlet.jpg";
 import whatif from "../../public/bookcovers/whatif.jpg"
 import whatif2 from "../../public/bookcovers/what if 2.jpg"
+import darkmatter from "../../public/bookcovers/dark matter.jpg"
+import recursion from "../../public/bookcovers/recursion yellow.jpg"
+import upgrade from "../../public/bookcovers/upgrade.jpg"
+import wp1 from "../../public/bookcovers/wp1.jpg"
+import wp2 from "../../public/bookcovers/wp2.jpg"
+import wp3 from "../../public/bookcovers/wp3.jpg"
+import mars from "../../public/bookcovers/mars.jpg"
+import hailmary from "../../public/bookcovers/hail mary.jpg"
+import artemis from "../../public/bookcovers/artemis.jpg"
+
 
 
 
@@ -363,6 +373,96 @@ export default [
     author:"Randall Munroe",
     genre:"Science Humor",
     pages: 1239,
+    year: "",
+  },
+  {
+    id: 34,
+    img: darkmatter,
+    title: "Dark Matter",
+    value: "Dark Matter",
+    author: "Blake Crouch",
+    genre: "Sci-fi",
+    pages: 391,
+    year: "",
+  },
+  {
+    id: 35,
+    img: recursion,
+    title: "Recursion",
+    value: "Recursion",
+    author: "Blake Crouch",
+    genre: "Sci-fi",
+    pages: 460,
+    year: "",
+  },
+  {
+    id: 36,
+    img: upgrade,
+    title: "Upgrade",
+    value: "Upgrade",
+    author: "Blake Crouch",
+    genre: "Sci-fi",
+    pages: 328,
+    year: "",
+  },
+  {
+    id: 37,
+    img: wp1,
+    title: "Wayward Pines 1",
+    value: "Wayward Pines 1",
+    author: "Blake Crouch",
+    genre: "Sci-fi",
+    pages: 295,
+    year: "",
+  },
+  {
+    id: 38,
+    img: wp2,
+    title: "Wayward Pines 2",
+    value: "Wayward Pines 2",
+    author: "Blake Crouch",
+    genre: "Sci-fi",
+    pages: 360,
+    year: "",
+  },
+  {
+    id: 39,
+    img: wp3,
+    title: "Wayward Pines 3",
+    value: "Wayward Pines 3",
+    author: "Blake Crouch",
+    genre: "Sci-fi",
+    pages: 310,
+    year: "",
+  },
+  {
+    id: 40,
+    img: mars,
+    title: "The Martian",
+    value: "The Martian",
+    author: "Andy Weir",
+    genre: "Sci-fi",
+    pages: 390,
+    year: "",
+  },
+  {
+    id: 41,
+    img: hailmary,
+    title: "Project Hail Mary",
+    value: "Project Hail Mary",
+    author: "Andy Weir",
+    genre: "Sci-fi",
+    pages: 440,
+    year: "",
+  },
+  {
+    id: 42,
+    img: artemis,
+    title: "Artemis",
+    value: "Artemis",
+    author: "Andy Weir",
+    genre: "Sci-fi",
+    pages: 275,
     year: "",
   },
 ];

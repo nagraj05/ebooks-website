@@ -27,6 +27,9 @@ import bronte from "../../public/authorimages/emily.jpg";
 import shakespeare from "../../public/authorimages/Shakespeare.jpg";
 import brandon from "../../public/authorimages/brndon.jpg"
 import frank from "../../public/authorimages/frank.webp"
+import blake from "../../public/authorimages/BlakeCrouch.jpg"
+import andy from "../../public/authorimages/andy.webp"
+
 
 const AuthorInfo = [
   {
@@ -350,7 +353,7 @@ const AuthorInfo = [
     influences:"",
     about:`A prolific American author, has established himself as a master of epic fantasy and world-building. Known for his intricate magic systems and intricate plot twists, his works, such as the "Mistborn" trilogy and "The Stormlight Archive," have garnered a dedicated following. Sanderson's boundless imagination and meticulous attention to detail make his novels an immersive journey into richly crafted realms.`,
   },
-      {
+  {
     id:29,
     img:frank,
     name:"Frank Herbert",
@@ -360,6 +363,28 @@ const AuthorInfo = [
     genre:"Science Fiction & Fantasy",
     influences:"",
     about:`A visionary science fiction author, created the iconic "Dune" series, a complex and immersive universe set in a distant future. His epic narrative explored themes of power, ecology, and the human psyche, leaving an indelible mark on the genre. Herbert's masterful storytelling and intricate world-building continue to inspire and fascinate readers to this day.`,
+    },
+    {
+      id:30,
+      img:blake,
+      name:"Blake Crouch",
+      born:"Statesville, NC, The United States. October 15, 1978",
+      died:"",
+      website: "http://www.blakecrouch.com/",
+      genre: "Suspense, Thriller, Science Fiction",
+      influences:"",
+      about:`A gifted American author, is known for his gripping and mind-bending thrillers that push the boundaries of reality. His imaginative storytelling and masterful blend of science fiction and suspense have earned him a dedicated following. With novels like "Dark Matter" and "Recursion," Crouch keeps readers on the edge of their seats, questioning the nature of time and the human experience.`,
+    },
+    {
+      id:31,
+      img:andy,
+      name:"Andy Weir",
+      born:"in Davis, CA, The United States. June 16, 1972",
+      died:"",
+      website:"http://www.galactanet.com",
+      genre:"Science Fiction",
+      influences:"",
+      about:`A highly acclaimed science fiction author, gained international recognition with his breakthrough novel "The Martian." Known for his meticulous research and scientific accuracy, Weir takes readers on thrilling journeys through space, blending compelling storytelling with plausible science. With his unique ability to combine technical details and gripping narratives, Weir has solidified his place as a prominent voice in the world of science fiction.`,
     },
 ];
 export default AuthorInfo;

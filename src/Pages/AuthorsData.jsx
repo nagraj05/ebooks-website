@@ -126,7 +126,17 @@ import godemperorofdune from "../../public/bookcovers/d4.jpg";
 import herecticsofdune from "../../public/bookcovers/d5.jpg";
 import chapterhousedune from "../../public/bookcovers/d6.jpg";
 import whatif2 from "../../public/bookcovers/what if 2.jpg"
-
+import blake from "../../public/authorimages/BlakeCrouch.jpg"
+import darkmatter from "../../public/bookcovers/dark matter.jpg"
+import recursion from "../../public/bookcovers/recursion yellow.jpg"
+import upgrade from "../../public/bookcovers/upgrade.jpg"
+import wp1 from "../../public/bookcovers/wp1.jpg"
+import wp2 from "../../public/bookcovers/wp2.jpg"
+import wp3 from "../../public/bookcovers/wp3.jpg"
+import andy from "../../public/authorimages/andy.webp"
+import mars from "../../public/bookcovers/mars.jpg"
+import hailmary from "../../public/bookcovers/hail mary.jpg"
+import artemis from "../../public/bookcovers/artemis.jpg"
 
 
 const authorsData = [
@@ -1524,6 +1534,122 @@ const authorsData = [
   ],
   description:"Mastermind of science fiction, crafting epic and intricate sagas.",
  },
+/*-------------------------- */
+/*                           */
+/*       Blake Crouch        */
+/*                           */
+/*-------------------------- */
+ { 
+  id:30,
+  img:blake,
+  name:"Blake Crouch",
+  books:[
+    {
+      id: 1,
+      img: darkmatter,
+      title: "Dark Matter",
+      value: "Dark Matter",
+      author: "Blake Crouch",
+      genre: "Sci-fi",
+      pages: 391,
+      year: "",
+    },
+    {
+      id: 2,
+      img: recursion,
+      title: "Recursion",
+      value: "Recursion",
+      author: "Blake Crouch",
+      genre: "Sci-fi",
+      pages: 460,
+      year: "",
+    },
+    {
+      id: 3,
+      img: upgrade,
+      title: "Upgrade",
+      value: "Upgrade",
+      author: "Blake Crouch",
+      genre: "Sci-fi",
+      pages: 328,
+      year: "",
+    },
+    {
+      id: 4,
+      img: wp1,
+      title: "Wayward Pines 1",
+      value: "Wayward Pines 1",
+      author: "Blake Crouch",
+      genre: "Sci-fi",
+      pages: 295,
+      year: "",
+    },
+    {
+      id: 5,
+      img: wp2,
+      title: "Wayward Pines 2",
+      value: "Wayward Pines 2",
+      author: "Blake Crouch",
+      genre: "Sci-fi",
+      pages: 360,
+      year: "",
+    },
+    {
+      id: 6,
+      img: wp3,
+      title: "Wayward Pines 3",
+      value: "Wayward Pines 3",
+      author: "Blake Crouch",
+      genre: "Sci-fi",
+      pages: 310,
+      year: "",
+    },
+  ],
+  description:"Mind-bending author, blurring the lines between reality and imagination.",
+ },
+/*-------------------------- */
+/*                           */
+/*        Andy Weir          */
+/*                           */
+/*-------------------------- */
+  { 
+    id:31,
+    img:andy,
+    name:"Andy Weir",
+    books:[
+      {
+        id: 1,
+        img: mars,
+        title: "The Martian",
+        value: "The Martian",
+        author: "Andy Weir",
+        genre: "Sci-fi",
+        pages: 390,
+        year: "",
+      },
+      {
+        id: 2,
+        img: hailmary,
+        title: "Project Hail Mary",
+        value: "Project Hail Mary",
+        author: "Andy Weir",
+        genre: "Sci-fi",
+        pages: 440,
+        year: "",
+      },
+      {
+        id: 3,
+        img: artemis,
+        title: "Artemis",
+        value: "Artemis",
+        author: "Andy Weir",
+        genre: "Sci-fi",
+        pages: 275,
+        year: "",
+      },
+    ],
+    description:"Master of scientific suspense, transporting readers to thrilling extraterrestrial frontiers.",
+ }
 ];
 
 export default authorsData;
