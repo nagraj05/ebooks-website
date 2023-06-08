@@ -40,6 +40,13 @@ html,
   padding-left: 46px;
   margin: -140px 90px;
 }
+.lottie--container{
+  width: 400px;
+  height: 100px;
+  float: right;
+  margin-right: 120px;
+  margin-top: -200px;
+}
 
 /* Navigation bar */
 nav {
@@ -495,11 +502,5 @@ textarea {
   font-size: 16px;
 }
 
-.lottie--container{
-  width: 400px;
-  height: 100px;
-  float: right;
-  margin-right: 120px;
-  margin-top: -200px;
-}
+
 
