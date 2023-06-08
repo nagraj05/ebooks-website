@@ -3,7 +3,6 @@ import pic from "../../public/images/nt.webp";
 import instagram from "../../public/icons/thatguywithabook.png";
 import tweets from "../../public/icons/quakes.png";
 import tumblr from "../../public/icons/tumblrblog.png";
-import Footer from "../Components/Footer";
 
 export default function Aboutme() {
   
@@ -16,7 +15,7 @@ export default function Aboutme() {
           <div>
             <img className="nagraj-image" src={pic} alt="Nagraj Tadingi" />
             <div className="author-info">
-              <p className="info-genre">
+              <p className="nagraj-para">
                 Hello! I'm Nagraj Tadingi, the creator and curator behind this
                 books website. As an avid reader and lifelong learner, I've
                 always found solace, inspiration, and endless possibilities
@@ -71,7 +70,6 @@ export default function Aboutme() {
         </div>
       </div>
       
-      <Footer />
     </div>
   );
 }

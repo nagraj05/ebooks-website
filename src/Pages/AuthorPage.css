@@ -137,8 +137,7 @@
   width: 250px;
   height: 350px;
   border-radius: 10px;
-  margin: 20px 20px;
-  object-fit: fill;
+  margin: 20px;
 }
 
 .nagraj--intro--card {
@@ -151,6 +150,11 @@
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
   background-color: #fff;
+}
+.nagraj-para {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .copyright--title {
@@ -191,4 +195,111 @@
 .nagraj--social {
   width: 33px;
   height: 33px;
+}
+@media (max-width:599px){
+  .author--intro--card--container{
+    margin: 150px auto;
+    width: 100%;
+    padding:8px;
+  }
+  .nagraj-image{
+    padding:0 10px 0 0;
+    float: left;
+  }
+  .nagraj--intro--card{
+    width: 1100px;
+    margin: 1px;
+    height: 1210px;
+  }
+  .nagraj-para{
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+@media (max-width:479px){
+  .author--intro--card--container{
+    width: 90%;
+    /* background-color: green; */
+    padding:10px;
+  }
+  .nagraj-image{
+    /* width: 90%; */
+    padding: 40px;
+  }
+  .nagraj--intro--card{
+    width: 100%;
+    /* background-color: red; */
+    margin: 1px;
+    height: 1150px;
+    /* padding-left: 2px; */
+  }
+  .nagraj-para{
+    font-size: 18px;
+  }
+}
+@media (max-width:425px){
+  .author--intro--card--container{
+    width: 90%;
+    /* background-color: green; */
+    padding:10px;
+  }
+  .nagraj-image{
+    /* width: 90%; */
+    padding: 20px;
+  }
+  .nagraj--intro--card{
+    width: 100%;
+    /* background-color: red; */
+    margin: 1px;
+    height: 1210px;
+    /* padding-left: 2px; */
+  }
+  .nagraj-para{
+    font-size: 18px;
+  }
+}
+@media (max-width:375px){
+  .author--intro--card--container{
+    width: 100%;
+    /* background-color: green; */
+    padding:10px;
+    margin-top: 2px;
+    margin-left: 15px;
+  }
+  .nagraj--intro--card{
+    width: 90%;
+    /* background-color: red; */
+    margin: 1px;
+    height: 1310px;
+    /* padding-left: 2px; */
+  }
+  .nagraj-para{
+    font-size: 18px;
+  }
+}
+
+@media (max-width:320px){
+  .author--intro--card--container{
+    width: 100%;
+    padding:10px 10px 10px 10px;
+    margin-top: 2px;
+    margin-left: 12px;
+  }
+  .nagraj--intro--card{
+    width: 90%;
+    margin: 1px;
+    height: 1130px;
+  }
+  .nagraj-image{
+    width: 250px;
+    height: 300px;
+    padding: 2px;
+    margin-left: 17px;
+    margin-top: 10px;
+  }
+  .nagraj-para{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 15px;
+  }
 }

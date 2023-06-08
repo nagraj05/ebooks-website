@@ -25,7 +25,7 @@ html,
   display: flex;
   color: white;
   align-items: center;
-  padding-top: 40px;
+  max-width: 600px;
   padding-left: 46px;
   margin: 150px 90px;
 }
@@ -37,10 +37,8 @@ html,
   max-width: 600px;
   color: gray;
   align-items: center;
-  padding-top: 40px;
   padding-left: 46px;
-
-  margin: -170px 90px;
+  margin: -140px 90px;
 }
 
 /* Navigation bar */
@@ -48,7 +46,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -67,7 +65,7 @@ nav ul li {
   font-family: "Poppins", sans-serif;
   list-style-type: none;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 0px 20px;
 }
 nav ul li a {
   color: white;
@@ -85,12 +83,11 @@ nav ul li a:hover {
 /* Card */
 .booksbox {
   display: flex;
-  justify-content: left;
+  justify-content:left;
+  align-items: flex-start;
+  gap: 5px;
   flex-wrap: wrap;
-  gap: 2px;
-  max-width: 100%;
-  margin-left: 25px;
-  margin-top: 10px;
+  padding: 0px 20px;
 }
 .card {
   background-color: white;
@@ -104,7 +101,7 @@ nav ul li a:hover {
   -webkit-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
   -moz-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
 }
-.card--image {
+.card--image {;
   width: 80%;
   height: 245px;
   margin: 10px 25px;
@@ -117,7 +114,6 @@ nav ul li a:hover {
 .card--title {
   font-size: 14px;
   max-width: 250px;
-  /* margin-block: -3px; */
   margin-top: 2px;
   color: #333333;
   text-align: center;
@@ -130,8 +126,7 @@ nav ul li a:hover {
   font-weight: bold;
 }
 .card--genre {
-  margin: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-align: center;
   font-weight: bold;
 }
@@ -176,9 +171,7 @@ nav ul li a:hover {
 .footer {
   text-align: center;
   border-top: 1px solid #ccc;
-  margin-top: 70px;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .social--icons {
   display: flex;
@@ -189,7 +182,7 @@ nav ul li a:hover {
   height: 44px;
   align-items: center;
   background-color: transparent;
-  margin: 10px 20px;
+  margin: 15px 20px;
 }
 .instagram-link:hover {
   border-radius: 6px;
@@ -510,253 +503,3 @@ textarea {
   margin-top: -200px;
 }
 
-
-
-
-/* Media Queries */
-@media  screen and (max-width: 320px) {
-  .title{
-    font-size: 12px;
-  }
-  nav ul li{
-    font-size: 12px;
-    padding-left: 100px;
-  }
-  .nav--text{
-    max-width: 150px;
-    font-size: 12px;
-    padding-top: 2px;
-    padding-left: 5px;
-    margin-left: 2px;
-    margin-top: 2px;
-    
-  } 
-  .nav--para{
-    max-width: 150px;
-    font-size: 12px;
-    padding-top: 2px;
-    padding-left: 5px;
-    margin-left: 2px;
-    margin-top: -140px;
-    text-align: justify;
-  }
-  .lottie--container{
-    height: 100px;
-    width: 100px;
-    margin-top: 60px;
-    margin-right: 20px;
-  }
-  .booksbox{
-    gap: 15px;
-  }
-  .card{
-    height: 290px !important;
-    width: 142px !important;
-    
-    /* background-color: red; */
-    margin-left: -8px;
-  }
-  .card--image{
-    width: 100px;
-    height: 150px;
-    margin: 10px 20px;
-  }
-  .card--title{
-    font-size: 10px;
-    margin-top: -6px ;
-  }
-  .card--author{
-    font-size: 0.75rem;
-    margin-top: -8px;
-  }
-  .card--genre{
-    max-width: 100%;
-    /* background-color: #962fbf; */
-    font-size: 21px;
-  }
-  .card--btn{
-    font-size: 8px !important;
-    margin: 0 40px!important;
-  }
-  .pages--count{
-    font-size: 10px;
-    margin: 1px 43px;
-    /* margin-top: 10px; */
-  }
-  .footer{
-    font-size: 12px;
-  }
-  .social-link{
-    width: 22px;
-    height: 22px;
-  }
-}
-@media  screen and (max-width: 375px) {
-  .title{
-    font-size: 12px;
-  }
-  nav ul li{
-    font-size: 12px;
-    padding-left: 100px;
-  }
-  .nav--text{
-    max-width: 150px;
-    font-size: 12px;
-    padding-top: 2px;
-    padding-left: 5px;
-    margin-left: 2px;
-    margin-top: 2px;
-    /* background-color: #962fbf; */
-  } 
-  .nav--para{
-    max-width: 150px;
-    font-size: 12px;
-    padding-top: 2px;
-    padding-left: 5px;
-    margin-left: 2px;
-    margin-top: -140px;
-    text-align: justify;
-  }
-  .lottie--container{
-    height: 100px;
-    width: 100px;
-    margin-top: 60px;
-    margin-right: 20px;
-  }
-  .booksbox{
-    gap: 15px;
-  }
-  .card{
-    height: 320px;
-    width: 140px;
-    
-    /* background-color: red; */
-    margin-left: -8px;
-  }
-  .card--image{
-    width: 100px;
-    height: 150px;
-    margin: 10px 20px;
-  }
-  .card--title{
-    font-size: 10px;
-  }
-  .card--author{
-    font-size: 0.75rem;
-  }
-  .card--genre{
-    font-size: 10px;
-  }
-  .card--btn{
-    font-size: 10px;
-    margin: 0 30px;
-  }
-  .pages--count{
-    font-size: 10px;
-    margin: 1px 43px;
-    /* margin-top: 10px; */
-  }
-  .footer{
-    font-size: 12px;
-  }
-  .social-link{
-    width: 22px;
-    height: 22px;
-  }
-}
-@media  screen and (max-width: 425px) {
-  .title{
-    font-size: 12px;
-  }
-  nav ul li{
-    font-size: 12px;
-    padding-left: 100px;
-  }
-  .nav--text{
-    max-width: 150px;
-    font-size: 12px;
-    padding-top: 2px;
-    padding-left: 5px;
-    margin-left: 2px;
-    margin-top: 2px;
-    /* background-color: #962fbf; */
-  } 
-  .nav--para{
-    max-width: 150px;
-    font-size: 12px;
-    padding-top: 2px;
-    padding-left: 5px;
-    margin-left: 2px;
-    margin-top: -140px;
-    text-align: justify;
-  }
-  .lottie--container{
-    height: 100px;
-    width: 100px;
-    margin-top: 60px;
-    margin-right: 20px;
-  }
-  .booksbox{
-    gap: 15px;
-    margin: 10px 30px;
-  }
-  .card{
-    height: 320px;
-    width: 180px;
-    
-    /* background-color: red; */
-    margin-left: -8px;
-  }
-  .card--image{
-    width: 100px;
-    height: 150px;
-    margin: 10px 40px;
-  }
-  .card--title{
-    font-size: 10px;
-  }
-  .card--author{
-    font-size: 0.75rem;
-  }
-  .card--genre{
-    font-size: 10px;
-  }
-  .card--btn{
-    font-size: 10px;
-    margin: 0 50px;
-  }
-  .tag--icon{
-    height: 10px;
-    width: 10px;
-    margin-top: 1px;
-  }
-  .pages--count{
-    font-size: 10px;
-    margin: 1px 65px;
-    /* margin-top: 10px; */
-  }
-  .footer{
-    font-size: 12px;
-  }
-  .social-link{
-    width: 22px;
-    height: 22px;
-  }
-  .overview--card{
-    max-width: 100%;
-    width: 410px;
-    height: 430px;
-    margin:0 7px;
-  }
-  .section--icon{
-    width: 15px;
-    height: 15px;
-  }
-  .section-heading{
-    font-size: 12px;
-    margin-left: 2px;
-  }
-  .map--para{
-    font-size: 14px;
-  }
-}
