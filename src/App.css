@@ -74,7 +74,8 @@ nav ul li {
   display: inline-block;
   padding: 0px 20px;
 }
-nav ul li a {
+ ul li a {
+  display: flex;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -108,7 +109,7 @@ nav ul li a:hover {
   -webkit-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
   -moz-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
 }
-.card--image {;
+.card--image {
   width: 80%;
   height: 245px;
   margin: 10px 25px;
@@ -178,6 +179,7 @@ nav ul li a:hover {
 .footer {
   text-align: center;
   border-top: 1px solid #ccc;
+  margin-top: 20px;
   padding-top: 10px;
 }
 .social--icons {
@@ -502,5 +504,146 @@ textarea {
   font-size: 16px;
 }
 
+@media (max-width: 768px) {
+  .lottie--container{
+    display: none;
+  }
+  .title{
+    font-size: 15px;
+  }
+  nav ul li a{
+    font-size: 9px;
+  }
+  nav ul li a:hover {
+    color: #ea1538;
+    transition: 0.3s;
+  }
+  .nav--text{
+    font-size: 40px;
+    margin-top: 120px;
+  }
+  .overview--card{
+    height: 550px;
+    width: 600px;
+    margin: 30px auto;
+  }
+  .section--icon{
+    width: 20px;
+    height: 20px;
+  }
+  .authors--card{
+    margin-left: 75px;
+  }
+}
 
+@media (max-width:599px){
+  nav{
+    max-width: 100%;
+    padding: 10px 10px;
+  }
+  .title--container{
+    padding-left: 20px;
+  }
+  
+  .title{
+    font-size: 20px;
+    max-width: 100px;
+  }
+  .list{
+    margin-top: 0px;
+    margin-left: 106px;
+    
+  }
+  ul{
+    margin-top: auto;
+    margin-left: 2px ;
+    margin-right: 0px;
+    padding: 2px;
+  }
+ nav  ul li a{
+    font-size: 12px;
+    
+  }
+  .nav--text{
+    font-size: 30px;
+    margin-top: 120px;
+    margin-left: 40px;
+  }
+  .nav--para{
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .card{
+    margin-left:10px ;
+    width: 250px;
+  }
+  .overview--card{
+    height: 540px;
+    width: 550px;
+    margin: 30px auto;
+  }
+  .authors--card{
+    height: 250px;
+    margin: 20px;
+  }
 
+}
+
+@media (max-width:479px){
+  .nav--text{
+    font-size: 22px;
+  }
+  .nav--para{
+    font-size: 18px;
+  }
+  .card{
+    margin: 20px 10px;
+    width: 190px;
+    height: 340px;
+  }
+  .card--image{
+    width: 130px;
+    height: 160px;
+    margin: 8px 28px;
+  }
+  .card--title{
+    font-size: 12px;
+  }
+  .card--author{
+    font-size: 12px;
+  }
+  .card--genre{
+    font-size: 12px;
+  }
+  .card--btn{
+    font-size: 12px;
+    margin: 1px 50px;
+  }
+  .pages--count{
+    font-size: 12px;
+    margin: 4px 63px;
+  }
+  .overview--card{
+    width: 450px;
+    height: 460px;
+  }
+  .section-heading{
+    font-size: 15px;
+  }
+  .map--para{
+    font-size: 15px;
+  }
+  .bookspage--title{
+    font-size: 20px;
+  }
+  .authors--title{
+    font-size: 30px;
+  }
+  .authors--card{
+    margin: 15px;
+    width: 200px;
+  }
+  .author--img{
+    width: 200px;
+  }
+}

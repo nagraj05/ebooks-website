@@ -196,110 +196,163 @@
   width: 33px;
   height: 33px;
 }
-@media (max-width:599px){
+
+@media (max-width: 768px){
   .author--intro--card--container{
-    margin: 150px auto;
-    width: 100%;
-    padding:8px;
+    width: 700px;
+    margin: 30px auto;
   }
-  .nagraj-image{
-    padding:0 10px 0 0;
-    float: left;
+  .author--intro--card{
+    margin: 0px auto;
+    max-width: 100%;
+    height: 480px;
+  }
+  .author-image{
+    height: 250px;
+    width: 250px;
+  }
+  .info-genre{
+    font-size: 18px;
+  }
+  .info-born{
+    font-size: 18px;
+  }
+  .info-died{
+    font-size: 18px;
+  }
+  .info-about{
+    font-size: 18px;
+  }
+  
+  .author--book--card{
+    margin: 20px 60px;
   }
   .nagraj--intro--card{
-    width: 1100px;
-    margin: 1px;
-    height: 1210px;
+    width: 800px;
+    height: 870px;
+    margin: 2px;
+  }
+  .copyright--card{
+    width: 700px;
+    height: 440px;
+    margin: 50px auto;
+  }
+}
+
+@media (max-width:599px){
+  .author--intro--card--container{
+    margin: 30px auto;
+    width: 580px;
+    
+  }
+  .author--intro--card{
+    margin: 0px auto;
+    height: 450px;
+  }
+  .author-image{
+    height: 200px;
+    width: 200px;
+  }
+  .info-genre{
+    font-size: 15px;
+  }
+  .info-born{
+    font-size: 15px;
+  }
+  .info-died{
+    font-size: 15px;
+  }
+  .info-about{
+    font-size: 15px;
+  }
+  .author--book--card{
+    margin: 10px 20px;
+  }
+  .nagraj--intro--card{
+    width: 800px;
+    height: 700px;
+    margin: 2px;
+  }
+  .nagraj-image {
+    float: left;
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
   }
   .nagraj-para{
-    font-size: 18px;
+    font-size: 15px;
     text-align: justify;
+  }
+  .copyright--card{
+    width: 550px;
+    height: 450px;
+    margin: 50px auto;
+  }
+  .copyright--para{
+    font-size: 18px;
   }
 }
 @media (max-width:479px){
   .author--intro--card--container{
-    width: 90%;
-    /* background-color: green; */
-    padding:10px;
+    margin: 30px auto;
+    width: 450px;
+    
   }
-  .nagraj-image{
-    /* width: 90%; */
-    padding: 40px;
+  .author--intro--card{
+    height: 470px;
   }
-  .nagraj--intro--card{
-    width: 100%;
-    /* background-color: red; */
-    margin: 1px;
-    height: 1150px;
-    /* padding-left: 2px; */
+  .author-image{
+    height: 150px;
+    width: 150px;
   }
-  .nagraj-para{
-    font-size: 18px;
+  
+  .info-genre{
+    font-size: 13px;
   }
-}
-@media (max-width:425px){
-  .author--intro--card--container{
-    width: 90%;
-    /* background-color: green; */
-    padding:10px;
+  .info-born{
+    font-size: 13px;
   }
-  .nagraj-image{
-    /* width: 90%; */
-    padding: 20px;
+  .info-died{
+    font-size: 13px;
   }
-  .nagraj--intro--card{
-    width: 100%;
-    /* background-color: red; */
-    margin: 1px;
-    height: 1210px;
-    /* padding-left: 2px; */
+  .info-about{
+    font-size: 13px;
   }
-  .nagraj-para{
-    font-size: 18px;
+  .author--book--card{
+    margin: 10px 20px;
   }
-}
-@media (max-width:375px){
-  .author--intro--card--container{
-    width: 100%;
-    /* background-color: green; */
-    padding:10px;
-    margin-top: 2px;
-    margin-left: 15px;
+  .author--book--card{
+    width: 200px;
+    height: 380px;
+    margin: 10px 18px;
   }
-  .nagraj--intro--card{
-    width: 90%;
-    /* background-color: red; */
-    margin: 1px;
-    height: 1310px;
-    /* padding-left: 2px; */
+  .book-img{
+    height: 210px;
+    width: 180px;
+    margin: 10px;
   }
-  .nagraj-para{
-    font-size: 18px;
-  }
-}
-
-@media (max-width:320px){
-  .author--intro--card--container{
-    width: 100%;
-    padding:10px 10px 10px 10px;
-    margin-top: 2px;
-    margin-left: 12px;
-  }
-  .nagraj--intro--card{
-    width: 90%;
-    margin: 1px;
-    height: 1130px;
-  }
-  .nagraj-image{
-    width: 250px;
-    height: 300px;
-    padding: 2px;
-    margin-left: 17px;
-    margin-top: 10px;
-  }
-  .nagraj-para{
-    font-family:'Times New Roman', Times, serif;
-    text-align: justify;
+  .download--button{
     font-size: 15px;
+    margin: 2px 40px;
   }
+  .nagraj-image{
+    height: 350px;
+    width: 300px;
+    margin: 40px 70px;
+  }
+  .nagraj--intro--card{
+    height: 920px;
+  }
+  .contact--container{
+    width: 430px;
+  }
+  .copyright--card{
+    width: 430px;
+    height: 560px;
+  }
+  .copyright--para{
+    font-size: 18px;
+  }
+
 }
