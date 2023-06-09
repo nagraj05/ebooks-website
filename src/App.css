@@ -40,7 +40,7 @@ html,
   padding-left: 46px;
   margin: -140px 90px;
 }
-.lottie--container{
+.lottie--container {
   width: 400px;
   height: 100px;
   float: right;
@@ -74,7 +74,7 @@ nav ul li {
   display: inline-block;
   padding: 0px 20px;
 }
- ul li a {
+ul li a {
   display: flex;
   color: white;
   text-decoration: none;
@@ -91,7 +91,7 @@ nav ul li a:hover {
 /* Card */
 .booksbox {
   display: flex;
-  justify-content:left;
+  justify-content: left;
   align-items: flex-start;
   gap: 5px;
   flex-wrap: wrap;
@@ -172,7 +172,7 @@ nav ul li a:hover {
 }
 
 /* Footer css */
-.footer--name--link{
+.footer--name--link {
   color: #000000;
   text-decoration: none;
 }
@@ -366,14 +366,13 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-
-.contact--home{
+.contact--home {
   display: flex;
   justify-content: center;
   /* align-items: center; */
   margin-top: 60px;
 }
-.contact--container{
+.contact--container {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -388,13 +387,13 @@ nav ul li a:hover {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
-.contact--title{
+.contact--title {
   font-family: "Garamond", sans-serif;
   text-align: center;
   font-size: 25px;
   margin-top: -20px;
 }
-input{
+input {
   border: none;
   outline: none;
   border-radius: 5px;
@@ -406,10 +405,9 @@ input{
 input:focus {
   background-color: white;
   transform: scale(1.05);
-  box-shadow: 13px 13px 100px #969696,
-             -13px -13px 100px #ffffff;
+  box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
 }
-textarea{
+textarea {
   border: none;
   outline: none;
   border-radius: 5px;
@@ -421,14 +419,13 @@ textarea{
 textarea:focus {
   background-color: white;
   transform: scale(1.05);
-  box-shadow: 13px 13px 100px #969696,
-             -13px -13px 100px #ffffff;
+  box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
 }
 .contact--button {
   font-family: inherit;
   font-size: 20px;
-  background: royalblue ;
-  color: white ;
+  background: royalblue;
+  color: white;
   padding: 0.5em 1em;
   padding-left: 0.6em;
   display: flex;
@@ -476,11 +473,9 @@ button:active {
     transform: translateY(-0.1em);
   }
 }
-.send--text{
+.send--text {
   color: white;
 }
-
-
 
 .contact-form {
   max-width: 400px;
@@ -505,145 +500,282 @@ textarea {
 }
 
 @media (max-width: 768px) {
-  .lottie--container{
+  .lottie--container {
     display: none;
   }
-  .title{
+  .title {
     font-size: 15px;
   }
-  nav ul li a{
+  nav ul li a {
     font-size: 9px;
   }
   nav ul li a:hover {
     color: #ea1538;
     transition: 0.3s;
   }
-  .nav--text{
+  .nav--text {
     font-size: 40px;
     margin-top: 120px;
   }
-  .overview--card{
+  .overview--card {
     height: 550px;
     width: 600px;
     margin: 30px auto;
   }
-  .section--icon{
+  .section--icon {
     width: 20px;
     height: 20px;
   }
-  .authors--card{
+  .authors--card {
     margin-left: 75px;
   }
 }
 
-@media (max-width:599px){
-  nav{
+@media (max-width: 599px) {
+  nav {
     max-width: 100%;
     padding: 10px 10px;
   }
-  .title--container{
+  .title--container {
     padding-left: 20px;
   }
-  
-  .title{
+
+  .title {
     font-size: 20px;
     max-width: 100px;
   }
-  .list{
+  .list {
     margin-top: 0px;
     margin-left: 106px;
-    
   }
-  ul{
+  ul {
     margin-top: auto;
-    margin-left: 2px ;
+    margin-left: 2px;
     margin-right: 0px;
     padding: 2px;
   }
- nav  ul li a{
+  nav ul li a {
     font-size: 12px;
-    
   }
-  .nav--text{
+  .nav--text {
     font-size: 30px;
     margin-top: 120px;
     margin-left: 40px;
   }
-  .nav--para{
+  .nav--para {
     font-size: 20px;
     margin-left: 40px;
   }
-  .card{
-    margin-left:10px ;
+  .card {
+    margin-left: 10px;
     width: 250px;
   }
-  .overview--card{
+  .overview--card {
     height: 540px;
     width: 550px;
     margin: 30px auto;
   }
-  .authors--card{
+  .authors--card {
     height: 250px;
     margin: 20px;
   }
-
 }
 
-@media (max-width:479px){
-  .nav--text{
+@media (max-width: 479px) {
+  .nav--text {
     font-size: 22px;
   }
-  .nav--para{
+  .nav--para {
     font-size: 18px;
   }
-  .card{
+  .card {
     margin: 20px 10px;
     width: 190px;
     height: 340px;
   }
-  .card--image{
+  .card--image {
     width: 130px;
     height: 160px;
     margin: 8px 28px;
   }
-  .card--title{
+  .card--title {
     font-size: 12px;
   }
-  .card--author{
+  .card--author {
     font-size: 12px;
   }
-  .card--genre{
+  .card--genre {
     font-size: 12px;
   }
-  .card--btn{
+  .card--btn {
     font-size: 12px;
     margin: 1px 50px;
   }
-  .pages--count{
+  .pages--count {
     font-size: 12px;
     margin: 4px 63px;
   }
-  .overview--card{
+  .overview--card {
     width: 450px;
     height: 460px;
   }
-  .section-heading{
+  .section-heading {
     font-size: 15px;
   }
-  .map--para{
+  .map--para {
     font-size: 15px;
   }
-  .bookspage--title{
+  .bookspage--title {
     font-size: 20px;
   }
-  .authors--title{
+  .authors--title {
     font-size: 30px;
   }
-  .authors--card{
+  .authors--card {
     margin: 15px;
     width: 200px;
   }
-  .author--img{
+  .author--img {
     width: 200px;
+  }
+}
+@media (max-width: 425px) {
+  .card {
+    /* height: 400px; */
+    margin: 12px 4px;
+    width: 180px;
+  }
+  .overview--card {
+    width: 390px;
+    height: 480px;
+  }
+  .section-heading {
+    font-size: 14px;
+    margin: 4px;
+  }
+  .authors--title {
+    font-size: 25px;
+  }
+  .authors--card {
+    margin: 16px;
+    width: 180px;
+  }
+  .author--img {
+    width: 180px;
+  }
+  .author--name {
+    font-size: 17px;
+    margin-left: 4px;
+  }
+}
+@media (max-width: 375px) {
+  .nav--text {
+    font-size: 19px;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  .nav--para {
+    font-size: 17px;
+    text-align: justify;
+    margin-left: 20px;
+  }
+  .card {
+    width: 155px;
+    height: 380px;
+  }
+  .card--image {
+    width: 120px;
+    height: 180px;
+    margin: 10px 15px;
+  }
+  .card--title {
+    font-size: 12px;
+  }
+  .card--genre {
+    font-size: 10px;
+  }
+  .tag--icon {
+    width: 9px;
+    height: 9px;
+  }
+  .card--btn {
+    font-size: 12px;
+    margin: 0px 35px;
+  }
+  .pages--count {
+    font-size: 12px;
+    margin: 2px 50px;
+  }
+  .overview--card {
+    height: 580px;
+    width: 330px;
+  }
+  .section--icon {
+    margin-left: 10px;
+  }
+  .authors--title {
+    font-size: 20px;
+  }
+  .authors--card {
+    width: 155px;
+    height: 155px;
+  }
+  .author--img {
+    width: 155px;
+    height: 155px;
+  }
+  .author--name {
+    font-size: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .nav--text {
+    font-size: 17px;
+    margin-left: 10px;
+  }
+  .nav--para {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  .booksbox {
+    padding: 0;
+  }
+  .card {
+    margin: 10px 2px;
+    width: 150px;
+    height: 320px;
+  }
+  .card--image {
+    width: 120px;
+    height: 180px;
+  }
+  .card--title {
+    font-size: 9px;
+  }
+  .card--author {
+    font-size: 9px;
+  }
+  .card--genre {
+    font-size: 9px;
+  }
+  .card--btn {
+    font-size: 9px;
+    margin: 0px 40px;
+    border: 2px solid black;
+  }
+  .pages--count {
+    font-size: 10px;
+    margin: 2px 55px;
+  }
+  .overviewpage--title {
+    font-size: 22px;
+  }
+  .overview--card {
+    width: 300px;
+  }
+  .authors--card {
+    margin: 10px 3px;
+    width: 150px;
+    box-shadow: none;
   }
 }

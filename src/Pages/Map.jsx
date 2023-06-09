@@ -5,7 +5,7 @@ import bookstack from "../../public/icons/bookstack.png";
 import authoricon from "../../public/icons/group.png";
 import homeicon from "../../public/icons/house.png";
 import abouticon from "../../public/icons/man.png";
-import contact from "../../public/icons/contact.png"
+import contact from "../../public/icons/contact.png";
 
 export default function Map() {
   return (
@@ -30,8 +30,8 @@ export default function Map() {
               <a href="/books">Books</a>
             </h2>
             <p className="map--para">
-              Obviously, it has books. Feel free to download (No Pressure). Genre &
-              Pages are mentioned.
+              Obviously, it has books. Feel free to download (No Pressure).
+              Genre & Pages are mentioned.
             </p>
           </div>
           <div className="section">
@@ -39,16 +39,17 @@ export default function Map() {
             <h2 className="section-heading">
               <a href="/authors">Authors</a>
             </h2>
-            <p className="map--para">Umm... Authors info and their works i guess. Click to explore more (on the authors). </p>
+            <p className="map--para">
+              Umm... Authors info and their works i guess. Click to explore more
+              (on the authors).{" "}
+            </p>
           </div>
           <div className="section">
             <img src={abouticon} alt="About" className="section--icon" />
             <h2 className="section-heading">
               <a href="/aboutme">About</a>
             </h2>
-            <p className="map--para">
-              It has info about me. Duh...
-            </p>
+            <p className="map--para">It has info about me. Duh...</p>
           </div>
           <div className="section">
             <img src={contact} alt="Contact" className="section--icon" />
@@ -56,7 +57,8 @@ export default function Map() {
               <a href="/contact">Contact</a>
             </h2>
             <p className="map--para">
-              It has a contact form and copyright information. If you want any books, use contact form. Thanks!
+              It has a contact form and copyright information. If you want any
+              books, use contact form. Thanks!
             </p>
           </div>
         </div>

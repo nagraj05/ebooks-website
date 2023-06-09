@@ -1,6 +1,6 @@
 import Navigation from "./Navigation";
-import Lottie from 'lottie-react'
-import books from "../assets/books.json"
+import Lottie from "lottie-react";
+import books from "../assets/books.json";
 
 export default function Navbar() {
   return (
@@ -13,8 +13,7 @@ export default function Navbar() {
         where dreams come alive on every page.
       </p>
       <div className="lottie--container">
-
-      <Lottie animationData={books}/>
+        <Lottie animationData={books} />
       </div>
     </div>
   );
