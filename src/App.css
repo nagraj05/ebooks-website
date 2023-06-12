@@ -193,7 +193,7 @@ span{
     right: -300px;
     background: hsl(0, 0%, 100% /0.1);
     backdrop-filter: blur(5px);
-    width: 300px;
+    width: 210px;
     height: 100%;
     padding-top: 98px;
   }
@@ -203,7 +203,7 @@ span{
   }
   .menu li a,
   .menu li a:hover{
-    padding: 30px;
+    padding: 20px;
     color: #ea1538;
     font-size: 24px;
     box-shadow: 0 1px 0 rgba(225,225,225,0.1)inset;
