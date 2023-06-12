@@ -137,6 +137,8 @@ import andy from "../../public/authorimages/andy.webp"
 import mars from "../../public/bookcovers/mars.jpg"
 import hailmary from "../../public/bookcovers/hail mary.jpg"
 import artemis from "../../public/bookcovers/artemis.jpg"
+import killing from "../../public/bookcovers/killing commendatore.jpg"
+import afterdark from "../../public/bookcovers/after dark haruki.jpg"
 
 
 const authorsData = [
@@ -680,6 +682,26 @@ const authorsData = [
         pages: 138,
         year: "",
       },
+      {
+        id: 5,
+        img: killing,
+        title: "Killing Commendatore",
+        value: "Killing Commendatore",
+        author:"Haruki Murakami",
+        genre:"",
+        pages: 594,
+        year: "",
+      },
+      {
+        id:6,
+        img: afterdark,
+        title: "After Dark",
+        value: "After Dark",
+        author:"Haruki Murakami",
+        genre:"",
+        pages:134,
+        year: "",
+      }
     ],
     description:
       "Enigmatic storyteller capturing the surreal with poetic precision and depth.",

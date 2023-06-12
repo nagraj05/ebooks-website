@@ -530,7 +530,6 @@ textarea {
     margin-left: 75px;
   }
 }
-
 @media (max-width: 599px) {
   nav {
     max-width: 100%;
@@ -580,7 +579,6 @@ textarea {
     margin: 20px;
   }
 }
-
 @media (max-width: 479px) {
   .nav--text {
     font-size: 22px;
