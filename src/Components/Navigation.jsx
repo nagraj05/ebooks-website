@@ -2,14 +2,17 @@ import { Link as Link } from "react-router-dom";
 
 export default function Navigation() {
   return (
-    <nav className="navigation">
-      <div className="title--container">
-        <h2 className="title">
-          BETTER <span>READS</span>
-        </h2>
+    <div>
+    <header className='header'>
+      <div className="logo">
+       <h2>
+        BETTER  <span>READS</span>
+       </h2>
       </div>
-      <div className="list">
-        <ul>
+      <div className="navigation">
+        <input type="checkbox" className="toggle-menu"  />
+        <div className="hamburger"></div>
+        <ul className="menu">
           <li>
             <Link to="/">HOME</Link>
           </li>
@@ -28,8 +31,10 @@ export default function Navigation() {
           <li>
             <Link to="/contact">CONTACT</Link>
           </li>
-        </ul>
+          </ul>
       </div>
-    </nav>
+    </header>
+    
+  </div>
   );
 }
