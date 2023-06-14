@@ -29,6 +29,8 @@ import brandon from "../../public/authorimages/brndon.jpg"
 import frank from "../../public/authorimages/frank.webp"
 import blake from "../../public/authorimages/BlakeCrouch.jpg"
 import andy from "../../public/authorimages/andy.webp"
+import Taylor from "../../public/authorimages/Taylor Jenkins Reid.jpg"
+
 
 
 const AuthorInfo = [
@@ -385,6 +387,17 @@ const AuthorInfo = [
       genre:"Science Fiction",
       influences:"",
       about:`A highly acclaimed science fiction author, gained international recognition with his breakthrough novel "The Martian." Known for his meticulous research and scientific accuracy, Weir takes readers on thrilling journeys through space, blending compelling storytelling with plausible science. With his unique ability to combine technical details and gripping narratives, Weir has solidified his place as a prominent voice in the world of science fiction.`,
+    },
+    {
+      id:32,
+      img:Taylor,
+      name:"Taylor Jenkins Reid",
+      born:"Eastern Shore of Maryland. December 20, 1983",
+      died:"",
+      website:"http://www.taylorjenkinsreid.com",
+      genre:"Fiction",
+      influences:"",
+      about:`A talented contemporary author, weaves intricate narratives that delve into the complexities of human relationships and personal growth. Known for her compelling storytelling and well-crafted characters, Reid's novels like "Daisy Jones & The Six" and "Malibu Rising" have garnered widespread acclaim, resonating with readers across genres. With her unique blend of emotional depth and immersive storytelling, Reid has established herself as a prominent voice in contemporary fiction.`,
     },
 ];
 export default AuthorInfo;

@@ -40,6 +40,14 @@ import wp3 from "../../public/bookcovers/wp3.jpg"
 import mars from "../../public/bookcovers/mars.jpg"
 import hailmary from "../../public/bookcovers/hail mary.jpg"
 import artemis from "../../public/bookcovers/artemis.jpg"
+import seven from "../../public/bookcovers/seven.jpg"
+import Diasy from "../../public/bookcovers/daisy.jpg"
+import onetrue from "../../public/bookcovers/one true.jpg"
+import evidence from "../../public/bookcovers/Evidence of the affair.jpg"
+import maybein from "../../public/bookcovers/maybe in another life.jpg"
+import foreverinterrupted from "../../public/bookcovers/Forever interrupted.jpg"
+import afterido from "../../public/bookcovers/after i do.jpg"
+
 
 
 
@@ -463,6 +471,76 @@ export default [
     author: "Andy Weir",
     genre: "Sci-fi",
     pages: 275,
+    year: "",
+  },
+  {
+    id: 43,
+    img: seven,
+    title: "The Seven Husbands of Evelyn Hugo",
+    value: "The Seven Husbands of Evelyn Hugo",
+    author: "Taylor Jenkins Reid",
+    genre: "Fiction",
+    pages: 377,
+    year: "",
+  },
+  {
+    id: 44,
+    img: Diasy,
+    title: "Daisy Jones & The Six",
+    value: "Daisy Jones and The Six",
+    author: "Taylor Jenkins Reid",
+    genre: "Fiction",
+    pages: 261,
+    year: "",
+  },
+  {
+    id: 45,
+    img: onetrue,
+    title: "One True Loves",
+    value: "One True Loves",
+    author: "Taylor Jenkins Reid",
+    genre: "Fiction",
+    pages: 275,
+    year: "",
+  },
+  {
+    id: 46,
+    img: evidence,
+    title: "Evidence of the Affair",
+    value: "Evidence of the Affair",
+    author: "Taylor Jenkins Reid",
+    genre: "Fiction",
+    pages: 76,
+    year: "",
+  },
+  {
+    id: 47,
+    img: maybein,
+    title: "Maybe in Another Life",
+    value: "Maybe in Another Life",
+    author: "Taylor Jenkins Reid",
+    genre: "Fiction",
+    pages: 280,
+    year: "",
+  },
+  {
+    id: 48,
+    img: foreverinterrupted,
+    title: "Forever Interrupted",
+    value: "Forever Interrupted",
+    author: "Taylor Jenkins Reid",
+    genre: "Fiction",
+    pages: 258,
+    year: "",
+  },
+  {
+    id: 49,
+    img: afterido,
+    title: "After I Do",
+    value: "After I Do",
+    author: "Taylor Jenkins Reid",
+    genre: "Fiction",
+    pages: 279,
     year: "",
   },
 ];

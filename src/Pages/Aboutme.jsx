@@ -16,7 +16,7 @@ export default function Aboutme() {
             <img className="nagraj-image" src={pic} alt="Nagraj Tadingi" />
             <div className="author-info">
               <p className="nagraj-para">
-                Hello! I'm Nagraj Tadingi, the creator and curator behind this
+                Hello! I'm Nagraj, the creator and curator behind this
                 books website. As an avid reader and lifelong learner, I've
                 always found solace, inspiration, and endless possibilities
                 within the pages of books. 

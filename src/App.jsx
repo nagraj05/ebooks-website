@@ -16,7 +16,7 @@ function App() {
     return indices;
   };
 
-  const randomIndices = generateRandomIndices(booksdata.length, 6);
+  const randomIndices = generateRandomIndices(booksdata.length, 8);
   const featuredBooks = randomIndices.map((index) => booksdata[index]);
 
   const bookelements = featuredBooks.map((data) => {

@@ -5,7 +5,7 @@ export default function Navigation() {
     <div>
     <header className='header'>
       <div className="logo">
-       <h2>
+       <h2 className="betterreads">
         BETTER  <span>READS</span>
        </h2>
       </div>

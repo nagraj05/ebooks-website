@@ -139,6 +139,14 @@ import hailmary from "../../public/bookcovers/hail mary.jpg"
 import artemis from "../../public/bookcovers/artemis.jpg"
 import killing from "../../public/bookcovers/killing commendatore.jpg"
 import afterdark from "../../public/bookcovers/after dark haruki.jpg"
+import Taylor from "../../public/authorimages/Taylor Jenkins Reid.jpg"
+import seven from "../../public/bookcovers/seven.jpg"
+import Diasy from "../../public/bookcovers/daisy.jpg"
+import onetrue from "../../public/bookcovers/one true.jpg"
+import evidence from "../../public/bookcovers/Evidence of the affair.jpg"
+import maybein from "../../public/bookcovers/maybe in another life.jpg"
+import foreverinterrupted from "../../public/bookcovers/Forever interrupted.jpg"
+import afterido from "../../public/bookcovers/after i do.jpg"
 
 
 const authorsData = [
@@ -1671,7 +1679,90 @@ const authorsData = [
       },
     ],
     description:"Master of scientific suspense, transporting readers to thrilling extraterrestrial frontiers.",
- }
+ },
+/*-------------------------- */
+/*                           */
+/*  Taylor Jenkins Reid      */
+/*                           */
+/*-------------------------- */
+  { 
+    id:32,
+    img:Taylor,
+    name:"Taylor Jenkins Reid",
+    books:[
+      {
+        id: 1,
+        img: seven,
+        title: "The Seven Husbands of Evelyn Hugo",
+        value: "The Seven Husbands of Evelyn Hugo",
+        author: "Taylor Jenkins Reid",
+        genre: "Fiction",
+        pages: 377,
+        year: "",
+      },
+      {
+        id: 2,
+        img: Diasy,
+        title: "Daisy Jones & The Six",
+        value: "Daisy Jones and The Six",
+        author: "Taylor Jenkins Reid",
+        genre: "Fiction",
+        pages: 261,
+        year: "",
+      },
+      {
+        id: 3,
+        img: onetrue,
+        title: "One True Loves",
+        value: "One True Loves",
+        author: "Taylor Jenkins Reid",
+        genre: "Fiction",
+        pages: 275,
+        year: "",
+      },
+      {
+        id: 4,
+        img: evidence,
+        title: "Evidence of the Affair",
+        value: "Evidence of the Affair",
+        author: "Taylor Jenkins Reid",
+        genre: "Fiction",
+        pages: 76,
+        year: "",
+      },
+      {
+        id: 5,
+        img: maybein,
+        title: "Maybe in Another Life",
+        value: "Maybe in Another Life",
+        author: "Taylor Jenkins Reid",
+        genre: "Fiction",
+        pages: 280,
+        year: "",
+      },
+      {
+        id: 6,
+        img: foreverinterrupted,
+        title: "Forever Interrupted",
+        value: "Forever Interrupted",
+        author: "Taylor Jenkins Reid",
+        genre: "Fiction",
+        pages: 258,
+        year: "",
+      },
+      {
+        id: 7,
+        img: afterido,
+        title: "After I Do",
+        value: "After I Do",
+        author: "Taylor Jenkins Reid",
+        genre: "Fiction",
+        pages: 279,
+        year: "",
+      },
+    ],
+    description:"Captivating storyteller, revealing the intricacies of love and personal growth.",
+  }
 ];
 
 export default authorsData;
