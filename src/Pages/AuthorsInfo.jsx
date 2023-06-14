@@ -1,42 +1,7 @@
-import agatha from "../../public/authorimages/agatha.jpg";
-import franz from "../../public/authorimages/franz.jpg";
-import haruki from "../../public/authorimages/haruki.jpg";
-import stephenking from "../../public/authorimages/stephenking.jpg";
-import jk from "../../public/authorimages/jk.webp";
-import ernest from "../../public/authorimages/ernesthem.jpg";
-import golding from "../../public/authorimages/golding.webp";
-import wilde from "../../public/authorimages/wilde.webp";
-import orwell from "../../public/authorimages/orwell.jpg";
-import doyle from "../../public/authorimages/doyle.jpg";
-import jane from "../../public/authorimages/austen.jpg";
-import salinger from "../../public/authorimages/salinger.jpg";
-import green from "../../public/authorimages/johngreen.jpg";
-import robin from "../../public/authorimages/rs.jpg";
-import randall from "../../public/authorimages/randall.webp";
-import hoover from "../../public/authorimages/Colleenhoover.webp";
-import eljames from "../../public/authorimages/El james.webp";
-import paulo from "../../public/authorimages/paulo.jpg";
-import harper from "../../public/authorimages/harper.jpg";
-import hawking from "../../public/authorimages/hawking.jpg";
-import jay from "../../public/authorimages/j asher.jpg";
-import khaled from "../../public/authorimages/hosseini.jpg";
-import bach from "../../public/authorimages/bach.jpg";
-import yuval from "../../public/authorimages/yuval.jpg";
-import kiyo from "../../public/authorimages/kiyo.jpg";
-import bronte from "../../public/authorimages/emily.jpg";
-import shakespeare from "../../public/authorimages/Shakespeare.jpg";
-import brandon from "../../public/authorimages/brndon.jpg"
-import frank from "../../public/authorimages/frank.webp"
-import blake from "../../public/authorimages/BlakeCrouch.jpg"
-import andy from "../../public/authorimages/andy.webp"
-import Taylor from "../../public/authorimages/Taylor Jenkins Reid.jpg"
-
-
-
 const AuthorInfo = [
   {
     id: 1,
-    img: agatha,
+    img: "../../public/authorimages/agatha.jpg",
     name: "Agatha Christie",
     born: "in Torquay, Devon, England, The United Kingdom. September 15, 1890 ",
     died: "January 12, 1976",
@@ -48,7 +13,7 @@ const AuthorInfo = [
   },
   {
     id: 26,
-    img: franz,
+    img: "../../public/authorimages/franz.jpg",
     name: "Franz Kafka",
     born: "in Prague, Bohemia, Austria-Hungary, Czech Republic. July 03, 1883",
     died: "June 03, 1924",
@@ -60,7 +25,7 @@ const AuthorInfo = [
   },
   {
     id: 27,
-    img: shakespeare,
+    img: "../../public/authorimages/Shakespeare.jpg",
     name: "William Shakespeare",
     born: "Stratford-upon-Avon, Warwickshire, England. April, 1564",
     died: "April 23, 1616",
@@ -72,7 +37,7 @@ const AuthorInfo = [
   },
   {
     id: 25,
-    img: bronte,
+    img: "../../public/authorimages/emily.jpg",
     name: "Emily Bronte",
     born: "in Thornton, Yorkshire, England. July 30, 1818",
     died: "December 19, 1848",
@@ -84,7 +49,7 @@ const AuthorInfo = [
   },
   {
     id: 4,
-    img: ernest,
+    img: "../../public/authorimages/ernesthem.jpg",
     name: "Ernest Hemingway",
     born: "in Oak Park, Illinois, The United States. July 21, 1899",
     died: "July 02, 1961",
@@ -96,7 +61,7 @@ const AuthorInfo = [
   },
   {
     id: 7,
-    img: wilde,
+    img: "../../public/authorimages/wilde.webp",
     name: "Oscar Wilde",
     born: "in Dublin, Ireland. October 16, 1854",
     died: "November 30, 1900",
@@ -108,7 +73,7 @@ const AuthorInfo = [
   },
   {
     id: 11,
-    img: salinger,
+    img: "../../public/authorimages/salinger.jpg",
     name: "J.D. Salinger",
     born: "in Manhattan, New York, The United States. January 01, 1919",
     died: "January 27, 2010",
@@ -120,7 +85,7 @@ const AuthorInfo = [
   },
   {
     id: 8,
-    img: orwell,
+    img: "../../public/authorimages/orwell.jpg",
     name: "George Orwell",
     born: "in Motihari, Bihar, India. June 25, 1903",
     died: "January 21, 1950",
@@ -132,7 +97,7 @@ const AuthorInfo = [
   },
   {
     id: 2,
-    img: haruki,
+    img: "../../public/authorimages/haruki.jpg",
     name: "Haruki Murakami",
     born: "in Kyoto, Japan. January 12, 1949",
     died: "",
@@ -144,7 +109,7 @@ const AuthorInfo = [
   },
   {
     id: 5,
-    img: stephenking,
+    img: "../../public/authorimages/stephenking.jpg",
     name: "Stephen King",
     born: "in Portland, Maine, The United States. September 21, 1947",
     died: "",
@@ -156,7 +121,7 @@ const AuthorInfo = [
   },
   {
     id: 3,
-    img: jk,
+    img: "../../public/authorimages/jk.webp",
     name: "J.K. Rowling",
     born: "in Yate, South Gloucestershire, England, The United Kingdom. July 31, 1965",
     died: "",
@@ -167,7 +132,7 @@ const AuthorInfo = [
   },
   {
     id: 6,
-    img: golding,
+    img: "../../public/authorimages/golding.webp",
     name: "William Golding",
     born: "in St. Columb Minor, Cornwall. September 19, 1911",
     died: "June 19, 1993",
@@ -178,7 +143,7 @@ const AuthorInfo = [
   },
   {
     id: 9,
-    img: doyle,
+    img: "../../public/authorimages/doyle.jpg",
     name: "Sir Arthur Conan Doyle",
     born: "in Edinburgh, Scotland. May 22, 1859",
     died: "July 07, 1930",
@@ -190,7 +155,7 @@ const AuthorInfo = [
   },
   {
     id: 10,
-    img: jane,
+    img: "../../public/authorimages/austen.jpg",
     name: "Jane Austen",
     born: "in Steventon Rectory, Hampshire, England, The United Kingdom. December 16, 1775",
     died: "July 18, 1817",
@@ -202,7 +167,7 @@ const AuthorInfo = [
   },
   {
     id: 12,
-    img: green,
+    img: "../../public/authorimages/johngreen.jpg",
     name: "John Green",
     born: "in Indianapolis, The United States. August 24, 1977",
     died: "",
@@ -214,7 +179,7 @@ const AuthorInfo = [
   },
   {
     id: 13,
-    img: robin,
+    img: "../../public/authorimages/rs.jpg",
     name: "Robin S. Sharma",
     born: "Port Hawkesbury, Canada. June 16,1964",
     died: "",
@@ -225,7 +190,7 @@ const AuthorInfo = [
   },
   {
     id: 14,
-    img: randall,
+    img: "../../public/authorimages/randall.webp",
     name: "Randall Munroe",
     born: "in Easton, Pennsylvania, The United States. October 17,1984 ",
     died: "",
@@ -236,7 +201,7 @@ const AuthorInfo = [
   },
   {
     id: 15,
-    img: hoover,
+    img: "../../public/authorimages/Colleenhoover.webp",
     name: "Colleen Hoover",
     born: " Sulphur Springs, Texas, United States. December 11, 1979",
     died: "",
@@ -247,7 +212,7 @@ const AuthorInfo = [
   },
   {
     id: 16,
-    img: eljames,
+    img: "../../public/authorimages/El james.webp",
     name: "E.L. James",
     born: "London, The United Kingdom. March 7, 1963 ",
     died: "",
@@ -258,7 +223,7 @@ const AuthorInfo = [
   },
   {
     id: 17,
-    img: paulo,
+    img: "../../public/authorimages/paulo.jpg",
     name: "Paulo Coehlo",
     born: "in Rio de Janeiro, Brazil. August 24,1947 ",
     died: "",
@@ -269,7 +234,7 @@ const AuthorInfo = [
   },
   {
     id: 18,
-    img: harper,
+    img: "../../public/authorimages/harper.jpg",
     name: "Harper Lee",
     born: "in Monroeville, Alabama, The United States. April 28, 1926",
     died: "February 19, 2016",
@@ -280,7 +245,7 @@ const AuthorInfo = [
   },
   {
     id: 19,
-    img: hawking,
+    img: "../../public/authorimages/hawking.jpg",
     name: "Stephen Hawking",
     born: "in Oxford, The United Kingdom. January 08, 1942",
     died: "March 14, 2018",
@@ -291,7 +256,7 @@ const AuthorInfo = [
   },
   {
     id: 20,
-    img: jay,
+    img: "../../public/authorimages/j asher.jpg",
     name: "Jay Asher",
     born: "in Arcadia, California, The United States. September 30,1975",
     died: "",
@@ -302,7 +267,7 @@ const AuthorInfo = [
   },
   {
     id: 21,
-    img: khaled,
+    img: "../../public/authorimages/hosseini.jpg",
     name: "Khaled Hosseini",
     born: "in Kabul, Afghanistan. March 04, 1965",
     died: "",
@@ -313,7 +278,7 @@ const AuthorInfo = [
   },
   {
     id: 22,
-    img: bach,
+    img: "../../public/authorimages/bach.jpg",
     name: "Richard Back",
     born: "in Oak Park, IL, The United States. June 23, 1936",
     died: "",
@@ -324,7 +289,7 @@ const AuthorInfo = [
   },
   {
     id: 23,
-    img: yuval,
+    img: "../../public/authorimages/yuval.jpg",
     name: "Yuval Noah Harari",
     born: "in Kiryat Ata, Israel. February 24, 1976",
     died: "",
@@ -335,7 +300,7 @@ const AuthorInfo = [
   },
   {
     id: 24,
-    img: kiyo,
+    img: "../../public/authorimages/kiyo.jpg",
     name: "Robert T. Kiyosaki",
     born: "in Hilo, Hawaii, The United States. April 08, 1947",
     died: "",
@@ -346,7 +311,7 @@ const AuthorInfo = [
   },
   {
     id:28,
-    img:brandon,
+    img:"../../public/authorimages/brndon.jpg",
     name:"Brandon Sanderson",
     born:"in Lincoln, Nebraska, The United States. December 19,1975 ",
     died:"",
@@ -357,7 +322,7 @@ const AuthorInfo = [
   },
   {
     id:29,
-    img:frank,
+    img:"../../public/authorimages/frank.webp",
     name:"Frank Herbert",
     born:"in Tacoma, Washington, The United States. October 08, 1920",
     died:"February 11, 1986",
@@ -368,7 +333,7 @@ const AuthorInfo = [
     },
     {
       id:30,
-      img:blake,
+      img:"../../public/authorimages/BlakeCrouch.jpg",
       name:"Blake Crouch",
       born:"Statesville, NC, The United States. October 15, 1978",
       died:"",
@@ -379,7 +344,7 @@ const AuthorInfo = [
     },
     {
       id:31,
-      img:andy,
+      img:"../../public/authorimages/andy.webp",
       name:"Andy Weir",
       born:"in Davis, CA, The United States. June 16, 1972",
       died:"",
@@ -390,7 +355,7 @@ const AuthorInfo = [
     },
     {
       id:32,
-      img:Taylor,
+      img:"../../public/authorimages/Taylor Jenkins Reid.jpg",
       name:"Taylor Jenkins Reid",
       born:"Eastern Shore of Maryland. December 20, 1983",
       died:"",

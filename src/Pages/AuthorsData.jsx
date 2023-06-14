@@ -1,4 +1,4 @@
-import a from "../../public/authorimages/agatha.jpg";
+// import a from "../../public/authorimages/agatha.jpg";
 import haruki from "../../public/authorimages/haruki.jpg";
 import stephenking from "../../public/authorimages/stephenking.jpg";
 import jk from "../../public/authorimages/jk.webp";
@@ -157,7 +157,7 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 1,
-    img: a,
+    img: "../../public/authorimages/agatha.jpg",
     name: "Agatha Christie",
     books: [
       {
