@@ -3,17 +3,9 @@ import Navbar from "./Components/Navbar";
 import BookCard from "./Components/BookCard";
 import booksdata from "./Components/Booksdata";
 import Footer from "./Components/Footer";
-import Loading from "./Components/Loading";
-import { useEffect, useState } from "react";
 
 function App() {
-  const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 4000);
-  }, []);
   const generateRandomIndices = (length, count) => {
     const indices = [];
     while (indices.length < count) {
@@ -33,17 +25,11 @@ function App() {
   });
 
   return (
-    <>
-      {loading ? (
-        <Loading />
-      ) : (
         <>
           <Navbar />
           <div className="booksbox">{bookElements}</div>
           <Footer />
         </>
-      )}
-    </>
   );
 }
 
