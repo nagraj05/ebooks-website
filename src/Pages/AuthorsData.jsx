@@ -1,3 +1,154 @@
+import a from "../../public/authorimages/agatha.jpg";
+import haruki from "../../public/authorimages/haruki.jpg";
+import stephenking from "../../public/authorimages/stephenking.jpg";
+import jk from "../../public/authorimages/jk.webp";
+import ernest from "../../public/authorimages/ernesthem.jpg";
+import golding from "../../public/authorimages/golding.webp";
+import wilde from "../../public/authorimages/wilde.webp";
+import orwell from "../../public/authorimages/orwell.jpg";
+import doyle from "../../public/authorimages/doyle.jpg";
+import jane from "../../public/authorimages/austen.jpg";
+import salinger from "../../public/authorimages/salinger.jpg";
+import green from "../../public/authorimages/johngreen.jpg";
+import robin from "../../public/authorimages/rs.jpg";
+import randall from "../../public/authorimages/randall.webp";
+import hoover from "../../public/authorimages/Colleenhoover.webp";
+import eljames from "../../public/authorimages/El james.webp";
+import paulo from "../../public/authorimages/paulo.jpg";
+import harper from "../../public/authorimages/harper.jpg";
+import hawking from "../../public/authorimages/hawking.jpg";
+import jay from "../../public/authorimages/j asher.jpg";
+import khaled from "../../public/authorimages/hosseini.jpg";
+import bach from "../../public/authorimages/bach.jpg";
+import yuval from "../../public/authorimages/yuval.jpg";
+import kiyo from "../../public/authorimages/kiyo.jpg";
+import bronte from "../../public/authorimages/emily.jpg";
+import kafka from "../../public/authorimages/franz.jpg";
+import shakespeare from "../../public/authorimages/Shakespeare.jpg";
+import none from "../../public/bookcovers/none.jpg"
+import murder from "../../public/bookcovers/orient.jpg";
+import myst from "../../public/bookcovers/mysterious.jpg";
+import sapiens from "../../public/bookcovers/sapiens.jpg";
+import deus from "../../public/bookcovers/deus.jpg";
+import metamorph from "../../public/bookcovers/metamorphosis.jpg";
+import trail from "../../public/bookcovers/the trail pengiun.jpg";
+import letterstohisfather from "../../public/bookcovers/letters to his father.jpg";
+import castle from "../../public/bookcovers/the castle.jpg";
+import hamlet from "../../public/bookcovers/hamlet.jpg";
+import wuthering from "../../public/bookcovers/wuthering.jpg";
+import thesun from "../../public/bookcovers/the sun also rises.jpg";
+import farewell from "../../public/bookcovers/farewell to arms.jpg";
+import belltoll from "../../public/bookcovers/for whom the bell tolls.jpg";
+import tohave from "../../public/bookcovers/to have and have not.jpg";
+import oldman from "../../public/bookcovers/the old man and the sea.jpg";
+import feast from "../../public/bookcovers/a move.jpg";
+import dorian from "../../public/bookcovers/dorian.jpg";
+import canterville from "../../public/bookcovers/canterville.jpg";
+import itstarts from "../../public/bookcovers/It starts with us.jpg";
+import itends from "../../public/bookcovers/it ends with us.jpg";
+import ugly from "../../public/bookcovers/ugly.jpg";
+import reminder from "../../public/bookcovers/reminders of him.jpg";
+import fiftyshades from "../../public/bookcovers/fifty shades of grey.jpg";
+import darker from "../../public/bookcovers/Darker.jpg";
+import freed from "../../public/bookcovers/freed.jpg";
+import macbeth from "../../public/bookcovers/macbeth.jpg";
+import romeo from "../../public/bookcovers/romeo.jpg";
+import midsummer from "../../public/bookcovers/midsummer.jpg";
+import muchado from "../../public/bookcovers/much ado.jpg";
+import othello from "../../public/bookcovers/othello.jpg";
+import kinglear from "../../public/bookcovers/king lear.jpg";
+import tempest from "../../public/bookcovers/tempest.jpg";
+import julius from "../../public/bookcovers/julius.jpg";
+import happyprince from "../../public/bookcovers/happy prince.jpg";
+import catcher from "../../public/bookcovers/catcher.jpg";
+import franny from "../../public/bookcovers/franny.jpg";
+import orwell1984 from "../../public/bookcovers/1984orwell.jpg";
+import animal from "../../public/bookcovers/animal farm.jpg";
+import pride from "../../public/bookcovers/pride.jpg";
+import emma from "../../public/bookcovers/emma.jpg";
+import sense from "../../public/bookcovers/sense.jpg";
+import per from "../../public/bookcovers/persuasion.jpg";
+import lessons from "../../public/bookcovers/21lessons.jpg";
+import alaska from "../../public/bookcovers/looking for alaska.jpg";
+import turtles from "../../public/bookcovers/turtles.jpg";
+import paper from "../../public/bookcovers/paper.jpg";
+import rich from "../../public/bookcovers/rich.jpeg";
+import jonathan from "../../public/bookcovers/jonathan.jpg";
+import fault from "../../public/bookcovers/fault.jpg";
+import reasons from "../../public/bookcovers/13reasons.jpg";
+// import piper from "../../public/bookcovers/piper.jpg";
+import kafkaontheshore from "../../public/bookcovers/kafkaontheshore.jpg";
+import norweigan from "../../public/bookcovers/norweigan.jpg";
+import windup from "../../public/bookcovers/wind up.jpg";
+import sputnik from "../../public/bookcovers/sputnik.jpg";
+import stone from "../../public/bookcovers/philosopher stone.jpg";
+import chamber from "../../public/bookcovers/chamber.jpg";
+import phoenix from "../../public/bookcovers/order of the phoneix.jpg";
+import deathly from "../../public/bookcovers/deathly hallows.jpg";
+import azkaban from "../../public/bookcovers/prisoner of azakban.jpg";
+import cursed from "../../public/bookcovers/cursed child.jpg";
+import goblet from "../../public/bookcovers/goblet of fire.jpg";
+import halfblood from "../../public/bookcovers/half blood.jpg";
+import kite from "../../public/bookcovers/kite.jpg";
+import splendid from "../../public/bookcovers/splendid.jpg";
+import echoed from "../../public/bookcovers/echoed.jpg";
+import sea from "../../public/bookcovers/seaprayer.jpg";
+import mocking from "../../public/bookcovers/killamockingbird.jpg";
+import watchman from "../../public/bookcovers/watchman.jpg";
+import brief from "../../public/bookcovers/brief.jpg";
+import briefer from "../../public/bookcovers/briefer.jpg";
+import theory from "../../public/bookcovers/theory.jpg";
+import whatif from "../../public/bookcovers/whatif.jpg";
+import monk from "../../public/bookcovers/monk.jpg";
+import flies from "../../public/bookcovers/flies.jpg";
+import hound from "../../public/bookcovers/hound.jpg";
+import shining from "../../public/bookcovers/shining.jpg";
+import it from "../../public/bookcovers/it.jpg";
+import stand from "../../public/bookcovers/stand.jpg";
+import misery from "../../public/bookcovers/misery.jpg";
+import brida from "../../public/bookcovers/brida.jpg";
+import alchemist from "../../public/bookcovers/alchemist.jpg";
+import eleven from "../../public/bookcovers/eleven.jpg";
+import veronika from "../../public/bookcovers/vero.jpg";
+import thefinal from "../../public/bookcovers/thefinalempire.jpg"
+import wellofascension from "../../public/bookcovers/wellofascension.jpg"
+import heroofages from "../../public/bookcovers/heroofages.jpg"
+import secrethistorymist from "../../public/bookcovers/secrethistorymistbirn.jpg"
+import alloylaw from "../../public/bookcovers/alloy of law.jpg"
+import shadowsself from "../../public/bookcovers/shadowsofself.jpg"
+import bandsmourning from "../../public/bookcovers/thebandsofmourning.jpg"
+import brandon from "../../public/authorimages/brndon.jpg"
+import frank from "../../public/authorimages/frank.webp"
+import dune from "../../public/bookcovers/d1.jpg";
+import dunemessiah from "../../public/bookcovers/d2.jpg";
+import childrenofdune from "../../public/bookcovers/d3.jpg";
+import godemperorofdune from "../../public/bookcovers/d4.jpg";
+import herecticsofdune from "../../public/bookcovers/d5.jpg";
+import chapterhousedune from "../../public/bookcovers/d6.jpg";
+import whatif2 from "../../public/bookcovers/what if 2.jpg"
+import blake from "../../public/authorimages/BlakeCrouch.jpg"
+import darkmatter from "../../public/bookcovers/dark matter.jpg"
+import recursion from "../../public/bookcovers/recursion yellow.jpg"
+import upgrade from "../../public/bookcovers/upgrade.jpg"
+import wp1 from "../../public/bookcovers/wp1.jpg"
+import wp2 from "../../public/bookcovers/wp2.jpg"
+import wp3 from "../../public/bookcovers/wp3.jpg"
+import andy from "../../public/authorimages/andy.webp"
+import mars from "../../public/bookcovers/mars.jpg"
+import hailmary from "../../public/bookcovers/hail mary.jpg"
+import artemis from "../../public/bookcovers/artemis.jpg"
+import killing from "../../public/bookcovers/killing commendatore.jpg"
+import afterdark from "../../public/bookcovers/after dark haruki.jpg"
+import Taylor from "../../public/authorimages/Taylor Jenkins Reid.jpg"
+import seven from "../../public/bookcovers/seven.jpg"
+import Diasy from "../../public/bookcovers/daisy.jpg"
+import onetrue from "../../public/bookcovers/one true.jpg"
+import evidence from "../../public/bookcovers/Evidence of the affair.jpg"
+import maybein from "../../public/bookcovers/maybe in another life.jpg"
+import foreverinterrupted from "../../public/bookcovers/Forever interrupted.jpg"
+import afterido from "../../public/bookcovers/after i do.jpg"
+
+
 const authorsData = [
 /*-------------------------- */
 /*                           */
@@ -6,12 +157,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 1,
-    img: "../../public/authorimages/agatha.jpg",
+    img: a,
     name: "Agatha Christie",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/none.jpg",
+        img: none,
         title: "And Then There Were None",
         value: "And then there were none",
         author:"Agatha Christie",
@@ -21,7 +172,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/orient.jpg",
+        img: murder,
         title: "Murder on the Orient Express",
         value: "Murder on the Orient Express",
         author:"Agatha Christie",
@@ -31,7 +182,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/mysterious.jpg",
+        img: myst,
         title: "The Mysterious Affair at Styles",
         value: "The Mysterious Affair at Styles",
         author:"Agatha Christie",
@@ -50,12 +201,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 26,
-    img: "../../public/authorimages/franz.jpg",
+    img: kafka,
     name: "Franz Kafka",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/metamorphosis.jpg",
+        img: metamorph,
         title: "The Metamorphosis",
         value: "The Metamorphosis",
         author:"Franz Kafka",
@@ -65,7 +216,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/the trail pengiun.jpg",
+        img: trail,
         title: "The Trail",
         value: "The Trail",
         author:"Franz Kafka",
@@ -75,7 +226,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/letters to his father.jpg",
+        img: letterstohisfather,
         title: "Letter to His Father",
         value: "Letter to His Father",
         author:"Franz Kafka",
@@ -85,7 +236,7 @@ const authorsData = [
       },
       {
         id: 4,
-        img: "../../public/bookcovers/the castle.jpg",
+        img: castle,
         title: "The Castle",
         value: "The Castle",
         author:"Franz Kafka",
@@ -104,12 +255,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 27,
-    img: "../../public/authorimages/Shakespeare.jpg",
+    img: shakespeare,
     name: "William Shakespeare",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/hamlet.jpg",
+        img: hamlet,
         title: "Hamlet",
         value: "Hamlet",
         author:"William Shakespeare",
@@ -119,7 +270,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/macbeth.jpg",
+        img: macbeth,
         title: "Macbeth",
         value: "Macbeth",
         author:"William Shakespeare",
@@ -129,7 +280,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/romeo.jpg",
+        img: romeo,
         title: "Romeo & Juliet",
         value: "Romeo & Juliet",
         author:"William Shakespeare",
@@ -139,7 +290,7 @@ const authorsData = [
       },
       {
         id: 4,
-        img: "../../public/bookcovers/midsummer.jpg",
+        img: midsummer,
         title: "A Midsummer Night's Dream",
         value: "A Midsummer Night's Dream",
         author:"William Shakespeare",
@@ -149,7 +300,7 @@ const authorsData = [
       },
       {
         id: 5,
-        img: "../../public/bookcovers/othello.jpg",
+        img: othello,
         title: "Othello",
         value: "Othello",
         author:"William Shakespeare",
@@ -159,7 +310,7 @@ const authorsData = [
       },
       {
         id: 6,
-        img: "../../public/bookcovers/much ado.jpg",
+        img: muchado,
         title: "Much Ado About Nothing",
         value: "Much Ado About Nothing",
         author:"William Shakespeare",
@@ -169,7 +320,7 @@ const authorsData = [
       },
       {
         id: 7,
-        img: "../../public/bookcovers/king lear.jpg",
+        img: kinglear,
         title: "King Lear",
         value: "King Lear",
         author:"William Shakespeare",
@@ -179,7 +330,7 @@ const authorsData = [
       },
       {
         id: 8,
-        img: "../../public/bookcovers/tempest.jpg",
+        img: tempest,
         title: "The Tempest",
         value: "The Tempest",
         author:"William Shakespeare",
@@ -189,7 +340,7 @@ const authorsData = [
       },
       {
         id: 9,
-        img: "../../public/bookcovers/julius.jpg",
+        img: julius,
         title: "Julius Caesar",
         value: "Julius Caesar",
         author:"William Shakespeare",
@@ -208,12 +359,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 25,
-    img: "../../public/authorimages/emily.jpg",
+    img: bronte,
     name: "Emily Bronte",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/wuthering.jpg",
+        img: wuthering,
         title: "Wuthering Heights",
         value: "Wuthering Heights",
         author:"Emily Bronte",
@@ -232,12 +383,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 4,
-    img: "../../public/authorimages/ernesthem.jpg",
+    img: ernest,
     name: "Ernest Hemingway",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/the sun also rises.jpg",
+        img: thesun,
         title: "The Sun Also Rises",
         value: "The Sun Also Rises",
         author:"Ernest Hemingway",
@@ -247,7 +398,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/farewell to arms.jpg",
+        img: farewell,
         title: "A Farewell to Arms",
         value: "A Farewell to Arms",
         author:"Ernest Hemingway",
@@ -257,7 +408,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/for whom the bell tolls.jpg",
+        img: belltoll,
         title: "For Whom the Bell Tolls",
         value: "For Whom the Bell Tolls",
         author:"Ernest Hemingway",
@@ -267,7 +418,7 @@ const authorsData = [
       },
       {
         id: 4,
-        img: "../../public/bookcovers/to have and have not.jpg",
+        img: tohave,
         title: "To Have and Have Not",
         value: "To Have and Have Not",
         author:"Ernest Hemingway",
@@ -277,7 +428,7 @@ const authorsData = [
       },
       {
         id: 5,
-        img: "../../public/bookcovers/the old man and the sea.jpg",
+        img: oldman,
         title: "The Old Man and the Sea",
         value: "The Old Man and the Sea",
         author:"Ernest Hemingway",
@@ -287,7 +438,7 @@ const authorsData = [
       },
       {
         id: 6,
-        img: "../../public/bookcovers/a move.jpg",
+        img: feast,
         title: "A Moveable Feast",
         value: "A Moveable Feast",
         author:"Ernest Hemingway",
@@ -306,12 +457,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 7,
-    img: "../../public/authorimages/wilde.webp",
+    img: wilde,
     name: "Oscar Wilde",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/dorian.jpg",
+        img: dorian,
         title: "The Picture of Dorian Gray",
         value: "The Picture of Dorian Gray",
         author:"Oscar Wilde",
@@ -321,7 +472,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/canterville.jpg",
+        img: canterville,
         title: "The Canterville Ghost",
         value: "The Canterville Ghost",
         author:"Oscar Wilde",
@@ -331,7 +482,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/happy prince.jpg",
+        img: happyprince,
         title: "The Happy Prince and Other Tales",
         value: "The Happy Prince and Other Tales",
         author:"Oscar Wilde",
@@ -350,12 +501,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 11,
-    img: "../../public/authorimages/salinger.jpg",
+    img: salinger,
     name: "J.D. Salinger",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/catcher.jpg",
+        img: catcher,
         title: "The Catcher in the Rye",
         value: "The Catcher in the Rye",
         author:"J.D. Salinger",
@@ -365,7 +516,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/franny.jpg",
+        img: franny,
         title: "Franny and Zooey",
         value: "Franny and Zooey",
         author:"J.D. Salinger",
@@ -384,12 +535,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 8,
-    img: "../../public/authorimages/orwell.jpg",
+    img: orwell,
     name: "George Orwell",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/1984orwell.jpg",
+        img: orwell1984,
         title: "1984",
         value: "1984",
         author:"George Orwell",
@@ -399,7 +550,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/animal farm.jpg",
+        img: animal,
         title: "Animal Farm",
         value: "Animal Farm",
         author:"George Orwell",
@@ -418,12 +569,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 10,
-    img: "../../public/authorimages/austen.jpg",
+    img: jane,
     name: "Jane Austen",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/pride.jpg",
+        img: pride,
         title: "Pride and Prejudice",
         value: "Pride and Prejudice",
         author:"Jane Austen",
@@ -433,7 +584,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/emma.jpg",
+        img: emma,
         title: "Emma",
         value: "Emma",
         author:"Jane Austen",
@@ -443,7 +594,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/sense.jpg",
+        img: sense,
         title: "Sense and Sensibility",
         value: "Sense and Sensibility",
         author:"Jane Austen",
@@ -453,7 +604,7 @@ const authorsData = [
       },
       {
         id: 4,
-        img: "../../public/bookcovers/persuasion.jpg",
+        img: per,
         title: "Persuasion",
         value: "Persuasion",
         author:"Jane Austen",
@@ -472,12 +623,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 9,
-    img: "../../public/authorimages/doyle.jpg",
+    img: doyle,
     name: "Sir Arthur Conan Doyle",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/hound.jpg",
+        img: hound,
         title: "The Hound of the Baskervilles",
         value: "The Hound of the Baskervilles",
         author:"Sir Arthur Conan Doyle",
@@ -496,12 +647,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 2,
-    img: "../../public/authorimages/haruki.jpg",
+    img: haruki,
     name: "Haruki Murakami",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/kafkaontheshore.jpg",
+        img: kafkaontheshore,
         title: "Kafka on the Shore",
         value: "Kafka on the Shore",
         author:"Haruki Murakami",
@@ -511,7 +662,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/norweigan.jpg",
+        img: norweigan,
         title: "Norweigan Wood",
         value: "Norweigan Wood",
         author:"Haruki Murakami",
@@ -521,7 +672,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/wind up.jpg",
+        img: windup,
         title: "The Wind-up Bird Chronicle",
         value: "The Wind-up Bird Chronicle",
         author:"Haruki Murakami",
@@ -531,7 +682,7 @@ const authorsData = [
       },
       {
         id: 4,
-        img: "../../public/bookcovers/sputnik.jpg",
+        img: sputnik,
         title: "Sputnik Sweetheart",
         value: "Sputnik Sweetheart",
         author:"Haruki Murakami",
@@ -541,7 +692,7 @@ const authorsData = [
       },
       {
         id: 5,
-        img: "../../public/bookcovers/killing commendatore.jpg",
+        img: killing,
         title: "Killing Commendatore",
         value: "Killing Commendatore",
         author:"Haruki Murakami",
@@ -551,7 +702,7 @@ const authorsData = [
       },
       {
         id:6,
-        img: "../../public/bookcovers/after dark haruki.jpg",
+        img: afterdark,
         title: "After Dark",
         value: "After Dark",
         author:"Haruki Murakami",
@@ -570,12 +721,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 5,
-    img: "../../public/authorimages/stephenking.jpg",
+    img: stephenking,
     name: "Stephen King",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/shining.jpg",
+        img: shining,
         title: "The Shining",
         value: "The Shining",
         author:"Stephen King",
@@ -585,7 +736,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/it.jpg",
+        img: it,
         title: "It",
         value: "It",
         author:"Stephen King",
@@ -595,7 +746,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/stand.jpg",
+        img: stand,
         title: "The Stand",
         value: "The Stand",
         author:"Stephen King",
@@ -605,7 +756,7 @@ const authorsData = [
       },
       {
         id: 4,
-        img: "../../public/bookcovers/misery.jpg",
+        img: misery,
         title: "Misery",
         value: "Misery",
         author:"Stephen King",
@@ -624,12 +775,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 3,
-    img: "../../public/authorimages/jk.webp",
+    img: jk,
     name: "J.K. Rowling",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/philosopher stone.jpg",
+        img: stone,
         title: "The Philosopher’s Stone",
         value: "Harry Potter & the Philosopher’s Stone",
         author:"J.K. Rowling",
@@ -639,7 +790,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/chamber.jpg",
+        img: chamber,
         title: "The Chamber of Secrets",
         value: "Harry Potter & the Chamber of Secrets",
         author:"J.K. Rowling",
@@ -649,7 +800,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/prisoner of azakban.jpg",
+        img: azkaban,
         title: "The Prisoner of Azkaban",
         value: "Harry Potter & the Prisoner of Azkaban",
         author:"J.K. Rowling",
@@ -659,7 +810,7 @@ const authorsData = [
       },
       {
         id: 4,
-        img: "../../public/bookcovers/goblet of fire.jpg",
+        img: goblet,
         title: "The Goblet of Fire",
         value: "Harry Potter and the Goblet of Fire",
         author:"J.K. Rowling",
@@ -669,7 +820,7 @@ const authorsData = [
       },
       {
         id: 5,
-        img: "../../public/bookcovers/order of the phoneix.jpg",
+        img: phoenix,
         title: "The Order of the Phoenix",
         value: "Harry Potter & the Order of the Phoenix",
         author:"J.K. Rowling",
@@ -679,7 +830,7 @@ const authorsData = [
       },
       {
         id: 6,
-        img: "../../public/bookcovers/half blood.jpg",
+        img: halfblood,
         title: "The Half-Blood Prince",
         value: "Harry Potter & the Half-Blood Prince",
         author:"J.K. Rowling",
@@ -689,7 +840,7 @@ const authorsData = [
       },
       {
         id: 7,
-        img: "../../public/bookcovers/deathly hallows.jpg",
+        img: deathly,
         title: "The Deathly Hallows",
         value: "Harry Potter & the Deathly Hallows",
         author:"J.K. Rowling",
@@ -699,7 +850,7 @@ const authorsData = [
       },
       {
         id: 8,
-        img: "../../public/bookcovers/cursed child.jpg",
+        img: cursed,
         title: "Harry Potter & the Cursed Child",
         value: "Harry Potter & the Cursed Child",
         author:"J.K. Rowling",
@@ -718,12 +869,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 6,
-    img: "../../public/authorimages/golding.webp",
+    img: golding,
     name: "William Golding",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/flies.jpg",
+        img: flies,
         title: "Lord of the Flies",
         value: "Lord of the Flies",
         author:"William Golding",
@@ -742,12 +893,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 12,
-    img: "../../public/authorimages/johngreen.jpg",
+    img: green,
     name: "John Green",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/fault.jpg",
+        img: fault,
         title: "The Fault in Our Stars",
         value: "The Fault in Our Stars",
         author:"John Green",
@@ -757,7 +908,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/looking for alaska.jpg",
+        img: alaska,
         title: "Looking For Alaska",
         value: "Looking For Alaska",
         author:"John Green",
@@ -767,7 +918,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/paper.jpg",
+        img: paper,
         title: "Paper Towns",
         value: "Paper Towns",
         author:"John Green",
@@ -777,7 +928,7 @@ const authorsData = [
       },
       {
         id: 4,
-        img: "../../public/bookcovers/turtles.jpg",
+        img: turtles,
         title: "Turtles all the way down",
         value: "Turtles all the way down",
         author:"John Green",
@@ -796,12 +947,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 13,
-    img: "../../public/authorimages/rs.jpg",
+    img: robin,
     name: "Robin S. Sharma",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/monk.jpg",
+        img: monk,
         title: "The Monk who sold his Ferrari",
         value: "The Monk who sold his Ferrari",
         author:"Robin S. Sharma",
@@ -820,12 +971,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 14,
-    img: "../../public/authorimages/randall.webp",
+    img: randall,
     name: "Randall Munroe",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/whatif.jpg",
+        img: whatif,
         title: "What if",
         value: "What if",
         author:"Randall Munroe",
@@ -835,7 +986,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/what if 2.jpg",
+        img: whatif2,
         title: "What if 2",
         value: "What if 2",
         author:"Randall Munroe",
@@ -854,12 +1005,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 16,
-    img: "../../public/authorimages/El james.webp",
+    img: eljames,
     name: "E.L. James",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/fifty shades of grey.jpg",
+        img: fiftyshades,
         title: "Fifty Shades of Grey",
         value: "Fifty Shades of Grey",
         author:"E.L. James",
@@ -869,7 +1020,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/Darker.jpg",
+        img: darker,
         title: "Fifty Shades Darker",
         value: "Fifty Shades Darker",
         author:"E.L. James",
@@ -879,7 +1030,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/freed.jpg",
+        img: freed,
         title: "Fifty Shades Freed",
         value: "Fifty Shades Freed",
         author:"E.L. James",
@@ -898,12 +1049,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 17,
-    img: "../../public/authorimages/paulo.jpg",
+    img: paulo,
     name: "Paulo Coelho",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/alchemist.jpg",
+        img: alchemist,
         title: "The Alchemist",
         value: "The Alchemist",
         author:"Paulo Coelho",
@@ -913,7 +1064,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/vero.jpg",
+        img: veronika,
         title: "Veronika Decides to Die",
         value: "Veronika Decides to Die",
         author:"Paulo Coelho",
@@ -923,7 +1074,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/eleven.jpg",
+        img: eleven,
         title: "Eleven Minutes",
         value: "Eleven Minutes",
         author:"Paulo Coelho",
@@ -933,7 +1084,7 @@ const authorsData = [
       },
       {
         id: 4,
-        img: "../../public/bookcovers/brida.jpg",
+        img: brida,
         title: "Brida",
         value: "Brida",
         author:"Paulo Coelho",
@@ -952,12 +1103,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 18,
-    img: "../../public/authorimages/harper.jpg",
+    img: harper,
     name: "Harper Lee",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/killamockingbird.jpg",
+        img: mocking,
         title: "To Kill a Mockingbird",
         value: "To Kill a Mockingbird",
         author:"Harper Lee",
@@ -967,7 +1118,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/watchman.jpg",
+        img: watchman,
         title: "Go Set a Watchman",
         value: "Go Set a Watchman",
         author:"Harper Lee",
@@ -986,12 +1137,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 19,
-    img: "../../public/authorimages/hawking.jpg",
+    img: hawking,
     name: "Stephen Hawking",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/brief.jpg",
+        img: brief,
         title: "A Brief History of Time",
         value: "A Brief History of Time",
         author:"Stephen Hawking",
@@ -1001,7 +1152,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/briefer.jpg",
+        img: briefer,
         title: "A Briefer History of Time",
         value: "A Briefer History of Time",
         author:"Stephen Hawking",
@@ -1011,7 +1162,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/theory.jpg",
+        img: theory,
         title: "The Theory of Everything",
         value: "The Theory of Everything",
         author:"Stephen Hawking",
@@ -1030,12 +1181,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 20,
-    img: "../../public/authorimages/j asher.jpg",
+    img: jay,
     name: "Jay Asher",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/13reasons.jpg",
+        img: reasons,
         title: "13 Reasons Why",
         value: "13 Reasons Why",
         author:"Jay Asher",
@@ -1064,12 +1215,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 21,
-    img: "../../public/authorimages/hosseini.jpg",
+    img: khaled,
     name: "Kaled Hosseini",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/kite.jpg",
+        img: kite,
         title: "The Kite Runner",
         value: "The Kite Runner",
         author:"Kaled Hosseini",
@@ -1079,7 +1230,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/splendid.jpg",
+        img: splendid,
         title: "A Thousand Splendid Suns",
         value: "A Thousand Splendid Suns",
         author:"Kaled Hosseini",
@@ -1089,7 +1240,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/echoed.jpg",
+        img: echoed,
         title: "And the Mountains Echoed",
         value: "And the Mountains Echoed",
         author:"Kaled Hosseini",
@@ -1099,7 +1250,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/seaprayer.jpg",
+        img: sea,
         title: "Sea Prayer",
         value: "Sea Prayer",
         author:"Kaled Hosseini",
@@ -1118,12 +1269,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 22,
-    img: "../../public/authorimages/bach.jpg",
+    img: bach,
     name: "Richard Bach",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/jonathan.jpg",
+        img: jonathan,
         title: "Jonathan Livingston Seagull",
         value: "Jonathan Livingston Seagull",
         author:"Richard Bach",
@@ -1142,12 +1293,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 23,
-    img: "../../public/authorimages/yuval.jpg",
+    img: yuval,
     name: "Yuval Noah Harari",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/sapiens.jpg",
+        img: sapiens,
         title: "Sapiens",
         value: "Sapiens A Brief History of Humankind",
         author:"Yuval Noah Harari",
@@ -1157,7 +1308,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/deus.jpg",
+        img: deus,
         title: "Homo Deus",
         value: "Homo Deus A brief History of Tomorrow",
         author:"Yuval Noah Harari",
@@ -1167,7 +1318,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/21lessons.jpg",
+        img: lessons,
         title: "21 Lessons for the 21st Century",
         value: "21 Lessons for the 21st Century",
         author:"Yuval Noah Harari",
@@ -1186,12 +1337,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 24,
-    img: "../../public/authorimages/kiyo.jpg",
+    img: kiyo,
     name: "Robert T. Kiyosaki",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/rich.jpeg",
+        img: rich,
         title: "Rich Dad Poor Dad",
         value: "Rich Dad Poor Dad",
         author:"Robert T. Kiyosaki",
@@ -1210,12 +1361,12 @@ const authorsData = [
 /*-------------------------- */
   {
     id: 15,
-    img: "../../public/authorimages/Colleenhoover.webp",
+    img: hoover,
     name: "Colleen Hoover",
     books: [
       {
         id: 1,
-        img: "../../public/bookcovers/it ends with us.jpg",
+        img: itends,
         title: "It Ends with Us",
         value: "It Ends with Us",
         author:"Colleen Hoover",
@@ -1225,7 +1376,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/It starts with us.jpg",
+        img: itstarts,
         title: "It Starts with Us",
         value: "It Starts with Us",
         author:"Colleen Hoover",
@@ -1235,7 +1386,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/reminders of him.jpg",
+        img: reminder,
         title: "Reminders of Him",
         value: "Reminders of him",
         author:"Colleen Hoover",
@@ -1245,7 +1396,7 @@ const authorsData = [
       },
       {
         id: 4,
-        img: "../../public/bookcovers/ugly.jpg",
+        img: ugly,
         title: "Ugly Love",
         value: "Ugly Love",
         author:"Colleen Hoover",
@@ -1264,12 +1415,12 @@ const authorsData = [
 /*-------------------------- */
    { 
   id:28,
-  img:"../../public/authorimages/brndon.jpg",
+  img:brandon,
   name:"Brandon Sanderson",
   books:[
     {
       id:9,
-      img: "../../public/bookcovers/thefinalempire.jpg",
+      img: thefinal,
       title: "The Final Empire",
       value: "The Final Empire",
       author: "Brandon Sanderson",
@@ -1279,7 +1430,7 @@ const authorsData = [
     },
   {
       id:10,
-      img: "../../public/bookcovers/wellofascension.jpg",
+      img: wellofascension,
       title: "The Well of Ascension",
       value: "The Well of Ascension",
       author: "Brandon Sanderson",
@@ -1289,7 +1440,7 @@ const authorsData = [
     },
   {
       id:11,
-      img: "../../public/bookcovers/heroofages.jpg",
+      img: heroofages,
       title: "The Hero of Ages",
       value: "The Hero of Ages",
       author: "Brandon Sanderson",
@@ -1299,7 +1450,7 @@ const authorsData = [
     },
   {
       id:12,
-      img: "../../public/bookcovers/secrethistorymistbirn.jpg",
+      img: secrethistorymist,
       title: "Secret History",
       value: "Secret History",
       author: "Brandon Sanderson",
@@ -1309,7 +1460,7 @@ const authorsData = [
     },
   {
       id:13,
-      img: "../../public/bookcovers/alloy of law.jpg",
+      img: alloylaw,
       title: "The Alloy of Law",
       value: "The Alloy of Law",
       author: "Brandon Sanderson",
@@ -1319,7 +1470,7 @@ const authorsData = [
     },
   {
       id:14,
-      img: "../../public/bookcovers/shadowsofself.jpg",
+      img: shadowsself,
       title: "Shadows of Self",
       value: "Shadows of Self",
       author: "Brandon Sanderson",
@@ -1329,7 +1480,7 @@ const authorsData = [
     },
   {
       id:15,
-      img: "../../public/bookcovers/thebandsofmourning.jpg",
+      img: bandsmourning,
       title: "The Bands of Mourning",
       value: "The Bands of Mourning",
       author: "Brandon Sanderson",
@@ -1347,12 +1498,12 @@ const authorsData = [
 /*-------------------------- */
  { 
   id:29,
-  img:"../../public/authorimages/frank.webp",
+  img:frank,
   name:"Frank Herbert",
   books:[
     {
       id: 1,
-      img: "../../public/bookcovers/d1.jpg",
+      img: dune,
       title: "Dune",
       value: "Dune",
       author: "Frank Herbert",
@@ -1362,7 +1513,7 @@ const authorsData = [
     },
     {
       id: 2,
-      img: "../../public/bookcovers/d2.jpg",
+      img: dunemessiah,
       title: "Dune Messiah",
       value: "Dune Messiah",
       author: "Frank Herbert",
@@ -1372,7 +1523,7 @@ const authorsData = [
     },
     {
       id: 3,
-      img: "../../public/bookcovers/d3.jpg",
+      img: childrenofdune,
       title: "Children of Dune",
       value: "Children of Dune",
       author: "Frank Herbert",
@@ -1382,7 +1533,7 @@ const authorsData = [
     },
     {
       id: 4,
-      img: "../../public/bookcovers/d4.jpg",
+      img: godemperorofdune,
       title: "God Emperor of Dune",
       value: "God Emperor of Dune",
       author: "Frank Herbert",
@@ -1392,7 +1543,7 @@ const authorsData = [
     },
     {
       id: 5,
-      img: "../../public/bookcovers/d5.jpg",
+      img: herecticsofdune,
       title: "Heretics of Dune",
       value: "Heretics of Dune",
       author: "Frank Herbert",
@@ -1402,7 +1553,7 @@ const authorsData = [
     },
     {
       id: 6,
-      img: "../../public/bookcovers/d6.jpg",
+      img: chapterhousedune,
       title: "Chapterhouse Dune",
       value: "Chapterhouse Dune",
       author: "Frank Herbert",
@@ -1420,12 +1571,12 @@ const authorsData = [
 /*-------------------------- */
  { 
   id:30,
-  img:"../../public/authorimages/BlakeCrouch.jpg",
+  img:blake,
   name:"Blake Crouch",
   books:[
     {
       id: 1,
-      img: "../../public/bookcovers/dark matter.jpg",
+      img: darkmatter,
       title: "Dark Matter",
       value: "Dark Matter",
       author: "Blake Crouch",
@@ -1435,7 +1586,7 @@ const authorsData = [
     },
     {
       id: 2,
-      img: "../../public/bookcovers/recursion yellow.jpg",
+      img: recursion,
       title: "Recursion",
       value: "Recursion",
       author: "Blake Crouch",
@@ -1445,7 +1596,7 @@ const authorsData = [
     },
     {
       id: 3,
-      img: "../../public/bookcovers/upgrade.jpg",
+      img: upgrade,
       title: "Upgrade",
       value: "Upgrade",
       author: "Blake Crouch",
@@ -1455,7 +1606,7 @@ const authorsData = [
     },
     {
       id: 4,
-      img: "../../public/bookcovers/wp1.jpg",
+      img: wp1,
       title: "Wayward Pines 1",
       value: "Wayward Pines 1",
       author: "Blake Crouch",
@@ -1465,7 +1616,7 @@ const authorsData = [
     },
     {
       id: 5,
-      img: "../../public/bookcovers/wp2.jpg",
+      img: wp2,
       title: "Wayward Pines 2",
       value: "Wayward Pines 2",
       author: "Blake Crouch",
@@ -1475,7 +1626,7 @@ const authorsData = [
     },
     {
       id: 6,
-      img: "../../public/bookcovers/wp3.jpg",
+      img: wp3,
       title: "Wayward Pines 3",
       value: "Wayward Pines 3",
       author: "Blake Crouch",
@@ -1493,12 +1644,12 @@ const authorsData = [
 /*-------------------------- */
   { 
     id:31,
-    img:"../../public/authorimages/andy.webp",
+    img:andy,
     name:"Andy Weir",
     books:[
       {
         id: 1,
-        img: "../../public/bookcovers/mars.jpg",
+        img: mars,
         title: "The Martian",
         value: "The Martian",
         author: "Andy Weir",
@@ -1508,7 +1659,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/hail mary.jpg",
+        img: hailmary,
         title: "Project Hail Mary",
         value: "Project Hail Mary",
         author: "Andy Weir",
@@ -1518,7 +1669,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/artemis.jpg",
+        img: artemis,
         title: "Artemis",
         value: "Artemis",
         author: "Andy Weir",
@@ -1536,12 +1687,12 @@ const authorsData = [
 /*-------------------------- */
   { 
     id:32,
-    img:"../../public/authorimages/Taylor Jenkins Reid.jpg",
+    img:Taylor,
     name:"Taylor Jenkins Reid",
     books:[
       {
         id: 1,
-        img: "../../public/bookcovers/seven.jpg",
+        img: seven,
         title: "The Seven Husbands of Evelyn Hugo",
         value: "The Seven Husbands of Evelyn Hugo",
         author: "Taylor Jenkins Reid",
@@ -1551,7 +1702,7 @@ const authorsData = [
       },
       {
         id: 2,
-        img: "../../public/bookcovers/daisy.jpg",
+        img: Diasy,
         title: "Daisy Jones & The Six",
         value: "Daisy Jones and The Six",
         author: "Taylor Jenkins Reid",
@@ -1561,7 +1712,7 @@ const authorsData = [
       },
       {
         id: 3,
-        img: "../../public/bookcovers/one true.jpg",
+        img: onetrue,
         title: "One True Loves",
         value: "One True Loves",
         author: "Taylor Jenkins Reid",
@@ -1571,7 +1722,7 @@ const authorsData = [
       },
       {
         id: 4,
-        img: "../../public/bookcovers/Evidence of the affair.jpg",
+        img: evidence,
         title: "Evidence of the Affair",
         value: "Evidence of the Affair",
         author: "Taylor Jenkins Reid",
@@ -1581,7 +1732,7 @@ const authorsData = [
       },
       {
         id: 5,
-        img: "../../public/bookcovers/maybe in another life.jpg",
+        img: maybein,
         title: "Maybe in Another Life",
         value: "Maybe in Another Life",
         author: "Taylor Jenkins Reid",
@@ -1591,7 +1742,7 @@ const authorsData = [
       },
       {
         id: 6,
-        img: "../../public/bookcovers/Forever interrupted.jpg",
+        img: foreverinterrupted,
         title: "Forever Interrupted",
         value: "Forever Interrupted",
         author: "Taylor Jenkins Reid",
@@ -1601,7 +1752,7 @@ const authorsData = [
       },
       {
         id: 7,
-        img: "../../public/bookcovers/after i do.jpg",
+        img: afterido,
         title: "After I Do",
         value: "After I Do",
         author: "Taylor Jenkins Reid",

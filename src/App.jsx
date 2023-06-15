@@ -3,8 +3,17 @@ import Navbar from "./Components/Navbar";
 import BookCard from "./Components/BookCard";
 import booksdata from "./Components/Booksdata";
 import Footer from "./Components/Footer";
+import Loading from "./Components/Loading";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
   const generateRandomIndices = (length, count) => {
     const indices = [];
     while (indices.length < count) {
@@ -19,15 +28,21 @@ function App() {
   const randomIndices = generateRandomIndices(booksdata.length, 8);
   const featuredBooks = randomIndices.map((index) => booksdata[index]);
 
-  const bookelements = featuredBooks.map((data) => {
+  const bookElements = featuredBooks.map((data) => {
     return <BookCard key={data.id} data={data} />;
   });
 
   return (
     <>
-      <Navbar />
-      <div className="booksbox">{bookelements}</div>
-      <Footer />
+      {loading ? (
+        <Loading />
+      ) : (
+        <>
+          <Navbar />
+          <div className="booksbox">{bookElements}</div>
+          <Footer />
+        </>
+      )}
     </>
   );
 }

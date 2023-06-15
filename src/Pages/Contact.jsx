@@ -7,6 +7,7 @@ import { useRef } from "react";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
 
+
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -140,7 +141,16 @@ export default function Contact() {
               {snackbarMessage}
             </MuiAlert>
           </Snackbar>
+        
+      </div>
+      <div className="information--card">
+        <h2 className="information--card--title">Contact Details</h2>
+        <p className="information--para">E-mail: findnagraj@gmail.com <br /> 
+        Based in India</p>
+        <div>
+          <img src="../../public/icons/contact.jpg" alt="contact" className="contact--illustration" />
         </div>
+      </div>
       </div>
 
       <div className="copyright--card">
