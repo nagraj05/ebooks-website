@@ -6,6 +6,7 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
+import contact from "../../public/icons/contact.jpg"
 
 
 export default function Contact() {
@@ -148,7 +149,7 @@ export default function Contact() {
         <p className="information--para">E-mail: findnagraj@gmail.com <br /> 
         Based in India</p>
         <div>
-          <img src="../../public/icons/contact.jpg" alt="contact" className="contact--illustration" />
+          <img src={contact} alt="contact" className="contact--illustration" />
         </div>
       </div>
       </div>
