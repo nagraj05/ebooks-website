@@ -1,4 +1,4 @@
-// import dune from "../../public/bookcovers/d1.jpg";
+import dune from "../../public/bookcovers/d1.jpg";
 import dunemessiah from "../../public/bookcovers/d2.jpg";
 import childrenofdune from "../../public/bookcovers/d3.jpg";
 import godemperorofdune from "../../public/bookcovers/d4.jpg";
@@ -51,7 +51,7 @@ import afterido from "../../public/bookcovers/after i do.jpg"
 export default [
   {
     id: 1,
-    img: "../assets/bookcovers/d1.jpg",
+    img: dune,
     title: "Dune",
     value: "Dune",
     author: "Frank Herbert",
