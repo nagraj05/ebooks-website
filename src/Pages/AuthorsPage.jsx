@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
-import authorsData from "./AuthorsData";
+import authorsData from "../data/AuthorsData";
 import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
 import "../Pages/AuthorPage.css";
 import { useEffect, useState } from "react";
-import authorsInfo from "../Pages/AuthorsInfo";
+import authorsInfo from "../data/AuthorsInfo";
 
 export default function AuthorPage() {
   const [selectedBook, setSelectedBook] = useState(null);

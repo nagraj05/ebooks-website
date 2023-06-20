@@ -64,14 +64,21 @@ html,
 .logo a{
   display: block;
 }
-.betterreads{
+.website--title{
   color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+.span{
+  color: #ea1538;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 28px;
 }
 span{
   color: #ea1538;
+  
 }
 .logo a img {
   display: block;
@@ -452,16 +459,23 @@ span{
   /* align-items: center; */
   margin-top: 60px;
 }
+.contactpage--title{
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 35px;
+  margin-top: 2px;
+}
 .contact--container {
   background-color: white;
   display: flex;
-  margin: 0px 20px;
+  margin: -40px 20px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   max-width: 100%;
   width: 480px;
-  height: 430px;
+  height: 425px;
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
@@ -579,8 +593,9 @@ textarea {
 }
 .information--card{
   max-width: 100%;
+  margin-top: -40px;
   width: 480px;
-  height: 430px;
+  height: 425px;
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
@@ -639,8 +654,8 @@ textarea {
     box-shadow: 0 1px 0 rgba(225,225,225,0.1)inset;
   }
   .lottie--container{
-    width: 20vw;
-    height: 20vh;
+    width: 20px;
+    height: 20px;
     padding-top: 9rem;
   }
   .nav--text{

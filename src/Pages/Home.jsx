@@ -1,7 +1,7 @@
 import "../App.css";
 import Navbar from "../Components/Navbar";
 import BookCard from "../Components/BookCard";
-import booksdata from "../Components/Booksdata";
+import booksdata from "../data/Booksdata";
 import Footer from "../Components/Footer";
 
 function Home() {

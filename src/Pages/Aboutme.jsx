@@ -16,8 +16,8 @@ export default function Aboutme() {
             <img className="nagraj-image" src={pic} alt="Nagraj Tadingi" />
             <div className="author-info">
               <p className="nagraj-para">
-                Hello! I'm Nagraj, the creator and curator behind this
-                books website. As an avid reader and lifelong learner, I've
+                Hello! I&apos;m Nagraj, the creator and curator behind this
+                books website. As an avid reader and lifelong learner, I&apos;ve
                 always found solace, inspiration, and endless possibilities
                 within the pages of books. 
                 <br/>
@@ -28,7 +28,7 @@ export default function Aboutme() {
                 intricate worlds crafted by Brandon Sanderson, whose epic
                 fantasy novels are known for their rich characters and intricate
                 magic systems. And when it comes to the enigmatic and
-                thought-provoking, Haruki Murakami's surreal and introspective
+                thought-provoking, Haruki Murakami&apos;s surreal and introspective
                 works never fail to captivate me. 
                 <br />
                 <br />

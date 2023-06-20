@@ -1,5 +1,5 @@
 import Navigation from "../Components/Navigation";
-import authorsData from "../Pages/AuthorsData";
+import authorsData from "../data/AuthorsData";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
 

@@ -25,20 +25,32 @@ export default function Footer() {
           />
         </a>
         <div className="footer-divider"></div>
-        <a href="">
-          <img src={Github} alt="" className="social-link github-link" />
+        <a 
+          href="https://www.github.com/nagraj05"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          <img src={Github} alt="Github" className="social-link github-link" />
         </a>
         <div className="footer-divider"></div>
-        <a href="">
-          <img src={Linkedin} alt="" className="social-link linkedin-link" />
+        <a 
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          <img src={Linkedin} alt="Linkedin" className="social-link linkedin-link" />
         </a>
         <div className="footer-divider"></div>
-        <a href="">
-          <img src={Twitter} alt="" className="social-link twitter-link" />
+        <a 
+          href="https://www.twitter.com/StudyingQuakes"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          <img src={Twitter} alt="Twitter" className="social-link twitter-link" />
         </a>
       </div>
       <div className="footer-para">
-        This website is completely designed by{" "}
+      This website is completely developed by{" "}
         <Link to="/aboutme" className="footer--name--link">Nagraj Tadingi</Link>
       </div>
     </footer>

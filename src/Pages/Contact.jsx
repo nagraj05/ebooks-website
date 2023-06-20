@@ -57,6 +57,7 @@ export default function Contact() {
   return (
     <div>
       <Navigation />
+      <h2 className="contactpage--title">Contacts & Copyright</h2>
       <div className="contact--home">
         <div className="contact--container">
           <h3 className="contact--title">E-pegion at your service!</h3>

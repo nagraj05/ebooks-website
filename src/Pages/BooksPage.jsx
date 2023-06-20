@@ -1,7 +1,7 @@
 import Navigation from "../Components/Navigation";
 import BooksCard from "../Components/BookCard";
 import Footer from "../Components/Footer";
-import booksdata from "../Components/Booksdata";
+import booksdata from "../data/Booksdata";
 import "../App.css";
 
 export default function BooksPage() {
