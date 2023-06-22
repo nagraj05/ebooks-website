@@ -1,8 +1,8 @@
 import Navigation from "../Components/Navigation";
-import pic from "../../public/images/nagraj.jpg";
-import instagram from "../../public/icons/thatguywithabook.png";
-import tweets from "../../public/icons/quakes.png";
-import tumblr from "../../public/icons/tumblrblog.png";
+import pic from "../assets/images/nagraj.jpg";
+import instagram from "../assets/icons/thatguywithabook.png";
+import tweets from "../assets/icons/quakes.png";
+import tumblr from "../assets/icons/tumblrblog.png";
 
 export default function Aboutme() {
   

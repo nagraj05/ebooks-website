@@ -9,7 +9,10 @@ export default function SearchBar({ data, onSelectBook, onClearInput }) {
   const handleFilter = (event) => {
     const searchWord = event.target.value;
     const newFilter = data.filter((value) => {
-      return value.title.toLowerCase().includes(searchWord.toLowerCase());
+      return (
+        value.title.toLowerCase().includes(searchWord.toLowerCase())||
+        value.author.toLowerCase().includes(searchWord.toLowerCase())
+        );
     });
     if (searchWord === "") {
       setFilteredData([]);
@@ -45,7 +48,10 @@ export default function SearchBar({ data, onSelectBook, onClearInput }) {
               className="dataItem"
               onClick={() => handleBookClick(value)}
             >
-              {value.title}
+              <div className="searchbar--output">
+                <div className="searchbar--output--title">{value.title} </div>
+                <div className="searchbar--output--author">{value.author}</div>
+              </div>
             </div>
           ))}
         </div>

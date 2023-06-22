@@ -1,156 +1,156 @@
-import a from "../../public/authorimages/agatha.jpg";
-import haruki from "../../public/authorimages/haruki.jpg";
-import stephenking from "../../public/authorimages/stephenking.jpg";
-import jk from "../../public/authorimages/jk.webp";
-import ernest from "../../public/authorimages/ernesthem.jpg";
-import golding from "../../public/authorimages/golding.webp";
-import wilde from "../../public/authorimages/wilde.webp";
-import orwell from "../../public/authorimages/orwell.jpg";
-import doyle from "../../public/authorimages/doyle.jpg";
-import jane from "../../public/authorimages/austen.jpg";
-import salinger from "../../public/authorimages/salinger.jpg";
-import green from "../../public/authorimages/johngreen.jpg";
-import robin from "../../public/authorimages/rs.jpg";
-import randall from "../../public/authorimages/randall.webp";
-import hoover from "../../public/authorimages/Colleenhoover.webp";
-import eljames from "../../public/authorimages/El james.webp";
-import paulo from "../../public/authorimages/paulo.jpg";
-import harper from "../../public/authorimages/harper.jpg";
-import hawking from "../../public/authorimages/hawking.jpg";
-import jay from "../../public/authorimages/j asher.jpg";
-import khaled from "../../public/authorimages/hosseini.jpg";
-import bach from "../../public/authorimages/bach.jpg";
-import yuval from "../../public/authorimages/yuval.jpg";
-import kiyo from "../../public/authorimages/kiyo.jpg";
-import bronte from "../../public/authorimages/emily.jpg";
-import kafka from "../../public/authorimages/franz.jpg";
-import shakespeare from "../../public/authorimages/Shakespeare.jpg";
-import none from "../../public/bookcovers/none.jpg"
-import murder from "../../public/bookcovers/orient.jpg";
-import myst from "../../public/bookcovers/mysterious.jpg";
-import sapiens from "../../public/bookcovers/sapiens.jpg";
-import deus from "../../public/bookcovers/deus.jpg";
-import metamorph from "../../public/bookcovers/metamorphosis.jpg";
-import trail from "../../public/bookcovers/the trail pengiun.jpg";
-import letterstohisfather from "../../public/bookcovers/letters to his father.jpg";
-import castle from "../../public/bookcovers/the castle.jpg";
-import hamlet from "../../public/bookcovers/hamlet.jpg";
-import wuthering from "../../public/bookcovers/wuthering.jpg";
-import thesun from "../../public/bookcovers/the sun also rises.jpg";
-import farewell from "../../public/bookcovers/farewell to arms.jpg";
-import belltoll from "../../public/bookcovers/for whom the bell tolls.jpg";
-import tohave from "../../public/bookcovers/to have and have not.jpg";
-import oldman from "../../public/bookcovers/the old man and the sea.jpg";
-import feast from "../../public/bookcovers/a move.jpg";
-import dorian from "../../public/bookcovers/dorian.jpg";
-import canterville from "../../public/bookcovers/canterville.jpg";
-import itstarts from "../../public/bookcovers/It starts with us.jpg";
-import itends from "../../public/bookcovers/it ends with us.jpg";
-import ugly from "../../public/bookcovers/ugly.jpg";
-import reminder from "../../public/bookcovers/reminders of him.jpg";
-import fiftyshades from "../../public/bookcovers/fifty shades of grey.jpg";
-import darker from "../../public/bookcovers/Darker.jpg";
-import freed from "../../public/bookcovers/freed.jpg";
-import macbeth from "../../public/bookcovers/macbeth.jpg";
-import romeo from "../../public/bookcovers/romeo.jpg";
-import midsummer from "../../public/bookcovers/midsummer.jpg";
-import muchado from "../../public/bookcovers/much ado.jpg";
-import othello from "../../public/bookcovers/othello.jpg";
-import kinglear from "../../public/bookcovers/king lear.jpg";
-import tempest from "../../public/bookcovers/tempest.jpg";
-import julius from "../../public/bookcovers/julius.jpg";
-import happyprince from "../../public/bookcovers/happy prince.jpg";
-import catcher from "../../public/bookcovers/catcher.jpg";
-import franny from "../../public/bookcovers/franny.jpg";
-import orwell1984 from "../../public/bookcovers/1984orwell.jpg";
-import animal from "../../public/bookcovers/animal farm.jpg";
-import pride from "../../public/bookcovers/pride.jpg";
-import emma from "../../public/bookcovers/emma.jpg";
-import sense from "../../public/bookcovers/sense.jpg";
-import per from "../../public/bookcovers/persuasion.jpg";
-import lessons from "../../public/bookcovers/21lessons.jpg";
-import alaska from "../../public/bookcovers/looking for alaska.jpg";
-import turtles from "../../public/bookcovers/turtles.jpg";
-import paper from "../../public/bookcovers/paper.jpg";
-import rich from "../../public/bookcovers/rich.jpeg";
-import jonathan from "../../public/bookcovers/jonathan.jpg";
-import fault from "../../public/bookcovers/fault.jpg";
-import reasons from "../../public/bookcovers/13reasons.jpg";
-// import piper from "../../public/bookcovers/piper.jpg";
-import kafkaontheshore from "../../public/bookcovers/kafkaontheshore.jpg";
-import norweigan from "../../public/bookcovers/norweigan.jpg";
-import windup from "../../public/bookcovers/wind up.jpg";
-import sputnik from "../../public/bookcovers/sputnik.jpg";
-import stone from "../../public/bookcovers/philosopher stone.jpg";
-import chamber from "../../public/bookcovers/chamber.jpg";
-import phoenix from "../../public/bookcovers/order of the phoneix.jpg";
-import deathly from "../../public/bookcovers/deathly hallows.jpg";
-import azkaban from "../../public/bookcovers/prisoner of azakban.jpg";
-import cursed from "../../public/bookcovers/cursed child.jpg";
-import goblet from "../../public/bookcovers/goblet of fire.jpg";
-import halfblood from "../../public/bookcovers/half blood.jpg";
-import kite from "../../public/bookcovers/kite.jpg";
-import splendid from "../../public/bookcovers/splendid.jpg";
-import echoed from "../../public/bookcovers/echoed.jpg";
-import sea from "../../public/bookcovers/seaprayer.jpg";
-import mocking from "../../public/bookcovers/killamockingbird.jpg";
-import watchman from "../../public/bookcovers/watchman.jpg";
-import brief from "../../public/bookcovers/brief.jpg";
-import briefer from "../../public/bookcovers/briefer.jpg";
-import theory from "../../public/bookcovers/theory.jpg";
-import whatif from "../../public/bookcovers/whatif.jpg";
-import monk from "../../public/bookcovers/monk.jpg";
-import flies from "../../public/bookcovers/flies.jpg";
-import hound from "../../public/bookcovers/hound.jpg";
-import shining from "../../public/bookcovers/shining.jpg";
-import it from "../../public/bookcovers/it.jpg";
-import stand from "../../public/bookcovers/stand.jpg";
-import misery from "../../public/bookcovers/misery.jpg";
-import brida from "../../public/bookcovers/brida.jpg";
-import alchemist from "../../public/bookcovers/alchemist.jpg";
-import eleven from "../../public/bookcovers/eleven.jpg";
-import veronika from "../../public/bookcovers/vero.jpg";
-import thefinal from "../../public/bookcovers/thefinalempire.jpg"
-import wellofascension from "../../public/bookcovers/wellofascension.jpg"
-import heroofages from "../../public/bookcovers/heroofages.jpg"
-import secrethistorymist from "../../public/bookcovers/secrethistorymistbirn.jpg"
-import alloylaw from "../../public/bookcovers/alloy of law.jpg"
-import shadowsself from "../../public/bookcovers/shadowsofself.jpg"
-import bandsmourning from "../../public/bookcovers/thebandsofmourning.jpg"
-import brandon from "../../public/authorimages/brndon.jpg"
-import frank from "../../public/authorimages/frank.webp"
-import dune from "../../public/bookcovers/d1.jpg";
-import dunemessiah from "../../public/bookcovers/d2.jpg";
-import childrenofdune from "../../public/bookcovers/d3.jpg";
-import godemperorofdune from "../../public/bookcovers/d4.jpg";
-import herecticsofdune from "../../public/bookcovers/d5.jpg";
-import chapterhousedune from "../../public/bookcovers/d6.jpg";
-import whatif2 from "../../public/bookcovers/what if 2.jpg"
-import blake from "../../public/authorimages/BlakeCrouch.jpg"
-import darkmatter from "../../public/bookcovers/dark matter.jpg"
-import recursion from "../../public/bookcovers/recursion yellow.jpg"
-import upgrade from "../../public/bookcovers/upgrade.jpg"
-import wp1 from "../../public/bookcovers/wp1.jpg"
-import wp2 from "../../public/bookcovers/wp2.jpg"
-import wp3 from "../../public/bookcovers/wp3.jpg"
-import andy from "../../public/authorimages/andy.webp"
-import mars from "../../public/bookcovers/mars.jpg"
-import hailmary from "../../public/bookcovers/hail mary.jpg"
-import artemis from "../../public/bookcovers/artemis.jpg"
-import killing from "../../public/bookcovers/killing commendatore.jpg"
-import afterdark from "../../public/bookcovers/after dark haruki.jpg"
-import Taylor from "../../public/authorimages/Taylor Jenkins Reid.jpg"
-import seven from "../../public/bookcovers/seven.jpg"
-import Diasy from "../../public/bookcovers/daisy.jpg"
-import onetrue from "../../public/bookcovers/one true.jpg"
-import evidence from "../../public/bookcovers/Evidence of the affair.jpg"
-import maybein from "../../public/bookcovers/maybe in another life.jpg"
-import foreverinterrupted from "../../public/bookcovers/Forever interrupted.jpg"
-import afterido from "../../public/bookcovers/after i do.jpg"
-import threebody from "../../public/bookcovers/threebody.jpg"
-import darkforest from "../../public/bookcovers/darkforest.jpg"
-import deathend from "../../public/bookcovers/death'send.jpg"
-import liu from "../../public/authorimages/liu.jpg"
+import a from "../assets/authorimages/agatha.jpg";
+import haruki from "../assets/authorimages/haruki.jpg";
+import stephenking from "../assets/authorimages/stephenking.jpg";
+import jk from "../assets/authorimages/jk.webp";
+import ernest from "../assets/authorimages/ernesthem.jpg";
+import golding from "../assets/authorimages/golding.webp";
+import wilde from "../assets/authorimages/wilde.webp";
+import orwell from "../assets/authorimages/orwell.jpg";
+import doyle from "../assets/authorimages/doyle.jpg";
+import jane from "../assets/authorimages/austen.jpg";
+import salinger from "../assets/authorimages/salinger.jpg";
+import green from "../assets/authorimages/johngreen.jpg";
+import robin from "../assets/authorimages/rs.jpg";
+import randall from "../assets/authorimages/randall.webp";
+import hoover from "../assets/authorimages/Colleenhoover.webp";
+import eljames from "../assets/authorimages/El james.webp";
+import paulo from "../assets/authorimages/paulo.jpg";
+import harper from "../assets/authorimages/harper.jpg";
+import hawking from "../assets/authorimages/hawking.jpg";
+import jay from "../assets/authorimages/j asher.jpg";
+import khaled from "../assets/authorimages/hosseini.jpg";
+import bach from "../assets/authorimages/bach.jpg";
+import yuval from "../assets/authorimages/yuval.jpg";
+import kiyo from "../assets/authorimages/kiyo.jpg";
+import bronte from "../assets/authorimages/emily.jpg";
+import kafka from "../assets/authorimages/franz.jpg";
+import shakespeare from "../assets/authorimages/Shakespeare.jpg";
+import none from "../assets/bookcovers/none.jpg"
+import murder from "../assets/bookcovers/orient.jpg";
+import myst from "../assets/bookcovers/mysterious.jpg";
+import sapiens from "../assets/bookcovers/sapiens.jpg";
+import deus from "../assets/bookcovers/deus.jpg";
+import metamorph from "../assets/bookcovers/metamorphosis.jpg";
+import trail from "../assets/bookcovers/the trail pengiun.jpg";
+import letterstohisfather from "../assets/bookcovers/letters to his father.jpg";
+import castle from "../assets/bookcovers/the castle.jpg";
+import hamlet from "../assets/bookcovers/hamlet.jpg";
+import wuthering from "../assets/bookcovers/wuthering.jpg";
+import thesun from "../assets/bookcovers/the sun also rises.jpg";
+import farewell from "../assets/bookcovers/farewell to arms.jpg";
+import belltoll from "../assets/bookcovers/for whom the bell tolls.jpg";
+import tohave from "../assets/bookcovers/to have and have not.jpg";
+import oldman from "../assets/bookcovers/the old man and the sea.jpg";
+import feast from "../assets/bookcovers/a move.jpg";
+import dorian from "../assets/bookcovers/dorian.jpg";
+import canterville from "../assets/bookcovers/canterville.jpg";
+import itstarts from "../assets/bookcovers/It starts with us.jpg";
+import itends from "../assets/bookcovers/it ends with us.jpg";
+import ugly from "../assets/bookcovers/ugly.jpg";
+import reminder from "../assets/bookcovers/reminders of him.jpg";
+import fiftyshades from "../assets/bookcovers/fifty shades of grey.jpg";
+import darker from "../assets/bookcovers/Darker.jpg";
+import freed from "../assets/bookcovers/freed.jpg";
+import macbeth from "../assets/bookcovers/macbeth.jpg";
+import romeo from "../assets/bookcovers/romeo.jpg";
+import midsummer from "../assets/bookcovers/midsummer.jpg";
+import muchado from "../assets/bookcovers/much ado.jpg";
+import othello from "../assets/bookcovers/othello.jpg";
+import kinglear from "../assets/bookcovers/king lear.jpg";
+import tempest from "../assets/bookcovers/tempest.jpg";
+import julius from "../assets/bookcovers/julius.jpg";
+import happyprince from "../assets/bookcovers/happy prince.jpg";
+import catcher from "../assets/bookcovers/catcher.jpg";
+import franny from "../assets/bookcovers/franny.jpg";
+import orwell1984 from "../assets/bookcovers/1984orwell.jpg";
+import animal from "../assets/bookcovers/animal farm.jpg";
+import pride from "../assets/bookcovers/pride.jpg";
+import emma from "../assets/bookcovers/emma.jpg";
+import sense from "../assets/bookcovers/sense.jpg";
+import per from "../assets/bookcovers/persuasion.jpg";
+import lessons from "../assets/bookcovers/21lessons.jpg";
+import alaska from "../assets/bookcovers/looking for alaska.jpg";
+import turtles from "../assets/bookcovers/turtles.jpg";
+import paper from "../assets/bookcovers/paper.jpg";
+import rich from "../assets/bookcovers/rich.jpeg";
+import jonathan from "../assets/bookcovers/jonathan.jpg";
+import fault from "../assets/bookcovers/fault.jpg";
+import reasons from "../assets/bookcovers/13reasons.jpg";
+// import piper from "../assets/bookcovers/piper.jpg";
+import kafkaontheshore from "../assets/bookcovers/kafkaontheshore.jpg";
+import norweigan from "../assets/bookcovers/norweigan.jpg";
+import windup from "../assets/bookcovers/wind up.jpg";
+import sputnik from "../assets/bookcovers/sputnik.jpg";
+import stone from "../assets/bookcovers/philosopher stone.jpg";
+import chamber from "../assets/bookcovers/chamber.jpg";
+import phoenix from "../assets/bookcovers/order of the phoneix.jpg";
+import deathly from "../assets/bookcovers/deathly hallows.jpg";
+import azkaban from "../assets/bookcovers/prisoner of azakban.jpg";
+import cursed from "../assets/bookcovers/cursed child.jpg";
+import goblet from "../assets/bookcovers/goblet of fire.jpg";
+import halfblood from "../assets/bookcovers/half blood.jpg";
+import kite from "../assets/bookcovers/kite.jpg";
+import splendid from "../assets/bookcovers/splendid.jpg";
+import echoed from "../assets/bookcovers/echoed.jpg";
+import sea from "../assets/bookcovers/seaprayer.jpg";
+import mocking from "../assets/bookcovers/killamockingbird.jpg";
+import watchman from "../assets/bookcovers/watchman.jpg";
+import brief from "../assets/bookcovers/brief.jpg";
+import briefer from "../assets/bookcovers/briefer.jpg";
+import theory from "../assets/bookcovers/theory.jpg";
+import whatif from "../assets/bookcovers/whatif.jpg";
+import monk from "../assets/bookcovers/monk.jpg";
+import flies from "../assets/bookcovers/flies.jpg";
+import hound from "../assets/bookcovers/hound.jpg";
+import shining from "../assets/bookcovers/shining.jpg";
+import it from "../assets/bookcovers/it.jpg";
+import stand from "../assets/bookcovers/stand.jpg";
+import misery from "../assets/bookcovers/misery.jpg";
+import brida from "../assets/bookcovers/brida.jpg";
+import alchemist from "../assets/bookcovers/alchemist.jpg";
+import eleven from "../assets/bookcovers/eleven.jpg";
+import veronika from "../assets/bookcovers/vero.jpg";
+import thefinal from "../assets/bookcovers/thefinalempire.jpg"
+import wellofascension from "../assets/bookcovers/wellofascension.jpg"
+import heroofages from "../assets/bookcovers/heroofages.jpg"
+import secrethistorymist from "../assets/bookcovers/secrethistorymistbirn.jpg"
+import alloylaw from "../assets/bookcovers/alloy of law.jpg"
+import shadowsself from "../assets/bookcovers/shadowsofself.jpg"
+import bandsmourning from "../assets/bookcovers/thebandsofmourning.jpg"
+import brandon from "../assets/authorimages/brndon.jpg"
+import frank from "../assets/authorimages/frank.webp"
+import dune from "../assets/bookcovers/d1.jpg";
+import dunemessiah from "../assets/bookcovers/d2.jpg";
+import childrenofdune from "../assets/bookcovers/d3.jpg";
+import godemperorofdune from "../assets/bookcovers/d4.jpg";
+import herecticsofdune from "../assets/bookcovers/d5.jpg";
+import chapterhousedune from "../assets/bookcovers/d6.jpg";
+import whatif2 from "../assets/bookcovers/what if 2.jpg"
+import blake from "../assets/authorimages/BlakeCrouch.jpg"
+import darkmatter from "../assets/bookcovers/dark matter.jpg"
+import recursion from "../assets/bookcovers/recursion yellow.jpg"
+import upgrade from "../assets/bookcovers/upgrade.jpg"
+import wp1 from "../assets/bookcovers/wp1.jpg"
+import wp2 from "../assets/bookcovers/wp2.jpg"
+import wp3 from "../assets/bookcovers/wp3.jpg"
+import andy from "../assets/authorimages/andy.webp"
+import mars from "../assets/bookcovers/mars.jpg"
+import hailmary from "../assets/bookcovers/hail mary.jpg"
+import artemis from "../assets/bookcovers/artemis.jpg"
+import killing from "../assets/bookcovers/killing commendatore.jpg"
+import afterdark from "../assets/bookcovers/after dark haruki.jpg"
+import Taylor from "../assets/authorimages/Taylor Jenkins Reid.jpg"
+import seven from "../assets/bookcovers/seven.jpg"
+import Diasy from "../assets/bookcovers/daisy.jpg"
+import onetrue from "../assets/bookcovers/one true.jpg"
+import evidence from "../assets/bookcovers/Evidence of the affair.jpg"
+import maybein from "../assets/bookcovers/maybe in another life.jpg"
+import foreverinterrupted from "../assets/bookcovers/Forever interrupted.jpg"
+import afterido from "../assets/bookcovers/after i do.jpg"
+import threebody from "../assets/bookcovers/threebody.jpg"
+import darkforest from "../assets/bookcovers/darkforest.jpg"
+import deathend from "../assets/bookcovers/death'send.jpg"
+import liu from "../assets/authorimages/liu.jpg"
 
 
 const authorsData = [

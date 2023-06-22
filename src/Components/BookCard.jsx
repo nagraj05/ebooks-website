@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import tag from "../../public/icons/tag.png";
+import tag from "../assets/icons/tag.png";
 
 export default function BookCard(props) {
   function handleDownload() {

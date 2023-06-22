@@ -44,6 +44,14 @@
   border-bottom-right-radius: 10px;
   z-index: 1;
 }
+.searchbar--output{
+  display:flex;
+  flex-direction: row;
+  gap:5px;
+}
+.searchbar--output--title{
+  font-weight:bold;
+}
 
 .dataResult::-webkit-scrollbar {
   display: none;

@@ -1,36 +1,36 @@
-import agatha from "../../public/authorimages/agatha.jpg";
-import franz from "../../public/authorimages/franz.jpg";
-import haruki from "../../public/authorimages/haruki.jpg";
-import stephenking from "../../public/authorimages/stephenking.jpg";
-import jk from "../../public/authorimages/jk.webp";
-import ernest from "../../public/authorimages/ernesthem.jpg";
-import golding from "../../public/authorimages/golding.webp";
-import wilde from "../../public/authorimages/wilde.webp";
-import orwell from "../../public/authorimages/orwell.jpg";
-import doyle from "../../public/authorimages/doyle.jpg";
-import jane from "../../public/authorimages/austen.jpg";
-import salinger from "../../public/authorimages/salinger.jpg";
-import green from "../../public/authorimages/johngreen.jpg";
-import robin from "../../public/authorimages/rs.jpg";
-import randall from "../../public/authorimages/randall.webp";
-import hoover from "../../public/authorimages/Colleenhoover.webp";
-import eljames from "../../public/authorimages/El james.webp";
-import paulo from "../../public/authorimages/paulo.jpg";
-import harper from "../../public/authorimages/harper.jpg";
-import hawking from "../../public/authorimages/hawking.jpg";
-import jay from "../../public/authorimages/j asher.jpg";
-import khaled from "../../public/authorimages/hosseini.jpg";
-import bach from "../../public/authorimages/bach.jpg";
-import yuval from "../../public/authorimages/yuval.jpg";
-import kiyo from "../../public/authorimages/kiyo.jpg";
-import bronte from "../../public/authorimages/emily.jpg";
-import shakespeare from "../../public/authorimages/Shakespeare.jpg";
-import brandon from "../../public/authorimages/brndon.jpg"
-import frank from "../../public/authorimages/frank.webp"
-import blake from "../../public/authorimages/BlakeCrouch.jpg"
-import andy from "../../public/authorimages/andy.webp"
-import Taylor from "../../public/authorimages/Taylor Jenkins Reid.jpg"
-import liu from "../../public/authorimages/liu.jpg"
+import agatha from "../assets/authorimages/agatha.jpg";
+import franz from "../assets/authorimages/franz.jpg";
+import haruki from "../assets/authorimages/haruki.jpg";
+import stephenking from "../assets/authorimages/stephenking.jpg";
+import jk from "../assets/authorimages/jk.webp";
+import ernest from "../assets/authorimages/ernesthem.jpg";
+import golding from "../assets/authorimages/golding.webp";
+import wilde from "../assets/authorimages/wilde.webp";
+import orwell from "../assets/authorimages/orwell.jpg";
+import doyle from "../assets/authorimages/doyle.jpg";
+import jane from "../assets/authorimages/austen.jpg";
+import salinger from "../assets/authorimages/salinger.jpg";
+import green from "../assets/authorimages/johngreen.jpg";
+import robin from "../assets/authorimages/rs.jpg";
+import randall from "../assets/authorimages/randall.webp";
+import hoover from "../assets/authorimages/Colleenhoover.webp";
+import eljames from "../assets/authorimages/El james.webp";
+import paulo from "../assets/authorimages/paulo.jpg";
+import harper from "../assets/authorimages/harper.jpg";
+import hawking from "../assets/authorimages/hawking.jpg";
+import jay from "../assets/authorimages/j asher.jpg";
+import khaled from "../assets/authorimages/hosseini.jpg";
+import bach from "../assets/authorimages/bach.jpg";
+import yuval from "../assets/authorimages/yuval.jpg";
+import kiyo from "../assets/authorimages/kiyo.jpg";
+import bronte from "../assets/authorimages/emily.jpg";
+import shakespeare from "../assets/authorimages/Shakespeare.jpg";
+import brandon from "../assets/authorimages/brndon.jpg"
+import frank from "../assets/authorimages/frank.webp"
+import blake from "../assets/authorimages/BlakeCrouch.jpg"
+import andy from "../assets/authorimages/andy.webp"
+import Taylor from "../assets/authorimages/Taylor Jenkins Reid.jpg"
+import liu from "../assets/authorimages/liu.jpg"
 
 
 
@@ -51,7 +51,7 @@ const AuthorInfo = [
     id: 26,
     img: franz,
     name: "Franz Kafka",
-    born: "in Prague, Bohemia, Austria-Hungary, Czech Republic. July 03, 1883",
+    born: "in Prague, Bohemia, Austria-Hungary, Cz../assets/ July 03, 1883",
     died: "June 03, 1924",
     website: "",
     genre: "Fiction, Philosophy, Short Stories",

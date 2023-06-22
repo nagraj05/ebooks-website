@@ -1,11 +1,11 @@
 import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
 import "../App.css";
-import bookstack from "../../public/icons/bookstack.png";
-import authoricon from "../../public/icons/group.png";
-import homeicon from "../../public/icons/house.png";
-import abouticon from "../../public/icons/man.png";
-import contact from "../../public/icons/contact.png";
+import bookstack from "../assets/icons/bookstack.png";
+import authoricon from "../assets/icons/group.png";
+import homeicon from "../assets/icons/house.png";
+import abouticon from "../assets/icons/man.png";
+import contact from "../assets/icons/contact.png";
 
 export default function Map() {
   return (

@@ -1,12 +1,12 @@
 import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
-import close from "../../public/icons/close-mail.png";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
-import contact from "../../public/icons/contact.jpg"
+import contact from "../assets/icons/contact.jpg"
+import EmailIcon from '@mui/icons-material/Email';
 
 
 export default function Contact() {
@@ -171,9 +171,9 @@ export default function Contact() {
           the concern.
         </p>
         <div>
-          <a href="" onClick={handleMail}>
-            <img src={close} alt="" className="mail-icon" />
-          </a>
+          <div className="email--icon">
+            <EmailIcon onClick={handleMail}/>
+          </div>
         </div>
       </div>
       <Footer />

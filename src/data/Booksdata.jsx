@@ -1,55 +1,55 @@
-import dune from "../../public/bookcovers/d1.jpg";
-import dunemessiah from "../../public/bookcovers/d2.jpg";
-import childrenofdune from "../../public/bookcovers/d3.jpg";
-import godemperorofdune from "../../public/bookcovers/d4.jpg";
-import herecticsofdune from "../../public/bookcovers/d5.jpg";
-import chapterhousedune from "../../public/bookcovers/d6.jpg";
-import sapiens from "../../public/bookcovers/sapiens.jpg";
-import deus from "../../public/bookcovers/deus.jpg";
-import thefinal from "../../public/bookcovers/thefinalempire.jpg"
-import wellofascension from "../../public/bookcovers/wellofascension.jpg"
-import heroofages from "../../public/bookcovers/heroofages.jpg"
-import secrethistorymist from "../../public/bookcovers/secrethistorymistbirn.jpg"
-import alloylaw from "../../public/bookcovers/alloy of law.jpg"
-import shadowsself from "../../public/bookcovers/shadowsofself.jpg"
-import bandsmourning from "../../public/bookcovers/thebandsofmourning.jpg"
-import none from "../../public/bookcovers/none.jpg";
-import murder from "../../s../../public/bookcovers/orient.jpg";
-import myst from "../../s../../public/bookcovers/mysterious.jpg";
-import metamorph from "../../public/bookcovers/metamorphosis.jpg";
-import trail from "../../public/bookcovers/the trail pengiun.jpg";
-import letterstohisfather from "../../public/bookcovers/letters to his father.jpg";
-import castle from "../../public/bookcovers/the castle.jpg";
-import macbeth from "../../public/bookcovers/macbeth.jpg";
-import romeo from "../../public/bookcovers/romeo.jpg";
-import midsummer from "../../public/bookcovers/midsummer.jpg";
-import muchado from "../../public/bookcovers/much ado.jpg";
-import othello from "../../public/bookcovers/othello.jpg";
-import kinglear from "../../public/bookcovers/king lear.jpg";
-import tempest from "../../public/bookcovers/tempest.jpg";
-import julius from "../../public/bookcovers/julius.jpg";
-import hamlet from "../../public/bookcovers/hamlet.jpg";
-import whatif from "../../public/bookcovers/whatif.jpg"
-import whatif2 from "../../public/bookcovers/what if 2.jpg"
-import darkmatter from "../../public/bookcovers/dark matter.jpg"
-import recursion from "../../public/bookcovers/recursion yellow.jpg"
-import upgrade from "../../public/bookcovers/upgrade.jpg"
-import wp1 from "../../public/bookcovers/wp1.jpg"
-import wp2 from "../../public/bookcovers/wp2.jpg"
-import wp3 from "../../public/bookcovers/wp3.jpg"
-import mars from "../../public/bookcovers/mars.jpg"
-import hailmary from "../../public/bookcovers/hail mary.jpg"
-import artemis from "../../public/bookcovers/artemis.jpg"
-import seven from "../../public/bookcovers/seven.jpg"
-import Diasy from "../../public/bookcovers/daisy.jpg"
-import onetrue from "../../public/bookcovers/one true.jpg"
-import evidence from "../../public/bookcovers/Evidence of the affair.jpg"
-import maybein from "../../public/bookcovers/maybe in another life.jpg"
-import foreverinterrupted from "../../public/bookcovers/Forever interrupted.jpg"
-import afterido from "../../public/bookcovers/after i do.jpg"
-import threebody from "../../public/bookcovers/threebody.jpg"
-import darkforest from "../../public/bookcovers/darkforest.jpg"
-import deathend from "../../public/bookcovers/death'send.jpg"
+import dune from "../assets/bookcovers/d1.jpg";
+import dunemessiah from "../assets/bookcovers/d2.jpg";
+import childrenofdune from "../assets/bookcovers/d3.jpg";
+import godemperorofdune from "../assets/bookcovers/d4.jpg";
+import herecticsofdune from "../assets/bookcovers/d5.jpg";
+import chapterhousedune from "../assets/bookcovers/d6.jpg";
+import sapiens from "../assets/bookcovers/sapiens.jpg";
+import deus from "../assets/bookcovers/deus.jpg";
+import thefinal from "../assets/bookcovers/thefinalempire.jpg"
+import wellofascension from "../assets/bookcovers/wellofascension.jpg"
+import heroofages from "../assets/bookcovers/heroofages.jpg"
+import secrethistorymist from "../assets/bookcovers/secrethistorymistbirn.jpg"
+import alloylaw from "../assets/bookcovers/alloy of law.jpg"
+import shadowsself from "../assets/bookcovers/shadowsofself.jpg"
+import bandsmourning from "../assets/bookcovers/thebandsofmourning.jpg"
+import none from "../assets/bookcovers/none.jpg";
+import murder from "../assets/bookcovers/orient.jpg";
+import myst from "../assets/bookcovers/mysterious.jpg";
+import metamorph from "../assets/bookcovers/metamorphosis.jpg";
+import trail from "../assets/bookcovers/the trail pengiun.jpg";
+import letterstohisfather from "../assets/bookcovers/letters to his father.jpg";
+import castle from "../assets/bookcovers/the castle.jpg";
+import macbeth from "../assets/bookcovers/macbeth.jpg";
+import romeo from "../assets/bookcovers/romeo.jpg";
+import midsummer from "../assets/bookcovers/midsummer.jpg";
+import muchado from "../assets/bookcovers/much ado.jpg";
+import othello from "../assets/bookcovers/othello.jpg";
+import kinglear from "../assets/bookcovers/king lear.jpg";
+import tempest from "../assets/bookcovers/tempest.jpg";
+import julius from "../assets/bookcovers/julius.jpg";
+import hamlet from "../assets/bookcovers/hamlet.jpg";
+import whatif from "../assets/bookcovers/whatif.jpg"
+import whatif2 from "../assets/bookcovers/what if 2.jpg"
+import darkmatter from "../assets/bookcovers/dark matter.jpg"
+import recursion from "../assets/bookcovers/recursion yellow.jpg"
+import upgrade from "../assets/bookcovers/upgrade.jpg"
+import wp1 from "../assets/bookcovers/wp1.jpg"
+import wp2 from "../assets/bookcovers/wp2.jpg"
+import wp3 from "../assets/bookcovers/wp3.jpg"
+import mars from "../assets/bookcovers/mars.jpg"
+import hailmary from "../assets/bookcovers/hail mary.jpg"
+import artemis from "../assets/bookcovers/artemis.jpg"
+import seven from "../assets/bookcovers/seven.jpg"
+import Diasy from "../assets/bookcovers/daisy.jpg"
+import onetrue from "../assets/bookcovers/one true.jpg"
+import evidence from "../assets/bookcovers/Evidence of the affair.jpg"
+import maybein from "../assets/bookcovers/maybe in another life.jpg"
+import foreverinterrupted from "../assets/bookcovers/Forever interrupted.jpg"
+import afterido from "../assets/bookcovers/after i do.jpg"
+import threebody from "../assets/bookcovers/threebody.jpg"
+import darkforest from "../assets/bookcovers/darkforest.jpg"
+import deathend from "../assets/bookcovers/death'send.jpg"
 
 export default [
   {
