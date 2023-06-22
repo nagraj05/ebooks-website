@@ -70,6 +70,7 @@ export default function Contact() {
             <div className="form-group">
               <label htmlFor="name">Name:</label>
               <input
+                className="contact--input"
                 type="text"
                 name="user_name"
                 id="name"
@@ -83,6 +84,7 @@ export default function Contact() {
             <div className="form-group">
               <label htmlFor="email">Email:</label>
               <input
+                className="contact--input"
                 type="email"
                 name="user_email"
                 id="email"

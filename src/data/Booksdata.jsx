@@ -47,6 +47,9 @@ import evidence from "../../public/bookcovers/Evidence of the affair.jpg"
 import maybein from "../../public/bookcovers/maybe in another life.jpg"
 import foreverinterrupted from "../../public/bookcovers/Forever interrupted.jpg"
 import afterido from "../../public/bookcovers/after i do.jpg"
+import threebody from "../../public/bookcovers/threebody.jpg"
+import darkforest from "../../public/bookcovers/darkforest.jpg"
+import deathend from "../../public/bookcovers/death'send.jpg"
 
 export default [
   {
@@ -537,6 +540,36 @@ export default [
     author: "Taylor Jenkins Reid",
     genre: "Fiction",
     pages: 279,
+    year: "",
+  },
+  {
+    id: 50,
+    img: threebody,
+    title: "The Three-Body Problem",
+    value: "The Three Body Problem",
+    author: "Cixin Liu",
+    genre: "Science Fiction",
+    pages: 334,
+    year: "",
+  },
+  {
+    id: 51,
+    img: darkforest,
+    title: "The Dark Forest",
+    value: "The Dark Forest",
+    author: "Cixin Liu",
+    genre: "Science Fiction",
+    pages: 456,
+    year: "",
+  },
+  {
+    id: 52,
+    img: deathend,
+    title: "Death's End",
+    value: "Death's End",
+    author: "Cixin Liu",
+    genre: "Science Fiction",
+    pages: 513,
     year: "",
   },
 ];

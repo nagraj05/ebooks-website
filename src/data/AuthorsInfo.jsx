@@ -30,6 +30,7 @@ import frank from "../../public/authorimages/frank.webp"
 import blake from "../../public/authorimages/BlakeCrouch.jpg"
 import andy from "../../public/authorimages/andy.webp"
 import Taylor from "../../public/authorimages/Taylor Jenkins Reid.jpg"
+import liu from "../../public/authorimages/liu.jpg"
 
 
 
@@ -398,6 +399,17 @@ const AuthorInfo = [
       genre:"Fiction",
       influences:"",
       about:`A talented contemporary author, weaves intricate narratives that delve into the complexities of human relationships and personal growth. Known for her compelling storytelling and well-crafted characters, Reid's novels like "Daisy Jones & The Six" and "Malibu Rising" have garnered widespread acclaim, resonating with readers across genres. With her unique blend of emotional depth and immersive storytelling, Reid has established herself as a prominent voice in contemporary fiction.`,
+    },
+    {
+      id:33,
+      img:liu,
+      name:"Liu Cixin",
+      born:"Beijing, China. June 23, 1963",
+      died:"",
+      website:"",
+      genre:"Science Fiction",
+      influences:"",
+      about:`A visionary Chinese author, has redefined science fiction with his thought-provoking and epic novels. His masterpiece, "The Three-Body Problem," earned global acclaim for its ingenious blend of science, philosophy, and gripping storytelling. Liu's imaginative works have propelled him to become one of the most influential voices in contemporary science fiction.`,
     },
 ];
 export default AuthorInfo;

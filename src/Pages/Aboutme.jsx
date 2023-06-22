@@ -1,5 +1,5 @@
 import Navigation from "../Components/Navigation";
-import pic from "../../public/images/nt.webp";
+import pic from "../../public/images/nagraj.jpg";
 import instagram from "../../public/icons/thatguywithabook.png";
 import tweets from "../../public/icons/quakes.png";
 import tumblr from "../../public/icons/tumblrblog.png";

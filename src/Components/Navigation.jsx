@@ -1,12 +1,13 @@
 import { Link as Link } from "react-router-dom";
 
 export default function Navigation() {
+  
   return (
     <div>
     <header className='header'>
       <div className="logo">
        <h2 className="website--title">
-        📚READ<span className="span"> IT</span>
+        📚BETTER<span className="span"> READS</span>
        </h2>
       </div>
       <div className="navigation">
@@ -34,7 +35,6 @@ export default function Navigation() {
           </ul>
       </div>
     </header>
-    
   </div>
   );
 }
