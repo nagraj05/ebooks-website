@@ -240,10 +240,16 @@
     width: 80%;
     height: auto;
   }
+  .author-image{
+    margin: 30px 50px;
+  }
 }
 @media screen and (max-width:430px){
   .copyright--para{
     font-size: 12px;
+  }
+  .author-image{
+    margin: 30px 50px;
   }
 }
 

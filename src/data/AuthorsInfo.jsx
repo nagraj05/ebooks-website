@@ -51,7 +51,7 @@ const AuthorInfo = [
     id: 26,
     img: franz,
     name: "Franz Kafka",
-    born: "in Prague, Bohemia, Austria-Hungary, Cz../assets/ July 03, 1883",
+    born: "in Prague, Bohemia, Austria-Hungary,Czech Republic. July 03, 1883",
     died: "June 03, 1924",
     website: "",
     genre: "Fiction, Philosophy, Short Stories",
