@@ -13,10 +13,10 @@ export default function Navbar() {
         and every story awaits its avid reader. Welcome to the world of ebooks,
         where dreams come alive on every page.
       </p>
+      <p className="nav--subpara">Coded with hate, love & coffee by Nagraj</p>
+      </div>
       <div className="lottie--container">
         <Lottie animationData={books} />
-      </div>
-      <p className="nav--subpara">Coded with hate, love & coffee by Nagraj</p>
       </div>
     </div>
   );

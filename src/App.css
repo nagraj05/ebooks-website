@@ -47,10 +47,9 @@ html,
 }
 .lottie--container {
   width: 400px;
-  height: 100px;
   float: right;
   margin-right: 120px;
-  margin-top: -200px;
+  margin-top: -430px;
 }
 /* Navigation bar */
 .header {
