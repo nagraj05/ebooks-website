@@ -451,8 +451,9 @@ span {
 }
 .contact--home {
   display: flex;
-  justify-content: center;
-  margin-top: 60px;
+  justify-content:center;
+  margin: 60px auto;
+  flex-wrap: wrap;
 }
 .contactpage--title {
   text-align: center;
@@ -659,6 +660,11 @@ textarea {
     height: auto;
   }
 }
+@media screen and (max-width: 1003px){
+  .contact--home{
+    gap: 100px;
+  }
+}
 @media screen and (max-width: 989px){
   .lottie--container{
     display: none;
@@ -681,4 +687,32 @@ textarea {
     height: auto;
   }
 }
-
+@media screen and (max-width:837px){
+  .nav--text{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 85px;
+  }
+  .nav--para{
+    font-size: 20px;
+    margin-left: 85px;
+  }
+  .nav--subpara{
+    margin-left: 85px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:459px){
+  .nav--text{
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  .nav--para{
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  .nav--subpara{
+    font-size: 10px;
+    margin-left: 50px;
+  }
+}

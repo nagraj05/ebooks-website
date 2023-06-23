@@ -230,4 +230,10 @@
     width: auto;
   }
 }
+@media  screen and (max-width: 591px) {
+  .nagraj-image{
+    width: 80%;
+    height: auto;
+  }
+}
 
