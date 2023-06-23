@@ -704,6 +704,7 @@ textarea {
   .nav--para{
     font-size: 20px;
     margin-left: 85px;
+    text-align: justify;
   }
   .nav--subpara{
     margin-left: 85px;
@@ -718,6 +719,7 @@ textarea {
   .nav--para{
     font-size: 18px;
     margin-left: 50px;
+    text-align: justify;
   }
   .nav--subpara{
     font-size: 10px;
@@ -729,5 +731,15 @@ textarea {
     width: 200px;
     margin:0  100px;
   }
-  
+  .nav--text{
+    font-size: 25px;
+    width: 300px;
+  }
+  .nav--para{
+    width: 300px;
+    text-align: justify;
+  }
+  .nav--subpara{
+    color:rgb(107, 107, 107);
+  }
 }
