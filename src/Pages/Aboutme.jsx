@@ -3,6 +3,7 @@ import pic from "../assets/images/nagraj.jpg";
 import instagram from "../assets/icons/thatguywithabook.png";
 import tweets from "../assets/icons/quakes.png";
 import tumblr from "../assets/icons/tumblrblog.png";
+import goodreads from "../assets/icons/social.png"
 
 export default function Aboutme() {
   
@@ -39,6 +40,17 @@ export default function Aboutme() {
                 power of storytelling.
               </p>
               <div className="nagraj--links">
+              <a
+                  href="https://www.goodreads.com/user/show/57097572-thatguywithabook"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={goodreads}
+                    alt="Goodreads"
+                    className="nagraj--social"
+                  />
+                </a>
                 <a
                   href="https://www.instagram.com/thatguywithabook"
                   target="_blank"

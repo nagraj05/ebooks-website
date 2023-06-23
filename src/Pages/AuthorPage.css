@@ -50,7 +50,6 @@
 .info-born {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
-  word-spacing: 2px;
   font-size: 20px;
 }
 .info-died {
@@ -62,7 +61,6 @@
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-size: 20px;
-  word-spacing: 2px;
 }
 
 .top {
@@ -241,7 +239,7 @@
     height: auto;
   }
   .author-image{
-    margin: 30px 50px;
+    margin: 30px 40px;
   }
 }
 @media screen and (max-width:430px){
@@ -249,7 +247,10 @@
     font-size: 12px;
   }
   .author-image{
-    margin: 30px 50px;
+    margin: 30px 40px;
+  }
+  .info-about{
+    word-spacing: 0.5px;
   }
 }
 
