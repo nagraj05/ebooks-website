@@ -15,6 +15,7 @@ export default function Navbar() {
       <div className="lottie--container">
         <Lottie animationData={books} />
       </div>
+      <p className="nav--subpara">Coded with hate, love & coffee by Nagraj</p>
     </div>
   );
 }

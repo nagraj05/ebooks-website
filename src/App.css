@@ -25,8 +25,7 @@ html,
   color: white;
   align-items: center;
   max-width: 600px;
-  padding-left: 46px;
-  margin: 150px 90px;
+  margin: 150px 135px;
 }
 .nav--para {
   display: flex;
@@ -36,8 +35,11 @@ html,
   max-width: 600px;
   color: gray;
   align-items: center;
-  padding-left: 46px;
-  margin: -140px 90px;
+  margin: -140px 135px;
+}
+.nav--subpara{
+  margin: 145px 135px;
+  max-width: 350px;
 }
 .lottie--container {
   width: 400px;
@@ -634,8 +636,7 @@ textarea {
     box-shadow: 0 1px 0 rgba(225, 225, 225, 0.1) inset;
   }
   .lottie--container {
-    width: 20px;
-    height: 20px;
+    width: 200px;
     padding-top: 9rem;
   }
   .nav--text {
@@ -651,4 +652,33 @@ textarea {
     width: 2rem;
     height: 2rem;
   }
+  .authors--card{
+    margin: 10px;
+  }
+  .overview--card{
+    height: auto;
+  }
 }
+@media screen and (max-width: 989px){
+  .lottie--container{
+    display: none;
+  }
+  .authors--card{
+    margin: 35px;
+  }
+}
+@media screen and (max-width:985px){
+  .bookspage--container{
+    margin: 20px 0;
+  }
+  .booksbox{
+    margin-top: 20px;
+  }
+  .card{
+    margin: auto;
+  }
+  .overview--card{
+    height: auto;
+  }
+}
+

@@ -201,3 +201,33 @@
   width: 33px;
   height: 33px;
 }
+@media screen and (max-width: 1113px){
+  .nagraj--intro--card{
+    height: 650px;
+  }
+  .author--intro--card{
+    width: 90%;
+    margin:auto;
+  }
+}
+@media  screen and (max-width:989px) {
+  .author--intro--card{
+    height: auto;
+  }
+  .nagraj--intro--card{
+    width: 80%;
+    margin: auto;
+  }
+  .copyright--card{
+    height: auto;
+    width: 90%;
+    margin: 25px auto;
+  }
+}
+@media screen and (max-width:981px){
+  .nagraj--intro--card{
+    height: auto;
+    width: auto;
+  }
+}
+
