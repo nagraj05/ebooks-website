@@ -34,18 +34,13 @@
 }
 .dataResult {
   font-family: "Cormorant Garamond", serif;
-  /* font-size: 18px; */
-  margin-top: 15px;
+  margin-top: 5px;
   width: 300px;
-  height: 120px;
+  height: 180px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
   overflow-y: auto;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  z-index: 1;
+  border-radius: 10px;
 }
 .searchbar--output--title{
   font-size: 18px;
@@ -53,14 +48,13 @@
 .searchbar--output--author{
   font-size: 16px;
   word-spacing: 2px;
-  /* font-family: Arial, Helvetica, sans-serif; */
 }
 .searchbar--output{
   display:flex;
   flex-direction: column;
   gap:5px;
   line-height: 1.1;
-  margin-bottom: 5px;
+  margin: 5px;
 }
 .searchbar--output--title{
   font-weight:bold;
