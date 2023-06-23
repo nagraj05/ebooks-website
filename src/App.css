@@ -17,6 +17,10 @@ html,
   width: 100%;
   background: linear-gradient(90deg, #091e3c, #000000);
 }
+.homepage--texts{
+  display: flex;
+  flex-direction: column;
+}
 .nav--text {
   font-family: "Cormorant Garamond", serif;
   font-weight: 700;
@@ -688,6 +692,10 @@ textarea {
   }
 }
 @media screen and (max-width:837px){
+  .homepage--texts{
+    justify-content: center;
+    height: 100vh;
+  }
   .nav--text{
     font-size: 20px;
     margin-top: 20px;
@@ -721,4 +729,5 @@ textarea {
     width: 200px;
     margin:0  100px;
   }
+  
 }
