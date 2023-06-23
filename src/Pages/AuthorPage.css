@@ -230,10 +230,20 @@
     width: auto;
   }
 }
+@media screen and (max-width:627px){
+  .copyright--para{
+    font-size: 15px;
+  }
+}
 @media  screen and (max-width: 591px) {
   .nagraj-image{
     width: 80%;
     height: auto;
+  }
+}
+@media screen and (max-width:430px){
+  .copyright--para{
+    font-size: 12px;
   }
 }
 

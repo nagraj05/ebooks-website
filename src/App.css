@@ -716,3 +716,9 @@ textarea {
     margin-left: 50px;
   }
 }
+@media screen and (max-width:430px){
+  .contact--illustration{
+    width: 200px;
+    margin:0  100px;
+  }
+}
