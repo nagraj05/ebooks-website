@@ -5,6 +5,7 @@ import booksdata from "../data/Booksdata";
 import "../App.css";
 import SearchBar from "../Components/SearchBar";
 import { useState } from "react";
+import ButtonScrollToTop from "../Components/ButtonToTop";
 
 export default function BooksPage() {
   const [selectedBook, setSelectedBook] = useState(null);
@@ -42,6 +43,7 @@ export default function BooksPage() {
           ))}
         </div>
       </div>
+      <ButtonScrollToTop />
       <Footer />
     </div>
   );

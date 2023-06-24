@@ -2,6 +2,7 @@ import Navigation from "../Components/Navigation";
 import authorsData from "../data/AuthorsData";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
+import ButtonScrollToTop from "../Components/ButtonToTop";
 
 export default function Authors() {
   return (
@@ -21,6 +22,7 @@ export default function Authors() {
           </Link>
         ))}
       </div>
+      <ButtonScrollToTop />
       <Footer />
     </div>
   );

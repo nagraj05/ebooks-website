@@ -724,6 +724,10 @@ textarea {
     font-size: 10px;
     margin-left: 50px;
   }
+  .bookspage--title{
+    font-size: 25px;
+    text-wrap: balance;
+  }
 }
 @media screen and (max-width:430px){
   .contact--illustration{
