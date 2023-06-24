@@ -607,7 +607,6 @@ textarea {
   height: 250px;
   width: 250px;
   margin-top: -10px;
-  margin-left: 110px;
 }
 @media screen and (max-width: 1113px) {
   .hamburger,
@@ -743,14 +742,14 @@ textarea {
     font-size: 25px;
   }
   .contact--illustration{
-    width: 160px;
+    width: 150px;
     height: 160px;
     margin-left: 10px;
   }
 }
 @media screen and (max-width:430px){
   .contact--illustration{
-    width: 200px;
+    width: 150px;
     margin:0  100px;
   }
   .nav--text{
