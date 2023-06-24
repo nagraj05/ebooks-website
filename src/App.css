@@ -404,6 +404,11 @@ span {
   font-size: 35px;
   text-align: center;
 }
+.overview--container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .overviewpage--title {
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
@@ -428,7 +433,6 @@ span {
   height: 390px;
   margin: 30px 130px;
   padding: 10px 40px;
-  /* border: 1px solid #ddd; */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
@@ -711,6 +715,9 @@ textarea {
   .nav--subpara{
     margin-left: 85px;
     font-size: 14px;
+  }
+  .section--icon{
+    margin-left: -20px;
   }
 }
 @media screen and (max-width:459px){

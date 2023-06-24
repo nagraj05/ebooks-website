@@ -137,13 +137,17 @@
   border-radius: 10px;
   margin: 20px;
 }
-
+.nagraj--intro--card--container{
+  display: flex;
+  width: 100%;
+  margin: -10px auto;
+}
 .nagraj--intro--card {
   text-indent: 1.8em;
   text-align: justify;
   max-width: 100%;
   height: 540px;
-  margin: 30px 150px;
+  margin: 0px 150px;
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
@@ -225,7 +229,6 @@
 @media screen and (max-width:981px){
   .nagraj--intro--card{
     height: auto;
-    width: auto;
   }
 }
 @media screen and (max-width:627px){
@@ -237,6 +240,10 @@
   .nagraj-image{
     width: 80%;
     height: auto;
+    margin: 20px 40px;
+  }
+  .nagraj--intro--card{
+    text-indent: 1;
   }
   .author-image{
     margin: 30px 40px;

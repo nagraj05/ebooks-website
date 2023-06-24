@@ -12,8 +12,8 @@ export default function Map() {
   return (
     <div>
       <Navigation />
+      <h1 className="overviewpage--title">Overview</h1>
       <div className="overview--container">
-        <h1 className="overviewpage--title">Overview</h1>
         <div className="overview--card">
           <div className="section">
             <img src={homeicon} alt="Home" className="section--icon" />

@@ -11,7 +11,7 @@ export default function Aboutme() {
     <div>
       <Navigation />
       <h2 className="author--book--title">The Creator</h2>
-      <div className="author--intro--card--container">
+      <div className="nagraj--intro--card--container">
         <div className="nagraj--intro--card">
           <div>
             <img className="nagraj-image" src={pic} alt="Nagraj Tadingi" />
