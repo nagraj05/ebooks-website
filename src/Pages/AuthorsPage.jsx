@@ -27,9 +27,7 @@ export default function AuthorPage() {
     return <div>Author not found</div>;
   }
 
-  const filteredAuthorsInfo = authorsInfo.filter(
-    (info) => info.id === Number(id)
-  );
+  const filteredAuthorsInfo = authorsInfo.filter((info) => info.id === Number(id));
 
   return (
     <div>
