@@ -242,6 +242,12 @@
     margin: 30px 40px;
   }
 }
+@media screen and (max-width:459px){
+  .author--book--title{
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+}
 @media screen and (max-width:430px){
   .copyright--para{
     font-size: 12px;

@@ -728,6 +728,16 @@ textarea {
     font-size: 25px;
     text-wrap: balance;
   }
+  .authors--title{
+    font-size: 25px;
+    text-wrap:balance;
+  }
+  .overviewpage--title{
+    font-size: 25px;
+  }
+  .contactpage--title{
+    font-size: 25px;
+  }
 }
 @media screen and (max-width:430px){
   .contact--illustration{
