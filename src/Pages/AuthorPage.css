@@ -244,6 +244,9 @@
   }
   .nagraj--intro--card{
     text-indent: 1;
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
   }
   .author-image{
     margin: 30px 40px;
