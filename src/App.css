@@ -352,8 +352,8 @@ span {
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items:center;
 }
 .authors--card {
   height: 250px;
@@ -685,6 +685,9 @@ textarea {
   }
   .authors--card{
     margin: 35px;
+  }
+  .booksbox{
+    gap: 15px;
   }
 }
 @media screen and (max-width:985px){

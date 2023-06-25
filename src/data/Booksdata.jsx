@@ -127,6 +127,7 @@ export default [
     author: "Frank Herbert",
     genre: "Sci-fi",
     pages: 629,
+    rating:4.5,
     year: 1965,
   },
   {
@@ -137,7 +138,8 @@ export default [
     author: "Frank Herbert",
     genre: "Sci-fi",
     pages: 223,
-    year: "",
+    rating:4.0,
+    year: 1969,
   },
   {
     id: 3,
@@ -146,8 +148,9 @@ export default [
     value: "Children of Dune",
     author: "Frank Herbert",
     genre: "Sci-fi",
-    pages: "400",
-    year: "",
+    pages: 400,
+    rating:4.0,
+    year: 1979,
   },
   {
     id: 4,
@@ -157,7 +160,8 @@ export default [
     author: "Frank Herbert",
     genre: "Sci-fi",
     pages: 577,
-    year: "",
+    rating:4.0,
+    year: 1981,
   },
   {
     id: 5,
@@ -167,7 +171,8 @@ export default [
     author: "Frank Herbert",
     genre: "Sci-fi",
     pages: 480,
-    year: "",
+    rating:4.0,
+    year: 1984,
   },
   {
     id: 6,
@@ -177,7 +182,8 @@ export default [
     author: "Frank Herbert",
     genre: "Sci-fi",
     pages: 574,
-    year: "",
+    rating:4.0,
+    year: 1985,
   },
   {
     id: 7,
@@ -187,7 +193,8 @@ export default [
     author: "Yuval Noah Harari",
     genre: "History",
     pages: 331,
-    year: "",
+    rating:4.5,
+    year: 2011,
   },
   {
     id: 8,
@@ -197,7 +204,8 @@ export default [
     author: "Yuval Noah Harari",
     genre: "History",
     pages: 333,
-    year: "",
+    rating:4.5,
+    year: 2015,
   },
   {
     id:9,
@@ -207,7 +215,8 @@ export default [
     author: "Brandon Sanderson",
     genre: "Fantasy Fiction",
     pages: 601,    
-    year: "",
+    rating:5.0,
+    year: 2006,
   },
 {
     id:10,
@@ -217,7 +226,8 @@ export default [
     author: "Brandon Sanderson",
     genre: "Fantasy Fiction",
     pages: 682,
-    year: "",
+    rating:4.5,
+    year: 2007,
   },
 {
     id:11,
@@ -227,7 +237,8 @@ export default [
     author: "Brandon Sanderson",
     genre: "Fantasy Fiction",
     pages: 630,
-    year: "",
+    rating:4.5,
+    year: 2008,
   },
 {
     id:12,
@@ -237,7 +248,8 @@ export default [
     author: "Brandon Sanderson",
     genre: "Fantasy Fiction",
     pages: 166,
-    year: "",
+    rating:4.0,
+    year: 2016,
   },
 {
     id:13,
@@ -247,7 +259,8 @@ export default [
     author: "Brandon Sanderson",
     genre: "Fantasy Fiction",
     pages: 282,
-    year: "",
+    rating:4.0,
+    year: 2011,
   },
 {
     id:14,
@@ -257,7 +270,8 @@ export default [
     author: "Brandon Sanderson",
     genre: "Fantasy Fiction",
     pages: 346,
-    year: "",
+    rating:4.0,
+    year: 2015,
   },
 {
     id:15,
@@ -267,7 +281,8 @@ export default [
     author: "Brandon Sanderson",
     genre: "Fantasy Fiction",
     pages: 406,
-    year: "",
+    rating:4.0,
+    year: 2016,
   },
   {
     id: 16,
@@ -277,6 +292,7 @@ export default [
     author:"Agatha Christie",
     genre:"Crime Thriller",
     pages: 204,
+    rating:"",
     year: "",
   },
   {
@@ -287,6 +303,7 @@ export default [
     author:"Agatha Christie",
     genre:"Crime Thriller",
     pages: 211,
+    rating:"",
     year: "",
   },
   {
@@ -297,6 +314,7 @@ export default [
     author:"Agatha Christie",
     genre:"Crime Thriller",
     pages: 178,
+    rating:"",
     year: "",
   },
   {
@@ -307,6 +325,7 @@ export default [
     author:"Franz Kafka",
     genre:"Classics",
     pages: 34,
+    rating:"",
     year: 1915,
   },
   {
@@ -317,6 +336,7 @@ export default [
     author:"Franz Kafka",
     genre:"Classics",
     pages: 143,
+    rating:"",
     year: "",
   },
   {
@@ -327,6 +347,7 @@ export default [
     author:"Franz Kafka",
     genre:"Classics",
     pages: 63,
+    rating:"",
     year: "",
   },
   {
@@ -337,6 +358,7 @@ export default [
     author:"Franz Kafka",
     genre:"Classics",
     pages: 204,
+    rating:"",
     year: "",
   },
   {
@@ -347,6 +369,7 @@ export default [
     author:"William Shakespeare",
     genre:"Play",
     pages: 168,
+    rating:"",
     year: "",
   },
   {
@@ -357,6 +380,7 @@ export default [
     author:"William Shakespeare",
     genre:"Play",
     pages: 73,
+    rating:"",
     year: "",
   },
   {
@@ -367,6 +391,7 @@ export default [
     author:"William Shakespeare",
     genre:"Play",
     pages: 39,
+    rating:"",
     year: "",
   },
   {
@@ -377,6 +402,7 @@ export default [
     author:"William Shakespeare",
     genre:"Play",
     pages: 96,
+    rating:"",
     year: "",
   },
   {
@@ -387,6 +413,7 @@ export default [
     author:"William Shakespeare",
     genre:"Play",
     pages: 148,
+    rating:"",
     year: "",
   },
   {
@@ -397,6 +424,7 @@ export default [
     author:"William Shakespeare",
     genre:"Play",
     pages: 96,
+    rating:"",
     year: "",
   },
   {
@@ -407,6 +435,7 @@ export default [
     author:"William Shakespeare",
     genre:"Play",
     pages: 146,
+    rating:"",
     year: "",
   },
   {
@@ -417,6 +446,7 @@ export default [
     author:"William Shakespeare",
     genre:"Play",
     pages: 171,
+    rating:"",
     year: "",
   },
   {
@@ -427,6 +457,7 @@ export default [
     author:"William Shakespeare",
     genre:"Play",
     pages: 110,
+    rating:"",
     year: "",
   },
   {
@@ -437,6 +468,7 @@ export default [
     author:"Randall Munroe",
     genre:"Science Humor",
     pages: 541,
+    rating:"",
     year: "",
   },
   {
@@ -447,6 +479,7 @@ export default [
     author:"Randall Munroe",
     genre:"Science Humor",
     pages: 1239,
+    rating:"",
     year: "",
   },
   {
@@ -457,6 +490,7 @@ export default [
     author: "Blake Crouch",
     genre: "Sci-fi",
     pages: 391,
+    rating:"",
     year: "",
   },
   {
@@ -467,6 +501,7 @@ export default [
     author: "Blake Crouch",
     genre: "Sci-fi",
     pages: 460,
+    rating:"",
     year: "",
   },
   {
@@ -477,6 +512,7 @@ export default [
     author: "Blake Crouch",
     genre: "Sci-fi",
     pages: 328,
+    rating:"",
     year: "",
   },
   {
@@ -487,6 +523,7 @@ export default [
     author: "Blake Crouch",
     genre: "Sci-fi",
     pages: 295,
+    rating:"",
     year: "",
   },
   {
@@ -497,6 +534,7 @@ export default [
     author: "Blake Crouch",
     genre: "Sci-fi",
     pages: 360,
+    rating:"",
     year: "",
   },
   {
@@ -507,6 +545,7 @@ export default [
     author: "Blake Crouch",
     genre: "Sci-fi",
     pages: 310,
+    rating:"",
     year: "",
   },
   {
@@ -517,6 +556,7 @@ export default [
     author: "Andy Weir",
     genre: "Sci-fi",
     pages: 390,
+    rating:"",
     year: "",
   },
   {
@@ -527,6 +567,7 @@ export default [
     author: "Andy Weir",
     genre: "Sci-fi",
     pages: 440,
+    rating:"",
     year: "",
   },
   {
@@ -537,6 +578,7 @@ export default [
     author: "Andy Weir",
     genre: "Sci-fi",
     pages: 275,
+    rating:"",
     year: "",
   },
   {
@@ -547,6 +589,7 @@ export default [
     author: "Taylor Jenkins Reid",
     genre: "Fiction",
     pages: 377,
+    rating:"",
     year: "",
   },
   {
@@ -557,6 +600,7 @@ export default [
     author: "Taylor Jenkins Reid",
     genre: "Fiction",
     pages: 261,
+    rating:"",
     year: "",
   },
   {
@@ -567,6 +611,7 @@ export default [
     author: "Taylor Jenkins Reid",
     genre: "Fiction",
     pages: 275,
+    rating:"",
     year: "",
   },
   {
@@ -577,6 +622,7 @@ export default [
     author: "Taylor Jenkins Reid",
     genre: "Fiction",
     pages: 76,
+    rating:"",
     year: "",
   },
   {
@@ -587,6 +633,7 @@ export default [
     author: "Taylor Jenkins Reid",
     genre: "Fiction",
     pages: 280,
+    rating:"",
     year: "",
   },
   {
@@ -597,6 +644,7 @@ export default [
     author: "Taylor Jenkins Reid",
     genre: "Fiction",
     pages: 258,
+    rating:"",
     year: "",
   },
   {
@@ -607,6 +655,7 @@ export default [
     author: "Taylor Jenkins Reid",
     genre: "Fiction",
     pages: 279,
+    rating:"",
     year: "",
   },
   {
@@ -617,6 +666,7 @@ export default [
     author: "Cixin Liu",
     genre: "Science Fiction",
     pages: 334,
+    rating:"",
     year: "",
   },
   {
@@ -627,6 +677,7 @@ export default [
     author: "Cixin Liu",
     genre: "Science Fiction",
     pages: 456,
+    rating:"",
     year: "",
   },
   {
@@ -637,6 +688,7 @@ export default [
     author: "Cixin Liu",
     genre: "Science Fiction",
     pages: 513,
+    rating:"",
     year: "",
   },
   {
@@ -647,6 +699,7 @@ export default [
     author:"Emily Bronte",
     genre:"Classics",
     pages: 230,
+    rating:"",
     year: "",
   },
   {
@@ -657,6 +710,7 @@ export default [
     author:"Ernest Hemingway",
     genre:"Classics",
     pages: 226,
+    rating:"",
     year: 1926,
   },
   {
@@ -667,6 +721,7 @@ export default [
     author:"Ernest Hemingway",
     genre:"Classics",
     pages: 290,
+    rating:"",
     year: 1929,
   },
   {
@@ -677,6 +732,7 @@ export default [
     author:"Ernest Hemingway",
     genre:"Classics",
     pages: 445,
+    rating:"",
     year: 1940,
   },
   {
@@ -687,6 +743,7 @@ export default [
     author:"Ernest Hemingway",
     genre:"Classics",
     pages: 183,
+    rating:"",
     year: 1937,
   },
   {
@@ -697,6 +754,7 @@ export default [
     author:"Ernest Hemingway",
     genre:"Classics",
     pages: 60,
+    rating:"",
     year: 1952,
   },
   {
@@ -707,6 +765,7 @@ export default [
     author:"Ernest Hemingway",
     genre:"Classics",
     pages: 105,
+    rating:"",
     year: 1964,
   },
   {
@@ -717,6 +776,7 @@ export default [
     author:"Oscar Wilde",
     genre:"Classics",
     pages: 116,
+    rating:"",
     year: 1890,
   },
   {
@@ -727,6 +787,7 @@ export default [
     author:"Oscar Wilde",
     genre:"Classics",
     pages: 31,
+    rating:"",
     year: 1887,
   },
   {
@@ -737,6 +798,7 @@ export default [
     author:"Oscar Wilde",
     genre:"Classics",
     pages: 58,
+    rating:"",
     year: 1888,
   },
   {
@@ -747,6 +809,7 @@ export default [
     author:"J.D. Salinger",
     genre:"Classics",
     pages: 160,
+    rating:"",
     year: "",
   },
   {
@@ -757,6 +820,7 @@ export default [
     author:"J.D. Salinger",
     genre:"Classics",
     pages: 104,
+    rating:"",
     year: "",
   },
   {
@@ -767,6 +831,7 @@ export default [
     author:"George Orwell",
     genre:"Dystopian",
     pages: 184,
+    rating:"",
     year: "",
   },
   {
@@ -777,6 +842,7 @@ export default [
     author:"George Orwell",
     genre:"Dystopian",
     pages: 62,
+    rating:"",
     year: "",
   },
   {
@@ -787,6 +853,7 @@ export default [
     author:"Jane Austen",
     genre:"Classics",
     pages: 256,
+    rating:"",
     year: "",
   },
   {
@@ -797,6 +864,7 @@ export default [
     author:"Jane Austen",
     genre:"Classics",
     pages: 282,
+    rating:"",
     year: "",
   },
   {
@@ -807,6 +875,7 @@ export default [
     author:"Jane Austen",
     genre:"Classics",
     pages: 238,
+    rating:"",
     year: "",
   },
   {
@@ -817,6 +886,7 @@ export default [
     author:"Jane Austen",
     genre:"Classics",
     pages: 228,
+    rating:"",
     year: "",
   },
   {
@@ -827,6 +897,7 @@ export default [
     author:"Sir Arthur Conan Doyle",
     genre:"Classics",
     pages: 136,
+    rating:"",
     year: "",
   },
   {
@@ -837,6 +908,7 @@ export default [
     author:"Haruki Murakami",
     genre:"Magical Realism",
     pages: 221,
+    rating:"",
     year: "",
   },
   {
@@ -847,6 +919,7 @@ export default [
     author:"Haruki Murakami",
     genre:"Romance",
     pages: 148,
+    rating:"",
     year: "",
   },
   {
@@ -857,6 +930,7 @@ export default [
     author:"Haruki Murakami",
     genre:"Magical Realism",
     pages: 463,
+    rating:"",
     year: "",
   },
   {
@@ -867,6 +941,7 @@ export default [
     author:"Haruki Murakami",
     genre:"Romance",
     pages: 138,
+    rating:"",
     year: "",
   },
   {
@@ -877,6 +952,7 @@ export default [
     author:"Haruki Murakami",
     genre:"Magical Realism",
     pages: 594,
+    rating:"",
     year: "",
   },
   {
@@ -887,6 +963,7 @@ export default [
     author:"Haruki Murakami",
     genre:"Magical Realism",
     pages:134,
+    rating:"",
     year: "",
   },
   {
@@ -897,6 +974,7 @@ export default [
     author:"Stephen King",
     genre:"Horror Thriller",
     pages: 391,
+    rating:"",
     year: "",
   },
   {
@@ -907,6 +985,7 @@ export default [
     author:"Stephen King",
     genre:"Horror Thriller",
     pages: 988,
+    rating:"",
     year: "",
   },
   {
@@ -917,6 +996,7 @@ export default [
     author:"Stephen King",
     genre:"Horror Thriller",
     pages: 1121,
+    rating:"",
     year: "",
   },
   {
@@ -927,6 +1007,7 @@ export default [
     author:"Stephen King",
     genre:"Horror Thriller",
     pages: 428,
+    rating:"",
     year: "",
   },
   {
@@ -937,6 +1018,7 @@ export default [
     author:"J.K. Rowling",
     genre:"Fantasy Fiction",
     pages: 233,
+    rating:"",
     year: "",
   },
   {
@@ -947,6 +1029,7 @@ export default [
     author:"J.K. Rowling",
     genre:"Fantasy Fiction",
     pages: 251,
+    rating:"",
     year: "",
   },
   {
@@ -957,6 +1040,7 @@ export default [
     author:"J.K. Rowling",
     genre:"Fantasy Fiction",
     pages: 315,
+    rating:"",
     year: "",
   },
   {
@@ -967,6 +1051,7 @@ export default [
     author:"J.K. Rowling",
     genre:"Fantasy Fiction",
     pages: 507,
+    rating:"",
     year: "",
   },
   {
@@ -977,6 +1062,7 @@ export default [
     author:"J.K. Rowling",
     genre:"Fantasy Fiction",
     pages: 699,
+    rating:"",
     year: "",
   },
   {
@@ -987,6 +1073,7 @@ export default [
     author:"J.K. Rowling",
     genre:"Fantasy Fiction",
     pages: 456,
+    rating:"",
     year: "",
   },
   {
@@ -997,6 +1084,7 @@ export default [
     author:"J.K. Rowling",
     genre:"Fantasy Fiction",
     pages: 545,
+    rating:"",
     year: "",
   },
   {
@@ -1007,6 +1095,7 @@ export default [
     author:"J.K. Rowling",
     genre:"Fantasy Fiction",
     pages: 294,
+    rating:"",
     year: "",
   },
   {
@@ -1017,6 +1106,7 @@ export default [
     author:"William Golding",
     genre:"Classics",
     pages: 211,
+    rating:"",
     year: "",
   },
   {
@@ -1027,6 +1117,7 @@ export default [
     author:"John Green",
     genre:"Emotional Damage",
     pages: 197,
+    rating:"",
     year: "",
   },
   {
@@ -1037,6 +1128,7 @@ export default [
     author:"John Green",
     genre:"Romance",
     pages: 185,
+    rating:"",
     year: "",
   },
   {
@@ -1047,6 +1139,7 @@ export default [
     author:"John Green",
     genre:"Romance",
     pages: 252,
+    rating:"",
     year: "",
   },
   {
@@ -1057,6 +1150,7 @@ export default [
     author:"John Green",
     genre:"Young Adult",
     pages: 180,
+    rating:"",
     year: "",
   },
   {
@@ -1067,6 +1161,7 @@ export default [
     author:"Robin S. Sharma",
     genre:"Self-help",
     pages: 147,
+    rating:"",
     year: "",
   },
   {
@@ -1077,6 +1172,7 @@ export default [
     author:"E.L. James",
     genre:"Erotica",
     pages: 529,
+    rating:"",
     year: "",
   },
   {
@@ -1087,6 +1183,7 @@ export default [
     author:"E.L. James",
     genre:"Erotica",
     pages: 533,
+    rating:"",
     year: "",
   },
   {
@@ -1097,6 +1194,7 @@ export default [
     author:"E.L. James",
     genre:"Erotica",
     pages: 616,
+    rating:"",
     year: "",
   },
   {
@@ -1107,6 +1205,7 @@ export default [
     author:"Paulo Coelho",
     genre:"Classics",
     pages: 106,
+    rating:"",
     year: "",
   },
   {
@@ -1117,6 +1216,7 @@ export default [
     author:"Paulo Coelho",
     genre:"Contemporary Fiction",
     pages: 151,
+    rating:"",
     year: "",
   },
   {
@@ -1127,6 +1227,7 @@ export default [
     author:"Paulo Coelho",
     genre:"Contemporary Fiction",
     pages: 320,
+    rating:"",
     year: "",
   },
   {
@@ -1137,6 +1238,7 @@ export default [
     author:"Paulo Coelho",
     genre:"Fantasy Fiction",
     pages: 149,
+    rating:"",
     year: "",
   },
   {
@@ -1147,6 +1249,7 @@ export default [
     author:"Harper Lee",
     genre:"Classics",
     pages: 263,
+    rating:"",
     year: "",
   },
   {
@@ -1157,6 +1260,7 @@ export default [
     author:"Harper Lee",
     genre:"Fiction",
     pages: 184,
+    rating:"",
     year: "",
   },
   {
@@ -1167,6 +1271,7 @@ export default [
     author:"Stephen Hawking",
     genre:"Science",
     pages: 120,
+    rating:"",
     year: "",
   },
   {
@@ -1177,6 +1282,7 @@ export default [
     author:"Stephen Hawking",
     genre:"Science",
     pages: 115,
+    rating:"",
     year: "",
   },
   {
@@ -1187,6 +1293,7 @@ export default [
     author:"Stephen Hawking",
     genre:"Science",
     pages: 58,
+    rating:"",
     year: "",
   },
   {
@@ -1197,6 +1304,7 @@ export default [
     author:"Jay Asher",
     genre:"Mystery",
     pages: 206,
+    rating:"",
     year: "",
   },
   {
@@ -1207,6 +1315,7 @@ export default [
     author:"Kaled Hosseini",
     genre:"Classics",
     pages: 252,
+    rating:"",
     year: "",
   },
   {
@@ -1217,6 +1326,7 @@ export default [
     author:"Kaled Hosseini",
     genre:"Emotional Damage",
     pages: 302,
+    rating:"",
     year: "",
   },
   {
@@ -1227,6 +1337,7 @@ export default [
     author:"Kaled Hosseini",
     genre:"Fiction",
     pages: 279,
+    rating:"",
     year: "",
   },
   {
@@ -1237,6 +1348,7 @@ export default [
     author:"Kaled Hosseini",
     genre:"Poetry",
     pages: 66,
+    rating:"",
     year: "",
   },
   {
@@ -1247,6 +1359,7 @@ export default [
     author:"Richard Bach",
     genre:"Classics",
     pages: 29,
+    rating:"",
     year: 1970,
   },
   {
@@ -1257,6 +1370,7 @@ export default [
     author:"Robert T. Kiyosaki",
     genre:"Business",
     pages: 131,
+    rating:"",
     year: "",
   },
   {
@@ -1267,6 +1381,7 @@ export default [
     author:"Colleen Hoover",
     genre:"Romance",
     pages: 283,
+    rating:"",
     year: "",
   },
   {
@@ -1277,6 +1392,7 @@ export default [
     author:"Colleen Hoover",
     genre:"Romance",
     pages: 235,
+    rating:"",
     year: "",
   },
   {
@@ -1287,6 +1403,7 @@ export default [
     author:"Colleen Hoover",
     genre:"Romance",
     pages: 274,
+    rating:"",
     year: "",
   },
   {
@@ -1297,6 +1414,7 @@ export default [
     author:"Colleen Hoover",
     genre:"Romance",
     pages: 327,
+    rating:"",
     year: "",
   },
 ];
@@ -1309,5 +1427,6 @@ export default [
 //     author: "",
 //     genre: "",
 //     pages: ,
+//     rating:"" ,    
 //     year: "",
 //   },
