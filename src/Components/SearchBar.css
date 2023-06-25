@@ -77,3 +77,18 @@
 .dataItem:hover {
   background-color: lightgrey;
 }
+
+@media screen and (max-width: 320px) {
+  .inputbox{
+    height: 25px;
+    width: 260px;
+    margin: 10px 20px;
+  }
+  .searchIcon svg {
+    font-size: 25px;
+  }
+  .searchIcon {
+    margin-left: 270px;
+    margin-top: -45px;
+  }
+}
