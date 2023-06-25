@@ -156,7 +156,7 @@ export default function Contact() {
         </div>
       </div>
       </div>
-
+      <div className="copyright--container">
       <div className="copyright--card">
         <h2 className="copyright--title">Copyright</h2>
         <p className="copyright--para">
@@ -175,6 +175,7 @@ export default function Contact() {
             <EmailIcon onClick={handleMail}/>
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </div>

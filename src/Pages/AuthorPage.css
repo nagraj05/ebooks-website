@@ -160,7 +160,7 @@
   margin: 50px 150px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  box-shadow: 5px 5px 20px rgba(223, 16, 1, 0.8);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);;
 }
 .copyright--para {
   font-family: "Coromorant Garamond", serif;
