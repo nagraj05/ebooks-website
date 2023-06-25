@@ -4,16 +4,19 @@ The application provides a user-friendly interface and an extensive collection o
 
 ## Features
 * **Browse**: Users can browse through a vast collection of ebooks of various genre, author, or title.
+* **Search**: Users can now search for books and authors with  the new search bar.
 * **Download**: All the books are in EPUB format.
-* **Categories**: There are 2 categories. Books and Authors. Books has a mix of all genres. And Authors page has their own works.
+* **Categories**: There are two categories. Books and Authors. Various genres are available in books. And Authors page has their description and works.
 * **User Accounts**: No Login needed!
-* **Responsive Design**: It is not responsive yet. For better experience open this in PC.
+* **Responsive Design**: Responsive for PC & Mobile. 
 
-## Tech Stack Used
+## Tech Stack
 
 * **React**: The frontend of the website is built using React, a popular JavaScript library for building user interfaces.
 * **React Router**: React Router is used for handling routing within the application, enabling smooth navigation between different pages.
 * **Git**: Git is used for version control, allowing for easy collaboration and deployment of the project.
+* **Material UI**: Material UI is used for icons.
+* **Lottie**: Lottie is used for animations.
 
 ## Vite
 
