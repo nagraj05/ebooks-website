@@ -151,6 +151,9 @@ import threebody from "../assets/bookcovers/threebody.jpg"
 import darkforest from "../assets/bookcovers/darkforest.jpg"
 import deathend from "../assets/bookcovers/death'send.jpg"
 import liu from "../assets/authorimages/liu.jpg"
+import hanya from "../assets/authorimages/hanya.jpg"
+import alittlelife from "../assets/bookcovers/a little life.jpg"
+import toparadise from "../assets/bookcovers/to paradise.jpg"
 
 
 const authorsData = [
@@ -1810,6 +1813,41 @@ const authorsData = [
     ],
     description:`Masterful science fiction writer, envisioning vast cosmic landscapes and futures.`,
   },
+/*-------------------------- */
+/*                           */
+/*    Hanya Yanagihara       */
+/*                           */
+/*-------------------------- */
+  { 
+    id:34,
+    img:hanya,
+    name:"Hanya Yanagihara",
+    books:[
+      {
+        id:1,
+        img: alittlelife,
+        title: "A Little Life",
+        value: "A Little Life",
+        author: "Hanya Yanagihara",
+        genre: "Emotional Damage",
+        pages: 546,
+        rating:"5.0" ,    
+        year: "2015",
+      },
+      {
+        id:2,
+        img:toparadise,
+        title:"To Paradise",
+        value: "To Paradise",
+        author: "Hanya Yanagihara",
+        genre: "Emotional Damage",
+        pages: 504,
+        rating:"3.5" ,    
+        year: "2022",
+      }
+    ],
+    description:"Emotionally charged storyteller, delving into the depths of human resilience.",
+  }
 ];
 
 export default authorsData;

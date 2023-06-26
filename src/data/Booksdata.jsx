@@ -116,7 +116,8 @@ import itstarts from "../assets/bookcovers/It starts with us.jpg";
 import itends from "../assets/bookcovers/it ends with us.jpg";
 import ugly from "../assets/bookcovers/ugly.jpg";
 import reminder from "../assets/bookcovers/reminders of him.jpg";
-
+import alittlelife from "../assets/bookcovers/a little life.jpg"
+import toparadise from "../assets/bookcovers/to paradise.jpg"
 
 export default [
   {
@@ -1417,6 +1418,28 @@ export default [
     rating:"",
     year: "",
   },
+  {
+    id:119,
+    img: alittlelife,
+    title: "A Little Life",
+    value: "A Little Life",
+    author: "Hanya Yanagihara",
+    genre: "Emotional Damage",
+    pages: 546,
+    rating:"5.0" ,    
+    year: "2015",
+  },
+  {
+    id:120,
+    img:toparadise,
+    title:"To Paradise",
+    value: "To Paradise",
+    author: "Hanya Yanagihara",
+    genre: "Emotional Damage",
+    pages: 504,
+    rating:"3.5" ,    
+    year: "2022",
+  }
 ];
 
 // {

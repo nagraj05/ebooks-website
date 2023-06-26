@@ -31,6 +31,7 @@ import blake from "../assets/authorimages/BlakeCrouch.jpg"
 import andy from "../assets/authorimages/andy.webp"
 import Taylor from "../assets/authorimages/Taylor Jenkins Reid.jpg"
 import liu from "../assets/authorimages/liu.jpg"
+import hanya from "../assets/authorimages/hanya.jpg"
 
 
 
@@ -410,6 +411,17 @@ const AuthorInfo = [
       genre:"Science Fiction",
       influences:"",
       about:`A visionary Chinese author, has redefined science fiction with his thought-provoking and epic novels. His masterpiece, "The Three-Body Problem," earned global acclaim for its ingenious blend of science, philosophy, and gripping storytelling. Liu's imaginative works have propelled him to become one of the most influential voices in contemporary science fiction.`,
+    },
+    {
+      id:34,
+      img:hanya,
+      name:"Hanya Yanagihara",
+      born:"Hawaii, United States. September 20,1974",
+      died:"",
+      website:"",
+      genre:"Literary Fiction",
+      influences:"",
+      about:`A talented writer of our time, has crafted powerful narratives that delve into complex emotions and human connections. Her acclaimed novel "A Little Life" garnered widespread acclaim for its raw portrayal of friendship, trauma, and resilience. Yanagihara's evocative storytelling leaves a lasting impact, inviting readers to explore the depths of the human experience.`,
     },
 ];
 export default AuthorInfo;
