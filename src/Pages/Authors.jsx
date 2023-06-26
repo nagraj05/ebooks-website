@@ -3,8 +3,6 @@ import authorsData from "../data/AuthorsData";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
 import ButtonScrollToTop from "../Components/ButtonToTop";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export default function Authors() {
   return (
@@ -15,7 +13,7 @@ export default function Authors() {
         {authorsData.map((author) => (
           <Link key={author.id} to={`/author/${author.id}`}>
             <div className="authors--card">
-              <LazyLoadImage src={author.img} alt="" className="author--img" effect='blur' />
+              <img src={author.img} alt="" className="author--img" />
               <div className="intro">
                 <h3 className="author--name">{author.name}</h3>
                 <p className="author--description">{author.description}</p>
