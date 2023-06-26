@@ -513,7 +513,6 @@ textarea {
   border-radius: 5px;
   padding: 1em;
   background-color: #ccc;
-  /* box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3); */
   transition: 300ms ease-in-out;
 }
 textarea:focus {
@@ -677,6 +676,10 @@ textarea {
 @media screen and (max-width: 1003px){
   .contact--home{
     gap: 100px;
+  }
+  .container{
+    justify-content: center;
+    gap: 20px;
   }
 }
 @media screen and (max-width: 989px){
