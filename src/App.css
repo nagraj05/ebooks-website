@@ -42,8 +42,9 @@ html,
   margin: -140px 135px;
 }
 .nav--subpara{
-  margin: 145px 135px;
+  margin: 155px 135px;
   max-width: 350px;
+  color: rgb(94, 87, 87);
 }
 .lottie--container {
   width: 400px;
