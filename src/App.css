@@ -198,6 +198,7 @@ span {
   border: 1px solid lightgray;
   border-radius: 10px;
   margin-top: 20px;
+  margin-bottom: 20px;
   height: 420px;
   box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
   -webkit-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);

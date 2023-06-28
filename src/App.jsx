@@ -10,7 +10,7 @@ import Map from "./Pages/Map.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Loader from "./Components/Loader.jsx";
 import Home from "../src/Pages/Home"
-import Quotes from "./Pages/Quotes";
+import Quotes from "../src/Pages/Quotes";
 
 function App() {
   const [isLoading, setLoading] = useState(true);

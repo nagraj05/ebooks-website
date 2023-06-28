@@ -3,6 +3,7 @@ import Navigation from "../Components/Navigation"
 import Footer from "../Components/Footer"
 import "./Quotes.css"
 import { useEffect, useState } from "react";
+import ButtonScrollToTop from "../Components/ButtonToTop";
 
 function shuffleArray(array) {
     const newArray = [...array];
@@ -24,7 +25,7 @@ export default function Quotes() {
     <div>
         <Navigation />
         <div className="quotespage--container">
-        <h1 className="quotes--heading">Some Famous Quotes</h1>
+        <h1 className="quotes--heading">Quill&apos;s Symphony: Inspiring Quotes from the Ink of Authors</h1>
         <div className="quotes--home">
         {shuffledQuotes.map(lines =>(
             <div 
@@ -39,6 +40,7 @@ export default function Quotes() {
         ))}
         </div>
         </div>
+        <ButtonScrollToTop />
         <Footer />
     </div>
   )

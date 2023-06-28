@@ -35,5 +35,21 @@ const Quotes = [
       "It's the possibility of having a dream come true that makes life interesting.",
     author: "Paulo Coelho",
   },
+  {
+    quote:"Men often think they deserve a sticker for treating women like people.",
+    author:"Taylor Jenkins Reid",
+  },
+  {
+    quote:"Perhaps they were right putting love into books. Perhaps it could not live anywhere else.",
+    author:"William Faulkner",
+  },
+  {
+    quote:"I never wish to be easily defined.",
+    author:"Franz Kafka",
+  },
+  {
+    quote:"You've gotta dance like there's nobody watching, Love like you'll never be hurt, Sing like there's nobody listening, And live like it's heaven on earth.",
+    author:"William W. Purkey"
+  }
 ];
 export default Quotes;
