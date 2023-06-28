@@ -38,3 +38,68 @@
     font-size: 18px;
     margin-left: 150px;
 }
+@media screen and (max-width: 479px) {
+    .quotes--card{
+        justify-content: center;
+    }
+    .quotes--container{
+        justify-content: center;
+        margin: 10px -35px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .quotes--card{
+        justify-content: center;
+    }
+    .quotes--container{
+        justify-content: center;
+        margin: 10px -65px;
+    }
+}
+@media screen and (max-width: 397px) {
+    .quotes--card{
+        justify-content: center;
+        width: 310px;
+    }
+    .quotes--container{
+        justify-content: center;
+        margin: 10px -85px;
+    }
+}
+@media screen and (max-width: 368px) {
+    .quotes--card{
+        justify-content: center;
+        width: 310px;
+    }
+    .quotes--container{
+        justify-content: center;
+        margin: 10px -95px;
+    }
+}
+@media screen and (max-width: 357px) {
+    .quotes--card{
+        justify-content: center;
+        width: 310px;
+    }
+    .quotes--container{
+        justify-content: center;
+        margin: 10px -105px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .quotes--card{
+        justify-content: center;
+        width: 280px;
+    }
+    .quotes--container{
+        justify-content: center;
+        margin: 10px -105px;
+    }
+    .quotes--para{
+        font-size: 20px;
+    }
+    .quotes--author{
+        font-size: 15px;
+    }
+
+}
