@@ -6,6 +6,7 @@ import authoricon from "../assets/icons/group.png";
 import homeicon from "../assets/icons/house.png";
 import abouticon from "../assets/icons/man.png";
 import contact from "../assets/icons/contact.png";
+import quotation from "../assets/icons/quotation.png"
 import { Link as Link } from "react-router-dom";
 
 export default function Map() {
@@ -43,6 +44,15 @@ export default function Map() {
             <p className="map--para">
               Umm... Authors info and their works i guess. Click to explore more
               (on the authors).
+            </p>
+          </div>
+          <div className="section">
+            <img src={quotation} alt="Quotes" className="section--icon" />
+            <h2 className="section-heading">
+              <Link to="/quotes">Quotes</Link>
+            </h2>
+            <p className="map--para">
+              Famous lines from authors accumulated from the Internet.
             </p>
           </div>
           <div className="section">

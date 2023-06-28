@@ -408,7 +408,7 @@ const AuthorInfo = [
       born:"Beijing, China. June 23, 1963",
       died:"",
       website:"",
-      genre:"Science Fiction",
+      genre:"Science Fiction & Fantasy",
       influences:"",
       about:`A visionary Chinese author, has redefined science fiction with his thought-provoking and epic novels. His masterpiece, "The Three-Body Problem," earned global acclaim for its ingenious blend of science, philosophy, and gripping storytelling. Liu's imaginative works have propelled him to become one of the most influential voices in contemporary science fiction.`,
     },

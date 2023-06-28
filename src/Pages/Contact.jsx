@@ -52,7 +52,7 @@ export default function Contact() {
       );
   };
   function handleMail() {
-    window.location.href = `mailto:${"nagrajtadingi@gmail.com"}`;
+    window.location.href = `mailto:${"findnagraj@gmail.com"}`;
   }
   return (
     <div>

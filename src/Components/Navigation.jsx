@@ -27,6 +27,9 @@ export default function Navigation() {
             <Link to="/authors">AUTHORS</Link>
           </li>
           <li>
+            <Link to="/quotes">QUOTES</Link>
+          </li>
+          <li>
             <Link to="/aboutme">ABOUT</Link>
           </li>
           <li>

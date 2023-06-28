@@ -1,0 +1,40 @@
+
+.quotes--heading{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 35px;
+    text-align: center;
+}
+.quotes--home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto 110px;
+}
+.quotes--container{
+    display: flex;
+    margin: 12px;
+}
+.quotes--card{
+    width: 320px;
+    height: 240px;
+    margin: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    position: relative;
+    transition: top 0.3s ease;
+}
+.quotes--card:hover{
+    top: -10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); 
+}
+.quotes--para{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+    margin: 20px 25px;
+}
+.quotes--author{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    margin-left: 150px;
+}

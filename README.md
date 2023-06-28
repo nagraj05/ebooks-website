@@ -6,7 +6,7 @@ The application provides a user-friendly interface and an extensive collection o
 * **Browse**: Users can browse through a vast collection of ebooks of various genre, author, or title.
 * **Search**: Users can now search for books and authors with  the new search bar.
 * **Download**: All the books are in EPUB format.
-* **Categories**: There are two categories. Books and Authors. Various genres are available in books. And Authors page has their description and works.
+* **Categories**: There are three categories. Books, Authors & Quotes. Various genres are available in books. And Authors page has their description and works. And Quotes page has a list of famous lines of Authors.
 * **User Accounts**: No Login needed!
 * **Responsive Design**: Responsive for PC & Mobile. 
 

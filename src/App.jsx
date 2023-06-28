@@ -10,6 +10,7 @@ import Map from "./Pages/Map.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Loader from "./Components/Loader.jsx";
 import Home from "../src/Pages/Home"
+import Quotes from "./Pages/Quotes";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -34,6 +35,7 @@ function App() {
             <Route path="/books" element={<BooksPage />} />
             <Route path="/authors" element={<Authors />} />
             <Route path="/author/:id" element={<AuthorPage />} />
+            <Route path="/quotes" element={<Quotes />} />
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

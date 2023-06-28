@@ -107,7 +107,7 @@ span {
   color: #fff;
   text-decoration: none;
   display: block;
-  padding: 10px 25px;
+  padding: 10px 15px;
   line-height: 1;
   transition: 0.3s;
   font-weight: 700;
@@ -274,8 +274,6 @@ span {
   flex-direction: column;
   text-align: center;
   border-top: 1px solid #ccc;
-  margin-top: 20px;
-  padding-top: 10px;
 }
 .social--icons {
   display: flex;
@@ -284,9 +282,7 @@ span {
 .social-link {
   width: 30px;
   height: 30px;
-  align-items: center;
-  background-color: transparent;
-  margin: 15px 20px;
+  margin: 20px;
 }
 .instagram-link:hover {
   border-radius: 6px;
@@ -335,11 +331,8 @@ span {
 }
 .footer-para {
   margin-top: -10px;
-  margin-bottom: -50px;
-}
-.footer-para p {
-  font-size: large;
-  font-family: sans-serif;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
 }
 
 /* Authors Page */
@@ -434,7 +427,7 @@ span {
 }
 .overview--card {
   max-width: 100%;
-  height: 390px;
+  height: 450px;
   margin: 30px 130px;
   padding: 10px 40px;
   border-radius: 5px;
@@ -499,7 +492,6 @@ span {
   border-radius: 5px;
   padding: 1em;
   background-color: #ccc;
-  /* box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3); */
   transition: 300ms ease-in-out;
 }
 .contact--input:focus {
