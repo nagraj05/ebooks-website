@@ -767,7 +767,7 @@ textarea {
 }
 @media screen and (max-width:860px){
   .challenge{
-    height: 70vh;
+    height: auto;
   }
   .challenge--heading{
     font-size: 25px;
@@ -803,9 +803,6 @@ textarea {
   .challenge--list {
     flex-direction: column;
     align-items: center;
-  }
-  .challenge{
-    height: 80vh;
   }
 }
 @media screen and (max-width:459px){
