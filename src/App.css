@@ -12,6 +12,10 @@ html,
   width: 100%;
 }
 /* Navbar */
+.homepage--container{
+  width: 100%;
+  overflow-x: hidden;
+}
 .hero {
   height: 100vh;
   width: 100%;
@@ -184,7 +188,7 @@ span {
   flex-flow: wrap;
 }
 .booksbox {
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: left;
   align-items: flex-start;
@@ -266,7 +270,66 @@ span {
   width: 12px;
   margin-right: 8px;
 }
-
+.wordscloud{
+  background-color: #162b32;
+  background-image: url(./assets/images/bg.png);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.challenge{
+  background-image: url(./assets/images/books-1204029_1280.jpg);
+  height: 60vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
+.challenge--heading{
+  font-family: "Cormorant Garamond", serif;
+  background-color: white;
+  border: 5px solid white;
+  width: auto;
+  margin-bottom: 20px;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 35px;
+}
+.challenge--list{
+  display: flex;
+  list-style-type:none;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+.challenge--list li{
+  font-family: "Cormorant Garamond", serif;
+  margin: 15px;
+  border-radius: 30px;
+  padding: 15px;
+  background-color: white;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
+  display: inline-block;
+}
+.challenge--list li:hover{
+  background-color: #000000;
+  color: white;
+}
+.challenge--list li, a{
+  color: black;
+  text-decoration: none;
+}
+.challenge--list li, a:hover{
+  color: white;
+}
 /* Footer css */
 .footer--name--link {
   color: #000000;
@@ -702,6 +765,17 @@ textarea {
     height: auto;
   }
 }
+@media screen and (max-width:860px){
+  .challenge{
+    height: 70vh;
+  }
+  .challenge--heading{
+    font-size: 25px;
+  }
+  .challenge--list li{
+    font-size: 20px;
+  }
+}
 @media screen and (max-width:837px){
   .homepage--texts{
     justify-content: center;
@@ -723,6 +797,15 @@ textarea {
   }
   .section--icon{
     margin-left: -20px;
+  }
+}
+@media screen and (max-width:483px){
+  .challenge--list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .challenge{
+    height: 80vh;
   }
 }
 @media screen and (max-width:459px){

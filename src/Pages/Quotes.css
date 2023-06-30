@@ -46,15 +46,15 @@
     text-overflow: ellipsis;
     display: -webkit-box;
   }
-  /* .quotes--para::-webkit-scrollbar {
+  .quotes--para::-webkit-scrollbar {
     width: 0.8em;
     background-color: transparent;
-  } */
+  }
   
-  /* .quotes--para::-webkit-scrollbar-thumb {
+  .quotes--para::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-  } */
+  }
   .quotes--author {
     font-family: "Cormorant Garamond", serif;
     font-size: 18px;
