@@ -10,7 +10,7 @@ export default function BookCard(props) {
   }
   return (
     <div className="card">
-      <LazyLoadImage src={props.data.img} alt="" className="card--image" effect='blur' width="240px" height="240px" />
+      <LazyLoadImage src={props.data.img} alt="" className="card--image" loading="lazy" effect='blur' width="240px" height="240px" />
       <div>
         <p className="card--title">{props.data.title}</p>
         <p className="card--author">{props.data.author}</p>
