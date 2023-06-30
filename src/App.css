@@ -184,6 +184,7 @@ span {
   flex-flow: wrap;
 }
 .booksbox {
+  width:100%;
   display: flex;
   justify-content: left;
   align-items: flex-start;
