@@ -813,7 +813,7 @@ textarea {
   }
   .card{
     box-sizing: border-box;
-    height: 300px;
+    height: 305px;
     width: 180px;
     margin-bottom: 10px;
   }
@@ -824,27 +824,31 @@ textarea {
   }
   .card--title{
     font-size: 10px;
-    margin-top: -10px;
+    margin-top: 0px;
     margin-left: -5px;
   }
   .card--author{
     font-size: 10px;
-    margin-top: -10px;
+    margin-top: -5px;
   }
   .card--genre{
     font-size: 10px;
     margin-left: -10px;
-    margin-top: 0px;
+    margin-top: -5px;
   }
   .card--btn{
     font-size: 12px;
-    margin-left: 40px;
+    margin-left: 45px;
     margin-top: 15px;
   }
   .pages--count{
     font-size: 10px;
-    margin-left: 65px;
+    margin-left: 68px;
     margin-top: -52px;
+  }
+  .tag--icon{
+    height: 8px;
+    width: 8px;
   }
 }
 @media screen and (max-width:483px){
