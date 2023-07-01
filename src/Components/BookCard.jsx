@@ -1,7 +1,5 @@
 import PropTypes from "prop-types";
 import tag from "../assets/icons/tag.png";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export default function BookCard(props) {
   function handleDownload() {
@@ -10,7 +8,7 @@ export default function BookCard(props) {
   }
   return (
     <div className="card">
-      <LazyLoadImage src={props.data.img} alt="" className="card--image" loading="lazy" effect='blur' width="240px" height="240px" />
+      <img src={props.data.img} alt="" className="card--image"/>
       <div>
         <p className="card--title">{props.data.title}</p>
         <p className="card--author">{props.data.author}</p>
