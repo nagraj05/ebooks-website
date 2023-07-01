@@ -802,31 +802,34 @@ textarea {
 @media screen and (max-width:591px){
   .bookspage--container{
     margin: 0 0;
+    align-items: center;
   }
   .booksbox{
-    margin:0 -10px;
-    /* padding: 0; */
+    margin-top: 10px;
+    margin-bottom: 10px;
     box-sizing: border-box;
-    gap: 2px;
+    gap: 0px;
+    padding: 0px;
   }
   .card{
     box-sizing: border-box;
     height: 300px;
-    width: 150px;
+    width: 180px;
+    margin-bottom: 10px;
   }
   .card--image{
-    height: 140px;
-    width: 120px;
-    margin: 12px;
+    height: 160px;
+    width: 130px;
+    margin:10px 20px;
   }
   .card--title{
     font-size: 10px;
-    margin-top: -70px;
+    margin-top: -60px;
     margin-left: -5px;
   }
   .card--author{
     font-size: 10px;
-    margin-top: 0px;
+    margin-top: -10px;
   }
   .card--genre{
     font-size: 10px;
@@ -835,12 +838,12 @@ textarea {
   }
   .card--btn{
     font-size: 12px;
-    margin-left: 25px;
+    margin-left: 40px;
     margin-top: 15px;
   }
   .pages--count{
     font-size: 10px;
-    margin-left: 50px;
+    margin-left: 65px;
     margin-top: -52px;
   }
 }
