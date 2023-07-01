@@ -799,6 +799,51 @@ textarea {
     margin-left: -20px;
   }
 }
+@media screen and (max-width:591px){
+  .bookspage--container{
+    margin: 0 0;
+  }
+  .booksbox{
+    margin:0 -10px;
+    /* padding: 0; */
+    box-sizing: border-box;
+    gap: 2px;
+  }
+  .card{
+    box-sizing: border-box;
+    height: 300px;
+    width: 150px;
+  }
+  .card--image{
+    height: 140px;
+    width: 120px;
+    margin: 12px;
+  }
+  .card--title{
+    font-size: 10px;
+    margin-top: -70px;
+    margin-left: -5px;
+  }
+  .card--author{
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  .card--genre{
+    font-size: 10px;
+    margin-left: -10px;
+    margin-top: 0px;
+  }
+  .card--btn{
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  .pages--count{
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: -52px;
+  }
+}
 @media screen and (max-width:483px){
   .challenge--list {
     flex-direction: column;
