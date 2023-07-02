@@ -253,7 +253,7 @@ span {
   background-color: black;
   border: 3px solid black;
   color: white;
-  outline: 2px solid transparent; /* Transparent outline */
+  outline: 2px solid transparent;
   box-shadow: none;
 }
 .pages--count {
@@ -767,6 +767,11 @@ textarea {
 }
 @media screen and (max-width:860px){
   .challenge{
+    background-image: url(./assets/images/591.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: auto;
   }
   .challenge--heading{
