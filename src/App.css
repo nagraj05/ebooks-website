@@ -77,15 +77,6 @@ html,
   font-weight: 600;
   font-size: 28px;
 }
-.span {
-  color: #ea1538;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 28px;
-}
-span {
-  color: #ea1538;
-}
 .logo a img {
   display: block;
   width: 100%;
@@ -863,6 +854,9 @@ textarea {
   }
   .booksbox{
     margin: 10px auto;
+  }
+  .website--title{
+    font-size: 20px;
   }
 }
 @media screen and (max-width:459px){
