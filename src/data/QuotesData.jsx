@@ -3,9 +3,12 @@ import taylor from '../assets/authorimages/Taylor Jenkins Reid.jpg'
 import kafka from '../assets/authorimages/franz.jpg'
 import paulo from '../assets/authorimages/paulo.jpg'
 import einstein from '../assets/authorimages/einstein.jpg'
+import maya from '../assets/authorimages/maya angelou.jpg'
+import theodere from '../assets/authorimages/theodere.jpg'
+import jobs from '../assets/authorimages/steve.webp'
 const Quotes = [
   {
-    img: pic,
+    img: jobs,
     quote: "The only way to do great work is to love what you do.",
     author: "Steve Jobs",
   },
@@ -21,7 +24,7 @@ const Quotes = [
     author: "Albert Einstein",
   },
   {
-    img: pic,
+    img: theodere,
     quote: "Believe you can and you're halfway there.",
     author: "Theodore Roosevelt",
   },
@@ -37,7 +40,7 @@ const Quotes = [
     author: "Franklin D. Roosevelt",
   },
   {
-    img: pic,
+    img: maya,
     quote:
       "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
     author: "Maya Angelou",
