@@ -6,6 +6,7 @@ import einstein from '../assets/authorimages/einstein.jpg'
 import maya from '../assets/authorimages/maya angelou.jpg'
 import theodere from '../assets/authorimages/theodere.jpg'
 import jobs from '../assets/authorimages/steve.webp'
+import faulkner from '../assets/authorimages/faulkner.webp'
 const Quotes = [
   {
     img: jobs,
@@ -58,7 +59,7 @@ const Quotes = [
     author: "Taylor Jenkins Reid",
   },
   {
-    img: pic,
+    img: faulkner,
     quote:
       "Perhaps they were right putting love into books. Perhaps it could not live anywhere else.",
     author: "William Faulkner",
