@@ -30,7 +30,7 @@ export default function Quotes() {
         </h1>
         <div className="quotes--home">
           {shuffledQuotes.map((lines) => (
-            <div key={lines} className="quotes--container">
+            <div key={lines.id} className="quotes--container">
               <div className="quotes--card">
                 <div className="author-container">
                   <img
