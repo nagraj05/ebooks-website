@@ -36,7 +36,7 @@ export default function Quotes() {
                   <img
                     src={lines.img}
                     alt={lines.author}
-                    className="author-image"
+                    className="authorquote-image"
                   />
                   <p className="quotes--author">{lines.author}</p>
                 </div>
