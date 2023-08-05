@@ -1,144 +1,157 @@
-
-.quotes--heading{
-    font-family: "Cormorant Garamond", serif;
-    font-size: 35px;
-    font-weight: 300;
-    text-align: center;
+.quotespage--container {
+  margin-bottom: 30px;
 }
-.quotes--home{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    margin: auto 110px;
+.quotes--heading {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
 }
-.quotes--container{
-    display: flex;
-    margin: 12px;
+.quotes--home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto 110px;
+}
+.quotes--container {
+  display: flex;
+  margin: 12px;
+  position: relative;
 }
 .quotes--card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    max-width: 320px;
-    margin: 15px;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    position: relative;
-    transition: top 0.3s ease;
-    box-sizing: border-box;
-    overflow: hidden;
-  }
-.quotes--card:hover{
-    top: -10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  max-width: 320px;
+  margin: 15px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  transition: top 0.3s ease;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.quotes--download--button {
+  position: absolute;
+  bottom: -11px;
+  right: 25px;
+  cursor: pointer;
+  color: gray;
+  opacity: 0;
+}
+.quotes--download--button:hover {
+  opacity: 1;
+}
+
+.quotes--card:hover {
+  top: -10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
 .quotes--para {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 22px;
-    text-align: left;
-    margin-bottom: 15px;
-    margin-top: -10px;
-    margin-left: 25px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-  }
-  .quotes--para::-webkit-scrollbar {
-    width: 0.8em;
-    background-color: transparent;
-  }
-  
-  .quotes--para::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-  }
-  .quotes--author {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 18px;
-    white-space: nowrap;
-    width: 250px;
-  }
-  .author-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 10px;
-  }
-  .authorquote-image {
-    width: 40px; 
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: -10px;
+  margin-left: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}
+.quotes--para::-webkit-scrollbar {
+  width: 0.8em;
+  background-color: transparent;
+}
+
+.quotes--para::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.quotes--author {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  white-space: nowrap;
+  width: 250px;
+}
+.author-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+.authorquote-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 @media screen and (max-width: 479px) {
-    .quotes--card{
-        justify-content: center;
-    }
-    .quotes--container{
-        justify-content: center;
-        margin: 10px -35px;
-    }
-    .quotes--para{
-        margin-left: 35px;
-    }
+  .quotes--card {
+    justify-content: center;
+  }
+  .quotes--container {
+    justify-content: center;
+    margin: 10px -35px;
+  }
+  .quotes--para {
+    margin-left: 35px;
+  }
 }
 @media screen and (max-width: 430px) {
-    .quotes--card{
-        justify-content: center;
-    }
-    .quotes--container{
-        justify-content: center;
-        margin: 10px -65px;
-    }
+  .quotes--card {
+    justify-content: center;
+  }
+  .quotes--container {
+    justify-content: center;
+    margin: 10px -65px;
+  }
 }
 @media screen and (max-width: 397px) {
-    .quotes--card{
-        justify-content: center;
-        width: 310px;
-    }
-    .quotes--container{
-        justify-content: center;
-        margin: 10px -85px;
-    }
+  .quotes--card {
+    justify-content: center;
+    width: 310px;
+  }
+  .quotes--container {
+    justify-content: center;
+    margin: 10px -85px;
+  }
 }
 @media screen and (max-width: 368px) {
-    .quotes--card{
-        justify-content: center;
-        width: 310px;
-    }
-    .quotes--container{
-        justify-content: center;
-        margin: 10px -95px;
-    }
+  .quotes--card {
+    justify-content: center;
+    width: 310px;
+  }
+  .quotes--container {
+    justify-content: center;
+    margin: 10px -95px;
+  }
 }
 @media screen and (max-width: 357px) {
-    .quotes--card{
-        justify-content: center;
-        width: 310px;
-    }
-    .quotes--container{
-        justify-content: center;
-        margin: 10px -105px;
-    }
+  .quotes--card {
+    justify-content: center;
+    width: 310px;
+  }
+  .quotes--container {
+    justify-content: center;
+    margin: 10px -105px;
+  }
 }
 @media screen and (max-width: 320px) {
-    .quotes--card{
-        justify-content: center;
-        width: 280px;
-    }
-    .quotes--container{
-        justify-content: center;
-        margin: 10px -105px;
-    }
-    .quotes--para{
-        font-size: 20px;
-    }
-    .quotes--author{
-        font-size: 15px;
-    }
-
+  .quotes--card {
+    justify-content: center;
+    width: 280px;
+  }
+  .quotes--container {
+    justify-content: center;
+    margin: 10px -105px;
+  }
+  .quotes--para {
+    font-size: 20px;
+  }
+  .quotes--author {
+    font-size: 15px;
+  }
 }

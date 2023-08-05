@@ -1,9 +1,11 @@
 import QuotesData from "../data/QuotesData";
 import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
+import html2canvas from "html2canvas";
 import "./Quotes.css";
 import { useEffect, useState } from "react";
 import ButtonScrollToTop from "../Components/ButtonToTop";
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
 
 function shuffleArray(array) {
   const newArray = [...array];
@@ -13,6 +15,20 @@ function shuffleArray(array) {
   }
   return newArray;
 }
+
+const handleDownload = (cardId, authorName) => {
+  const cardContainer = document.getElementById(`card-container-${cardId}`);
+
+  html2canvas(cardContainer).then((canvas) => {
+    const image = canvas
+      .toDataURL("image/jpeg")
+      .replace("image/jpeg", "image/octet-stream");
+    const link = document.createElement("a");
+    link.download = `${authorName}_quote_card.jpg`;
+    link.href = image;
+    link.click();
+  });
+};
 
 export default function Quotes() {
   const [shuffledQuotes, setShuffledQuotes] = useState([]);
@@ -31,7 +47,7 @@ export default function Quotes() {
         <div className="quotes--home">
           {shuffledQuotes.map((lines) => (
             <div key={lines.id} className="quotes--container">
-              <div className="quotes--card">
+              <div className="quotes--card" id={`card-container-${lines.id}`}>
                 <div className="author-container">
                   <img
                     src={lines.img}
@@ -41,6 +57,10 @@ export default function Quotes() {
                   <p className="quotes--author">{lines.author}</p>
                 </div>
                 <blockquote className="quotes--para">{lines.quote}</blockquote>
+                <FileDownloadIcon
+                  className="quotes--download--button"
+                  onClick={() => handleDownload(lines.id, lines.author)}
+                />
               </div>
             </div>
           ))}
