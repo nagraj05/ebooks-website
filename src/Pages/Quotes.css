@@ -42,10 +42,13 @@
   color: gray;
   opacity: 0;
 }
-.quotes--download--button:hover {
+.quotes--container:hover .quotes--download--button {
   opacity: 1;
+  transition: all 0.6s;
 }
-
+.quotes--download--button:hover{
+    color: #ea1538;
+}
 .quotes--card:hover {
   top: -10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
