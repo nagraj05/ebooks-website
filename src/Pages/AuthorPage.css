@@ -62,6 +62,7 @@
   flex-wrap: wrap;
   max-width: 100%;
   gap: 2px;
+  margin-bottom: 15px;
 }
 .author--book--title {
   text-align: center;
