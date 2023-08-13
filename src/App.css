@@ -326,6 +326,9 @@ html,
   color: #000000;
   text-decoration: none;
 }
+.footer--name--link:hover{
+  color: #ea1538;
+}
 .footer {
   display: flex;
   flex-direction: column;
