@@ -27,7 +27,9 @@ export default function AuthorPage() {
     return <div>Author not found</div>;
   }
 
-  const filteredAuthorsInfo = authorsInfo.filter((info) => info.id === Number(id));
+  const filteredAuthorsInfo = authorsInfo.filter(
+    (info) => info.id === Number(id)
+  );
 
   return (
     <div>
@@ -43,10 +45,12 @@ export default function AuthorPage() {
                   <span className="label">Genre:</span>
                   {info.genre}
                 </p>
-                <p className="info-born">
-                  <span className="label">Born:</span>
-                  {info.born}
-                </p>
+                {info.born && (
+                  <p className="info-born">
+                    <span className="label">Born:</span>
+                    {info.born}
+                  </p>
+                )}
                 {info.died && (
                   <p className="info-died">
                     <span className="label">Died:</span>

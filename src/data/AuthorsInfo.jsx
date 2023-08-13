@@ -25,15 +25,14 @@ import yuval from "../assets/authorimages/yuval.jpg";
 import kiyo from "../assets/authorimages/kiyo.jpg";
 import bronte from "../assets/authorimages/emily.jpg";
 import shakespeare from "../assets/authorimages/Shakespeare.jpg";
-import brandon from "../assets/authorimages/brndon.jpg"
-import frank from "../assets/authorimages/frank.webp"
-import blake from "../assets/authorimages/BlakeCrouch.jpg"
-import andy from "../assets/authorimages/andy.webp"
-import Taylor from "../assets/authorimages/Taylor Jenkins Reid.jpg"
-import liu from "../assets/authorimages/liu.jpg"
-import hanya from "../assets/authorimages/hanya.jpg"
-
-
+import brandon from "../assets/authorimages/brndon.jpg";
+import frank from "../assets/authorimages/frank.webp";
+import blake from "../assets/authorimages/BlakeCrouch.jpg";
+import andy from "../assets/authorimages/andy.webp";
+import Taylor from "../assets/authorimages/Taylor Jenkins Reid.jpg";
+import liu from "../assets/authorimages/liu.jpg";
+import hanya from "../assets/authorimages/hanya.jpg";
+import rebeccayarros from "../assets/authorimages/rebeccayarros.jpg";
 
 const AuthorInfo = [
   {
@@ -347,82 +346,93 @@ const AuthorInfo = [
     about: `A prominent author and entrepreneur, is best known for his groundbreaking book "Rich Dad Poor Dad," which challenges conventional wisdom about wealth and financial independence. With his unique perspective on money, investing, and entrepreneurship, Kiyosaki has inspired millions to adopt a mindset of financial education and wealth creation. Through his work, he empowers individuals to take control of their financial destinies and build a prosperous future.`,
   },
   {
-    id:28,
-    img:brandon,
-    name:"Brandon Sanderson",
-    born:"in Lincoln, Nebraska, The United States. December 19,1975 ",
-    died:"",
-    website:"http://brandonsanderson.com",
-    genre:"Science Fiction & Fantasy, Young Adult",
-    influences:"",
-    about:`A prolific American author, has established himself as a master of epic fantasy and world-building. Known for his intricate magic systems and intricate plot twists, his works, such as the "Mistborn" trilogy and "The Stormlight Archive," have garnered a dedicated following. Sanderson's boundless imagination and meticulous attention to detail make his novels an immersive journey into richly crafted realms.`,
+    id: 28,
+    img: brandon,
+    name: "Brandon Sanderson",
+    born: "in Lincoln, Nebraska, The United States. December 19,1975 ",
+    died: "",
+    website: "http://brandonsanderson.com",
+    genre: "Science Fiction & Fantasy, Young Adult",
+    influences: "",
+    about: `A prolific American author, has established himself as a master of epic fantasy and world-building. Known for his intricate magic systems and intricate plot twists, his works, such as the "Mistborn" trilogy and "The Stormlight Archive," have garnered a dedicated following. Sanderson's boundless imagination and meticulous attention to detail make his novels an immersive journey into richly crafted realms.`,
   },
   {
-    id:29,
-    img:frank,
-    name:"Frank Herbert",
-    born:"in Tacoma, Washington, The United States. October 08, 1920",
-    died:"February 11, 1986",
-    website:"http://www.dunenovels.com/",
-    genre:"Science Fiction & Fantasy",
-    influences:"",
-    about:`A visionary science fiction author, created the iconic "Dune" series, a complex and immersive universe set in a distant future. His epic narrative explored themes of power, ecology, and the human psyche, leaving an indelible mark on the genre. Herbert's masterful storytelling and intricate world-building continue to inspire and fascinate readers to this day.`,
-    },
-    {
-      id:30,
-      img:blake,
-      name:"Blake Crouch",
-      born:"Statesville, NC, The United States. October 15, 1978",
-      died:"",
-      website: "http://www.blakecrouch.com/",
-      genre: "Suspense, Thriller, Science Fiction",
-      influences:"",
-      about:`A gifted American author, is known for his gripping and mind-bending thrillers that push the boundaries of reality. His imaginative storytelling and masterful blend of science fiction and suspense have earned him a dedicated following. With novels like "Dark Matter" and "Recursion," Crouch keeps readers on the edge of their seats, questioning the nature of time and the human experience.`,
-    },
-    {
-      id:31,
-      img:andy,
-      name:"Andy Weir",
-      born:"in Davis, CA, The United States. June 16, 1972",
-      died:"",
-      website:"http://www.galactanet.com",
-      genre:"Science Fiction",
-      influences:"",
-      about:`A highly acclaimed science fiction author, gained international recognition with his breakthrough novel "The Martian." Known for his meticulous research and scientific accuracy, Weir takes readers on thrilling journeys through space, blending compelling storytelling with plausible science. With his unique ability to combine technical details and gripping narratives, Weir has solidified his place as a prominent voice in the world of science fiction.`,
-    },
-    {
-      id:32,
-      img:Taylor,
-      name:"Taylor Jenkins Reid",
-      born:"Eastern Shore of Maryland. December 20, 1983",
-      died:"",
-      website:"http://www.taylorjenkinsreid.com",
-      genre:"Fiction",
-      influences:"",
-      about:`A talented contemporary author, weaves intricate narratives that delve into the complexities of human relationships and personal growth. Known for her compelling storytelling and well-crafted characters, Reid's novels like "Daisy Jones & The Six" and "Malibu Rising" have garnered widespread acclaim, resonating with readers across genres. With her unique blend of emotional depth and immersive storytelling, Reid has established herself as a prominent voice in contemporary fiction.`,
-    },
-    {
-      id:33,
-      img:liu,
-      name:"Liu Cixin",
-      born:"Beijing, China. June 23, 1963",
-      died:"",
-      website:"",
-      genre:"Science Fiction & Fantasy",
-      influences:"",
-      about:`A visionary Chinese author, has redefined science fiction with his thought-provoking and epic novels. His masterpiece, "The Three-Body Problem," earned global acclaim for its ingenious blend of science, philosophy, and gripping storytelling. Liu's imaginative works have propelled him to become one of the most influential voices in contemporary science fiction.`,
-    },
-    {
-      id:34,
-      img:hanya,
-      name:"Hanya Yanagihara",
-      born:"Hawaii, United States. September 20,1974",
-      died:"",
-      website:"",
-      genre:"Literary Fiction",
-      influences:"",
-      about:`A talented writer of our time, has crafted powerful narratives that delve into complex emotions and human connections. Her acclaimed novel "A Little Life" garnered widespread acclaim for its raw portrayal of friendship, trauma, and resilience. Yanagihara's evocative storytelling leaves a lasting impact, inviting readers to explore the depths of the human experience.`,
-    },
+    id: 29,
+    img: frank,
+    name: "Frank Herbert",
+    born: "in Tacoma, Washington, The United States. October 08, 1920",
+    died: "February 11, 1986",
+    website: "http://www.dunenovels.com/",
+    genre: "Science Fiction & Fantasy",
+    influences: "",
+    about: `A visionary science fiction author, created the iconic "Dune" series, a complex and immersive universe set in a distant future. His epic narrative explored themes of power, ecology, and the human psyche, leaving an indelible mark on the genre. Herbert's masterful storytelling and intricate world-building continue to inspire and fascinate readers to this day.`,
+  },
+  {
+    id: 30,
+    img: blake,
+    name: "Blake Crouch",
+    born: "Statesville, NC, The United States. October 15, 1978",
+    died: "",
+    website: "http://www.blakecrouch.com/",
+    genre: "Suspense, Thriller, Science Fiction",
+    influences: "",
+    about: `A gifted American author, is known for his gripping and mind-bending thrillers that push the boundaries of reality. His imaginative storytelling and masterful blend of science fiction and suspense have earned him a dedicated following. With novels like "Dark Matter" and "Recursion," Crouch keeps readers on the edge of their seats, questioning the nature of time and the human experience.`,
+  },
+  {
+    id: 31,
+    img: andy,
+    name: "Andy Weir",
+    born: "in Davis, CA, The United States. June 16, 1972",
+    died: "",
+    website: "http://www.galactanet.com",
+    genre: "Science Fiction",
+    influences: "",
+    about: `A highly acclaimed science fiction author, gained international recognition with his breakthrough novel "The Martian." Known for his meticulous research and scientific accuracy, Weir takes readers on thrilling journeys through space, blending compelling storytelling with plausible science. With his unique ability to combine technical details and gripping narratives, Weir has solidified his place as a prominent voice in the world of science fiction.`,
+  },
+  {
+    id: 32,
+    img: Taylor,
+    name: "Taylor Jenkins Reid",
+    born: "Eastern Shore of Maryland. December 20, 1983",
+    died: "",
+    website: "http://www.taylorjenkinsreid.com",
+    genre: "Fiction",
+    influences: "",
+    about: `A talented contemporary author, weaves intricate narratives that delve into the complexities of human relationships and personal growth. Known for her compelling storytelling and well-crafted characters, Reid's novels like "Daisy Jones & The Six" and "Malibu Rising" have garnered widespread acclaim, resonating with readers across genres. With her unique blend of emotional depth and immersive storytelling, Reid has established herself as a prominent voice in contemporary fiction.`,
+  },
+  {
+    id: 33,
+    img: liu,
+    name: "Liu Cixin",
+    born: "Beijing, China. June 23, 1963",
+    died: "",
+    website: "",
+    genre: "Science Fiction & Fantasy",
+    influences: "",
+    about: `A visionary Chinese author, has redefined science fiction with his thought-provoking and epic novels. His masterpiece, "The Three-Body Problem," earned global acclaim for its ingenious blend of science, philosophy, and gripping storytelling. Liu's imaginative works have propelled him to become one of the most influential voices in contemporary science fiction.`,
+  },
+  {
+    id: 34,
+    img: hanya,
+    name: "Hanya Yanagihara",
+    born: "Hawaii, United States. September 20,1974",
+    died: "",
+    website: "",
+    genre: "Literary Fiction",
+    influences: "",
+    about: `A talented writer of our time, has crafted powerful narratives that delve into complex emotions and human connections. Her acclaimed novel "A Little Life" garnered widespread acclaim for its raw portrayal of friendship, trauma, and resilience. Yanagihara's evocative storytelling leaves a lasting impact, inviting readers to explore the depths of the human experience.`,
+  },
+  {
+    id: 35,
+    img: rebeccayarros,
+    name: "rebecca Yarros",
+    born: "",
+    died: "",
+    website: "",
+    genre: "Contemporary, Fantasy, Romance",
+    influences: "",
+    about: `A contemporary romance author, weaves heartfelt stories that resonate with readers' emotions. Her compelling narratives and well-drawn characters create a powerful connection, making each book an immersive journey. Through her writing, Yarros invites us to explore love, resilience, and the beauty of second chances.`,
+  },
 ];
 export default AuthorInfo;
 

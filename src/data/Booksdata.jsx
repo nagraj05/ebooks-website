@@ -118,6 +118,7 @@ import ugly from "../assets/bookcovers/ugly.jpg";
 import reminder from "../assets/bookcovers/reminders of him.jpg";
 import alittlelife from "../assets/bookcovers/a little life.jpg"
 import toparadise from "../assets/bookcovers/to paradise.jpg"
+import fourthwing from "../assets/bookcovers/fourthwing.jpg"
 
 export default [
   {
@@ -1439,7 +1440,18 @@ export default [
     pages: 504,
     rating:"3.5" ,    
     year: "2022",
-  }
+  },
+  {
+    id:121,
+    img: fourthwing,
+    title: "Fourth Wing",
+    value: "Fourth Wing",
+    author: "Rebecca Yarros",
+    genre: "Contemporary",
+    pages: 515,
+    rating:"4.2" ,    
+    year: "2023",
+  },
 ];
 
 // {

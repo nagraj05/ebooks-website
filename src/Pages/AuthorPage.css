@@ -123,8 +123,8 @@
 .nagraj-image {
   float: left;
   width: 250px;
-  height: 350px;
-  border-radius: 10px;
+  height: auto;
+  border-radius: 5px;
   margin: 20px;
 }
 .nagraj--intro--card--container{

@@ -25,7 +25,7 @@ import kiyo from "../assets/authorimages/kiyo.jpg";
 import bronte from "../assets/authorimages/emily.jpg";
 import kafka from "../assets/authorimages/franz.jpg";
 import shakespeare from "../assets/authorimages/Shakespeare.jpg";
-import none from "../assets/bookcovers/none.jpg"
+import none from "../assets/bookcovers/none.jpg";
 import murder from "../assets/bookcovers/orient.jpg";
 import myst from "../assets/bookcovers/mysterious.jpg";
 import sapiens from "../assets/bookcovers/sapiens.jpg";
@@ -110,58 +110,59 @@ import brida from "../assets/bookcovers/brida.jpg";
 import alchemist from "../assets/bookcovers/alchemist.jpg";
 import eleven from "../assets/bookcovers/eleven.jpg";
 import veronika from "../assets/bookcovers/vero.jpg";
-import thefinal from "../assets/bookcovers/thefinalempire.jpg"
-import wellofascension from "../assets/bookcovers/wellofascension.jpg"
-import heroofages from "../assets/bookcovers/heroofages.jpg"
-import secrethistorymist from "../assets/bookcovers/secrethistorymistbirn.jpg"
-import alloylaw from "../assets/bookcovers/alloy of law.jpg"
-import shadowsself from "../assets/bookcovers/shadowsofself.jpg"
-import bandsmourning from "../assets/bookcovers/thebandsofmourning.jpg"
-import brandon from "../assets/authorimages/brndon.jpg"
-import frank from "../assets/authorimages/frank.webp"
+import thefinal from "../assets/bookcovers/thefinalempire.jpg";
+import wellofascension from "../assets/bookcovers/wellofascension.jpg";
+import heroofages from "../assets/bookcovers/heroofages.jpg";
+import secrethistorymist from "../assets/bookcovers/secrethistorymistbirn.jpg";
+import alloylaw from "../assets/bookcovers/alloy of law.jpg";
+import shadowsself from "../assets/bookcovers/shadowsofself.jpg";
+import bandsmourning from "../assets/bookcovers/thebandsofmourning.jpg";
+import brandon from "../assets/authorimages/brndon.jpg";
+import frank from "../assets/authorimages/frank.webp";
 import dune from "../assets/bookcovers/d1.jpg";
 import dunemessiah from "../assets/bookcovers/d2.jpg";
 import childrenofdune from "../assets/bookcovers/d3.jpg";
 import godemperorofdune from "../assets/bookcovers/d4.jpg";
 import herecticsofdune from "../assets/bookcovers/d5.jpg";
 import chapterhousedune from "../assets/bookcovers/d6.jpg";
-import whatif2 from "../assets/bookcovers/what if 2.jpg"
-import blake from "../assets/authorimages/BlakeCrouch.jpg"
-import darkmatter from "../assets/bookcovers/dark matter.jpg"
-import recursion from "../assets/bookcovers/recursion yellow.jpg"
-import upgrade from "../assets/bookcovers/upgrade.jpg"
-import wp1 from "../assets/bookcovers/wp1.jpg"
-import wp2 from "../assets/bookcovers/wp2.jpg"
-import wp3 from "../assets/bookcovers/wp3.jpg"
-import andy from "../assets/authorimages/andy.webp"
-import mars from "../assets/bookcovers/mars.jpg"
-import hailmary from "../assets/bookcovers/hail mary.jpg"
-import artemis from "../assets/bookcovers/artemis.jpg"
-import killing from "../assets/bookcovers/killing commendatore.jpg"
-import afterdark from "../assets/bookcovers/after dark haruki.jpg"
-import Taylor from "../assets/authorimages/Taylor Jenkins Reid.jpg"
-import seven from "../assets/bookcovers/seven.jpg"
-import Diasy from "../assets/bookcovers/daisy.jpg"
-import onetrue from "../assets/bookcovers/one true.jpg"
-import evidence from "../assets/bookcovers/Evidence of the affair.jpg"
-import maybein from "../assets/bookcovers/maybe in another life.jpg"
-import foreverinterrupted from "../assets/bookcovers/Forever interrupted.jpg"
-import afterido from "../assets/bookcovers/after i do.jpg"
-import threebody from "../assets/bookcovers/threebody.jpg"
-import darkforest from "../assets/bookcovers/darkforest.jpg"
-import deathend from "../assets/bookcovers/death'send.jpg"
-import liu from "../assets/authorimages/liu.jpg"
-import hanya from "../assets/authorimages/hanya.jpg"
-import alittlelife from "../assets/bookcovers/a little life.jpg"
-import toparadise from "../assets/bookcovers/to paradise.jpg"
-
+import whatif2 from "../assets/bookcovers/what if 2.jpg";
+import blake from "../assets/authorimages/BlakeCrouch.jpg";
+import darkmatter from "../assets/bookcovers/dark matter.jpg";
+import recursion from "../assets/bookcovers/recursion yellow.jpg";
+import upgrade from "../assets/bookcovers/upgrade.jpg";
+import wp1 from "../assets/bookcovers/wp1.jpg";
+import wp2 from "../assets/bookcovers/wp2.jpg";
+import wp3 from "../assets/bookcovers/wp3.jpg";
+import andy from "../assets/authorimages/andy.webp";
+import mars from "../assets/bookcovers/mars.jpg";
+import hailmary from "../assets/bookcovers/hail mary.jpg";
+import artemis from "../assets/bookcovers/artemis.jpg";
+import killing from "../assets/bookcovers/killing commendatore.jpg";
+import afterdark from "../assets/bookcovers/after dark haruki.jpg";
+import Taylor from "../assets/authorimages/Taylor Jenkins Reid.jpg";
+import seven from "../assets/bookcovers/seven.jpg";
+import Diasy from "../assets/bookcovers/daisy.jpg";
+import onetrue from "../assets/bookcovers/one true.jpg";
+import evidence from "../assets/bookcovers/Evidence of the affair.jpg";
+import maybein from "../assets/bookcovers/maybe in another life.jpg";
+import foreverinterrupted from "../assets/bookcovers/Forever interrupted.jpg";
+import afterido from "../assets/bookcovers/after i do.jpg";
+import threebody from "../assets/bookcovers/threebody.jpg";
+import darkforest from "../assets/bookcovers/darkforest.jpg";
+import deathend from "../assets/bookcovers/death'send.jpg";
+import liu from "../assets/authorimages/liu.jpg";
+import hanya from "../assets/authorimages/hanya.jpg";
+import alittlelife from "../assets/bookcovers/a little life.jpg";
+import toparadise from "../assets/bookcovers/to paradise.jpg";
+import rebeccayarros from "../assets/authorimages/rebeccayarros.jpg";
+import fourthwing from "../assets/bookcovers/fourthwing.jpg";
 
 const authorsData = [
-/*-------------------------- */
-/*                           */
-/*       Agatha Christie     */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Agatha Christie     */
+  /*                           */
+  /*-------------------------- */
   {
     id: 1,
     img: a,
@@ -172,8 +173,8 @@ const authorsData = [
         img: none,
         title: "And Then There Were None",
         value: "And then there were none",
-        author:"Agatha Christie",
-        genre:"Crime Thriller",
+        author: "Agatha Christie",
+        genre: "Crime Thriller",
         pages: 204,
         year: "",
       },
@@ -182,8 +183,8 @@ const authorsData = [
         img: murder,
         title: "Murder on the Orient Express",
         value: "Murder on the Orient Express",
-        author:"Agatha Christie",
-        genre:"Crime Thriller",
+        author: "Agatha Christie",
+        genre: "Crime Thriller",
         pages: 211,
         year: "",
       },
@@ -192,8 +193,8 @@ const authorsData = [
         img: myst,
         title: "The Mysterious Affair at Styles",
         value: "The Mysterious Affair at Styles",
-        author:"Agatha Christie",
-        genre:"Crime Thriller",
+        author: "Agatha Christie",
+        genre: "Crime Thriller",
         pages: 178,
         year: "",
       },
@@ -201,11 +202,11 @@ const authorsData = [
     description:
       "Master of mystery, weaving intricate puzzles with timeless allure.",
   },
-/*-------------------------- */
-/*                           */
-/*       Franz Kafka         */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Franz Kafka         */
+  /*                           */
+  /*-------------------------- */
   {
     id: 26,
     img: kafka,
@@ -216,8 +217,8 @@ const authorsData = [
         img: metamorph,
         title: "The Metamorphosis",
         value: "The Metamorphosis",
-        author:"Franz Kafka",
-        genre:"Classics",
+        author: "Franz Kafka",
+        genre: "Classics",
         pages: 34,
         year: 1915,
       },
@@ -226,8 +227,8 @@ const authorsData = [
         img: trail,
         title: "The Trail",
         value: "The Trail",
-        author:"Franz Kafka",
-        genre:"Classics",
+        author: "Franz Kafka",
+        genre: "Classics",
         pages: 143,
         year: "",
       },
@@ -236,8 +237,8 @@ const authorsData = [
         img: letterstohisfather,
         title: "Letter to His Father",
         value: "Letter to His Father",
-        author:"Franz Kafka",
-        genre:"Classics",
+        author: "Franz Kafka",
+        genre: "Classics",
         pages: 63,
         year: "",
       },
@@ -246,8 +247,8 @@ const authorsData = [
         img: castle,
         title: "The Castle",
         value: "The Castle",
-        author:"Franz Kafka",
-        genre:"Classics",
+        author: "Franz Kafka",
+        genre: "Classics",
         pages: 204,
         year: "",
       },
@@ -255,11 +256,11 @@ const authorsData = [
     description:
       "Surreal literary genius, exploring the complexities of human existence.",
   },
-/*-------------------------- */
-/*                           */
-/*       Shakespeare         */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Shakespeare         */
+  /*                           */
+  /*-------------------------- */
   {
     id: 27,
     img: shakespeare,
@@ -270,8 +271,8 @@ const authorsData = [
         img: hamlet,
         title: "Hamlet",
         value: "Hamlet",
-        author:"William Shakespeare",
-        genre:"Play",
+        author: "William Shakespeare",
+        genre: "Play",
         pages: 168,
         year: "",
       },
@@ -280,8 +281,8 @@ const authorsData = [
         img: macbeth,
         title: "Macbeth",
         value: "Macbeth",
-        author:"William Shakespeare",
-        genre:"Play",
+        author: "William Shakespeare",
+        genre: "Play",
         pages: 73,
         year: "",
       },
@@ -290,8 +291,8 @@ const authorsData = [
         img: romeo,
         title: "Romeo & Juliet",
         value: "Romeo & Juliet",
-        author:"William Shakespeare",
-        genre:"Play",
+        author: "William Shakespeare",
+        genre: "Play",
         pages: 39,
         year: "",
       },
@@ -300,8 +301,8 @@ const authorsData = [
         img: midsummer,
         title: "A Midsummer Night's Dream",
         value: "A Midsummer Night's Dream",
-        author:"William Shakespeare",
-        genre:"Play",
+        author: "William Shakespeare",
+        genre: "Play",
         pages: 96,
         year: "",
       },
@@ -310,8 +311,8 @@ const authorsData = [
         img: othello,
         title: "Othello",
         value: "Othello",
-        author:"William Shakespeare",
-        genre:"Play",
+        author: "William Shakespeare",
+        genre: "Play",
         pages: 148,
         year: "",
       },
@@ -320,8 +321,8 @@ const authorsData = [
         img: muchado,
         title: "Much Ado About Nothing",
         value: "Much Ado About Nothing",
-        author:"William Shakespeare",
-        genre:"Play",
+        author: "William Shakespeare",
+        genre: "Play",
         pages: 96,
         year: "",
       },
@@ -330,8 +331,8 @@ const authorsData = [
         img: kinglear,
         title: "King Lear",
         value: "King Lear",
-        author:"William Shakespeare",
-        genre:"Play",
+        author: "William Shakespeare",
+        genre: "Play",
         pages: 146,
         year: "",
       },
@@ -340,8 +341,8 @@ const authorsData = [
         img: tempest,
         title: "The Tempest",
         value: "The Tempest",
-        author:"William Shakespeare",
-        genre:"Play",
+        author: "William Shakespeare",
+        genre: "Play",
         pages: 171,
         year: "",
       },
@@ -350,8 +351,8 @@ const authorsData = [
         img: julius,
         title: "Julius Caesar",
         value: "Julius Caesar",
-        author:"William Shakespeare",
-        genre:"Play",
+        author: "William Shakespeare",
+        genre: "Play",
         pages: 110,
         year: "",
       },
@@ -359,11 +360,11 @@ const authorsData = [
     description:
       "Timeless playwright, crafting poetic masterpieces that transcend generations and cultures.",
   },
-/*-------------------------- */
-/*                           */
-/*       Emily Bronte        */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Emily Bronte        */
+  /*                           */
+  /*-------------------------- */
   {
     id: 25,
     img: bronte,
@@ -374,8 +375,8 @@ const authorsData = [
         img: wuthering,
         title: "Wuthering Heights",
         value: "Wuthering Heights",
-        author:"Emily Bronte",
-        genre:"Classics",
+        author: "Emily Bronte",
+        genre: "Classics",
         pages: 230,
         year: "",
       },
@@ -383,11 +384,11 @@ const authorsData = [
     description:
       "Passionate novelist, weaving dark and haunting tales of love.",
   },
-/*-------------------------- */
-/*                           */
-/*       Hemingway           */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Hemingway           */
+  /*                           */
+  /*-------------------------- */
   {
     id: 4,
     img: ernest,
@@ -398,8 +399,8 @@ const authorsData = [
         img: thesun,
         title: "The Sun Also Rises",
         value: "The Sun Also Rises",
-        author:"Ernest Hemingway",
-        genre:"",
+        author: "Ernest Hemingway",
+        genre: "",
         pages: 226,
         year: 1926,
       },
@@ -408,8 +409,8 @@ const authorsData = [
         img: farewell,
         title: "A Farewell to Arms",
         value: "A Farewell to Arms",
-        author:"Ernest Hemingway",
-        genre:"",
+        author: "Ernest Hemingway",
+        genre: "",
         pages: 290,
         year: 1929,
       },
@@ -418,8 +419,8 @@ const authorsData = [
         img: belltoll,
         title: "For Whom the Bell Tolls",
         value: "For Whom the Bell Tolls",
-        author:"Ernest Hemingway",
-        genre:"",
+        author: "Ernest Hemingway",
+        genre: "",
         pages: 445,
         year: 1940,
       },
@@ -428,8 +429,8 @@ const authorsData = [
         img: tohave,
         title: "To Have and Have Not",
         value: "To Have and Have Not",
-        author:"Ernest Hemingway",
-        genre:"",
+        author: "Ernest Hemingway",
+        genre: "",
         pages: 183,
         year: 1937,
       },
@@ -438,8 +439,8 @@ const authorsData = [
         img: oldman,
         title: "The Old Man and the Sea",
         value: "The Old Man and the Sea",
-        author:"Ernest Hemingway",
-        genre:"",
+        author: "Ernest Hemingway",
+        genre: "",
         pages: 60,
         year: 1952,
       },
@@ -448,8 +449,8 @@ const authorsData = [
         img: feast,
         title: "A Moveable Feast",
         value: "A Moveable Feast",
-        author:"Ernest Hemingway",
-        genre:"",
+        author: "Ernest Hemingway",
+        genre: "",
         pages: 105,
         year: 1964,
       },
@@ -457,11 +458,11 @@ const authorsData = [
     description:
       "Bold prose, capturing the essence of life with profound simplicity.",
   },
-/*-------------------------- */
-/*                           */
-/*       Oscar Wilde         */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Oscar Wilde         */
+  /*                           */
+  /*-------------------------- */
   {
     id: 7,
     img: wilde,
@@ -472,8 +473,8 @@ const authorsData = [
         img: dorian,
         title: "The Picture of Dorian Gray",
         value: "The Picture of Dorian Gray",
-        author:"Oscar Wilde",
-        genre:"",
+        author: "Oscar Wilde",
+        genre: "",
         pages: 116,
         year: 1890,
       },
@@ -482,8 +483,8 @@ const authorsData = [
         img: canterville,
         title: "The Canterville Ghost",
         value: "The Canterville Ghost",
-        author:"Oscar Wilde",
-        genre:"",
+        author: "Oscar Wilde",
+        genre: "",
         pages: 31,
         year: 1887,
       },
@@ -492,8 +493,8 @@ const authorsData = [
         img: happyprince,
         title: "The Happy Prince and Other Tales",
         value: "The Happy Prince and Other Tales",
-        author:"Oscar Wilde",
-        genre:"",
+        author: "Oscar Wilde",
+        genre: "",
         pages: 58,
         year: 1888,
       },
@@ -501,11 +502,11 @@ const authorsData = [
     description:
       "Witty wordsmith, defying conventions with his sparkling literary brilliance.",
   },
-/*-------------------------- */
-/*                           */
-/*       Salinger            */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Salinger            */
+  /*                           */
+  /*-------------------------- */
   {
     id: 11,
     img: salinger,
@@ -516,8 +517,8 @@ const authorsData = [
         img: catcher,
         title: "The Catcher in the Rye",
         value: "The Catcher in the Rye",
-        author:"J.D. Salinger",
-        genre:"",
+        author: "J.D. Salinger",
+        genre: "",
         pages: 160,
         year: "",
       },
@@ -526,8 +527,8 @@ const authorsData = [
         img: franny,
         title: "Franny and Zooey",
         value: "Franny and Zooey",
-        author:"J.D. Salinger",
-        genre:"",
+        author: "J.D. Salinger",
+        genre: "",
         pages: 104,
         year: "",
       },
@@ -535,11 +536,11 @@ const authorsData = [
     description:
       "Reclusive wordsmith, delving into the anguish of adolescent isolation.",
   },
-/*-------------------------- */
-/*                           */
-/*       Orwell              */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Orwell              */
+  /*                           */
+  /*-------------------------- */
   {
     id: 8,
     img: orwell,
@@ -550,8 +551,8 @@ const authorsData = [
         img: orwell1984,
         title: "1984",
         value: "1984",
-        author:"George Orwell",
-        genre:"",
+        author: "George Orwell",
+        genre: "",
         pages: 184,
         year: "",
       },
@@ -560,8 +561,8 @@ const authorsData = [
         img: animal,
         title: "Animal Farm",
         value: "Animal Farm",
-        author:"George Orwell",
-        genre:"",
+        author: "George Orwell",
+        genre: "",
         pages: 62,
         year: "",
       },
@@ -569,11 +570,11 @@ const authorsData = [
     description:
       "Provocative visionary, exposing the perils of totalitarianism with foresight.",
   },
-/*-------------------------- */
-/*                           */
-/*       Austen              */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Austen              */
+  /*                           */
+  /*-------------------------- */
   {
     id: 10,
     img: jane,
@@ -584,8 +585,8 @@ const authorsData = [
         img: pride,
         title: "Pride and Prejudice",
         value: "Pride and Prejudice",
-        author:"Jane Austen",
-        genre:"",
+        author: "Jane Austen",
+        genre: "",
         pages: 256,
         year: "",
       },
@@ -594,8 +595,8 @@ const authorsData = [
         img: emma,
         title: "Emma",
         value: "Emma",
-        author:"Jane Austen",
-        genre:"",
+        author: "Jane Austen",
+        genre: "",
         pages: 282,
         year: "",
       },
@@ -604,8 +605,8 @@ const authorsData = [
         img: sense,
         title: "Sense and Sensibility",
         value: "Sense and Sensibility",
-        author:"Jane Austen",
-        genre:"",
+        author: "Jane Austen",
+        genre: "",
         pages: 238,
         year: "",
       },
@@ -614,8 +615,8 @@ const authorsData = [
         img: per,
         title: "Persuasion",
         value: "Persuasion",
-        author:"Jane Austen",
-        genre:"",
+        author: "Jane Austen",
+        genre: "",
         pages: 228,
         year: "",
       },
@@ -623,11 +624,11 @@ const authorsData = [
     description:
       "Regency wordsmith, crafting timeless tales of love and social satire.",
   },
-/*-------------------------- */
-/*                           */
-/*       Doyle               */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Doyle               */
+  /*                           */
+  /*-------------------------- */
   {
     id: 9,
     img: doyle,
@@ -638,8 +639,8 @@ const authorsData = [
         img: hound,
         title: "The Hound of the Baskervilles",
         value: "The Hound of the Baskervilles",
-        author:"Sir Arthur Conan Doyle",
-        genre:"",
+        author: "Sir Arthur Conan Doyle",
+        genre: "",
         pages: 136,
         year: "",
       },
@@ -647,11 +648,11 @@ const authorsData = [
     description:
       "Brilliant detective creator, unraveling mysteries with unmatched literary finesse.",
   },
-/*-------------------------- */
-/*                           */
-/*       Murakami            */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Murakami            */
+  /*                           */
+  /*-------------------------- */
   {
     id: 2,
     img: haruki,
@@ -662,8 +663,8 @@ const authorsData = [
         img: kafkaontheshore,
         title: "Kafka on the Shore",
         value: "Kafka on the Shore",
-        author:"Haruki Murakami",
-        genre:"",
+        author: "Haruki Murakami",
+        genre: "",
         pages: 221,
         year: "",
       },
@@ -672,8 +673,8 @@ const authorsData = [
         img: norweigan,
         title: "Norweigan Wood",
         value: "Norweigan Wood",
-        author:"Haruki Murakami",
-        genre:"",
+        author: "Haruki Murakami",
+        genre: "",
         pages: 148,
         year: "",
       },
@@ -682,8 +683,8 @@ const authorsData = [
         img: windup,
         title: "The Wind-up Bird Chronicle",
         value: "The Wind-up Bird Chronicle",
-        author:"Haruki Murakami",
-        genre:"",
+        author: "Haruki Murakami",
+        genre: "",
         pages: 463,
         year: "",
       },
@@ -692,8 +693,8 @@ const authorsData = [
         img: sputnik,
         title: "Sputnik Sweetheart",
         value: "Sputnik Sweetheart",
-        author:"Haruki Murakami",
-        genre:"",
+        author: "Haruki Murakami",
+        genre: "",
         pages: 138,
         year: "",
       },
@@ -702,30 +703,30 @@ const authorsData = [
         img: killing,
         title: "Killing Commendatore",
         value: "Killing Commendatore",
-        author:"Haruki Murakami",
-        genre:"",
+        author: "Haruki Murakami",
+        genre: "",
         pages: 594,
         year: "",
       },
       {
-        id:6,
+        id: 6,
         img: afterdark,
         title: "After Dark",
         value: "After Dark",
-        author:"Haruki Murakami",
-        genre:"",
-        pages:134,
+        author: "Haruki Murakami",
+        genre: "",
+        pages: 134,
         year: "",
-      }
+      },
     ],
     description:
       "Enigmatic storyteller capturing the surreal with poetic precision and depth.",
   },
-/*-------------------------- */
-/*                           */
-/*       King                */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       King                */
+  /*                           */
+  /*-------------------------- */
   {
     id: 5,
     img: stephenking,
@@ -736,8 +737,8 @@ const authorsData = [
         img: shining,
         title: "The Shining",
         value: "The Shining",
-        author:"Stephen King",
-        genre:"",
+        author: "Stephen King",
+        genre: "",
         pages: 391,
         year: "",
       },
@@ -746,8 +747,8 @@ const authorsData = [
         img: it,
         title: "It",
         value: "It",
-        author:"Stephen King",
-        genre:"",
+        author: "Stephen King",
+        genre: "",
         pages: 988,
         year: "",
       },
@@ -756,8 +757,8 @@ const authorsData = [
         img: stand,
         title: "The Stand",
         value: "The Stand",
-        author:"Stephen King",
-        genre:"",
+        author: "Stephen King",
+        genre: "",
         pages: 1121,
         year: "",
       },
@@ -766,8 +767,8 @@ const authorsData = [
         img: misery,
         title: "Misery",
         value: "Misery",
-        author:"Stephen King",
-        genre:"",
+        author: "Stephen King",
+        genre: "",
         pages: 428,
         year: "",
       },
@@ -775,11 +776,11 @@ const authorsData = [
     description:
       "Horror maestro, conjuring nightmares with his chilling literary prowess.",
   },
-/*-------------------------- */
-/*                           */
-/*       Rowling             */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Rowling             */
+  /*                           */
+  /*-------------------------- */
   {
     id: 3,
     img: jk,
@@ -790,8 +791,8 @@ const authorsData = [
         img: stone,
         title: "The Philosopher’s Stone",
         value: "Harry Potter & the Philosopher’s Stone",
-        author:"J.K. Rowling",
-        genre:"",
+        author: "J.K. Rowling",
+        genre: "",
         pages: 233,
         year: "",
       },
@@ -800,8 +801,8 @@ const authorsData = [
         img: chamber,
         title: "The Chamber of Secrets",
         value: "Harry Potter & the Chamber of Secrets",
-        author:"J.K. Rowling",
-        genre:"",
+        author: "J.K. Rowling",
+        genre: "",
         pages: 251,
         year: "",
       },
@@ -810,8 +811,8 @@ const authorsData = [
         img: azkaban,
         title: "The Prisoner of Azkaban",
         value: "Harry Potter & the Prisoner of Azkaban",
-        author:"J.K. Rowling",
-        genre:"",
+        author: "J.K. Rowling",
+        genre: "",
         pages: 315,
         year: "",
       },
@@ -820,8 +821,8 @@ const authorsData = [
         img: goblet,
         title: "The Goblet of Fire",
         value: "Harry Potter and the Goblet of Fire",
-        author:"J.K. Rowling",
-        genre:"",
+        author: "J.K. Rowling",
+        genre: "",
         pages: 507,
         year: "",
       },
@@ -830,8 +831,8 @@ const authorsData = [
         img: phoenix,
         title: "The Order of the Phoenix",
         value: "Harry Potter & the Order of the Phoenix",
-        author:"J.K. Rowling",
-        genre:"",
+        author: "J.K. Rowling",
+        genre: "",
         pages: 699,
         year: "",
       },
@@ -840,8 +841,8 @@ const authorsData = [
         img: halfblood,
         title: "The Half-Blood Prince",
         value: "Harry Potter & the Half-Blood Prince",
-        author:"J.K. Rowling",
-        genre:"",
+        author: "J.K. Rowling",
+        genre: "",
         pages: 456,
         year: "",
       },
@@ -850,8 +851,8 @@ const authorsData = [
         img: deathly,
         title: "The Deathly Hallows",
         value: "Harry Potter & the Deathly Hallows",
-        author:"J.K. Rowling",
-        genre:"",
+        author: "J.K. Rowling",
+        genre: "",
         pages: 545,
         year: "",
       },
@@ -860,8 +861,8 @@ const authorsData = [
         img: cursed,
         title: "Harry Potter & the Cursed Child",
         value: "Harry Potter & the Cursed Child",
-        author:"J.K. Rowling",
-        genre:"",
+        author: "J.K. Rowling",
+        genre: "",
         pages: 294,
         year: "",
       },
@@ -869,11 +870,11 @@ const authorsData = [
     description:
       "Imaginative wizardess crafting enchanting tales of magic and friendship.",
   },
-/*-------------------------- */
-/*                           */
-/*       Golding             */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Golding             */
+  /*                           */
+  /*-------------------------- */
   {
     id: 6,
     img: golding,
@@ -884,8 +885,8 @@ const authorsData = [
         img: flies,
         title: "Lord of the Flies",
         value: "Lord of the Flies",
-        author:"William Golding",
-        genre:"Classics",
+        author: "William Golding",
+        genre: "Classics",
         pages: 211,
         year: "",
       },
@@ -893,11 +894,11 @@ const authorsData = [
     description:
       "Insightful observer, unveiling the darkness within human nature's depths.",
   },
-/*-------------------------- */
-/*                           */
-/*       Green               */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Green               */
+  /*                           */
+  /*-------------------------- */
   {
     id: 12,
     img: green,
@@ -908,8 +909,8 @@ const authorsData = [
         img: fault,
         title: "The Fault in Our Stars",
         value: "The Fault in Our Stars",
-        author:"John Green",
-        genre:"Emotional Damage",
+        author: "John Green",
+        genre: "Emotional Damage",
         pages: 197,
         year: "",
       },
@@ -918,8 +919,8 @@ const authorsData = [
         img: alaska,
         title: "Looking For Alaska",
         value: "Looking For Alaska",
-        author:"John Green",
-        genre:"Romance",
+        author: "John Green",
+        genre: "Romance",
         pages: 185,
         year: "",
       },
@@ -928,8 +929,8 @@ const authorsData = [
         img: paper,
         title: "Paper Towns",
         value: "Paper Towns",
-        author:"John Green",
-        genre:"Romance",
+        author: "John Green",
+        genre: "Romance",
         pages: 252,
         year: "",
       },
@@ -938,8 +939,8 @@ const authorsData = [
         img: turtles,
         title: "Turtles all the way down",
         value: "Turtles all the way down",
-        author:"John Green",
-        genre:"Young Adult",
+        author: "John Green",
+        genre: "Young Adult",
         pages: 180,
         year: "",
       },
@@ -947,11 +948,11 @@ const authorsData = [
     description:
       "Emotional storyteller, exploring love, loss, and the human condition.",
   },
-/*-------------------------- */
-/*                           */
-/*       Robin               */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Robin               */
+  /*                           */
+  /*-------------------------- */
   {
     id: 13,
     img: robin,
@@ -962,8 +963,8 @@ const authorsData = [
         img: monk,
         title: "The Monk who sold his Ferrari",
         value: "The Monk who sold his Ferrari",
-        author:"Robin S. Sharma",
-        genre:"Self-help",
+        author: "Robin S. Sharma",
+        genre: "Self-help",
         pages: 147,
         year: "",
       },
@@ -971,11 +972,11 @@ const authorsData = [
     description:
       "Motivational guru, inspiring personal transformation and leadership excellence.",
   },
-/*-------------------------- */
-/*                           */
-/*       Randall             */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Randall             */
+  /*                           */
+  /*-------------------------- */
   {
     id: 14,
     img: randall,
@@ -986,8 +987,8 @@ const authorsData = [
         img: whatif,
         title: "What if",
         value: "What if",
-        author:"Randall Munroe",
-        genre:"Science Humor",
+        author: "Randall Munroe",
+        genre: "Science Humor",
         pages: 541,
         year: "",
       },
@@ -996,8 +997,8 @@ const authorsData = [
         img: whatif2,
         title: "What if 2",
         value: "What if 2",
-        author:"Randall Munroe",
-        genre:"Science Humor",
+        author: "Randall Munroe",
+        genre: "Science Humor",
         pages: 1239,
         year: "",
       },
@@ -1005,11 +1006,11 @@ const authorsData = [
     description:
       "Curious comic artist, blending science and humor with creativity.",
   },
-/*-------------------------- */
-/*                           */
-/*       ELJames             */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       ELJames             */
+  /*                           */
+  /*-------------------------- */
   {
     id: 16,
     img: eljames,
@@ -1020,8 +1021,8 @@ const authorsData = [
         img: fiftyshades,
         title: "Fifty Shades of Grey",
         value: "Fifty Shades of Grey",
-        author:"E.L. James",
-        genre:"Erotica",
+        author: "E.L. James",
+        genre: "Erotica",
         pages: 529,
         year: "",
       },
@@ -1030,8 +1031,8 @@ const authorsData = [
         img: darker,
         title: "Fifty Shades Darker",
         value: "Fifty Shades Darker",
-        author:"E.L. James",
-        genre:"Erotica",
+        author: "E.L. James",
+        genre: "Erotica",
         pages: 533,
         year: "",
       },
@@ -1040,8 +1041,8 @@ const authorsData = [
         img: freed,
         title: "Fifty Shades Freed",
         value: "Fifty Shades Freed",
-        author:"E.L. James",
-        genre:"Erotica",
+        author: "E.L. James",
+        genre: "Erotica",
         pages: 616,
         year: "",
       },
@@ -1049,11 +1050,11 @@ const authorsData = [
     description:
       "Provocative author, igniting passions with steamy tales of desire.",
   },
-/*-------------------------- */
-/*                           */
-/*       Coehlo              */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Coehlo              */
+  /*                           */
+  /*-------------------------- */
   {
     id: 17,
     img: paulo,
@@ -1064,8 +1065,8 @@ const authorsData = [
         img: alchemist,
         title: "The Alchemist",
         value: "The Alchemist",
-        author:"Paulo Coelho",
-        genre:"",
+        author: "Paulo Coelho",
+        genre: "",
         pages: 106,
         year: "",
       },
@@ -1074,8 +1075,8 @@ const authorsData = [
         img: veronika,
         title: "Veronika Decides to Die",
         value: "Veronika Decides to Die",
-        author:"Paulo Coelho",
-        genre:"",
+        author: "Paulo Coelho",
+        genre: "",
         pages: 151,
         year: "",
       },
@@ -1084,8 +1085,8 @@ const authorsData = [
         img: eleven,
         title: "Eleven Minutes",
         value: "Eleven Minutes",
-        author:"Paulo Coelho",
-        genre:"",
+        author: "Paulo Coelho",
+        genre: "",
         pages: 320,
         year: "",
       },
@@ -1094,8 +1095,8 @@ const authorsData = [
         img: brida,
         title: "Brida",
         value: "Brida",
-        author:"Paulo Coelho",
-        genre:"",
+        author: "Paulo Coelho",
+        genre: "",
         pages: 149,
         year: "",
       },
@@ -1103,11 +1104,11 @@ const authorsData = [
     description:
       "Spiritual wordsmith, guiding souls on transformative journeys of self-discovery.",
   },
-/*-------------------------- */
-/*                           */
-/*       Harper lee          */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Harper lee          */
+  /*                           */
+  /*-------------------------- */
   {
     id: 18,
     img: harper,
@@ -1118,8 +1119,8 @@ const authorsData = [
         img: mocking,
         title: "To Kill a Mockingbird",
         value: "To Kill a Mockingbird",
-        author:"Harper Lee",
-        genre:"Classics",
+        author: "Harper Lee",
+        genre: "Classics",
         pages: 263,
         year: "",
       },
@@ -1128,8 +1129,8 @@ const authorsData = [
         img: watchman,
         title: "Go Set a Watchman",
         value: "Go Set a Watchman",
-        author:"Harper Lee",
-        genre:"Fiction",
+        author: "Harper Lee",
+        genre: "Fiction",
         pages: 184,
         year: "",
       },
@@ -1137,11 +1138,11 @@ const authorsData = [
     description:
       "Compelling storyteller, confronting prejudice with compassion and enduring wisdom.",
   },
-/*-------------------------- */
-/*                           */
-/*       Hawking             */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Hawking             */
+  /*                           */
+  /*-------------------------- */
   {
     id: 19,
     img: hawking,
@@ -1152,8 +1153,8 @@ const authorsData = [
         img: brief,
         title: "A Brief History of Time",
         value: "A Brief History of Time",
-        author:"Stephen Hawking",
-        genre:"Science",
+        author: "Stephen Hawking",
+        genre: "Science",
         pages: 120,
         year: "",
       },
@@ -1162,8 +1163,8 @@ const authorsData = [
         img: briefer,
         title: "A Briefer History of Time",
         value: "A Briefer History of Time",
-        author:"Stephen Hawking",
-        genre:"Science",
+        author: "Stephen Hawking",
+        genre: "Science",
         pages: 115,
         year: "",
       },
@@ -1172,8 +1173,8 @@ const authorsData = [
         img: theory,
         title: "The Theory of Everything",
         value: "The Theory of Everything",
-        author:"Stephen Hawking",
-        genre:"Science",
+        author: "Stephen Hawking",
+        genre: "Science",
         pages: 58,
         year: "",
       },
@@ -1181,11 +1182,11 @@ const authorsData = [
     description:
       "Brilliant physicist, unraveling the mysteries of the cosmos with intellect.",
   },
-/*-------------------------- */
-/*                           */
-/*     Jay Asher             */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*     Jay Asher             */
+  /*                           */
+  /*-------------------------- */
   {
     id: 20,
     img: jay,
@@ -1196,8 +1197,8 @@ const authorsData = [
         img: reasons,
         title: "13 Reasons Why",
         value: "13 Reasons Why",
-        author:"Jay Asher",
-        genre:"Mystery",
+        author: "Jay Asher",
+        genre: "Mystery",
         pages: 206,
         year: "",
       },
@@ -1215,11 +1216,11 @@ const authorsData = [
     description:
       "Intriguing storyteller, delving into the complexities of human connections.",
   },
-/*-------------------------- */
-/*                           */
-/*       Hosseini            */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Hosseini            */
+  /*                           */
+  /*-------------------------- */
   {
     id: 21,
     img: khaled,
@@ -1230,8 +1231,8 @@ const authorsData = [
         img: kite,
         title: "The Kite Runner",
         value: "The Kite Runner",
-        author:"Kaled Hosseini",
-        genre:"Classics",
+        author: "Kaled Hosseini",
+        genre: "Classics",
         pages: 252,
         year: "",
       },
@@ -1240,8 +1241,8 @@ const authorsData = [
         img: splendid,
         title: "A Thousand Splendid Suns",
         value: "A Thousand Splendid Suns",
-        author:"Kaled Hosseini",
-        genre:"Emotional Damage",
+        author: "Kaled Hosseini",
+        genre: "Emotional Damage",
         pages: 302,
         year: "",
       },
@@ -1250,8 +1251,8 @@ const authorsData = [
         img: echoed,
         title: "And the Mountains Echoed",
         value: "And the Mountains Echoed",
-        author:"Kaled Hosseini",
-        genre:"Fiction",
+        author: "Kaled Hosseini",
+        genre: "Fiction",
         pages: 279,
         year: "",
       },
@@ -1260,8 +1261,8 @@ const authorsData = [
         img: sea,
         title: "Sea Prayer",
         value: "Sea Prayer",
-        author:"Kaled Hosseini",
-        genre:"Poetry",
+        author: "Kaled Hosseini",
+        genre: "Poetry",
         pages: 66,
         year: "",
       },
@@ -1269,11 +1270,11 @@ const authorsData = [
     description:
       "Emotional weaver, painting poignant tales of love, loss, and redemption.",
   },
-/*-------------------------- */
-/*                           */
-/*       Bach                */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Bach                */
+  /*                           */
+  /*-------------------------- */
   {
     id: 22,
     img: bach,
@@ -1284,8 +1285,8 @@ const authorsData = [
         img: jonathan,
         title: "Jonathan Livingston Seagull",
         value: "Jonathan Livingston Seagull",
-        author:"Richard Bach",
-        genre:"Classics",
+        author: "Richard Bach",
+        genre: "Classics",
         pages: 29,
         year: 1970,
       },
@@ -1293,11 +1294,11 @@ const authorsData = [
     description:
       "Dreamer and philosopher, soaring through the realms of imagination and enlightenment.",
   },
-/*-------------------------- */
-/*                           */
-/*     Harari                */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*     Harari                */
+  /*                           */
+  /*-------------------------- */
   {
     id: 23,
     img: yuval,
@@ -1308,8 +1309,8 @@ const authorsData = [
         img: sapiens,
         title: "Sapiens",
         value: "Sapiens A Brief History of Humankind",
-        author:"Yuval Noah Harari",
-        genre:"History",
+        author: "Yuval Noah Harari",
+        genre: "History",
         pages: 331,
         year: "",
       },
@@ -1318,8 +1319,8 @@ const authorsData = [
         img: deus,
         title: "Homo Deus",
         value: "Homo Deus A brief History of Tomorrow",
-        author:"Yuval Noah Harari",
-        genre:"History",
+        author: "Yuval Noah Harari",
+        genre: "History",
         pages: 333,
         year: "",
       },
@@ -1328,8 +1329,8 @@ const authorsData = [
         img: lessons,
         title: "21 Lessons for the 21st Century",
         value: "21 Lessons for the 21st Century",
-        author:"Yuval Noah Harari",
-        genre:"History",
+        author: "Yuval Noah Harari",
+        genre: "History",
         pages: 269,
         year: "",
       },
@@ -1337,11 +1338,11 @@ const authorsData = [
     description:
       "Visionary historian, illuminating the past and future of humankind.",
   },
-/*-------------------------- */
-/*                           */
-/*       Kiyosaki            */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Kiyosaki            */
+  /*                           */
+  /*-------------------------- */
   {
     id: 24,
     img: kiyo,
@@ -1352,8 +1353,8 @@ const authorsData = [
         img: rich,
         title: "Rich Dad Poor Dad",
         value: "Rich Dad Poor Dad",
-        author:"Robert T. Kiyosaki",
-        genre:"Business",
+        author: "Robert T. Kiyosaki",
+        genre: "Business",
         pages: 131,
         year: "",
       },
@@ -1361,11 +1362,11 @@ const authorsData = [
     description:
       "Financial mentor, empowering individuals to achieve wealth and prosperity.",
   },
-/*-------------------------- */
-/*                           */
-/*       Hoover              */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Hoover              */
+  /*                           */
+  /*-------------------------- */
   {
     id: 15,
     img: hoover,
@@ -1376,8 +1377,8 @@ const authorsData = [
         img: itends,
         title: "It Ends with Us",
         value: "It Ends with Us",
-        author:"Colleen Hoover",
-        genre:"Romance",
+        author: "Colleen Hoover",
+        genre: "Romance",
         pages: 283,
         year: "",
       },
@@ -1386,8 +1387,8 @@ const authorsData = [
         img: itstarts,
         title: "It Starts with Us",
         value: "It Starts with Us",
-        author:"Colleen Hoover",
-        genre:"Romance",
+        author: "Colleen Hoover",
+        genre: "Romance",
         pages: 235,
         year: "",
       },
@@ -1396,8 +1397,8 @@ const authorsData = [
         img: reminder,
         title: "Reminders of Him",
         value: "Reminders of him",
-        author:"Colleen Hoover",
-        genre:"Romance",
+        author: "Colleen Hoover",
+        genre: "Romance",
         pages: 274,
         year: "",
       },
@@ -1406,8 +1407,8 @@ const authorsData = [
         img: ugly,
         title: "Ugly Love",
         value: "Ugly Love",
-        author:"Colleen Hoover",
-        genre:"Romance",
+        author: "Colleen Hoover",
+        genre: "Romance",
         pages: 327,
         year: "",
       },
@@ -1415,245 +1416,248 @@ const authorsData = [
     description:
       "Emotional architect, weaving poignant love stories that resonate deeply.",
   },
-/*-------------------------- */
-/*                           */
-/*       Sanderson           */
-/*                           */
-/*-------------------------- */
-   { 
-  id:28,
-  img:brandon,
-  name:"Brandon Sanderson",
-  books:[
-    {
-      id:9,
-      img: thefinal,
-      title: "The Final Empire",
-      value: "The Final Empire",
-      author: "Brandon Sanderson",
-      genre: "Fantasy Fiction",
-      pages: 601,    
-      year: "",
-    },
+  /*-------------------------- */
+  /*                           */
+  /*       Sanderson           */
+  /*                           */
+  /*-------------------------- */
   {
-      id:10,
-      img: wellofascension,
-      title: "The Well of Ascension",
-      value: "The Well of Ascension",
-      author: "Brandon Sanderson",
-      genre: "Fantasy Fiction",
-      pages: 682,
-      year: "",
-    },
+    id: 28,
+    img: brandon,
+    name: "Brandon Sanderson",
+    books: [
+      {
+        id: 9,
+        img: thefinal,
+        title: "The Final Empire",
+        value: "The Final Empire",
+        author: "Brandon Sanderson",
+        genre: "Fantasy Fiction",
+        pages: 601,
+        year: "",
+      },
+      {
+        id: 10,
+        img: wellofascension,
+        title: "The Well of Ascension",
+        value: "The Well of Ascension",
+        author: "Brandon Sanderson",
+        genre: "Fantasy Fiction",
+        pages: 682,
+        year: "",
+      },
+      {
+        id: 11,
+        img: heroofages,
+        title: "The Hero of Ages",
+        value: "The Hero of Ages",
+        author: "Brandon Sanderson",
+        genre: "Fantasy Fiction",
+        pages: 630,
+        year: "",
+      },
+      {
+        id: 12,
+        img: secrethistorymist,
+        title: "Secret History",
+        value: "Secret History",
+        author: "Brandon Sanderson",
+        genre: "Fantasy Fiction",
+        pages: 166,
+        year: "",
+      },
+      {
+        id: 13,
+        img: alloylaw,
+        title: "The Alloy of Law",
+        value: "The Alloy of Law",
+        author: "Brandon Sanderson",
+        genre: "Fantasy Fiction",
+        pages: 282,
+        year: "",
+      },
+      {
+        id: 14,
+        img: shadowsself,
+        title: "Shadows of Self",
+        value: "Shadows of Self",
+        author: "Brandon Sanderson",
+        genre: "Fantasy Fiction",
+        pages: 346,
+        year: "",
+      },
+      {
+        id: 15,
+        img: bandsmourning,
+        title: "The Bands of Mourning",
+        value: "The Bands of Mourning",
+        author: "Brandon Sanderson",
+        genre: "Fantasy Fiction",
+        pages: 406,
+        year: "",
+      },
+    ],
+    description:
+      "Epic fantasy architect, crafting vast worlds and intricate magic systems.",
+  },
+  /*-------------------------- */
+  /*                           */
+  /*       Herbert             */
+  /*                           */
+  /*-------------------------- */
   {
-      id:11,
-      img: heroofages,
-      title: "The Hero of Ages",
-      value: "The Hero of Ages",
-      author: "Brandon Sanderson",
-      genre: "Fantasy Fiction",
-      pages: 630,
-      year: "",
-    },
+    id: 29,
+    img: frank,
+    name: "Frank Herbert",
+    books: [
+      {
+        id: 1,
+        img: dune,
+        title: "Dune",
+        value: "Dune",
+        author: "Frank Herbert",
+        genre: "Sci-fi",
+        pages: 629,
+        year: 1965,
+      },
+      {
+        id: 2,
+        img: dunemessiah,
+        title: "Dune Messiah",
+        value: "Dune Messiah",
+        author: "Frank Herbert",
+        genre: "Sci-fi",
+        pages: 223,
+        year: "",
+      },
+      {
+        id: 3,
+        img: childrenofdune,
+        title: "Children of Dune",
+        value: "Children of Dune",
+        author: "Frank Herbert",
+        genre: "Sci-fi",
+        pages: "400",
+        year: "",
+      },
+      {
+        id: 4,
+        img: godemperorofdune,
+        title: "God Emperor of Dune",
+        value: "God Emperor of Dune",
+        author: "Frank Herbert",
+        genre: "Sci-fi",
+        pages: 577,
+        year: "",
+      },
+      {
+        id: 5,
+        img: herecticsofdune,
+        title: "Heretics of Dune",
+        value: "Heretics of Dune",
+        author: "Frank Herbert",
+        genre: "Sci-fi",
+        pages: 480,
+        year: "",
+      },
+      {
+        id: 6,
+        img: chapterhousedune,
+        title: "Chapterhouse Dune",
+        value: "Chapterhouse Dune",
+        author: "Frank Herbert",
+        genre: "Sci-fi",
+        pages: 574,
+        year: "",
+      },
+    ],
+    description:
+      "Mastermind of science fiction, crafting epic and intricate sagas.",
+  },
+  /*-------------------------- */
+  /*                           */
+  /*       Blake Crouch        */
+  /*                           */
+  /*-------------------------- */
   {
-      id:12,
-      img: secrethistorymist,
-      title: "Secret History",
-      value: "Secret History",
-      author: "Brandon Sanderson",
-      genre: "Fantasy Fiction",
-      pages: 166,
-      year: "",
-    },
+    id: 30,
+    img: blake,
+    name: "Blake Crouch",
+    books: [
+      {
+        id: 1,
+        img: darkmatter,
+        title: "Dark Matter",
+        value: "Dark Matter",
+        author: "Blake Crouch",
+        genre: "Sci-fi",
+        pages: 391,
+        year: "",
+      },
+      {
+        id: 2,
+        img: recursion,
+        title: "Recursion",
+        value: "Recursion",
+        author: "Blake Crouch",
+        genre: "Sci-fi",
+        pages: 460,
+        year: "",
+      },
+      {
+        id: 3,
+        img: upgrade,
+        title: "Upgrade",
+        value: "Upgrade",
+        author: "Blake Crouch",
+        genre: "Sci-fi",
+        pages: 328,
+        year: "",
+      },
+      {
+        id: 4,
+        img: wp1,
+        title: "Wayward Pines 1",
+        value: "Wayward Pines 1",
+        author: "Blake Crouch",
+        genre: "Sci-fi",
+        pages: 295,
+        year: "",
+      },
+      {
+        id: 5,
+        img: wp2,
+        title: "Wayward Pines 2",
+        value: "Wayward Pines 2",
+        author: "Blake Crouch",
+        genre: "Sci-fi",
+        pages: 360,
+        year: "",
+      },
+      {
+        id: 6,
+        img: wp3,
+        title: "Wayward Pines 3",
+        value: "Wayward Pines 3",
+        author: "Blake Crouch",
+        genre: "Sci-fi",
+        pages: 310,
+        year: "",
+      },
+    ],
+    description:
+      "Mind-bending author, blurring the lines between reality and imagination.",
+  },
+  /*-------------------------- */
+  /*                           */
+  /*        Andy Weir          */
+  /*                           */
+  /*-------------------------- */
   {
-      id:13,
-      img: alloylaw,
-      title: "The Alloy of Law",
-      value: "The Alloy of Law",
-      author: "Brandon Sanderson",
-      genre: "Fantasy Fiction",
-      pages: 282,
-      year: "",
-    },
-  {
-      id:14,
-      img: shadowsself,
-      title: "Shadows of Self",
-      value: "Shadows of Self",
-      author: "Brandon Sanderson",
-      genre: "Fantasy Fiction",
-      pages: 346,
-      year: "",
-    },
-  {
-      id:15,
-      img: bandsmourning,
-      title: "The Bands of Mourning",
-      value: "The Bands of Mourning",
-      author: "Brandon Sanderson",
-      genre: "Fantasy Fiction",
-      pages: 406,
-      year: "",
-    },
-  ],
-  description:"Epic fantasy architect, crafting vast worlds and intricate magic systems.",
-},
-/*-------------------------- */
-/*                           */
-/*       Herbert             */
-/*                           */
-/*-------------------------- */
- { 
-  id:29,
-  img:frank,
-  name:"Frank Herbert",
-  books:[
-    {
-      id: 1,
-      img: dune,
-      title: "Dune",
-      value: "Dune",
-      author: "Frank Herbert",
-      genre: "Sci-fi",
-      pages: 629,
-      year: 1965,
-    },
-    {
-      id: 2,
-      img: dunemessiah,
-      title: "Dune Messiah",
-      value: "Dune Messiah",
-      author: "Frank Herbert",
-      genre: "Sci-fi",
-      pages: 223,
-      year: "",
-    },
-    {
-      id: 3,
-      img: childrenofdune,
-      title: "Children of Dune",
-      value: "Children of Dune",
-      author: "Frank Herbert",
-      genre: "Sci-fi",
-      pages: "400",
-      year: "",
-    },
-    {
-      id: 4,
-      img: godemperorofdune,
-      title: "God Emperor of Dune",
-      value: "God Emperor of Dune",
-      author: "Frank Herbert",
-      genre: "Sci-fi",
-      pages: 577,
-      year: "",
-    },
-    {
-      id: 5,
-      img: herecticsofdune,
-      title: "Heretics of Dune",
-      value: "Heretics of Dune",
-      author: "Frank Herbert",
-      genre: "Sci-fi",
-      pages: 480,
-      year: "",
-    },
-    {
-      id: 6,
-      img: chapterhousedune,
-      title: "Chapterhouse Dune",
-      value: "Chapterhouse Dune",
-      author: "Frank Herbert",
-      genre: "Sci-fi",
-      pages: 574,
-      year: "",
-    },
-  ],
-  description:"Mastermind of science fiction, crafting epic and intricate sagas.",
- },
-/*-------------------------- */
-/*                           */
-/*       Blake Crouch        */
-/*                           */
-/*-------------------------- */
- { 
-  id:30,
-  img:blake,
-  name:"Blake Crouch",
-  books:[
-    {
-      id: 1,
-      img: darkmatter,
-      title: "Dark Matter",
-      value: "Dark Matter",
-      author: "Blake Crouch",
-      genre: "Sci-fi",
-      pages: 391,
-      year: "",
-    },
-    {
-      id: 2,
-      img: recursion,
-      title: "Recursion",
-      value: "Recursion",
-      author: "Blake Crouch",
-      genre: "Sci-fi",
-      pages: 460,
-      year: "",
-    },
-    {
-      id: 3,
-      img: upgrade,
-      title: "Upgrade",
-      value: "Upgrade",
-      author: "Blake Crouch",
-      genre: "Sci-fi",
-      pages: 328,
-      year: "",
-    },
-    {
-      id: 4,
-      img: wp1,
-      title: "Wayward Pines 1",
-      value: "Wayward Pines 1",
-      author: "Blake Crouch",
-      genre: "Sci-fi",
-      pages: 295,
-      year: "",
-    },
-    {
-      id: 5,
-      img: wp2,
-      title: "Wayward Pines 2",
-      value: "Wayward Pines 2",
-      author: "Blake Crouch",
-      genre: "Sci-fi",
-      pages: 360,
-      year: "",
-    },
-    {
-      id: 6,
-      img: wp3,
-      title: "Wayward Pines 3",
-      value: "Wayward Pines 3",
-      author: "Blake Crouch",
-      genre: "Sci-fi",
-      pages: 310,
-      year: "",
-    },
-  ],
-  description:"Mind-bending author, blurring the lines between reality and imagination.",
- },
-/*-------------------------- */
-/*                           */
-/*        Andy Weir          */
-/*                           */
-/*-------------------------- */
-  { 
-    id:31,
-    img:andy,
-    name:"Andy Weir",
-    books:[
+    id: 31,
+    img: andy,
+    name: "Andy Weir",
+    books: [
       {
         id: 1,
         img: mars,
@@ -1685,18 +1689,19 @@ const authorsData = [
         year: "",
       },
     ],
-    description:"Master of scientific suspense, transporting readers to thrilling extraterrestrial frontiers.",
- },
-/*-------------------------- */
-/*                           */
-/*  Taylor Jenkins Reid      */
-/*                           */
-/*-------------------------- */
-  { 
-    id:32,
-    img:Taylor,
-    name:"Taylor Jenkins Reid",
-    books:[
+    description:
+      "Master of scientific suspense, transporting readers to thrilling extraterrestrial frontiers.",
+  },
+  /*-------------------------- */
+  /*                           */
+  /*  Taylor Jenkins Reid      */
+  /*                           */
+  /*-------------------------- */
+  {
+    id: 32,
+    img: Taylor,
+    name: "Taylor Jenkins Reid",
+    books: [
       {
         id: 1,
         img: seven,
@@ -1768,18 +1773,19 @@ const authorsData = [
         year: "",
       },
     ],
-    description:"Captivating storyteller, revealing the intricacies of love and personal growth.",
+    description:
+      "Captivating storyteller, revealing the intricacies of love and personal growth.",
   },
-/*-------------------------- */
-/*                           */
-/*       Liu Cixin           */
-/*                           */
-/*-------------------------- */
+  /*-------------------------- */
+  /*                           */
+  /*       Liu Cixin           */
+  /*                           */
+  /*-------------------------- */
   {
-    id:33,
-    img:liu,
-    name:"Liu Cixin",
-    books:[
+    id: 33,
+    img: liu,
+    name: "Liu Cixin",
+    books: [
       {
         id: 50,
         img: threebody,
@@ -1811,60 +1817,80 @@ const authorsData = [
         year: "",
       },
     ],
-    description:`Masterful science fiction writer, envisioning vast cosmic landscapes and futures.`,
+    description: `Masterful science fiction writer, envisioning vast cosmic landscapes and futures.`,
   },
-/*-------------------------- */
-/*                           */
-/*    Hanya Yanagihara       */
-/*                           */
-/*-------------------------- */
-  { 
-    id:34,
-    img:hanya,
-    name:"Hanya Yanagihara",
-    books:[
+  /*-------------------------- */
+  /*                           */
+  /*    Hanya Yanagihara       */
+  /*                           */
+  /*-------------------------- */
+  {
+    id: 34,
+    img: hanya,
+    name: "Hanya Yanagihara",
+    books: [
       {
-        id:1,
+        id: 1,
         img: alittlelife,
         title: "A Little Life",
         value: "A Little Life",
         author: "Hanya Yanagihara",
         genre: "Emotional Damage",
         pages: 546,
-        rating:"5.0" ,    
+        rating: "5.0",
         year: "2015",
       },
       {
-        id:2,
-        img:toparadise,
-        title:"To Paradise",
+        id: 2,
+        img: toparadise,
+        title: "To Paradise",
         value: "To Paradise",
         author: "Hanya Yanagihara",
         genre: "Emotional Damage",
         pages: 504,
-        rating:"3.5" ,    
+        rating: "3.5",
         year: "2022",
-      }
+      },
     ],
-    description:"Emotionally charged storyteller, delving into the depths of human resilience.",
-  }
+    description:
+      "Emotionally charged storyteller, delving into the depths of human resilience.",
+  },
+  /*-------------------------- */
+  /*                           */
+  /*        Rebecca Yarros     */
+  /*                           */
+  /*-------------------------- */
+  {
+    id: 35,
+    img: rebeccayarros,
+    name: "Rebecca Yarros",
+    books: [
+      {
+        id: 1,
+        img: fourthwing,
+        title: "Fourth Wing",
+        value: "Fourth Wing",
+        author: "Rebecca Yarros",
+        genre: "Contemporary Fiction",
+        pages: 515,
+        rating: "5.0",
+        year: "2023",
+      },
+    ],
+    description:
+      "Captivating author blending romance, adventure, and emotional depth in stories.",
+  },
 ];
 
 export default authorsData;
 
-
-
-//  { 
+//  {
 //   id:"",
 //   img:"",
 //   name:"",
 //   books:"",
 //   description:"",
 // }
-
-
-
-
 
 /*-------------------------- */
 /*                           */
