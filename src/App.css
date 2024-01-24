@@ -405,12 +405,12 @@ html,
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items:center;
 }
 .authors--card {
   height: 250px;
-  margin: 40px;
+  margin: 30px;
   box-shadow: 5px 5px 20px black;
   overflow: hidden;
   position: relative;
