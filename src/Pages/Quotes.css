@@ -10,7 +10,7 @@
 .quotes--home {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin: auto 110px;
 }
