@@ -1,31 +1,142 @@
-# EBooks Website
-This project is a free ebook library website built using React. It allows users to browse and download a wide range of ebooks across various genres. 
-The application provides a user-friendly interface and an extensive collection of ebooks for users to explore and enjoy.
+<div align="center">
 
-## Features
-* **Browse**: Users can browse through a vast collection of ebooks of various genre, author, or title.
-* **Search**: Users can now search for books and authors with  the new search bar.
-* **Download**: All the books are in EPUB format.
-* **Categories**: There are three categories. Books, Authors & Quotes. Various genres are available in books. And Authors page has their description and works. And Quotes page has a list of famous lines of Authors.
-* **User Accounts**: No Login needed!
-* **Responsive Design**: Responsive for PC & Mobile. 
+```
+███████╗██╗ ██████╗████████╗██╗ ██████╗ ███╗   ██╗███████╗██████╗ ███████╗
+██╔════╝██║██╔════╝╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝██╔══██╗██╔════╝
+█████╗  ██║██║        ██║   ██║██║   ██║██╔██╗ ██║█████╗  ██████╔╝███████╗
+██╔══╝  ██║██║        ██║   ██║██║   ██║██║╚██╗██║██╔══╝  ██╔══██╗╚════██║
+██║     ██║╚██████╗   ██║   ██║╚██████╔╝██║ ╚████║███████╗██║  ██║███████║
+╚═╝     ╚═╝ ╚═════╝   ╚═╝   ╚═╝ ╚═════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝
+```
 
-## Tech Stack
+**A free ebook library for classics, contemporary fiction, and everything in between.**  
+Browse them. Download them. Read them.
 
-* **React**: The frontend of the website is built using React, a popular JavaScript library for building user interfaces.
-* **React Router**: React Router is used for handling routing within the application, enabling smooth navigation between different pages.
-* **Git**: Git is used for version control, allowing for easy collaboration and deployment of the project.
-* **Material UI**: Material UI is used for icons.
-* **Lottie**: Lottie is used for animations.
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-4-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Node](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-F5A96B?style=flat-square)
 
-## Vite
+</div>
 
-This project utilizes Vite, a fast and minimalist build tool for modern web development. Vite aims to provide a smooth development experience by leveraging native ES modules, optimizing the build process, and enabling instant hot module replacement (HMR).
+---
 
-### Features of Vite
+## ✦ What is Fictioners?
 
-- **Fast Development**: Vite leverages native ES modules and lazy module evaluation to provide an extremely fast development experience.
-- **Efficient Builds**: Vite optimizes the build process by only compiling what is necessary, resulting in smaller and faster builds.
-- **Hot Module Replacement (HMR)**: Vite supports instant HMR, allowing you to see changes in your code immediately without requiring a full page reload.
-- **Plugin Ecosystem**: Vite has a rich plugin ecosystem that enables extending and customizing the build pipeline according to your project's needs.
+Fictioners is a browser-based ebook library. No sign-up. No login. Just a curated collection of books organized by author and genre, ready to browse and download as EPUB files.
 
+Classics, science fiction, romance, thrillers — all in one place.
+
+---
+
+## ✦ Features
+
+| | |
+|---|---|
+| 📚 **Browse books** | Curated collection of EPUBs across multiple genres, with 8 random picks surfaced on every visit |
+| 🔍 **Search** | Find books instantly by title or author |
+| ⬇️ **Download** | All books available as EPUB files — free, no account needed |
+| ✍️ **Authors** | Dedicated pages per author with bio, genre, and their complete works |
+| 💬 **Quotes** | A handpicked collection of famous lines from great authors |
+| 📱 **Responsive** | Fully usable on desktop and mobile |
+
+---
+
+## ✦ Requirements
+
+- **Node.js v18+** → [nodejs.org](https://nodejs.org/)
+
+---
+
+## ✦ Getting Started
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/nagraj05/fictioners.git
+cd fictioners
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the dev server
+npm run dev
+```
+
+Open your browser to `http://localhost:5173`. The site loads with a short intro animation.
+
+---
+
+## ✦ Build for Production
+
+```bash
+npm run build
+npm run preview   # preview the production build locally
+```
+
+Output lands in the `dist/` folder.
+
+---
+
+## ✦ Project Structure
+
+```
+fictioners/
+├── src/
+│   ├── data/
+│   │   ├── Booksdata.jsx       ← all book entries (title, author, genre, pages, cover)
+│   │   ├── AuthorsData.jsx     ← author list with their books
+│   │   ├── AuthorsInfo.jsx     ← extended author bios (genre, born, died, about)
+│   │   └── QuotesData.jsx      ← famous quotes
+│   ├── Components/             ← Navbar, Navigation, BookCard, SearchBar, Footer …
+│   ├── Pages/                  ← Home, BooksPage, Authors, AuthorsPage, Quotes …
+│   └── assets/                 ← book covers, author photos, icons
+└── public/books/               ← EPUB files served for download
+```
+
+---
+
+## ✦ Adding a Book
+
+1. Drop the cover image into `src/assets/bookcovers/`.
+2. Import it and add an entry to `src/data/Booksdata.jsx`:
+
+```js
+{
+  id: 999,
+  value: "filename-without-extension",   // must match the .epub in public/books/
+  img: coverImport,
+  title: "Book Title",
+  author: "Author Name",
+  genre: "Genre",
+  pages: 320
+}
+```
+
+3. Place the EPUB at `public/books/filename-without-extension.epub`.
+
+If the author is new, also add their photo to `src/assets/authorimages/` and create entries in both `AuthorsData.jsx` and `AuthorsInfo.jsx`.
+
+---
+
+## ✦ Troubleshooting
+
+**Book won't download**  
+→ Make sure the EPUB exists at `public/books/<value>.epub` and that `value` in `Booksdata.jsx` matches the filename exactly (no extension).
+
+**Page shows blank or crashes**  
+→ Run `npm run lint` — a missing import or malformed data entry in one of the `src/data/` files is usually the cause.
+
+---
+
+## ✦ Credits
+
+Built with [React](https://react.dev/) and [Vite](https://vitejs.dev/).  
+Animations via [Lottie](https://github.com/airbnb/lottie-web) and [LottieFiles](https://lottiefiles.com). Icons from [Material UI](https://mui.com/).
+
+---
+
+<div align="center">
+
+Made with ♥ and pani puri by Nagraj.
+
+</div>
